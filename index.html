@@ -256,23 +256,78 @@
     display: block;
     margin: 0 auto;
 }
+top-navbar {
+    display: flex;             /* 關鍵：讓子元素橫向排列 */
+    width: 100%;               /* 佔滿整個寬度 */
+    background-color: #f8f9fa; /* 給個背景色，看起來像導覽列 */
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0;
+}
+
+.top-navbar .tab-btn {
+    flex: 1;                   /* 關鍵：讓每個按鈕平分寬度 */
+    padding: 15px 10px;
+    border: none;
+    background: none;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;        /* 文字置中 */
+    border-bottom: 3px solid transparent; /* 預設下方透明 */
+}
+
+/* 選中狀態的樣式 */
+.top-navbar .tab-btn.active {
+    color: #007AFF;
+    border-bottom: 3px solid #007AFF; /* 選中時底部出現藍色線 */
+    font-weight: bold;
+}
+/* 修正後的頂部選單 */
+.top-navbar {
+    display: flex;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e5e7;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.top-navbar .tab-btn {
+    flex: 1;
+    padding: 15px 5px;
+    border: none;
+    background: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #333;
+    border-bottom: 3px solid transparent;
+}
+
+.top-navbar .tab-btn.active {
+    color: var(--primary);
+    border-bottom: 3px solid var(--primary);
+    background-color: #f8faff;
+}
+
+/* 確保內容區不被側邊欄擠壓 */
+.content-area {
+    padding: 20px;
+    margin-left: 0 !important; /* 強制移除左側間距 */
+}
+.top-navbar .btn-right {
+    margin-left: auto;
+}
     </style>
 </head>
 <body>
 
-<div class="sidebar">
-    <div class="sidebar-title">選單</div> <button class="tab-btn active" onclick="switchPage(event, 'tab-store')">
-        配送<br>查詢
-    </button>
-    
-    <button class="tab-btn" onclick="switchPage(event, 'tab-gift')">
-        贈品<br>活動
-    </button>
-    
-    <button class="tab-btn" onclick="switchPage(event, 'tab3')">
-        家電<br>商品
-    </button>
-</div>
+<nav class="top-navbar">
+    <button class="tab-btn" onclick="switchPage(event, 'tab-gift')">贈品活動查詢</button>
+    <button class="tab-btn" onclick="switchPage(event, 'tab3')">⚡ 家電商品查詢</button> 
+    <button class="tab-btn active btn-right" onclick="switchPage(event, 'tab-store')">跨店出貨查詢</button>
+</nav>
         
     <div class="content-area">
         <div id="tab-store" class="tab-content active">
@@ -371,35 +426,6 @@
         <button onclick="closeModal('feeOverlay')" style="width:100%; padding:15px; background:#444; color:white; border:none; border-radius:12px; font-size:1.1rem; font-weight:bold; margin-top:20px;">關閉視窗</button>
     </div>
 </div>
-@media (max-width: 768px) {
-    /* 縮小左側選單 */
-    .sidebar {
-        width: 3.5rem !important; /* 強制縮到約3個中文字寬 */
-        padding: 10px 5px !important;
-        transition: width 0.3s;
-        overflow: hidden;
-    }
-
-    /* 選單文字強制換行，並縮小字體 */
-    .sidebar .nav-link {
-        font-size: 0.75rem !important;
-        text-align: center;
-        white-space: normal; /* 允許換行 */
-        line-height: 1.2;
-        padding: 10px 0 !important;
-    }
-
-    /* 如果有圖示，讓圖示放大一點，文字隱藏或保持換行 */
-    .sidebar .nav-text {
-        display: block; /* 確保文字換行 */
-        margin-top: 5px;
-    }
-
-    /* 主內容區往右推，給選單留空間 */
-    .main-content {
-        margin-left: 3.5rem !important;
-    }
-}
 
 <script>
 // ==========================================================================
