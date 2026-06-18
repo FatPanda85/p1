@@ -260,13 +260,19 @@
 </head>
 <body>
 
-<div class="main-container">
-    <div class="sidebar">
-        <div class="sidebar-title">功能選單</div>
-        <button class="tab-btn active" onclick="switchPage(event, 'tab-store')">配送分店查詢</button>
-        <button class="tab-btn" onclick="switchPage(event, 'tab-gift')">贈品活動查詢</button>
-        <button class="tab-btn" onclick="switchPage(event, 'tab3')">⚡ 家電商品查詢</button>
-    </div>
+<div class="sidebar">
+    <div class="sidebar-title">選單</div> <button class="tab-btn active" onclick="switchPage(event, 'tab-store')">
+        配送<br>查詢
+    </button>
+    
+    <button class="tab-btn" onclick="switchPage(event, 'tab-gift')">
+        贈品<br>活動
+    </button>
+    
+    <button class="tab-btn" onclick="switchPage(event, 'tab3')">
+        家電<br>商品
+    </button>
+</div>
         
     <div class="content-area">
         <div id="tab-store" class="tab-content active">
@@ -365,7 +371,35 @@
         <button onclick="closeModal('feeOverlay')" style="width:100%; padding:15px; background:#444; color:white; border:none; border-radius:12px; font-size:1.1rem; font-weight:bold; margin-top:20px;">關閉視窗</button>
     </div>
 </div>
+@media (max-width: 768px) {
+    /* 縮小左側選單 */
+    .sidebar {
+        width: 3.5rem !important; /* 強制縮到約3個中文字寬 */
+        padding: 10px 5px !important;
+        transition: width 0.3s;
+        overflow: hidden;
+    }
 
+    /* 選單文字強制換行，並縮小字體 */
+    .sidebar .nav-link {
+        font-size: 0.75rem !important;
+        text-align: center;
+        white-space: normal; /* 允許換行 */
+        line-height: 1.2;
+        padding: 10px 0 !important;
+    }
+
+    /* 如果有圖示，讓圖示放大一點，文字隱藏或保持換行 */
+    .sidebar .nav-text {
+        display: block; /* 確保文字換行 */
+        margin-top: 5px;
+    }
+
+    /* 主內容區往右推，給選單留空間 */
+    .main-content {
+        margin-left: 3.5rem !important;
+    }
+}
 
 <script>
 // ==========================================================================
