@@ -410,7 +410,7 @@ top-navbar {
             <div class="header-container" style="background: #fff; padding: 20px; border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); margin-bottom: 20px;">
                 <h3 style="margin-top:0; color:#3b71db;">⚡ 家電型號搜尋</h3>
                 <div class="search-row" style="display: flex; gap: 10px; margin-bottom: 15px;">
-                    <input type="text" id="smartSearchInput" placeholder="🔍 直接輸入型號關鍵字搜尋 (例:國際 或 LG)" onkeypress="handleSmartKeyPress(event)" style="flex: 1; padding: 12px; border: 1px solid #ccc; border-radius: 12px; font-size: 1rem; box-sizing: border-box;">
+                    <input type="text" id="smartSearchInput" placeholder="🔍 輸入型號搜尋 (例:國際 或 LG)" onkeypress="handleSmartKeyPress(event)" style="flex: 1; padding: 12px; border: 1px solid #ccc; border-radius: 12px; font-size: 1rem; box-sizing: border-box;">
                     <button onclick="searchSmartModel()" style="padding: 12px 24px; background: #3b71db; color: white; border: none; border-radius: 12px; font-weight: bold; cursor: pointer;">搜尋</button>
                 </div>
                 <div style="text-align: center; color: #aaa; margin: 10px 0; font-size: 0.9rem;">或使用下方條件逐層篩選</div>
@@ -2416,7 +2416,7 @@ const smartRawData = [
         cat: "冰箱", 
         brand: "國際", 
         spec: "雙門", 
-        name: "\nNR-B301VG-X1變頻雙門冰箱300L-鑽石黑<span class='text-blue'>\n40-002074-001</span>\n贈品:\n<span class='text-blue'>40-003064-001</span>\n(贈)SP-2612陶瓷防燙隨手杯三入組*1", 
+        name: "\nNR-B301VG-X1變頻雙門冰箱300L-鑽石黑<span class='text-blue'>\n40-002074-001</span>\n原廠贈品2026.04.10~2026.08.19:\n<span class='text-blue'>40-003064-001</span>\n(贈)SP-2612陶瓷防燙隨手杯三入組*1", 
         desc: "\n機器尺寸:\n寬:<span class='text-blue'>60.1</span>公分　高:<span class='text-blue'>168</span>公分　深:<span class='text-blue'>65.3</span>公分\n\n包裝箱尺寸:\n寬:<span class='text-blue'>65.5</span>公分　高:<span class='text-blue'>179.8</span>公分　深:<span class='text-blue'>75.6</span>公分\n\n年耗電量(度):<span class='text-red'>288</span>(1級)\n容量:<span class='text-blue'>300</span>L\n冷藏室:<span class='text-blue'>206</span>L　冷凍室:<span class='text-blue'>94</span>L\n\n● 有效容積300L　● 上冷藏下冷凍\n● -3°C微凍結　● 光銀除菌\n● Ag銀抑菌　● 冷凍大空間\n● AI ECONAVI智慧節能科技　\n● 新1級能源效率", 
         type: "gift",
         model: "NR-B301VG-X1",
@@ -2433,7 +2433,7 @@ const smartRawData = [
         cat: "冰箱", 
         brand: "國際", 
         spec: "雙門", 
-        name: "\nNR-B331VG-X1變頻雙門冰箱325L-鑽石黑<span class='text-blue'>\n40-003043-001</span>\n贈品:\n<span class='text-blue'>40-003064-001</span>\n(贈)SP-2612陶瓷防燙隨手杯三入組*1", 
+        name: "\nNR-B331VG-X1變頻雙門冰箱325L-鑽石黑<span class='text-blue'>\n40-003043-001</span>\n原廠贈品2026.04.10~2026.08.19:\n<span class='text-blue'>40-003064-001</span>\n(贈)SP-2612陶瓷防燙隨手杯三入組*1", 
         desc: "\n機器尺寸:\n寬:<span class='text-blue'>60.1</span>公分　高:<span class='text-blue'>179</span>公分　深:<span class='text-blue'>65.3</span>公分\n\n包裝箱尺寸:\n寬:<span class='text-blue'>65.5</span>公分　高:<span class='text-blue'>190.8</span>公分　深:<span class='text-blue'>75.6</span>公分\n\n年耗電量(度):<span class='text-red'>288</span>(1級)\n容量:<span class='text-blue'>325</span>L\n冷藏室:<span class='text-blue'>231</span>L　冷凍室:<span class='text-blue'>94</span>L\n\n● 有效容積325L　● 上冷藏下冷凍\n● -3°C微凍結　\n● nanoe™ X 健康科技\n● Ag銀抑菌　● 冷凍大空間\n● AI ECONAVI智慧節能科技　\n● 新1級能源效率", 
         type: "gift",
         model: "NR-B331VG-X1",
@@ -2449,8 +2449,195 @@ const smartRawData = [
     {
         cat: "冰箱", 
         brand: "國際", 
+        spec: "雙門", 
+        name: "\nNR-B371TV-S1變頻雙門冰箱366L-晶鈦銀<span class='text-blue'>\n40-003035-001</span>\n原廠贈品2026.04.10~2026.08.19:\n<span class='text-blue'>40-003064-001</span>\n(贈)SP-2612陶瓷防燙隨手杯三入組*1", 
+        desc: "\n機器尺寸:\n寬:<span class='text-blue'>65</span>公分　高:<span class='text-blue'>178.5</span>公分　深:<span class='text-blue'>65.6</span>公分\n\n包裝箱尺寸:\n寬:<span class='text-blue'>69.5</span>公分　高:<span class='text-blue'>190.3</span>公分　深:<span class='text-blue'>74.6</span>公分\n\n年耗電量(度):<span class='text-red'>264</span>(1級)\n容量:<span class='text-blue'>366</span>L\n冷藏室:<span class='text-blue'>268</span>L　冷凍室:<span class='text-blue'>98</span>L\n\n● 有效容積366L　● 冷凍大空間\n● 光銀除菌保鮮室\n● AI ECONAVI智慧節能科技\n● 新1級能源效率", 
+        type: "gift",
+        model: "NR-B371TV-S1",
+        barcode: ["8887549818974","6503533673207","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        img: "國際冰箱/B371TV.jpg", 
+        qrUrl: "",
+        taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+        oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
+        productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/double-door/nr-b371tv.html"
+    },
+    {
+        cat: "冰箱", 
+        brand: "國際", 
+        spec: "雙門", 
+        name: "\nNR-B426TV變頻雙門冰箱422L-星礦銀<span class='text-blue'>\n40-004133-001</span>\n原廠贈品2026.04.10~2026.08.19:\n<span class='text-blue'>40-004137-001</span>\n(贈)SP-2610可微波不鏽鋼保鮮盒三入組*1", 
+        desc: "\n機器尺寸:\n寬:<span class='text-blue'>69.5</span>公分　高:<span class='text-blue'>165</span>公分　深:<span class='text-blue'>74.6</span>公分\n\n包裝箱尺寸:\n寬:<span class='text-blue'>73.4</span>公分　高:<span class='text-blue'>172.6</span>公分　深:<span class='text-blue'>82.1</span>公分\n\n年耗電量(度):<span class='text-red'>276</span>(1級)\n容量:<span class='text-blue'>422</span>L\n冷藏室:<span class='text-blue'>308</span>L　冷凍室:<span class='text-blue'>114</span>L\n\n● 有效容積422L\n● 新1級能源效率\n● AI ECONAVI智慧節能科技\n● 大冷凍空間\n● 領先業界*⁵ 冷藏室3D環繞式LED照明\n● 極鮮微凍解　● Ag銀抑菌\n● 大容量蔬果盒", 
+        type: "",
+        model: "NR-B426TV",
+        barcode: ["4717523306828","6939749620146","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        img: "國際冰箱/B426TV1.jpg", 
+        qrUrl: "",
+        taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+        oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
+        productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/double-door/nr-b426tv.html"
+    },
+    {
+        cat: "冰箱", 
+        brand: "國際", 
+        spec: "雙門", 
+        name: "\nNR-B426TV變頻雙門冰箱422L-燦雪白<span class='text-blue'>\n40-004133-002</span>\n原廠贈品2026.04.10~2026.08.19:\n<span class='text-blue'>40-004137-001</span>\n(贈)SP-2610可微波不鏽鋼保鮮盒三入組*1", 
+        desc: "\n機器尺寸:\n寬:<span class='text-blue'>69.5</span>公分　高:<span class='text-blue'>165</span>公分　深:<span class='text-blue'>74.6</span>公分\n\n包裝箱尺寸:\n寬:<span class='text-blue'>73.4</span>公分　高:<span class='text-blue'>172.6</span>公分　深:<span class='text-blue'>82.1</span>公分\n\n年耗電量(度):<span class='text-red'>276</span>(1級)\n容量:<span class='text-blue'>422</span>L\n冷藏室:<span class='text-blue'>308</span>L　冷凍室:<span class='text-blue'>114</span>L\n\n● 有效容積422L\n● 新1級能源效率\n● AI ECONAVI智慧節能科技\n● 大冷凍空間\n● 領先業界*⁵ 冷藏室3D環繞式LED照明\n● 極鮮微凍解　● Ag銀抑菌\n● 大容量蔬果盒", 
+        type: "",
+        model: "NR-B426TV",
+        barcode: ["4717523306811","6939749620146","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        img: "國際冰箱/B426TV2.jpg", 
+        qrUrl: "",
+        taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+        oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
+        productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/double-door/nr-b426tv.html"
+    },
+    {
+        cat: "冰箱", 
+        brand: "國際", 
+        spec: "雙門", 
+        name: "\nNR-B496TV變頻雙門冰箱498L-星礦銀<span class='text-blue'>\n40-0045132-001</span>\n原廠贈品2026.04.10~2026.08.19:\n<span class='text-blue'>40-004137-001</span>\n(贈)SP-2610可微波不鏽鋼保鮮盒三入組*1", 
+        desc: "\n機器尺寸:\n寬:<span class='text-blue'>69.5</span>公分　高:<span class='text-blue'>183.4</span>公分　深:<span class='text-blue'>78</span>公分\n\n包裝箱尺寸:\n寬:<span class='text-blue'>72.6</span>公分　高:<span class='text-blue'>192.3</span>公分　深:<span class='text-blue'>82</span>公分\n\n年耗電量(度):<span class='text-red'>288</span>(1級)\n容量:<span class='text-blue'>498</span>L\n冷藏室:<span class='text-blue'>348</span>L　冷凍室:<span class='text-blue'>150</span>L\n\n● 有效容積498L　● 新1級能源效率\n● AI ECONAVI智慧節能科技\n● 佔比30%大冷凍空間\n● 領先業界*⁵ 冷藏室3D環繞式LED照明\n● 極鮮微凍解　● Ag銀抑菌\n● 大容量蔬果盒", 
+        type: "",
+        model: "NR-B496TV",
+        barcode: ["4717523306842","6939749620146","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        img: "國際冰箱/B496TV1.jpg", 
+        qrUrl: "",
+        taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+        oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
+        productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/double-door/nr-b496tv.html"
+    },
+    {
+        cat: "冰箱", 
+        brand: "國際", 
+        spec: "雙門", 
+        name: "\nNR-B496TV變頻雙門冰箱498L-燦雪白<span class='text-blue'>\n40-0045132-002</span>\n原廠贈品2026.04.10~2026.08.19:\n<span class='text-blue'>40-004137-001</span>\n(贈)SP-2610可微波不鏽鋼保鮮盒三入組*1", 
+        desc: "\n機器尺寸:\n寬:<span class='text-blue'>69.5</span>公分　高:<span class='text-blue'>183.4</span>公分　深:<span class='text-blue'>78</span>公分\n\n包裝箱尺寸:\n寬:<span class='text-blue'>72.6</span>公分　高:<span class='text-blue'>192.3</span>公分　深:<span class='text-blue'>82</span>公分\n\n年耗電量(度):<span class='text-red'>288</span>(1級)\n容量:<span class='text-blue'>498</span>L\n冷藏室:<span class='text-blue'>348</span>L　冷凍室:<span class='text-blue'>150</span>L\n\n● 有效容積498L　● 新1級能源效率\n● AI ECONAVI智慧節能科技\n● 佔比30%大冷凍空間\n● 領先業界*⁵ 冷藏室3D環繞式LED照明\n● 極鮮微凍解　● Ag銀抑菌\n● 大容量蔬果盒", 
+        type: "",
+        model: "NR-B496TV",
+        barcode: ["4717523306835","6939749620146","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        img: "國際冰箱/B496TV2.jpg", 
+        qrUrl: "",
+        taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+        oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
+        productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/double-door/nr-b496tv.html"
+    },
+    {
+        cat: "冰箱", 
+        brand: "國際", 
+        spec: "雙門", 
+        name: "\nNR-B586TV變頻雙門冰箱580L-星礦銀<span class='text-blue'>\n40-005923-001</span>\n原廠贈品2026.04.10~2026.08.19:\n<span class='text-blue'>40-004137-001</span>\n(贈)SP-2610可微波不鏽鋼保鮮盒三入組*1", 
+        desc: "\n機器尺寸:\n寬:<span class='text-blue'>77.5</span>公分　高:<span class='text-blue'>183.4</span>公分　深:<span class='text-blue'>78</span>公分\n\n包裝箱尺寸:\n寬:<span class='text-blue'>80.6</span>公分　高:<span class='text-blue'>192.3</span>公分　深:<span class='text-blue'>82</span>公分\n\n年耗電量(度):<span class='text-red'>312</span>(1級)\n容量:<span class='text-blue'>580</span>L\n冷藏室:<span class='text-blue'>406</span>L　冷凍室:<span class='text-blue'>174</span>L\n\n● 有效容積580L\n● 新1級能源效率\n● AI ECONAVI智慧節能科技\n● 佔比30%大冷凍空間\n● 領先業界*⁵ 冷藏室3D環繞式LED照明\n● 極鮮微凍解　● Ag銀抑菌\n● 大容量全開蔬果盒", 
+        type: "",
+        model: "NR-B586TV",
+        barcode: ["4717523306880","6939749620146","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        img: "國際冰箱/B586TV1.jpg", 
+        qrUrl: "",
+        taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+        oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
+        productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/double-door/nr-b586tv.html"
+    },
+    {
+        cat: "冰箱", 
+        brand: "國際", 
+        spec: "雙門", 
+        name: "\nNR-B586TV變頻雙門冰箱580L-燦雪白<span class='text-blue'>\n40-005923-002</span>\n原廠贈品2026.04.10~2026.08.19:\n<span class='text-blue'>40-004137-001</span>\n(贈)SP-2610可微波不鏽鋼保鮮盒三入組*1", 
+        desc: "\n機器尺寸:\n寬:<span class='text-blue'>77.5</span>公分　高:<span class='text-blue'>183.4</span>公分　深:<span class='text-blue'>78</span>公分\n\n包裝箱尺寸:\n寬:<span class='text-blue'>80.6</span>公分　高:<span class='text-blue'>192.3</span>公分　深:<span class='text-blue'>82</span>公分\n\n年耗電量(度):<span class='text-red'>312</span>(1級)\n容量:<span class='text-blue'>580</span>L\n冷藏室:<span class='text-blue'>406</span>L　冷凍室:<span class='text-blue'>174</span>L\n\n● 有效容積580L\n● 新1級能源效率\n● AI ECONAVI智慧節能科技\n● 佔比30%大冷凍空間\n● 領先業界*⁵ 冷藏室3D環繞式LED照明\n● 極鮮微凍解　● Ag銀抑菌\n● 大容量全開蔬果盒", 
+        type: "",
+        model: "NR-B586TV",
+        barcode: ["4717523306873","6939749620146","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        img: "國際冰箱/B586TV2.jpg", 
+        qrUrl: "",
+        taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+        oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
+        productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/double-door/nr-b586tv.html"
+    },
+    {
+        cat: "冰箱", 
+        brand: "國際", 
+        spec: "雙門", 
+        name: "\nNR-B656TV變頻雙門冰箱650L-星礦銀<span class='text-blue'>\n40-005922-001</span>\n原廠贈品2026.04.10~2026.08.19:\n<span class='text-blue'>40-004137-001</span>\n(贈)SP-2610可微波不鏽鋼保鮮盒三入組*1", 
+        desc: "\n機器尺寸:\n寬:<span class='text-blue'>80.1</span>公分　高:<span class='text-blue'>183.4</span>公分　深:<span class='text-blue'>78</span>公分\n\n包裝箱尺寸:\n寬:<span class='text-blue'>85.1</span>公分　高:<span class='text-blue'>192.3</span>公分　深:<span class='text-blue'>86.5</span>公分\n\n年耗電量(度):<span class='text-red'>336</span>(1級)\n容量:<span class='text-blue'>650</span>L\n冷藏室:<span class='text-blue'>450</span>L　冷凍室:<span class='text-blue'>200</span>L\n\n● 有效容積650L\n● 新1級能源效率\n● AI ECONAVI智慧節能科技\n● 佔比30%大冷凍空間\n● 領先業界*⁵ 冷藏室3D環繞式LED照明\n● 極鮮微凍解　● Ag銀抑菌\n● 大容量全開蔬果盒", 
+        type: "",
+        model: "NR-B656TV",
+        barcode: ["4717523306927","6939749620146","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        img: "國際冰箱/B656TV1.jpg", 
+        qrUrl: "",
+        taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+        oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
+        productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/double-door/nr-b656tv.html"
+    },
+    {
+        cat: "冰箱", 
+        brand: "國際", 
+        spec: "雙門", 
+        name: "\nNR-B656TV變頻雙門冰箱650L-燦雪白<span class='text-blue'>\n40-005922-002</span>\n原廠贈品2026.04.10~2026.08.19:\n<span class='text-blue'>40-004137-001</span>\n(贈)SP-2610可微波不鏽鋼保鮮盒三入組*1", 
+        desc: "\n機器尺寸:\n寬:<span class='text-blue'>80.1</span>公分　高:<span class='text-blue'>183.4</span>公分　深:<span class='text-blue'>78</span>公分\n\n包裝箱尺寸:\n寬:<span class='text-blue'>85.1</span>公分　高:<span class='text-blue'>192.3</span>公分　深:<span class='text-blue'>86.5</span>公分\n\n年耗電量(度):<span class='text-red'>336</span>(1級)\n容量:<span class='text-blue'>650</span>L\n冷藏室:<span class='text-blue'>450</span>L　冷凍室:<span class='text-blue'>200</span>L\n\n● 有效容積650L\n● 新1級能源效率\n● AI ECONAVI智慧節能科技\n● 佔比30%大冷凍空間\n● 領先業界*⁵ 冷藏室3D環繞式LED照明\n● 極鮮微凍解　● Ag銀抑菌\n● 大容量全開蔬果盒", 
+        type: "",
+        model: "NR-B656TV",
+        barcode: ["4717523306910","6939749620146","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        img: "國際冰箱/B656TV2.jpg", 
+        qrUrl: "",
+        taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+        oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
+        productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/double-door/nr-b656tv.html"
+    },
+    {
+        cat: "冰箱", 
+        brand: "國際", 
         spec: "三門", 
-        name: "\nNR-C501PG變頻三門冰箱495L<span class='text-blue'>\n40-010050-001</span>\n贈品:\n<span class='text-blue'>40-004137-001</span>\n(贈)SP-2610可微波不鏽鋼保鮮盒三入組*1\n<span class='text-blue'>$2000元節能回饋</span>", 
+        name: "\nNR-C384HV變頻三門冰箱385L-香檳金<span class='text-blue'>\n40-010048-001</span>\n原廠贈品2026.04.10~2026.08.19:\n<span class='text-blue'>40-003064-001</span>\n(贈)SP-2612陶瓷防燙隨手杯三入組*1", 
+        desc: "\n機器尺寸:\n寬:<span class='text-blue'>60</span>公分　高:<span class='text-blue'>183</span>公分　深:<span class='text-blue'>69.5</span>公分\n\n包裝箱尺寸:\n寬:<span class='text-blue'>64</span>公分　高:<span class='text-blue'>192.3</span>公分　深:<span class='text-blue'>77.2</span>公分\n\n年耗電量(度):<span class='text-red'>264</span>(1級)\n容量:<span class='text-blue'>385</span>L\n冷藏室:<span class='text-blue'>203</span>L　冷凍室:<span class='text-blue'>84</span>L\n蔬果室:<span class='text-blue'>98</span>L\n\n● 有效容積385L\n● 符合系統家具最適尺寸\n● Ag銀抑菌\n● AI ECONAVI智慧節能科技\n● 新1級能源效率", 
+        type: "",
+        model: "NR-C384HV",
+        barcode: ["4717523306484","6503533673207","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        img: "國際冰箱/C384HV1.jpg", 
+        qrUrl: "",
+        taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+        oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
+        productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/three-door/nr-c384hv.html"
+    },
+    {
+        cat: "冰箱", 
+        brand: "國際", 
+        spec: "三門", 
+        name: "\nNR-C384HV變頻三門冰箱385L-晶鑽白<span class='text-blue'>\n40-010048-00２</span>\n原廠贈品2026.04.10~2026.08.19:\n<span class='text-blue'>40-003064-001</span>\n(贈)SP-2612陶瓷防燙隨手杯三入組*1", 
+        desc: "\n機器尺寸:\n寬:<span class='text-blue'>60</span>公分　高:<span class='text-blue'>183</span>公分　深:<span class='text-blue'>69.5</span>公分\n\n包裝箱尺寸:\n寬:<span class='text-blue'>64</span>公分　高:<span class='text-blue'>192.3</span>公分　深:<span class='text-blue'>77.2</span>公分\n\n年耗電量(度):<span class='text-red'>264</span>(1級)\n容量:<span class='text-blue'>385</span>L\n冷藏室:<span class='text-blue'>203</span>L　冷凍室:<span class='text-blue'>84</span>L\n蔬果室:<span class='text-blue'>98</span>L\n\n● 有效容積385L\n● 符合系統家具最適尺寸\n● Ag銀抑菌\n● AI ECONAVI智慧節能科技\n● 新1級能源效率", 
+        type: "",
+        model: "NR-C384HV",
+        barcode: ["4717523306491","6503533673207","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        img: "國際冰箱/C384HV2.jpg", 
+        qrUrl: "",
+        taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+        oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
+        productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/three-door/nr-c384hv.html"
+    },
+    {
+        cat: "冰箱", 
+        brand: "國際", 
+        spec: "三門", 
+        name: "\nNR-C501PG變頻三門冰箱495L<span class='text-blue'>\n40-010050-001</span>\n原廠贈品2026.04.10~2026.08.19:\n<span class='text-blue'>40-004137-001</span>\n(贈)SP-2610可微波不鏽鋼保鮮盒三入組*1\n<span class='text-blue'>$2000元節能回饋</span>", 
         desc: "\n機器尺寸:\n寬:<span class='text-blue'>75</span>公分　高:<span class='text-blue'>173</span>公分　深:<span class='text-blue'>75</span>公分\n\n包裝箱尺寸:\n寬:<span class='text-blue'>81.2</span>公分　高:<span class='text-blue'>183.7</span>公分　深:<span class='text-blue'>85.1</span>公分\n\n年耗電量(度):<span class='text-red'>300</span>(1級)\n容量:<span class='text-blue'>495</span>L\n冷藏室:<span class='text-blue'>309</span>L　冷凍室:<span class='text-blue'>186</span>L\n\n● 有效容積495L　● 上冷藏下冷凍\n● 新鮮急凍結　● -3°C微凍結\n● nanoe™ X 健康科技\n● 智慧保濕蔬果室　● 冰水霸\n● 自動製冰\n● AI ECONAVI智慧節能科技\n● 新1級能源效率", 
         type: "gift",
         model: "NR-C501PG",
