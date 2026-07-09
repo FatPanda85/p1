@@ -630,7 +630,7 @@ const rawData = [
                 desc: "活動時間2026/7/10 ~ 2026/7/19 \n 購買以下兩款冷氣才有送\n<span class='text-blue'>富士通AS/AOCG028KMTC 1-1變頻冷暖空調\n富士通AS/AOCG036KMTC 1-1變頻冷暖空調</span>\n即享好禮送\n<span class='text-red'>數量有限．送完為止</span>", 
                 type: "gift",
                 barcode: ["4710859912343"], 
-                img: "冷氣贈品/1609DE.jpg", // 請確保 GitHub 上檔案名為 ka10r.jpg (小寫)
+                img: "冷氣贈品/1609DR.jpg", // 請確保 GitHub 上檔案名為 ka10r.jpg (小寫)
                 qrUrl: "", 
                 taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
                 oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
