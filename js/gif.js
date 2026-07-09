@@ -626,7 +626,7 @@ const rawData = [
             },
             {
                 cat: "冷氣", brand: "富士通", 
-                name: "\n(贈)2026品諾DF-1609DR　16吋直流四季DC扇 \n<span class='text-blue'>40-630007-001</span>", 
+                name: "\n(贈)2026品諾DF-1609DR\n16吋直流四季DC扇 \n<span class='text-blue'>40-630007-001</span>", 
                 desc: "活動時間2026/7/10 ~ 2026/7/19 \n 購買以下兩款冷氣才有送\n<span class='text-blue'>富士通AS/AOCG028KMTC 1-1變頻冷暖空調\n富士通AS/AOCG036KMTC 1-1變頻冷暖空調</span>\n即享好禮送\n<span class='text-red'>數量有限．送完為止</span>", 
                 type: "gift",
                 barcode: ["4710859912343"], 
