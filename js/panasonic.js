@@ -693,6 +693,7 @@ smartRawData.push(
         barcode: ["4549980804254","4009839713620","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/F521HX.jpg", 
+        giftImg: "國際冰箱/A2.jpg",
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=CC49B685-0A02-4FA4-BB33-AA7FD72AB27C",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
