@@ -1,7 +1,7 @@
 // ==========================================================================
 // ⚡ 3. 家電智慧查詢 資料庫 (第三頁專用 — 擴充型號專屬網頁與原廠全本目錄)
 // ==========================================================================
-const smartRawData = [
+smartRawData.push(
     {
         cat: "冷凍櫃", 
         brand: "國際", 
@@ -1481,4 +1481,4 @@ const smartRawData = [
         catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/three-door/nr-c501pg.html"
     }
-];
+); // 最後記得用括號封起來，並加上分號
