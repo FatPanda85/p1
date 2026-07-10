@@ -1,4 +1,4 @@
-const rawData = [
+rawData.push(
        { 
                 cat: "常用條碼", brand: "冷氣運費", 
                 name: "免基本安裝費\n$100", 
@@ -1094,4 +1094,4 @@ const rawData = [
                 taxUrl: "", 
                 oldUrl: "" 
             }
-];
+); // 最後記得用括號封起來，並加上分號
