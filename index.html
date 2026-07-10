@@ -1,1 +1,828 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>家電輔助與查詢綜合系統</title>
+    <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.5/dist/JsBarcode.all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+    <style>
+        /* ==========================================================================
+           🎨 全域變數與樣式設定
+           ========================================================================== */
+        :root { 
+            --primary: #007AFF;          /* 標準藍：分店導航、活動按鈕 */
+            --tax-color: #28a745;        /* 退稅綠：退稅按鈕 */
+            --old-color: #fd7e14;        /* 補助橘：汰舊換新補助按鈕 */
+            --text-red: #ff3b30;         /* 金額紅：用於強調警語或限制金額 */
+            --barcode-color: #34495e;    /* 深藍灰 */
+            --model-blue: #0056b3;       /* 型號深藍 */
+            --date-orange: #d35400;      /* 日期磚橘 */
+            --bg: #f5f5f7;               /* 蘋果風淺灰背景 */
+        }
 
+        body { 
+            font-family: -apple-system, "Segoe UI", Roboto, sans-serif; 
+            background: var(--bg); 
+            color: #1d1d1f; 
+            margin: 0; 
+            padding: 0; 
+            box-sizing: border-box; 
+            -webkit-font-smoothing: antialiased; 
+        }
+
+        /* 側邊導覽列與主佈局 */
+        .main-container {
+            display: flex;
+            min-height: 100vh;
+        }
+
+        .sidebar {
+            width: 200px;
+            background-color: #ffffff;
+            border-right: 1px solid #e5e5e7;
+            display: flex;
+            flex-direction: column;
+            flex-shrink: 0;
+        }
+
+        .sidebar-title {
+            padding: 20px 15px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #1d1d1f;
+            border-bottom: 1px solid #e5e5e7;
+            background: #fafafa;
+            text-align: center;
+        }
+
+        .tab-btn {
+            padding: 18px 15px;
+            border: none;
+            background: none;
+            text-align: left;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 500;
+            color: #333;
+            width: 100%;
+            transition: all 0.2s;
+            border-left: 4px solid transparent;
+        }
+
+        .tab-btn:hover { background-color: #f5f5f7; }
+        .tab-btn.active {
+            background-color: #e8f0fe;
+            color: var(--primary);
+            font-weight: bold;
+            border-left: 4px solid var(--primary);
+        }
+
+        .content-area {
+            flex-grow: 1;
+            padding: 20px;
+            box-sizing: border-box;
+            overflow-y: auto;
+        }
+
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+
+        /* 卡片與元件樣式 */
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 16px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            margin-bottom: 20px;
+        }
+
+        /* 第一頁：配送分店結果卡片 */
+        .store-result-card {
+            border: 1px solid #b3d7ff;
+            background-color: #f8faff;
+            border-radius: 12px;
+            padding: 15px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 8px rgba(0,122,255,0.05);
+        }
+        .store-header {
+            font-size: 1.1rem;
+            color: #007AFF;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .store-address {
+            font-size: 0.95rem;
+            color: #555;
+            margin-bottom: 12px;
+        }
+        .store-btn-row {
+            display: flex;
+            gap: 8px;
+            width: 100%;
+        }
+        .store-action-btn {
+            flex: 1;
+            padding: 12px 5px;
+            border: none;
+            border-radius: 8px;
+            font-size: 0.95rem;
+            font-weight: bold;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 4px;
+            transition: opacity 0.2s;
+        }
+        .store-action-btn:hover { opacity: 0.9; }
+        .btn-call { background-color: #34c759; color: white; }
+        .btn-nav { background-color: #007AFF; color: white; }
+        .btn-fee-trigger { background-color: #ffebe9; color: #ff3b30; border: 1px solid #ffccd2; }
+/* 運費卡片樣式 */
+.fee-card {
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 18px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+.fee-price {
+    font-size: 1.8rem;    /* 金額放大 */
+    color: #ff3b30;       /* 強調紅色 */
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+.fee-area {
+    font-size: 0.95rem;
+    color: #4b5563;
+    line-height: 1.5;
+}
+/* 確保 Modal 捲軸與體驗 */
+#feeContent {
+    max-height: 60vh; 
+    overflow-y: auto;
+    padding: 5px;
+}
+
+        /* 第二、三頁：搜尋欄與下拉選單 */
+        .header-container { 
+            position: sticky; 
+            top: 0; 
+            z-index: 100; 
+            background: var(--bg); 
+            padding-bottom: 12px; 
+            display: flex; 
+            flex-direction: column; 
+            gap: 10px; 
+        }
+        
+        .search-row { display: flex; gap: 8px; }
+        .search-box { 
+            flex-grow: 1; 
+            padding: 12px; 
+            border-radius: 12px; 
+            border: 2px solid var(--primary); 
+            font-size: 1rem; 
+            outline: none; 
+        }
+        .btn-search { 
+            width: 80px; 
+            background: var(--primary); 
+            color: white; 
+            border: none; 
+            border-radius: 12px; 
+            font-weight: bold; 
+            cursor: pointer; 
+        }
+        .selector-row { display: flex; gap: 8px; }
+        select { 
+            flex: 1; 
+            padding: 12px; 
+            border-radius: 12px; 
+            border: 1px solid #ccc; 
+            font-size: 0.9rem; 
+            background: white; 
+        }
+
+        /* 贈品/條碼結果卡片樣式 */
+        .gift-card { 
+            background: white; 
+            border-radius: 16px; 
+            padding: 16px; 
+            margin-bottom: 15px; 
+            display: flex; 
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08); 
+        }
+        
+        .gift-img { 
+            width: 90px; 
+            height: 90px; 
+            object-fit: cover; 
+            border-radius: 12px; 
+            margin-right: 15px; 
+            border: 1px solid #eee; 
+            flex-shrink: 0; 
+            cursor: pointer;
+        }
+        .gift-info { flex-grow: 1; min-width: 0; }
+        .gift-info h4 { margin: 0 0 6px 0; color: #1d1d1f; font-size: 1.05rem; line-height: 1.4; }
+        .gift-info p { margin: 0 0 6px 0; font-size: 0.95rem; color: #333; line-height: 1.5; white-space: pre-line; }
+
+        /* 卡片底部按鈕包裝區 */
+        .action-btns { display: flex; gap: 8px; margin-top: 12px; flex-wrap: wrap; }
+        .action-btn { 
+            padding: 10px 14px; 
+            border-radius: 10px; 
+            font-size: 0.85rem; 
+            border: none; 
+            color: white; 
+            cursor: pointer; 
+            font-weight: 600; 
+        }
+
+        .btn-activity { background-color: var(--primary); }
+        .btn-tax { background-color: var(--tax-color); }
+        .btn-old { background-color: var(--old-color); }
+
+.modal {
+    display: none; /* 預設隱藏 */
+    position: fixed; 
+    z-index: 1000; 
+    left: 0; 
+    top: 0; 
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(0,0,0,0.5); /* 半透明黑底 */
+    align-items: center; 
+    justify-content: center;
+}
+
+/* 視窗本體 */
+.modal-body {
+    background: white;
+    padding: 20px;
+    border-radius: 16px;
+    width: 90%;
+    max-width: 400px; /* 限制最大寬度，手機版才不會太寬 */
+    max-height: 80vh;
+    overflow-y: auto; /* 內容太長時自動出現捲軸 */
+}
+
+/* 新增或修改這段，讓數字顯示在下方 */
+#barcodeNum {
+    font-size: 1.2rem;
+    color: black;      /* 改回黑色 */
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    font-family: monospace;
+}
+        /* 文字變色快速 CSS 標籤 */
+        .text-blue, span.text-blue { color: var(--primary) !important; font-weight: bold; }
+        .text-red, span.text-red { color: var(--text-red) !important; font-weight: bold; }
+        .text-green, span.text-green { color: var(--tax-color) !important; font-weight: bold; }
+        .text-orange, span.text-orange { color: var(--old-color) !important; font-weight: bold; }
+        .price-red, span.price-red { color: #ff3b30 !important; font-weight: bold; }
+/* 藍色大標題 */
+#barcodeNumBlue {
+    font-size: 1.8rem;    /* 稍微縮小一點，符合舊版比例 */
+    color: #007AFF;       /* 藍色 */
+    font-weight: bold;
+    margin-top: 10px;     /* 與條碼下方的黑色數字拉開一點距離 */
+    text-align: center;
+}
+/* 條碼容器 */
+#barcodeCanvas {
+    display: block;
+    margin: 0 auto;
+}
+top-navbar {
+    display: flex;             /* 關鍵：讓子元素橫向排列 */
+    width: 100%;               /* 佔滿整個寬度 */
+    background-color: #f8f9fa; /* 給個背景色，看起來像導覽列 */
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0;
+}
+
+.top-navbar .tab-btn {
+    flex: 1;                   /* 關鍵：讓每個按鈕平分寬度 */
+    padding: 15px 10px;
+    border: none;
+    background: none;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;        /* 文字置中 */
+    border-bottom: 3px solid transparent; /* 預設下方透明 */
+}
+
+/* 選中狀態的樣式 */
+.top-navbar .tab-btn.active {
+    color: #007AFF;
+    border-bottom: 3px solid #007AFF; /* 選中時底部出現藍色線 */
+    font-weight: bold;
+}
+/* 修正後的頂部選單 */
+.top-navbar {
+    display: flex;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e5e7;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.top-navbar .tab-btn {
+    flex: 1;
+    padding: 15px 5px;
+    border: none;
+    background: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #333;
+    border-bottom: 3px solid transparent;
+}
+
+.top-navbar .tab-btn.active {
+    color: var(--primary);
+    border-bottom: 3px solid var(--primary);
+    background-color: #f8faff;
+}
+
+/* 確保內容區不被側邊欄擠壓 */
+.content-area {
+    padding: 20px;
+    margin-left: 0 !important; /* 強制移除左側間距 */
+}
+.top-navbar .btn-right {
+    margin-left: auto;
+}
+    </style>
+</head>
+<body>
+
+<nav class="top-navbar">
+    <button class="tab-btn active" onclick="switchPage(event, 'tab-gift')">贈品活動查詢</button>
+    <button class="tab-btn" onclick="switchPage(event, 'tab3')">⚡ 家電商品查詢</button>
+    <button class="tab-btn btn-right" onclick="switchPage(event, 'tab-store')">跨店出貨查詢</button>
+</nav>
+        
+    <div class="content-area">
+        <div id="tab-store" class="tab-content">
+            <div class="card">
+                <h3>快速出貨分店查詢</h3>
+                <div style="background: #fdfdfd; padding: 20px; border-radius: 15px; border: 1px solid #eee; margin-bottom: 20px;">
+                    <input type="text" id="custAddr" placeholder="輸入地址 (例: 新北市新店區 或 林口)" 
+                           style="width: 100%; padding: 15px; border: 2px solid #e0e0e0; border-radius: 12px; font-size: 1.1rem; margin-bottom: 15px; box-sizing: border-box;">
+                    <button id="calcBtn" onclick="calculateNearest()" 
+                            style="width: 100%; padding: 15px; background: #3b71db; color: white; border: none; border-radius: 12px; font-size: 1.1rem; font-weight: bold; cursor: pointer;">
+                        🔍 計算最近門市
+                    </button>
+                </div>
+                <div id="finalResultList" style="margin-top: 20px;"></div>
+            </div>
+        </div>
+
+        <div id="tab-gift" class="tab-content active">
+            <div class="header-container">
+                <div class="search-row">
+                    <input type="text" id="searchInput" class="search-box" placeholder="🔍 輸入型號關鍵字..." onkeypress="handleKeyPress(event)">
+                    <button class="btn-search" onclick="searchModel()">搜尋</button>
+                </div>
+                <div class="selector-row">
+                    <select id="categorySelect" onchange="updateBrands()">
+                        <option value="">-- 1. 選擇分類 --</option>
+                    </select>
+                    <select id="brandSelect" onchange="showGiftsBySelect()" disabled>
+                        <option value="">-- 2. 選擇品牌 --</option>
+                    </select>
+                </div>
+            </div>
+            <div id="giftContainer" style="margin-top: 20px; display: flex; flex-direction: column; gap: 15px;"></div>
+        </div>
+
+        <div id="tab3" class="tab-content">
+            <div class="header-container" style="background: #fff; padding: 20px; border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); margin-bottom: 20px;">
+                <h3 style="margin-top:0; color:#3b71db;">⚡ 家電型號搜尋</h3>
+                <div class="search-row" style="display: flex; gap: 10px; margin-bottom: 15px;">
+                    <input type="text" id="smartSearchInput" placeholder="🔍 輸入型號搜尋 (例:B496、V170)" onkeypress="handleSmartKeyPress(event)" style="flex: 1; padding: 12px; border: 1px solid #ccc; border-radius: 12px; font-size: 1rem; box-sizing: border-box;">
+                    <button onclick="searchSmartModel()" style="padding: 12px 24px; background: #3b71db; color: white; border: none; border-radius: 12px; font-weight: bold; cursor: pointer;">搜尋</button>
+                </div>
+                <div style="text-align: center; color: #aaa; margin: 10px 0; font-size: 0.9rem;">或使用下方條件逐層篩選</div>
+                <div class="selector-row" style="display: flex; flex-direction: column; gap: 10px;">
+                    <select id="smartCatSelect" onchange="updateSmartTypes()" style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 12px;">
+                        <option value="">-- 1. 選擇分類 --</option>
+                    </select>
+                    <select id="smartBrandSelectSub" onchange="updateSmartSpecs()" disabled style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 12px;">
+                        <option value="">-- 2. 選擇品牌 --</option>
+                    </select>
+                    <select id="smartSpecSelect" onchange="showSmartGiftsBySelect()" disabled style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 12px;">
+                        <option value="">-- 3. 選擇規格 --</option>
+                    </select>
+                </div>
+            </div>
+            <div id="smartGiftContainer" style="margin-top: 20px; display: flex; flex-direction: column; gap: 15px;"></div>
+        </div>
+
+    </div>
+</div>
+
+<div id="barcodeModal" class="modal" onclick="closeModal('barcodeModal')">
+    <div style="background:white; width:90%; max-width:400px; padding:20px; border-radius:15px; text-align:center;">
+        <h3 style="margin-top:0; margin-bottom:15px;">結帳條碼</h3>
+        
+        <svg id="barcodeCanvas"></svg>
+        
+        <p id="barcodeNumBlue"></p>
+     <button onclick="closeModal('barcodeModal')" 
+        style="width:100%; padding:12px; background-color:#333 !important; color:white !important; border:none; border-radius:8px; font-weight:bold; cursor:pointer;">
+    關閉
+</button>
+    </div>
+</div>
+<div id="qrCodeOverlay" class="modal">
+    <div style="background:white; width:90%; max-width:400px; padding:25px; border-radius:15px; text-align:center; position:relative; box-shadow: 0 5px 15px rgba(0,0,0,0.3);">
+        <span onclick="closeModal('qrCodeOverlay')" style="position:absolute; right:15px; top:5px; font-size:32px; cursor:pointer; color:#888;">×</span>
+        <h3 id="qrTitle" style="margin:0 0 15px 0; color:#333;">活動視窗</h3>
+        <div id="qrCodeCanvas" style="margin: 20px auto; display: inline-block;"></div>
+        <div id="qrHint" style="font-size: 0.95rem; color: #555; line-height: 1.6; text-align: left; background: #f9f9f9; padding: 15px; border-radius: 10px;"></div>
+        <button onclick="closeModal('qrCodeOverlay')" style="width:100%; padding:15px; background-color:#007AFF !important; color:white !important; border:none; border-radius:10px; font-size:1.1rem; font-weight:bold; margin-top:10px;">關閉</button>
+    </div>
+</div>
+
+<div id="imgOverlay" class="modal" onclick="closeModal('imgOverlay')">
+    <div style="position:relative; max-width:90%; max-height:90%;">
+        <img id="zoomedImg" src="" style="width:100%; height:auto; border-radius:10px; box-shadow:0 0 20px rgba(0,0,0,0.5);">
+    </div>
+</div>
+
+<div id="feeOverlay" class="modal">
+    <div style="background:#f4f4f4; width:92%; max-width:400px; padding:20px; border-radius:20px; text-align:center;">
+        <h3 style="margin:0 0 20px 0; color:#333; font-size:1.4rem;">🚚 <span id="feeTitle">運費標準</span></h3>
+        
+        <div id="feeContent">
+            </div>
+
+        <button onclick="closeModal('feeOverlay')" style="width:100%; padding:15px; background:#333; color:white; border:none; border-radius:12px; font-size:1.1rem; font-weight:bold; margin-top:20px; cursor:pointer;">
+            關閉視窗
+        </button>
+    </div>
+</div>
+<div id="shippingModal" class="modal">
+    <div class="modal-body">
+        <span onclick="closeModal()" style="cursor:pointer; float:right;">✕</span>
+        <div id="shippingContent"></div>
+    </div>
+</div>
+<script>
+    // 這是最關鍵的宣告，如果沒有這行，下方的 JS 讀到 feeDatabase 就會掛掉
+    const rawData = [];
+    const smartRawData = [];
+    const storeDatabase = [];
+    const feeDatabase = {}; // <--- 這裡一定要初始化為空物件 {}，因為你在 stor.js 用到了 [storeName]
+</script>
+<script src="js/gif.js"></script>
+<script src="js/panasonic.js"></script>
+<script src="js/stor.js"></script>
+<script>
+
+
+// ==========================================================================
+// ⚙️ 4. 系統初始化
+// ==========================================================================
+document.addEventListener("DOMContentLoaded", function() {
+    initCategoryDropdown(); 
+    initSmartCats();        
+});
+
+function switchPage(evt, tabId) {
+    const contents = document.getElementsByClassName("tab-content");
+    for (let i = 0; i < contents.length; i++) {
+        contents[i].classList.remove("active");
+        contents[i].style.display = "none";
+    }
+    const btns = document.getElementsByClassName("tab-btn");
+    for (let i = 0; i < btns.length; i++) { btns[i].classList.remove("active"); }
+    
+    document.getElementById(tabId).classList.add("active");
+    document.getElementById(tabId).style.display = "block";
+    evt.currentTarget.classList.add("active");
+}
+
+function closeModal(id) { document.getElementById(id).style.display = 'none'; }
+
+function zoomImg(url) { 
+    if(!url) return; 
+    document.getElementById("zoomedImg").src = url; 
+    document.getElementById("imgOverlay").style.display = "flex"; 
+}
+
+// ==========================================================================
+// 📍 5. 經緯度與配送分店核心運算邏輯
+// ==========================================================================
+function getDistKM(lat1, lon1, lat2, lon2) {
+    const p = 0.017453292519943295; const c = Math.cos;
+    const a = 0.5 - c((lat2 - lat1) * p)/2 + c(lat1 * p) * c(lat2 * p) * (1 - c((lon2 - lon1) * p))/2;
+    return 12742 * Math.asin(Math.sqrt(a)); 
+}
+
+async function calculateNearest() {
+    let addr = document.getElementById('custAddr').value.trim();
+    const resDiv = document.getElementById('finalResultList');
+    if (!addr) { alert("請輸入地址"); return; }
+    
+    resDiv.innerHTML = "<p style='color:#666;'>🔍 計算中，請稍候...</p>";
+    if(!addr.includes("台灣") && !addr.includes("台")) { addr = "台灣 " + addr; }
+    
+    try {
+        const resp = await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(addr)}&limit=3`);
+        const data = await resp.json();
+        if (data.length > 0) {
+const uLat = parseFloat(data[0].lat); const uLng = parseFloat(data[0].lon);
+const sorted = storeDatabase.map(s => ({ ...s, dist: getDistKM(uLat, uLng, s.lat, s.lng) }))
+                            .sort((a, b) => a.dist - b.dist);
+
+// 核心修改：只取前三筆
+const topThree = sorted.slice(0, 3);
+            
+let html = '';
+// 修改為遍歷 topThree
+topThree.forEach((s, index) => {
+    const prefix = index === 0 ? `🏆 最近分店：${s.name}` : `🏪 鄰近分店：${s.name}`;
+    
+    // 修正導航網址：改為標準 Google Maps 連結，並修正字串模板拼接錯誤
+    const googleMapUrl = `https://www.google.com/maps/search/?api=1&query=${s.lat},${s.lng}`;
+
+    html += `
+    <div class="store-result-card">
+        <div class="store-header">${prefix} <span style="font-size:0.9rem; color:#666; font-weight:normal;">(約 ${s.dist.toFixed(1)} km)</span></div>
+        <div class="store-address">📍 ${s.addr}</div>
+        
+        <div class="store-btn-row">
+            <button class="store-action-btn btn-call" onclick="askBeforeCall('${s.name}')">📞 撥電話</button>
+            <button class="store-action-btn btn-nav" onclick="window.open('${googleMapUrl}', '_blank')">🗺️ 導航</button>
+            <button class="store-action-btn btn-fee-trigger" onclick="showShippingModal('${s.name}')">💰 跨區費</button>
+        </div>
+    </div>`;
+});
+            resDiv.innerHTML = html;
+        } else { resDiv.innerHTML = "<p style='color:red;'>❌ 找不到該地址，請輸入更具體的路名或區名</p>"; }
+    } catch (e) { resDiv.innerHTML = "<p style='color:red;'>⚠️ 連線失敗，請檢查網路狀態。</p>"; }
+}
+
+function askBeforeCall(storeName) {
+    const store = storeDatabase.find(s => s.name === storeName);
+    if (!store) return;
+    const confirmDial = confirm(`【${store.name}】\n電話號碼為： ${store.phone}\n\n是否要立即撥打此電話？\n(若要用公司桌機撥號，直接看上方號碼輸入即可，請按取消)`);
+    if (confirmDial) { location.href = `tel:${store.phone.replace(/-/g, '')}`; }
+}
+
+function showFeeDetail(storeName) {
+    const titleEl = document.getElementById("feeTitle"); 
+    const contentEl = document.getElementById("feeContent");
+    const store = storeDatabase.find(s => s.name === storeName);
+    const feeText = store ? store.feeDetail : "暫裝該店詳細運費資料。";
+    titleEl.innerText = `【${storeName}】運費標準`; 
+    contentEl.innerHTML = `<div style='background:#fff; padding:15px; border-radius:10px; line-height:1.6;'>${feeText}</div>`;
+    document.getElementById("feeOverlay").style.display = "flex";
+}
+
+// ==========================================================================
+// 🛠️ 6. 快查主要條碼連動下拉選單 (第二頁邏輯)
+// ==========================================================================
+function initCategoryDropdown() {
+    const catSelect = document.getElementById('categorySelect');
+    if (!catSelect) return;
+    const cats = [...new Set(rawData.map(d => d.cat))];
+    catSelect.innerHTML = '<option value="">-- 1. 選擇分類 --</option>';
+    cats.forEach(c => { catSelect.innerHTML += `<option value="${c}">${c}</option>`; });
+}
+function updateBrands() {
+    const catVal = document.getElementById('categorySelect').value;
+    const brandSelect = document.getElementById('brandSelect');
+    brandSelect.innerHTML = '<option value="">-- 2. 選擇品牌 --</option>';
+    if (!catVal) { brandSelect.disabled = true; return; }
+    const brands = [...new Set(rawData.filter(d => d.cat === catVal).map(d => d.brand))];
+    brands.forEach(b => { brandSelect.innerHTML += `<option value="${b}">${b}</option>`; });
+    brandSelect.disabled = false;
+}
+function showGiftsBySelect() {
+    const catVal = document.getElementById('categorySelect').value;
+    const brandVal = document.getElementById('brandSelect').value;
+    if (!brandVal) return;
+    const results = rawData.filter(d => d.cat === catVal && d.brand === brandVal);
+    renderGiftCards(results, document.getElementById('giftContainer'));
+}
+function searchModel() {
+    const term = document.getElementById('searchInput').value.trim().toUpperCase();
+    if (term === "") { alert("請輸入型號關鍵字"); return; }
+    const results = rawData.filter(d => (d.model && d.model.toUpperCase().includes(term)) || d.brand.toUpperCase().includes(term) || d.name.toUpperCase().includes(term));
+    renderGiftCards(results, document.getElementById('giftContainer'));
+}
+function handleKeyPress(event) { if (event.key === "Enter") searchModel(); }
+
+// ==========================================================================
+// 🎨 7. 核心：智慧標籤判定與卡片 HTML 產生器
+// ==========================================================================
+function renderGiftCards(matches, container) {
+    const targetContainer = container || document.getElementById('giftContainer');
+    targetContainer.innerHTML = ''; 
+    if (matches.length === 0) { 
+        targetContainer.innerHTML = "<p style='color:#888; text-align:center;'>❌ 找不到符合的資料</p>"; 
+        return; 
+    }
+    
+    // 這一行非常重要！沒有它，下面的程式會全部崩潰
+    matches.forEach(g => {
+        let formattedName = g.name.replace(/\n/g, '<br>').replace(/(\$\d+)/g, '<span class="price-red">$1</span>');
+        let formattedDesc = g.desc ? g.desc.replace(/\n/g, '<br>').replace(/(\$\d+)/g, '<span class="price-red">$1</span>') : "";
+        
+        let barcodeBtns = "";
+        if (Array.isArray(g.barcode) && g.barcode.length > 0) {
+            g.barcode.forEach((code, i) => {
+                if (!code || code === "") return;
+
+                let label;
+                
+                // 1. 優先判斷資料庫有沒有自訂標籤 (customLabels)
+                if (g.customLabels && g.customLabels[i]) {
+                    label = g.customLabels[i];
+                } else {
+                    // 2. 如果沒有，才使用原本的預設判斷邏輯
+                    label = `🛒 結帳條碼(${i+1})`;
+
+                    if (g.cat === "DM尾牙") {
+                        if (g.brand && g.brand.includes("電視")) {
+                            const tvLabels = ["🎁 贈品", "➖ 品牌負載", "🎧 加碼贈品", "🚚 免運$10", "💰 收費$10"];
+                            label = tvLabels[i] || label;
+                        } else if (g.brand === "冷氣") {
+                            const acLabels = ["🎁 贈品", "🚚 免運$100"];
+                            label = acLabels[i] || label;
+                        } else {
+                            const generalLabels = ["🎁 贈品", "🚚 免運$10", "💰 收費$10"];
+                            label = generalLabels[i] || label;
+                        }
+                    } else if (g.cat === "常用條碼") {
+                        const commonLabels = ["🧾 主條碼", "🚚 免運$10", "💰 收費$10"];
+                        label = commonLabels[i] || label;
+                    } else if (g.cat === "國際夏日有禮賞") {
+                        const labels = ["🎁 贈品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"];
+                        label = labels[i] || label;
+                    }
+
+                    if (label === `🛒 結帳條碼(${i+1})` || !label) {
+                        if (g.type === 'gift') { label = "🎁 贈品條碼"; } 
+                        else if (g.type === 'shipping') { label = "🚚 免運$100"; } 
+                        else if (g.type === 'shipping1') { label = "🚚 免運$10"; } 
+                        else if (g.type === 'shipping2') { label = "🚚 收費$10"; }
+                        else if (g.type === 'shipping3') { label = "📦 商品條碼"; }
+                    }
+                }
+
+                const customStyle = 'style="background-color: #374151 !important; color: white !important; font-weight: bold; border-radius: 8px; padding: 8px 12px; border: none; cursor: pointer; margin-right: 5px; margin-bottom: 5px;"';
+                barcodeBtns += `<button class="action-btn" ${customStyle} onclick="zoomBarcode('${code}')">${label}</button>`;
+            });
+        }
+
+targetContainer.innerHTML += `
+            <div class="gift-card">
+                <div class="product-images" style="display:flex; flex-direction:column; gap:10px; align-items:center;">
+                    ${g.img ? `<img src="${g.img}" class="gift-img" onclick="zoomImg('${g.img}')" onerror="this.src='https://via.placeholder.com/90?text=無圖片'">` : ''}
+                    
+                    ${g.giftImg ? `<img src="${g.giftImg}" class="gift-img" style="width:60%; border:1px solid #eee; border-radius:8px; padding:5px;" onclick="zoomImg('${g.giftImg}')">` : ''}
+                </div>
+
+                <div class="gift-info">
+                    <h4><span style="color:var(--model-blue);">[${g.brand}-${g.cat}]</span> ${formattedName}</h4>
+                    <p>${formattedDesc}</p>
+                    <div class="action-btns">
+                        ${barcodeBtns}
+                    ${g.qrUrl ? `<button class="action-btn btn-activity" onclick="showQrCode('${g.qrUrl}','官方活動官網','請引導客人掃描前往登錄')">📱 活動</button>` : ''}
+                    ${g.taxUrl ? `<button class="action-btn btn-tax" onclick="showQrCode('${g.taxUrl}','貨物稅退稅申請','請掃描 QR Code 進入退稅頁面\\n申請貨物稅補助請準備以下資料:\\n1.發票　　　2.存摺\\n3.身分證　　4.保證書\\n※備註:請放在一起拍成一張照片上傳')">💰 退稅</button>` : ''}
+                    ${g.oldUrl ? `<button class="action-btn btn-old" onclick="showQrCode('${g.oldUrl}','節能舊機補助','請掃描 QR Code 進入補助頁面\\n申請舊機補助請準備以下資料:\\n1.發票　　　2.存摺　　　3.身分證\\n4.保證書　　5.電費單\\n6.回收單　　7.能源效率表')">♻️ 補助</button>` : ''}
+                        
+                        ${g.catalogUrl ? `<button class="action-btn" style="background-color: #1e3a8a !important; color: white !important;" onclick="showInteractiveQr('${g.catalogUrl}','📖 原廠全本目錄','供客人現場掃描')">📖 全本目錄</button>` : ''}
+                        ${g.productUrl ? `<button class="action-btn" style="background-color: #0369a1 !important; color: white !important;" onclick="showInteractiveQr('${g.productUrl}','🌐 此台商品介紹','供客人現場掃描')">🌐 單台介紹</button>` : ''}
+                    </div>
+                </div>
+            </div>`;
+    });
+}
+
+// 1. 條碼放大功能
+function zoomBarcode(code) {
+    document.getElementById("barcodeModal").style.display = "flex";
+    
+    // 設定下方的藍色大數字
+    document.getElementById("barcodeNumBlue").innerText = code;
+    
+    // 渲染條碼
+    JsBarcode("#barcodeCanvas", code, { 
+        format: "EAN13", 
+        width: 3, 
+        height: 100, 
+        displayValue: true, 
+        fontSize: 24, 
+        textMargin: 0, 
+        margin: 0 
+    });
+}
+
+// 2. 統一的 showQrCode 函數 (只保留這一個即可)
+function showQrCode(url, title, hint) {
+    const overlay = document.getElementById("qrCodeOverlay");
+    const canvas = document.getElementById("qrCodeCanvas");
+    document.getElementById("qrTitle").innerText = title;
+    document.getElementById("qrHint").innerHTML = `<div style="color:#555; line-height:1.6; white-space:pre-line;">${hint}</div>`;
+    canvas.innerHTML = ""; 
+    new QRCode(canvas, { text: url, width: 180, height: 180 });
+    overlay.style.display = "flex";
+}
+
+// 3. 確保關閉功能正常
+function closeModal(id) { 
+    document.getElementById(id).style.display = 'none'; 
+}
+// ==========================================================================
+// ⚙️ 8. 雙向互動式 QR Code 視窗（支援客人掃碼 + 服務人員一鍵跳轉網頁）
+// ==========================================================================
+function showInteractiveQr(url, title, hint) {
+    const overlay = document.getElementById("qrCodeOverlay");
+    const canvas = document.getElementById("qrCodeCanvas");
+    
+    document.getElementById("qrTitle").innerText = title;
+    
+    document.getElementById("qrHint").innerHTML = `
+        <div style="margin-bottom:12px; color:#555; line-height:1.5;">${hint}</div>
+        <hr style="border:0; border-top:1px solid #ddd; margin:12px 0;">
+        <button onclick="window.open('${url}', '_blank'); closeModal('qrCodeOverlay');" 
+                style="width:100%; padding:13px; background-color:#333; color:white; border:none; border-radius:8px; font-size:1rem; font-weight:bold; cursor:pointer; display:flex; align-items:center; justify-content:center; gap:6px; box-shadow:0 2px 6px rgba(37,99,235,0.2);">
+            🔗 服務人員直接點此開啟網頁
+        </button>
+    `;
+    
+    canvas.innerHTML = ""; 
+    new QRCode(canvas, {
+        text: url,
+        width: 180,
+        height: 180,
+        colorDark : "#000000",
+        colorLight : "#ffffff",
+        correctLevel : QRCode.CorrectLevel.H
+    });
+    
+    overlay.style.display = "flex";
+}
+
+// ==========================================================================
+// ⚡ 9. 第三頁：分級篩選連動控制邏輯
+// ==========================================================================
+function initSmartCats() {
+    const catSelect = document.getElementById('smartCatSelect');
+    if (!catSelect) return;
+    const cats = [...new Set(smartRawData.map(d => d.cat))];
+    catSelect.innerHTML = '<option value="">-- 1. 選擇分類 --</option>'; 
+    cats.forEach(c => { catSelect.innerHTML += `<option value="${c}">${c}</option>`; });
+}
+function updateSmartTypes() {
+    const catVal = document.getElementById('smartCatSelect').value;
+    const brandSelect = document.getElementById('smartBrandSelectSub');
+    brandSelect.innerHTML = '<option value="">-- 2. 選擇品牌 --</option>';
+    if (!catVal) { brandSelect.disabled = true; return; }
+    const brands = [...new Set(smartRawData.filter(d => d.cat === catVal).map(d => d.brand))];
+    brands.forEach(b => { brandSelect.innerHTML += `<option value="${b}">${b}</option>`; });
+    brandSelect.disabled = false;
+}
+function updateSmartSpecs() {
+    const catVal = document.getElementById('smartCatSelect').value;
+    const brandVal = document.getElementById('smartBrandSelectSub').value;
+    const specSelect = document.getElementById('smartSpecSelect');
+    specSelect.innerHTML = '<option value="">-- 3. 選擇規格 --</option>';
+    if (!brandVal) { specSelect.disabled = true; return; }
+    const specs = [...new Set(smartRawData.filter(d => d.cat === catVal && d.brand === brandVal).map(d => d.spec))];
+    specs.forEach(s => { specSelect.innerHTML += `<option value="${s}">${s}</option>`; });
+    specSelect.disabled = false;
+}
+function showSmartGiftsBySelect() {
+    const catVal = document.getElementById('smartCatSelect').value;
+    const brandVal = document.getElementById('smartBrandSelectSub').value;
+    const specVal = document.getElementById('smartSpecSelect').value;
+    if (!specVal) return;
+    const results = smartRawData.filter(d => d.cat === catVal && d.brand === brandVal && d.spec === specVal);
+    renderGiftCards(results, document.getElementById('smartGiftContainer'));
+}
+function searchSmartModel() {
+    const term = document.getElementById('smartSearchInput').value.trim().toUpperCase();
+    if (term === "") { alert("請輸入型號關鍵字"); return; }
+    const results = smartRawData.filter(d => (d.model && d.model.toUpperCase().includes(term)) || d.brand.toUpperCase().includes(term) || d.name.toUpperCase().includes(term));
+    renderGiftCards(results, document.getElementById('smartGiftContainer'));
+}
+function handleSmartKeyPress(event) { if (event.key === "Enter") searchSmartModel(); }
+</script>
+</body>
+</html>
