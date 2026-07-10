@@ -13,6 +13,7 @@ smartRawData.push(
         barcode: ["4717523710700","4715754026133","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/FZ175.jpg", 
+        giftImg: "國際冰箱/A7.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -30,6 +31,7 @@ smartRawData.push(
         barcode: ["4717523710700","4715754026133","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/FZ255.jpg", 
+        giftImg: "國際冰箱/A7.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -47,6 +49,7 @@ smartRawData.push(
         barcode: ["4717523306200","4715754026133","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/FZ383.jpg", 
+        giftImg: "國際冰箱/A7.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -64,6 +67,7 @@ smartRawData.push(
         barcode: ["8887549850592","6503533673207","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/1B301VG.jpg", 
+        giftImg: "國際冰箱/A6.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -81,6 +85,7 @@ smartRawData.push(
         barcode: ["8887549850585","6503533673207","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/1B331VG.jpg", 
+        giftImg: "國際冰箱/A6.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -98,6 +103,7 @@ smartRawData.push(
         barcode: ["8887549818974","6503533673207","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/B371TV.jpg", 
+        giftImg: "國際冰箱/A6.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -115,6 +121,7 @@ smartRawData.push(
         barcode: ["4717523306828","6939749620146","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/B426TV1.jpg", 
+        giftImg: "國際冰箱/A5.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -132,6 +139,7 @@ smartRawData.push(
         barcode: ["4717523306811","6939749620146","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/B426TV2.jpg", 
+        giftImg: "國際冰箱/A5.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -149,6 +157,7 @@ smartRawData.push(
         barcode: ["4717523306842","6939749620146","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/B496TV1.jpg", 
+        giftImg: "國際冰箱/A5.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -166,6 +175,7 @@ smartRawData.push(
         barcode: ["4717523306835","6939749620146","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/B496TV2.jpg", 
+        giftImg: "國際冰箱/A5.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -183,6 +193,7 @@ smartRawData.push(
         barcode: ["4717523306880","6939749620146","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/B586TV1.jpg", 
+        giftImg: "國際冰箱/A5.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -200,6 +211,7 @@ smartRawData.push(
         barcode: ["4717523306873","6939749620146","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/B586TV2.jpg", 
+        giftImg: "國際冰箱/A5.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -217,6 +229,7 @@ smartRawData.push(
         barcode: ["4717523306927","6939749620146","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/B656TV1.jpg", 
+        giftImg: "國際冰箱/A5.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -234,6 +247,7 @@ smartRawData.push(
         barcode: ["4717523306910","6939749620146","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/B656TV2.jpg", 
+        giftImg: "國際冰箱/A5.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -251,6 +265,7 @@ smartRawData.push(
         barcode: ["4717523306484","6503533673207","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/C384HV1.jpg", 
+        giftImg: "國際冰箱/A6.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -268,6 +283,7 @@ smartRawData.push(
         barcode: ["4717523306491","6503533673207","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/C384HV2.jpg", 
+        giftImg: "國際冰箱/A6.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -285,6 +301,7 @@ smartRawData.push(
         barcode: ["4717523306453","6939749620146","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/C454HV1.jpg", 
+        giftImg: "國際冰箱/A5.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -302,6 +319,7 @@ smartRawData.push(
         barcode: ["4717523306446","6939749620146","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/C454HV1.jpg", 
+        giftImg: "國際冰箱/A5.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -319,6 +337,7 @@ smartRawData.push(
         barcode: ["4717523306477","6939749620146","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/C454HG1.jpg", 
+        giftImg: "國際冰箱/A5.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -336,6 +355,7 @@ smartRawData.push(
         barcode: ["4717523306460","6939749620146","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/C454HG1.jpg", 
+        giftImg: "國際冰箱/A5.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -353,6 +373,7 @@ smartRawData.push(
         barcode: ["4717523306651","6939749620146","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/C505XV.jpg", 
+        giftImg: "國際冰箱/A5.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -370,6 +391,7 @@ smartRawData.push(
         barcode: ["4717523306804","6939749620146","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/C505XV.jpg", 
+        giftImg: "國際冰箱/A5.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -387,6 +409,7 @@ smartRawData.push(
         barcode: ["4717523306576","6939749620146","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/C505XG.jpg", 
+        giftImg: "國際冰箱/A5.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -404,6 +427,7 @@ smartRawData.push(
         barcode: ["4717523306569","6939749620146","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/C505XG.jpg", 
+        giftImg: "國際冰箱/A5.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -421,6 +445,7 @@ smartRawData.push(
         barcode: ["4717523306613","6939749620146","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/C615XV.jpg", 
+        giftImg: "國際冰箱/A5.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -438,6 +463,7 @@ smartRawData.push(
         barcode: ["4717523306781","6939749620146","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/C615XV.jpg", 
+        giftImg: "國際冰箱/A5.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -455,6 +481,7 @@ smartRawData.push(
         barcode: ["4717523306538","6939749620146","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/C615XG.jpg", 
+        giftImg: "國際冰箱/A5.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -472,6 +499,7 @@ smartRawData.push(
         barcode: ["4717523306521","6939749620146","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/C615XG.jpg", 
+        giftImg: "國際冰箱/A5.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -489,6 +517,7 @@ smartRawData.push(
         barcode: ["4717523306637","6939749620146","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/D505XV.jpg", 
+        giftImg: "國際冰箱/A5.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -506,6 +535,7 @@ smartRawData.push(
         barcode: ["4717523306798","6939749620146","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/D505XV.jpg", 
+        giftImg: "國際冰箱/A5.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -523,6 +553,7 @@ smartRawData.push(
         barcode: ["4717523306552","6939749620146","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/D505XG.jpg", 
+        giftImg: "國際冰箱/A5.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -540,6 +571,7 @@ smartRawData.push(
         barcode: ["4717523306545","6939749620146","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/D505XG.jpg", 
+        giftImg: "國際冰箱/A5.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -557,6 +589,7 @@ smartRawData.push(
         barcode: ["4717523306590","6939749620146","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/D615XV.jpg", 
+        giftImg: "國際冰箱/A5.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -574,6 +607,7 @@ smartRawData.push(
         barcode: ["4717523306774","6939749620146","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/D615XV.jpg", 
+        giftImg: "國際冰箱/A5.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -591,6 +625,7 @@ smartRawData.push(
         barcode: ["4717523306514","6939749620146","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/D615XG.jpg", 
+        giftImg: "國際冰箱/A5.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -608,6 +643,7 @@ smartRawData.push(
         barcode: ["4717523306507","6939749620146","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/D615XG.jpg", 
+        giftImg: "國際冰箱/A5.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -625,6 +661,7 @@ smartRawData.push(
         barcode: ["4549980496237","4009839713620","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/E417XT.jpg", 
+        giftImg: "國際冰箱/A3.jpg",
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=CC49B685-0A02-4FA4-BB33-AA7FD72AB27C",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -642,6 +679,7 @@ smartRawData.push(
         barcode: ["4549980496244","4009839713620","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/E417XT.jpg", 
+        giftImg: "國際冰箱/A3.jpg",
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=CC49B685-0A02-4FA4-BB33-AA7FD72AB27C",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -659,6 +697,7 @@ smartRawData.push(
         barcode: ["4549980496268","4009839713620","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/E507XT.jpg", 
+        giftImg: "國際冰箱/A3.jpg",
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=CC49B685-0A02-4FA4-BB33-AA7FD72AB27C",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -675,7 +714,8 @@ smartRawData.push(
         model: "NR-E507XT",
         barcode: ["4549980496251","4009839713620","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
-        img: "國際冰箱/E507XT.jpg", 
+        img: "國際冰箱/E507XT.jpg",
+        giftImg: "國際冰箱/A3.jpg", 
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=CC49B685-0A02-4FA4-BB33-AA7FD72AB27C",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -711,6 +751,7 @@ smartRawData.push(
         barcode: ["4549980804261","4009839713620","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/F521HX.jpg", 
+        giftImg: "國際冰箱/A2.jpg",
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=CC49B685-0A02-4FA4-BB33-AA7FD72AB27C",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -728,6 +769,7 @@ smartRawData.push(
         barcode: ["4549980804278","4009839713620","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/F551WX.jpg", 
+        giftImg: "國際冰箱/A2.jpg",
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=CC49B685-0A02-4FA4-BB33-AA7FD72AB27C",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -745,6 +787,7 @@ smartRawData.push(
         barcode: ["4549980804285","4009839713620","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/F551WX.jpg", 
+        giftImg: "國際冰箱/A2.jpg",
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=CC49B685-0A02-4FA4-BB33-AA7FD72AB27C",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -762,6 +805,7 @@ smartRawData.push(
         barcode: ["4549980804339","4009839713620","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/F601XT.jpg", 
+        giftImg: "國際冰箱/A3.jpg",
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=CC49B685-0A02-4FA4-BB33-AA7FD72AB27C",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -779,6 +823,7 @@ smartRawData.push(
         barcode: ["4549980804322","4009839713620","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/F601XT.jpg", 
+        giftImg: "國際冰箱/A3.jpg",
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=CC49B685-0A02-4FA4-BB33-AA7FD72AB27C",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -796,6 +841,7 @@ smartRawData.push(
         barcode: ["4549980804308","4009839713620","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/F601WX.jpg", 
+        giftImg: "國際冰箱/A2.jpg",
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=CC49B685-0A02-4FA4-BB33-AA7FD72AB27C",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -813,6 +859,7 @@ smartRawData.push(
         barcode: ["4549980804292","4009839713620","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/F601WX.jpg", 
+        giftImg: "國際冰箱/A2.jpg",
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=CC49B685-0A02-4FA4-BB33-AA7FD72AB27C",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -830,6 +877,7 @@ smartRawData.push(
         barcode: ["4549980804315","4009839713620","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/F601WX.jpg", 
+        giftImg: "國際冰箱/A2.jpg",
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=CC49B685-0A02-4FA4-BB33-AA7FD72AB27C",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -847,6 +895,7 @@ smartRawData.push(
         barcode: ["4549980804346","4009839713620","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/F651WX.jpg", 
+        giftImg: "國際冰箱/A1.jpg",
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=CC49B685-0A02-4FA4-BB33-AA7FD72AB27C",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -864,6 +913,7 @@ smartRawData.push(
         barcode: ["4549980804353","4009839713620","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/F651WX.jpg", 
+        giftImg: "國際冰箱/A1.jpg",
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=CC49B685-0A02-4FA4-BB33-AA7FD72AB27C",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -881,6 +931,7 @@ smartRawData.push(
         barcode: ["4717523353150","6503533673207","2449401006026","2449401002028"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/90EB.jpg", 
+        giftImg: "國際冰箱/A6.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -898,6 +949,7 @@ smartRawData.push(
         barcode: ["4717523353143","6503533673207","2449401006026","2449401002028"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/110EB.jpg", 
+        giftImg: "國際冰箱/A6.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -915,6 +967,7 @@ smartRawData.push(
         barcode: ["4717523353136","6503533673207","2449401006026","2449401002028"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/120EB.jpg", 
+        giftImg: "國際冰箱/A6.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -932,6 +985,7 @@ smartRawData.push(
         barcode: ["4717523353723","6503533673207","2449401006026","2449401002028"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/150MU.jpg", 
+        giftImg: "國際冰箱/A6.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -949,6 +1003,7 @@ smartRawData.push(
         barcode: ["4717523353587","4717879104451","2449401006026","2449401002028"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/V110LB.jpg", 
+        giftImg: "國際冰箱/A13.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -966,6 +1021,7 @@ smartRawData.push(
         barcode: ["4717523353617","4717879104451","2449401006026","2449401002028"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/V130LBS.jpg", 
+        giftImg: "國際冰箱/A13.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -983,6 +1039,7 @@ smartRawData.push(
         barcode: ["4717523353617","4717879104451","2449401006026","2449401002028"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/V130LB.jpg", 
+        giftImg: "國際冰箱/A13.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -1000,6 +1057,7 @@ smartRawData.push(
         barcode: ["4717523353693","4717879104451","2449401006026","2449401002028"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/V150MT.jpg", 
+        giftImg: "國際冰箱/A13.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -1017,6 +1075,7 @@ smartRawData.push(
         barcode: ["4717523353877","4717879104451","4710060009153","2449401006026","2449401002028"], 
         customLabels: ["📦 商品", "🎁 贈品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/V150NM.jpg", 
+        giftImg: "國際冰箱/A12.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -1034,6 +1093,7 @@ smartRawData.push(
         barcode: ["4717523353686","4717879104451","2449401006026","2449401002028"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/V170MT.jpg", 
+        giftImg: "國際冰箱/A13.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -1051,6 +1111,7 @@ smartRawData.push(
         barcode: ["4717523353853","4717879104451","4710060009153","2449401006026","2449401002028"], 
         customLabels: ["📦 商品", "🎁 贈品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/V170NM.jpg", 
+        giftImg: "國際冰箱/A12.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -1068,6 +1129,7 @@ smartRawData.push(
         barcode: ["4717523353679","4717879104451","2449401006026","2449401002028"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/V190MT.jpg", 
+        giftImg: "國際冰箱/A13.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -1085,6 +1147,7 @@ smartRawData.push(
         barcode: ["4717523353839","4717879104451","4710060009153","2449401006026","2449401002028"], 
         customLabels: ["📦 商品", "🎁 贈品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/V190NM.jpg", 
+        giftImg: "國際冰箱/A12.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -1102,6 +1165,7 @@ smartRawData.push(
         barcode: ["4717523353907","4717879104451","4710060009153","2449401006026","2449401002028"], 
         customLabels: ["📦 商品", "🎁 贈品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/V200NM.jpg", 
+        giftImg: "國際冰箱/A12.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -1119,6 +1183,7 @@ smartRawData.push(
         barcode: ["4717523353891","4717879104451","4710060009153","2449401006026","2449401002028"], 
         customLabels: ["📦 商品", "🎁 贈品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/V220NM.jpg", 
+        giftImg: "國際冰箱/A12.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -1136,6 +1201,7 @@ smartRawData.push(
         barcode: ["6924898158770","4717879104451","4710060009153","2449401006026","2449401002028"], 
         customLabels: ["📦 商品", "🎁 贈品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/VS120R.jpg", 
+        giftImg: "國際冰箱/A12.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -1153,6 +1219,7 @@ smartRawData.push(
         barcode: ["6924898158763","4009839713620","2449401006026","2449401002028"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/VS100H.jpg", 
+        giftImg: "國際冰箱/A10.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -1187,6 +1254,7 @@ smartRawData.push(
         barcode: ["4717523360400","4715754026133","2449401006026","2449401002028"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/NH70G.jpg", 
+        giftImg: "國際冰箱/A7.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -1204,6 +1272,7 @@ smartRawData.push(
         barcode: ["4717523360431","4715754026133","2449401006026","2449401002028"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/NH80RZ.jpg", 
+        giftImg: "國際冰箱/A7.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -1214,13 +1283,14 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "下洗上烘", 
-        name: "\nNA-V1515SP熱泵洗乾衣機兩件組<span class='text-red'>(白)</span>\n<span class='text-blue'>40-110260-001</span>\n原廠贈品\n2026.04.10~2026.08.19:\n<span class='text-blue'>40-013998-001</span>\n(贈)SP-2608不鏽鋼雙鍋組*1\n$3000元節能回饋(需線上登錄)<span class='text-red'>\n※登陸最晚時間:2026.09.02</span>", 
+        name: "\nNA-V1515SP熱泵洗乾衣機兩件組<span class='text-red'>(白)</span>\n<span class='text-blue'>40-110260-001</span>\n原廠贈品\n2026.04.10~2026.08.19:\n<span class='text-blue'>40-013998-001</span>\n(贈)SP-2608不鏽鋼雙鍋組*1\n$3000元節能回饋(需線上登錄)<span class='text-red'>\n2026/7/1~8/19\n加碼送精美烘衣香氣組\n廠商寄送\n※登陸最晚時間:2026.09.02</span>", 
         desc: "\n機器尺寸:\n寬:<span class='text-blue'>64</span>公分　高:<span class='text-blue'>191.6</span>公分\n深:<span class='text-blue'>77.8</span>公分\n\n包裝箱尺寸:\n洗衣:寬:<span class='text-blue'>77.5</span>公分　高:<span class='text-blue'>116</span>公分\n深:<span class='text-blue'>88</span>公分\n烘衣:寬:<span class='text-blue'>77.5</span>公分　高:<span class='text-blue'>106</span>公分\n深:<span class='text-blue'>88</span>公分\n\n洗衣容量:<span class='text-blue'>15</span>公斤\n乾衣容量:<span class='text-blue'>15</span>公斤\n\n● 洗衣 15kg、烘衣 15kg\n● 搭載新型專利*¹智慧雙控面板\n● Heat Pump熱泵除濕式烘乾\n● nanoe™ X 護衣烘乾行程\n● AI ECONAVI智慧節能科技\n● IoT智慧健康家電\n● 溫水泡洗淨　● 香氛烘衣\n● 乾衣預備　● 3重過濾系統\n● 溫水槽洗淨\n<span class='text-red'>運費$2700</span>", 
         type: "",
         model: "NR-V1515SP乾衣機",
         barcode: ["4717523354096","4009839713620","2449400007024","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$100", "💰 收費$100"], // <--- 在這裡定義
         img: "國際冰箱/VS1515SP1.jpg", 
+        giftImg: "國際冰箱/A14.jpg",
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=7A7E5BF7-E981-4721-9926-2ABA4D20E623",
         taxUrl: "", 
         oldUrl: "",
@@ -1231,13 +1301,14 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "下洗上烘", 
-        name: "\nNA-V1515SP熱泵洗乾衣機兩件組<span class='text-red'>(黑)</span>\n<span class='text-blue'>40-110260-002</span>\n原廠贈品\n2026.04.10~2026.08.19:\n<span class='text-blue'>40-013998-001</span>\n(贈)SP-2608不鏽鋼雙鍋組*1\n$3000元節能回饋(需線上登錄)<span class='text-red'>\n※登陸最晚時間:2026.09.02</span>", 
+        name: "\nNA-V1515SP熱泵洗乾衣機兩件組<span class='text-red'>(黑)</span>\n<span class='text-blue'>40-110260-002</span>\n原廠贈品\n2026.04.10~2026.08.19:\n<span class='text-blue'>40-013998-001</span>\n(贈)SP-2608不鏽鋼雙鍋組*1\n$3000元節能回饋(需線上登錄)<span class='text-red'>\n2026/7/1~8/19\n加碼送精美烘衣香氣組\n廠商寄送\n※登陸最晚時間:2026.09.02</span>", 
         desc: "\n機器尺寸:\n寬:<span class='text-blue'>64</span>公分　高:<span class='text-blue'>191.6</span>公分\n深:<span class='text-blue'>77.8</span>公分\n\n包裝箱尺寸:\n洗衣:寬:<span class='text-blue'>77.5</span>公分　高:<span class='text-blue'>116</span>公分\n深:<span class='text-blue'>88</span>公分\n烘衣:寬:<span class='text-blue'>77.5</span>公分　高:<span class='text-blue'>106</span>公分\n深:<span class='text-blue'>88</span>公分\n\n洗衣容量:<span class='text-blue'>15</span>公斤\n乾衣容量:<span class='text-blue'>15</span>公斤\n\n● 洗衣 15kg、烘衣 15kg\n● 搭載新型專利*¹智慧雙控面板\n● Heat Pump熱泵除濕式烘乾\n● nanoe™ X 護衣烘乾行程\n● AI ECONAVI智慧節能科技\n● IoT智慧健康家電\n● 溫水泡洗淨　● 香氛烘衣\n● 乾衣預備　● 3重過濾系統\n● 溫水槽洗淨\n<span class='text-red'>運費$2700</span>", 
         type: "",
         model: "NR-V1515SP乾衣機",
         barcode: ["4717523354102","4009839713620","2449400007024","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$100", "💰 收費$100"], // <--- 在這裡定義
-        img: "國際冰箱/VS1515SP2.jpg", 
+        img: "國際冰箱/VS1515SP2.jpg",
+        giftImg: "國際冰箱/A14.jpg",
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=7A7E5BF7-E981-4721-9926-2ABA4D20E623",
         taxUrl: "", 
         oldUrl: "",
@@ -1248,13 +1319,14 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "下洗上烘", 
-        name: "\nNA-V1715SP熱泵洗乾衣機兩件組<span class='text-red'>(白)</span>\n<span class='text-blue'>40-110261-001</span>\n原廠贈品\n2026.04.10~2026.08.19:\n<span class='text-blue'>40-013998-001</span>\n(贈)SP-2608不鏽鋼雙鍋組*1\n$3000元節能回饋(需線上登錄)<span class='text-red'>\n※登陸最晚時間:2026.09.02</span>", 
+        name: "\nNA-V1715SP熱泵洗乾衣機兩件組<span class='text-red'>(白)</span>\n<span class='text-blue'>40-110261-001</span>\n原廠贈品\n2026.04.10~2026.08.19:\n<span class='text-blue'>40-013998-001</span>\n(贈)SP-2608不鏽鋼雙鍋組*1\n$3000元節能回饋(需線上登錄)<span class='text-red'>\n2026/7/1~8/19\n加碼送精美烘衣香氣組\n廠商寄送\n※登陸最晚時間:2026.09.02</span>", 
         desc: "\n機器尺寸:\n寬:<span class='text-blue'>64</span>公分　高:<span class='text-blue'>191.6</span>公分\n深:<span class='text-blue'>77.8</span>公分\n\n包裝箱尺寸:\n洗衣:寬:<span class='text-blue'>77.5</span>公分　高:<span class='text-blue'>116</span>公分\n深:<span class='text-blue'>88</span>公分\n烘衣:寬:<span class='text-blue'>77.5</span>公分　高:<span class='text-blue'>106</span>公分\n深:<span class='text-blue'>88</span>公分\n乾衣容量:<span class='text-blue'>15</span>公斤\n\n● 洗衣 17kg、烘衣 15kg\n● 搭載新型專利*¹智慧雙控面板\n● Heat Pump熱泵除濕式烘乾\n● nanoe™ X 護衣烘乾行程\n● AI ECONAVI智慧節能科技\n● IoT智慧健康家電\n● 溫水泡洗淨　● 香氛烘衣\n● 乾衣預備　● 3重過濾系統\n● 溫水槽洗淨\n<span class='text-red'>運費$2700</span>", 
         type: "",
         model: "NR-V1715SP乾衣機",
         barcode: ["4717523354072","4009839713620","2449400007024","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$100", "💰 收費$100"], // <--- 在這裡定義
         img: "國際冰箱/VS1715SP1.jpg", 
+        giftImg: "國際冰箱/A14.jpg",
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=7A7E5BF7-E981-4721-9926-2ABA4D20E623",
         taxUrl: "", 
         oldUrl: "",
@@ -1265,13 +1337,14 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "下洗上烘", 
-        name: "\nNA-V1715SP熱泵洗乾衣機兩件組<span class='text-red'>(黑)</span>\n<span class='text-blue'>40-110261-002</span>\n原廠贈品\n2026.04.10~2026.08.19:\n<span class='text-blue'>40-013998-001</span>\n(贈)SP-2608不鏽鋼雙鍋組*1\n$3000元節能回饋(需線上登錄)<span class='text-red'>\n※登陸最晚時間:2026.09.02</span>", 
+        name: "\nNA-V1715SP熱泵洗乾衣機兩件組<span class='text-red'>(黑)</span>\n<span class='text-blue'>40-110261-002</span>\n原廠贈品\n2026.04.10~2026.08.19:\n<span class='text-blue'>40-013998-001</span>\n(贈)SP-2608不鏽鋼雙鍋組*1\n$3000元節能回饋(需線上登錄)<span class='text-red'>\n2026/7/1~8/19\n加碼送精美烘衣香氣組\n廠商寄送\n※登陸最晚時間:2026.09.02</span>", 
         desc: "\n機器尺寸:\n寬:<span class='text-blue'>64</span>公分　高:<span class='text-blue'>191.6</span>公分\n深:<span class='text-blue'>77.8</span>公分\n\n包裝箱尺寸:\n洗衣:寬:<span class='text-blue'>77.5</span>公分　高:<span class='text-blue'>116</span>公分\n深:<span class='text-blue'>88</span>公分\n烘衣:寬:<span class='text-blue'>77.5</span>公分　高:<span class='text-blue'>106</span>公分\n深:<span class='text-blue'>88</span>公分\n\n洗衣容量:<span class='text-blue'>17</span>公斤\n乾衣容量:<span class='text-blue'>15</span>公斤\n\n● 洗衣 17kg、烘衣 15kg\n● 搭載新型專利*¹智慧雙控面板\n● Heat Pump熱泵除濕式烘乾\n● nanoe™ X 護衣烘乾行程\n● AI ECONAVI智慧節能科技\n● IoT智慧健康家電\n● 溫水泡洗淨　● 香氛烘衣\n● 乾衣預備　● 3重過濾系統\n● 溫水槽洗淨\n<span class='text-red'>運費$2700</span>", 
         type: "",
         model: "NR-V1715SP乾衣機",
         barcode: ["4717523354072","4009839713620","2449400007024","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$100", "💰 收費$100"], // <--- 在這裡定義
         img: "國際冰箱/VS1715SP2.jpg", 
+        giftImg: "國際冰箱/A14.jpg",
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=7A7E5BF7-E981-4721-9926-2ABA4D20E623",
         taxUrl: "", 
         oldUrl: "",
@@ -1289,6 +1362,7 @@ smartRawData.push(
         barcode: ["4717523354065","4717879104451","2449401006026","2449401002028"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/V150SW.jpg", 
+        giftImg: "國際冰箱/A13.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -1306,6 +1380,7 @@ smartRawData.push(
         barcode: ["4717523354058","4717879104451","2449401006026","2449401002028"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/V170SW.jpg", 
+        giftImg: "國際冰箱/A13.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -1323,6 +1398,7 @@ smartRawData.push(
         barcode: ["4717523353990","4717879104451","2449401006026","2449401002028"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/V190RW.jpg", 
+        giftImg: "國際冰箱/A13.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -1340,6 +1416,7 @@ smartRawData.push(
         barcode: ["4717523353785","4717879104451","4710060009153","2449401006026","2449401002028"], 
         customLabels: ["📦 商品", "🎁 贈品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/V150MDH.jpg", 
+        giftImg: "國際冰箱/A12.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -1357,6 +1434,7 @@ smartRawData.push(
         barcode: ["4717523353761","4717879104451","4710060009153","2449401006026","2449401002028"], 
         customLabels: ["📦 商品", "🎁 贈品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/V170MDH1.jpg", 
+        giftImg: "國際冰箱/A12.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -1391,6 +1469,7 @@ smartRawData.push(
         barcode: ["4717523353983","4717879104451","4710060009153","2449401006026","2449401002028"], 
         customLabels: ["📦 商品", "🎁 贈品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/V190RDH.jpg", 
+        giftImg: "國際冰箱/A12.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -1408,6 +1487,7 @@ smartRawData.push(
         barcode: ["4717523354027","4009839713620","4710060009153","2449401006026","2449401002028"], 
         customLabels: ["📦 商品", "🎁 贈品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/V150RP1.jpg", 
+        giftImg: "國際冰箱/A8.jpg",
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=7A7E5BF7-E981-4721-9926-2ABA4D20E623",
         taxUrl: "", 
         oldUrl: "",
@@ -1425,6 +1505,7 @@ smartRawData.push(
         barcode: ["4717523354034","4009839713620","4710060009153","2449401006026","2449401002028"], 
         customLabels: ["📦 商品", "🎁 贈品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/V150RP2.jpg", 
+        giftImg: "國際冰箱/A8.jpg",
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=7A7E5BF7-E981-4721-9926-2ABA4D20E623",
         taxUrl: "", 
         oldUrl: "",
@@ -1442,6 +1523,7 @@ smartRawData.push(
         barcode: ["4717523354003","4009839713620","4710060009153","2449401006026","2449401002028"], 
         customLabels: ["📦 商品", "🎁 贈品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/V170RP1.jpg", 
+        giftImg: "國際冰箱/A8.jpg",
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=7A7E5BF7-E981-4721-9926-2ABA4D20E623",
         taxUrl: "", 
         oldUrl: "",
@@ -1459,6 +1541,7 @@ smartRawData.push(
         barcode: ["4717523354010","4009839713620","4710060009153","2449401006026","2449401002028"], 
         customLabels: ["📦 商品", "🎁 贈品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/V170RP2.jpg", 
+        giftImg: "國際冰箱/A8.jpg",
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=7A7E5BF7-E981-4721-9926-2ABA4D20E623",
         taxUrl: "", 
         oldUrl: "",
@@ -1476,6 +1559,7 @@ smartRawData.push(
         barcode: ["8887549851971","6939749620146","2449400006027","2449400002029"], 
         customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/C501PG.jpg", 
+        giftImg: "國際冰箱/A4.jpg",
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=CC49B685-0A02-4FA4-BB33-AA7FD72AB27C",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
