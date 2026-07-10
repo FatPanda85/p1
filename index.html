@@ -480,6 +480,13 @@ top-navbar {
         <div id="shippingContent"></div>
     </div>
 </div>
+<script>
+    // 這是最關鍵的宣告，如果沒有這行，下方的 JS 讀到 feeDatabase 就會掛掉
+    const rawData = [];
+    const smartRawData = [];
+    const storeDatabase = [];
+    const feeDatabase = {}; // <--- 這裡一定要初始化為空物件 {}，因為你在 stor.js 用到了 [storeName]
+</script>
 <script src="js/gif.js"></script>
 <script src="js/panasonic.js"></script>
 <script src="js/stor.js"></script>
