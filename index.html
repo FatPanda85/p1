@@ -657,7 +657,9 @@ if (g.specs && Array.isArray(g.specs)) {
             specsHtml += `
                 <div style="display: flex; gap: 4px; overflow: hidden;">
                     <span style="color: #666; white-space: nowrap;">${s.label}:</span>
-                    <span style="color: #007bff; font-weight: bold; word-break: break-all;">${s.value}</span>
+                    <span style="color: #007bff; font-weight: bold; word-break: break-all;">
+    ${s.value.replace(/\n/g, '<br>')}
+</span>
                 </div>
             `;
         }
