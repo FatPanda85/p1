@@ -11,7 +11,7 @@ smartRawData.push(
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "54.7公分" },
         { label: "高", value: "144.8公分" },
-        { label: "深", value: "65.6公分(含把手)" },
+        { label: "深", value: "65.6公分\n(含把手)" },
         { label: "包裝箱尺寸", value: "" },
         { label: "寬", value: "58公分" },
         { label: "高", value: "148.5公分" },
