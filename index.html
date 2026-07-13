@@ -651,9 +651,10 @@ if (g.specs && Array.isArray(g.specs)) {
         if (s.value === "" || s.label === "運費資訊") {
             let style = "grid-column: span 2; font-weight: bold; margin-top: 5px;";
             if (s.label === "運費資訊") {
-                style += " border-top: 1px solid #ddd; padding-top: 5px; color: #d9534f;";
-                specsHtml += `<div style="${style}">${s.value || s.label}</div>`;
-            } else {
+    style += " border-top: 1px solid #ddd; padding-top: 5px; color: #d9534f;";
+    // 改為同時顯示標籤與數值
+    specsHtml += `<div style="${style}">${s.label}: ${s.value}</div>`; 
+} else {
                 style += " color: #333; border-bottom: 1px solid #ddd; padding-bottom: 2px;";
                 specsHtml += `<div style="${style}">${s.label}</div>`;
             }
