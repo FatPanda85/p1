@@ -833,16 +833,31 @@ rawData.push(
                 barcode: ["2449401002028"], // 請換成正確條碼
                 img: "", qrUrl: "", taxUrl: "", oldUrl: "" 
             },
-            { 
-                cat: "聲寶", brand: "冰箱", 
-                name: "購買聲寶冷氣、冰箱、冷凍櫃、洗衣機、電視、除濕機、清淨機 \n登錄參加抽獎資格\n<span class='text-blue'每月可抽一次</span>\n<span class='text-red'>活動到9/30為止</span>\ ", 
-                desc: "聲寶90年義氣相挺喝咖啡活動\n登陸時間為即日起(已開始) ~ 2026/9/30\n<span class='text-blue'>上官網登錄可參加抽獎\n有機會抽中【Balzano】 義式半自動雙膠囊3 in 1咖啡機*1</span>\n</span>得獎公告時間如下:\n<span class='text-red'>　　　　抽獎時間　　公告時間\n第一波　5/29　　　　6/5\n第二波　6/30　　　　7/7\n第三波　7/31　　　　8/7\n第四波　8/31　　　　9/7\n第五波　10/1　　　　10/8</span>", 
-                barcode: "", 
-                img: "冷氣贈品/SAMPO000.jpg", 
-                qrUrl: "https://event.sampo.com.tw/2026q2-campaign", 
-                taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
-                oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
-            },
+{ 
+    cat: "聲寶", brand: "冰箱", 
+    name: "購買聲寶冷氣、冰箱、冷凍櫃、洗衣機、電視、除濕機、清淨機 \n登錄參加抽獎資格\n<span class='text-blue'>每月可抽一次</span>\n<span class='text-red'>活動到9/30為止</span>", 
+    // 使用一個完整的反引號包覆所有內容
+    desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.5;">
+            <p>聲寶90年義氣相挺喝咖啡活動</p>
+            <p>登陸時間為即日起(已開始) ~<br>2026/9/30</p>
+            <p style="color: blue;">上官網登錄可參加抽獎<br>有機會抽中【Balzano】 義式半自動雙膠囊3 in 1咖啡機*1</p>
+            <table style="width: 100%; text-align: center; margin-top: 10px; margin: 10px auto; border-collapse: collapse;">
+                <tr style="background:#eee;"><th>抽獎時間</th><th>公告時間</th></tr>
+                <tr><td style="color: red;">第一波5/29</td><td style="color: red;">第一波6/5</td></tr>
+                <tr><td style="color: red;">第二波6/30</td><td style="color: red;">第二波7/7</td></tr>
+                <tr><td style="color: red;">第三波7/31</td><td style="color: red;">第三波8/7</td></tr>
+                <tr><td style="color: red;">第四波8/31</td><td style="color: red;">第四波9/7</td></tr>
+                <tr><td style="color: red;">第五波10/1</td><td style="color: red;">第五波10/8</td></tr>
+            </table>
+        </div>
+    `,
+    barcode: "", 
+    img: "冷氣贈品/SAMPO000.jpg", 
+    qrUrl: "https://event.sampo.com.tw/2026q2-campaign", 
+    taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+    oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
+},
             { 
                 cat: "聲寶", brand: "冰箱", 
                 name: "買SR-F61D(S2)、SR-F61DV(Y7)\n<span class='text-blue'>40-105955-001</span>\n(贈)德國卡爾雲朵系列鑄鐵鍋(R65D1)*1\n第一個贈品\n第二個免運$10\n第三個收費$10", 
