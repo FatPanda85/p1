@@ -647,25 +647,32 @@ function renderGiftCards(matches, container) {
 let specsHtml = "";
 if (g.specs && Array.isArray(g.specs)) {
     // grid-template-columns: repeat(2, 1fr) 強制固定為 2 欄，比例 1:1
-    specsHtml = `<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 5px 15px; margin: 10px 0; font-size: 0.9rem;">`;
-    
-    g.specs.forEach(s => {
-        if (s.value === "") {
-            // 標題列：設定 grid-column: span 2 讓它佔滿兩欄
-            specsHtml += `<div style="grid-column: span 2; font-weight: bold; color: #333; margin-top: 10px; border-bottom: 1px solid #ddd; padding-bottom: 2px;">${s.label}</div>`;
+specsHtml = `<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 5px 15px; margin: 10px 0; font-size: 0.9rem;">`;
+
+g.specs.forEach(s => {
+    // 如果是標題列 或 如果是運費項目，強制跨滿兩欄
+    if (s.value === "" || s.label === "運費資訊") {
+        let style = "grid-column: span 2; font-weight: bold; margin-top: 5px;";
+        
+        // 如果是運費，我們給它一點特別的樣式，讓它更顯眼
+        if (s.label === "運費資訊") {
+            style += " border-top: 1px solid #ddd; padding-top: 5px; color: #d9534f;"; // 紅色字體
         } else {
-            // 數據列：強制每個項目都在自己的格子裡，不會互相擠壓
-            specsHtml += `
-                <div style="display: flex; gap: 4px; overflow: hidden;">
-                    <span style="color: #666; white-space: nowrap;">${s.label}:</span>
-                    <span style="color: #007bff; font-weight: bold; word-break: break-all;">
-    ${s.value.replace(/\n/g, '<br>')}
-</span>
-                </div>
-            `;
+            style += " color: #333; border-bottom: 1px solid #ddd; padding-bottom: 2px;";
         }
-    });
-    specsHtml += `</div>`;
+        
+        specsHtml += `<div style="${style}">${s.label}: ${s.value}</div>`;
+    } else {
+        // 一般規格項目
+        specsHtml += `
+            <div style="display: flex; gap: 4px; overflow: hidden;">
+                <span style="color: #666; white-space: nowrap;">${s.label}:</span>
+                <span style="color: #007bff; font-weight: bold; word-break: break-all;">${s.value}</span>
+            </div>
+        `;
+    }
+});
+specsHtml += `</div>`;
 }
         // 3. 處理條碼按鈕 (barcodeBtns) - 整合了你原本的複雜邏輯
         let barcodeBtns = "";
