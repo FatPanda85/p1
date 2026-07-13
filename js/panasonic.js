@@ -11,7 +11,7 @@ smartRawData.push(
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "54.7公分" },
         { label: "高", value: "144.8公分" },
-        { label: "深", value: "65.6公分\n(含把手)" },
+        { label: "深", value: "65.6公分(含把手)" },
         { label: "包裝箱尺寸", value: "" },
         { label: "寬", value: "58公分" },
         { label: "高", value: "148.5公分" },
@@ -20,9 +20,24 @@ smartRawData.push(
         { label: "容量", value: "" },
         { label: "有效容積", value: "170L" },
         { label: "冷凍室", value: "170L" },
-        { label: "<span class='text-red'>運費</span>", value: "<span class='text-red'>$250</span>" }
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$250</span>" }
         ],
-        desc: "● 有效容積170L、年耗電量288度\n● 可選擇左/右開※\n● 冷凍/冷藏切換設計，多段溫度調控面板\n● 急速冷凍/急速冷藏/微凍結模式，四星級冷凍能力\n● 自動除霜\n● 高效變頻壓縮機、R600a環保冷媒\n● 頂層翻蓋設計、分層透明收納抽屜\n● 庫外LED顯示、省力式把手\n● 門未關警示音、鐵製防火板、防鼠咬彈簧設計", 
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 有效容積170L、年耗電量288度</div>
+        <div style="color: red; margin: 0;">※可選擇左/右開</div>
+        <div style="margin: 0; padding: 0;">
+            ● 冷凍/冷藏切換設計，多段溫度調控面板<br>
+            ● 急速冷凍/急速冷藏/微凍結模式，四星級冷凍能力<br>
+            ● 自動除霜<br>
+            ● 高效變頻壓縮機、R600a環保冷媒<br>
+            ● 頂層翻蓋設計、分層透明收納抽屜<br>
+            ● 庫外LED顯示、省力式把手<br>
+            ● 門未關警示音、鐵製防火板、防鼠咬彈簧設計
+        </div>
+        <div style="color: red; margin: 0; font-weight: bold;">運費$250</div>
+    </div>
+`,
         type: "gift",
         model: "NR-FZ175AV-S冷凍櫃",
         barcode: ["4717523710700","4715754026133","2449400006027","2449400002029"], 
@@ -40,7 +55,37 @@ smartRawData.push(
         brand: "國際", 
         spec: "直立式", 
         name: "\nNR-FZ255AV-S直立式冷凍櫃242L\n<span class='text-blue'>\n40-030050-001</span>\n原廠贈品\n2026.04.10~2026.08.19:\n<span class='text-blue'>40-122059-001</span>\n(贈)SP-2613陶瓷石紋碗*1", 
-        desc: "\n機器尺寸:\n寬:<span class='text-blue'>59.5</span>公分　高:<span class='text-blue'>172.2</span>公分\n深:<span class='text-blue'>67</span>公分(含把手)\n\n包裝箱尺寸:\n寬:<span class='text-blue'>65.7</span>公分　高:<span class='text-blue'>177.2</span>公分\n深:<span class='text-blue'>68.8</span>公分\n\n年耗電量(度):<span class='text-red'>300</span>\n容量:<span class='text-blue'>242</span>L\n冷凍室:<span class='text-blue'>242</span>L\n\n● 有效容積242L、年耗電量300度\n● 可選擇左/右開※\n● 冷凍/冷藏切換設計，多段溫度調控面板\n● 急速冷凍/急速冷藏/微凍結模式，四星級冷凍能力\n● 自動除霜\n● 高效變頻壓縮機、R600a環保冷媒\n● 頂層翻蓋設計、分層透明收納抽屜\n● 庫外LED顯示、省力式把手\n● 門未關警示音、鐵製防火板、防鼠咬彈簧設計\n<span class='text-red'>運費$250</span>", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "59.5公分" },
+        { label: "高", value: "172.2公分" },
+        { label: "深", value: "67公分(含把手)" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "65.7公分" },
+        { label: "高", value: "177.2公分" },
+        { label: "深", value: "68.8公分" },
+        { label: "年耗電(度)", value: "<span class='text-red'>300</span>" },
+        { label: "容量", value: "" },
+        { label: "有效容積", value: "242" },
+        { label: "冷凍室", value: "242" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$250</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 有效容積242L、年耗電量300度</div>
+        <div style="color: red; margin: 0;">※可選擇左/右開</div>
+        <div style="margin: 0; padding: 0;">
+            ● 冷凍/冷藏切換設計，多段溫度調控面板<br>
+            ● 急速冷凍/急速冷藏/微凍結模式，四星級冷凍能力<br>
+            ● 自動除霜<br>
+            ● 高效變頻壓縮機、R600a環保冷媒<br>
+            ● 頂層翻蓋設計、分層透明收納抽屜<br>
+            ● 庫外LED顯示、省力式把手<br>
+            ● 門未關警示音、鐵製防火板、防鼠咬彈簧設計
+        </div>
+        <div style="color: red; margin: 0; font-weight: bold;">運費$250</div>
+    </div>
+`,
         type: "gift",
         model: "NR-FZ255AV-S冷凍櫃",
         barcode: ["4717523710700","4715754026133","2449400006027","2449400002029"], 
