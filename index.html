@@ -643,37 +643,31 @@ function renderGiftCards(matches, container) {
         // 只有在 desc 需要替換 (如果 desc 內還有 \n 的話)
         let formattedDesc = g.desc ? g.desc.replace(/(\$\d+)/g, '<span class="price-red">$1</span>') : "";
         
-// 2. 處理規格表格 (specsHtml) - 強制兩欄，永不跑版
-let specsHtml = "";
-if (g.specs && Array.isArray(g.specs)) {
-    // grid-template-columns: repeat(2, 1fr) 強制固定為 2 欄，比例 1:1
-specsHtml = `<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 5px 15px; margin: 10px 0; font-size: 0.9rem;">`;
+// 2. 處理規格表格 (specsHtml)
+let specsHtml = '<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 5px 15px; margin: 10px 0; font-size: 0.9rem;">';
 
-g.specs.forEach(s => {
-    // 如果是標題列 或 如果是運費項目，強制跨滿兩欄
-    if (s.value === "" || s.label === "運費資訊") {
-        let style = "grid-column: span 2; font-weight: bold; margin-top: 5px;";
-        
-        // 如果是運費，我們給它一點特別的樣式，讓它更顯眼
-        if (s.label === "運費資訊") {
-            style += " border-top: 1px solid #ddd; padding-top: 5px; color: #d9534f;"; // 紅色字體
+if (g.specs && Array.isArray(g.specs)) {
+    g.specs.forEach(s => {
+        if (s.value === "" || s.label === "運費資訊") {
+            let style = "grid-column: span 2; font-weight: bold; margin-top: 5px;";
+            if (s.label === "運費資訊") {
+                style += " border-top: 1px solid #ddd; padding-top: 5px; color: #d9534f;";
+                specsHtml += `<div style="${style}">${s.value || s.label}</div>`;
+            } else {
+                style += " color: #333; border-bottom: 1px solid #ddd; padding-bottom: 2px;";
+                specsHtml += `<div style="${style}">${s.label}</div>`;
+            }
         } else {
-            style += " color: #333; border-bottom: 1px solid #ddd; padding-bottom: 2px;";
+            // 這裡使用單引號拼接字串，避免反引號在某些環境下的換行語法錯誤
+            specsHtml += '<div style="display: flex; gap: 4px; overflow: hidden;">' +
+                         '<span style="color: #666; white-space: nowrap;">' + s.label + ':</span>' +
+                         '<span style="color: #007bff; font-weight: bold; word-break: break-all;">' + (s.value ? s.value.toString().replace(/\n/g, '<br>') : '') + '</span>' +
+                         '</div>';
         }
-        
-        specsHtml += `<div style="${style}">${s.label}: ${s.value}</div>`;
-    } else {
-        // 一般規格項目
-        specsHtml += `
-            <div style="display: flex; gap: 4px; overflow: hidden;">
-                <span style="color: #666; white-space: nowrap;">${s.label}:</span>
-                <span style="color: #007bff; font-weight: bold; word-break: break-all;">${s.value}</span>
-            </div>
-        `;
-    }
-});
-specsHtml += `</div>`;
+    });
 }
+specsHtml += '</div>';
+
         // 3. 處理條碼按鈕 (barcodeBtns) - 整合了你原本的複雜邏輯
         let barcodeBtns = "";
         if (Array.isArray(g.barcode) && g.barcode.length > 0) {
