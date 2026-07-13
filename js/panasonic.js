@@ -28,14 +28,13 @@ smartRawData.push(
         <div style="color: red; margin: 0;">※可選擇左/右開</div>
         <div style="margin: 0; padding: 0;">
             ● 冷凍/冷藏切換設計，多段溫度調控面板<br>
-            ● 急速冷凍/急速冷藏/微凍結模式，四星級冷凍能力<br>
+            ● 急速冷凍/急速冷藏/微凍結模式<br>四星級冷凍能力<br>
             ● 自動除霜<br>
             ● 高效變頻壓縮機、R600a環保冷媒<br>
             ● 頂層翻蓋設計、分層透明收納抽屜<br>
             ● 庫外LED顯示、省力式把手<br>
             ● 門未關警示音、鐵製防火板、防鼠咬彈簧設計
         </div>
-        <div style="color: red; margin: 0; font-weight: bold;">運費$250</div>
     </div>
 `,
         type: "gift",
@@ -76,14 +75,13 @@ smartRawData.push(
         <div style="color: red; margin: 0;">※可選擇左/右開</div>
         <div style="margin: 0; padding: 0;">
             ● 冷凍/冷藏切換設計，多段溫度調控面板<br>
-            ● 急速冷凍/急速冷藏/微凍結模式，四星級冷凍能力<br>
+            ● 急速冷凍/急速冷藏/微凍結模式<br>四星級冷凍能力<br>
             ● 自動除霜<br>
             ● 高效變頻壓縮機、R600a環保冷媒<br>
             ● 頂層翻蓋設計、分層透明收納抽屜<br>
             ● 庫外LED顯示、省力式把手<br>
             ● 門未關警示音、鐵製防火板、防鼠咬彈簧設計
         </div>
-        <div style="color: red; margin: 0; font-weight: bold;">運費$250</div>
     </div>
 `,
         type: "gift",
