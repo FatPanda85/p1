@@ -637,25 +637,46 @@ function renderGiftCards(matches, container) {
         return; 
     }
     
-    // 這一行非常重要！沒有它，下面的程式會全部崩潰
     matches.forEach(g => {
+        // 1. 處理名稱與描述
         let formattedName = g.name.replace(/\n/g, '<br>').replace(/(\$\d+)/g, '<span class="price-red">$1</span>');
         let formattedDesc = g.desc ? g.desc.replace(/\n/g, '<br>').replace(/(\$\d+)/g, '<span class="price-red">$1</span>') : "";
         
+// 2. 處理規格表格 (specsHtml) - 強制兩欄，永不跑版
+let specsHtml = "";
+if (g.specs && Array.isArray(g.specs)) {
+    // grid-template-columns: repeat(2, 1fr) 強制固定為 2 欄，比例 1:1
+    specsHtml = `<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 5px 15px; margin: 10px 0; font-size: 0.9rem;">`;
+    
+    g.specs.forEach(s => {
+        if (s.value === "") {
+            // 標題列：設定 grid-column: span 2 讓它佔滿兩欄
+            specsHtml += `<div style="grid-column: span 2; font-weight: bold; color: #333; margin-top: 10px; border-bottom: 1px solid #ddd; padding-bottom: 2px;">${s.label}</div>`;
+        } else {
+            // 數據列：強制每個項目都在自己的格子裡，不會互相擠壓
+            specsHtml += `
+                <div style="display: flex; gap: 4px; overflow: hidden;">
+                    <span style="color: #666; white-space: nowrap;">${s.label}:</span>
+                    <span style="color: #007bff; font-weight: bold; word-break: break-all;">${s.value}</span>
+                </div>
+            `;
+        }
+    });
+    specsHtml += `</div>`;
+}
+        // 3. 處理條碼按鈕 (barcodeBtns) - 整合了你原本的複雜邏輯
         let barcodeBtns = "";
         if (Array.isArray(g.barcode) && g.barcode.length > 0) {
             g.barcode.forEach((code, i) => {
                 if (!code || code === "") return;
 
                 let label;
-                
-                // 1. 優先判斷資料庫有沒有自訂標籤 (customLabels)
+                // 優先使用自訂標籤
                 if (g.customLabels && g.customLabels[i]) {
                     label = g.customLabels[i];
                 } else {
-                    // 2. 如果沒有，才使用原本的預設判斷邏輯
+                    // 使用你原本的複雜判斷邏輯
                     label = `🛒 結帳條碼(${i+1})`;
-
                     if (g.cat === "DM尾牙") {
                         if (g.brand && g.brand.includes("電視")) {
                             const tvLabels = ["🎁 贈品", "➖ 品牌負載", "🎧 加碼贈品", "🚚 免運$10", "💰 收費$10"];
@@ -689,30 +710,27 @@ function renderGiftCards(matches, container) {
             });
         }
 
+        // 4. 最後渲染到畫面上
 targetContainer.innerHTML += `
             <div class="gift-card">
                 <div class="product-images" style="display:flex; flex-direction:column; gap:10px; align-items:center;">
                     ${g.img ? `<img src="${g.img}" class="gift-img" onclick="zoomImg('${g.img}')" onerror="this.src='https://via.placeholder.com/90?text=無圖片'">` : ''}
-                    
                     ${g.giftImg ? `<img src="${g.giftImg}" class="gift-img" style="width:60%; border:1px solid #eee; border-radius:8px; padding:5px;" onclick="zoomImg('${g.giftImg}')">` : ''}
                 </div>
-
                 <div class="gift-info">
-                    <h4><span style="color:var(--model-blue);">[${g.brand}-${g.cat}]</span> ${formattedName}</h4>
-                    <p>${formattedDesc}</p>
+                    <h4><span style="color:var(--model-blue);">[${g.brand}-${g.cat}]</span>${formattedName}</h4>
+                    <p>${formattedDesc}</p>${specsHtml}
                     <div class="action-btns">
-                        ${barcodeBtns}
-                    ${g.qrUrl ? `<button class="action-btn btn-activity" onclick="showQrCode('${g.qrUrl}','官方活動官網','請引導客人掃描前往登錄')">📱 活動</button>` : ''}
-                    ${g.taxUrl ? `<button class="action-btn btn-tax" onclick="showQrCode('${g.taxUrl}','貨物稅退稅申請','請掃描 QR Code 進入退稅頁面\\n申請貨物稅補助請準備以下資料:\\n1.發票　　　2.存摺\\n3.身分證　　4.保證書\\n※備註:請放在一起拍成一張照片上傳')">💰 退稅</button>` : ''}
-                    ${g.oldUrl ? `<button class="action-btn btn-old" onclick="showQrCode('${g.oldUrl}','節能舊機補助','請掃描 QR Code 進入補助頁面\\n申請舊機補助請準備以下資料:\\n1.發票　　　2.存摺　　　3.身分證\\n4.保證書　　5.電費單\\n6.回收單　　7.能源效率表')">♻️ 補助</button>` : ''}
-                        
+                        ${barcodeBtns}${g.qrUrl ? `<button class="action-btn btn-activity" onclick="showQrCode('${g.qrUrl}','官方活動官網','請引導客人掃描前往登錄')">📱 活動</button>` : ''}
+                        ${g.taxUrl ? `<button class="action-btn btn-tax" onclick="showQrCode('${g.taxUrl}','貨物稅退稅申請','請掃描 QR Code 進入退稅頁面\\n申請貨物稅補助請準備以下資料:\\n1.發票   2.存摺\\n3.身分證  4.保證書\\n※備註:請放在一起拍成一張照片上傳')">💰 退稅</button>` : ''}
+                        ${g.oldUrl ? `<button class="action-btn btn-old" onclick="showQrCode('${g.oldUrl}','節能舊機補助','請掃描 QR Code 進入補助頁面\\n申請舊機補助請準備以下資料:\\n1.發票   2.存摺   3.身分證\\n4.保證書  5.電費單\\n6.回收單  7.能源效率表')">♻️ 補助</button>` : ''}
                         ${g.catalogUrl ? `<button class="action-btn" style="background-color: #1e3a8a !important; color: white !important;" onclick="showInteractiveQr('${g.catalogUrl}','📖 原廠全本目錄','供客人現場掃描')">📖 全本目錄</button>` : ''}
                         ${g.productUrl ? `<button class="action-btn" style="background-color: #0369a1 !important; color: white !important;" onclick="showInteractiveQr('${g.productUrl}','🌐 此台商品介紹','供客人現場掃描')">🌐 單台介紹</button>` : ''}
                     </div>
                 </div>
             </div>`;
-    });
-}
+    }); // 這裡只需要一個閉合括號
+} // 這裡只需要一個閉合括號
 
 // 1. 條碼放大功能
 function zoomBarcode(code) {
