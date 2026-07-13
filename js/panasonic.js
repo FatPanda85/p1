@@ -3284,7 +3284,7 @@ smartRawData.push(
         ],
        desc: `
         <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
-        <div style="margin: 0; font-weight: bold;">n● 洗衣 15kg、烘衣 15kg</div>
+        <div style="margin: 0; font-weight: bold;">● 洗衣 15kg、烘衣 15kg</div>
         <div style="color: red; margin: 0;">● Heat Pump熱泵除濕式烘乾</div>
         <div style="margin: 0; padding: 0;">
            ● 搭載新型專利*¹智慧雙控面板<br>● nanoe™ X 護衣烘乾行程<br>● AI ECONAVI智慧節能科技<br>
@@ -3329,7 +3329,7 @@ smartRawData.push(
         ],
        desc: `
         <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
-        <div style="margin: 0; font-weight: bold;">n● 洗衣 15kg、烘衣 15kg</div>
+        <div style="margin: 0; font-weight: bold;">● 洗衣 15kg、烘衣 15kg</div>
         <div style="color: red; margin: 0;">● Heat Pump熱泵除濕式烘乾</div>
         <div style="margin: 0; padding: 0;">
            ● 搭載新型專利*¹智慧雙控面板<br>● nanoe™ X 護衣烘乾行程<br>● AI ECONAVI智慧節能科技<br>
@@ -3374,7 +3374,7 @@ smartRawData.push(
         ],
        desc: `
         <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
-        <div style="margin: 0; font-weight: bold;">n● 洗衣 17kg、烘衣 15kg</div>
+        <div style="margin: 0; font-weight: bold;">● 洗衣 17kg、烘衣 15kg</div>
         <div style="color: red; margin: 0;">● Heat Pump熱泵除濕式烘乾</div>
         <div style="margin: 0; padding: 0;">
            ● 搭載新型專利*¹智慧雙控面板<br>● nanoe™ X 護衣烘乾行程<br>● AI ECONAVI智慧節能科技<br>
@@ -3419,7 +3419,7 @@ smartRawData.push(
         ],
        desc: `
         <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
-        <div style="margin: 0; font-weight: bold;">n● 洗衣 17kg、烘衣 15kg</div>
+        <div style="margin: 0; font-weight: bold;">● 洗衣 17kg、烘衣 15kg</div>
         <div style="color: red; margin: 0;">● Heat Pump熱泵除濕式烘乾</div>
         <div style="margin: 0; padding: 0;">
            ● 搭載新型專利*¹智慧雙控面板<br>● nanoe™ X 護衣烘乾行程<br>● AI ECONAVI智慧節能科技<br>
@@ -3459,7 +3459,7 @@ smartRawData.push(
         ],
        desc: `
         <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
-        <div style="margin: 0; font-weight: bold;">n● 洗衣 15kg</div>
+        <div style="margin: 0; font-weight: bold;">● 洗衣 15kg</div>
         <div style="color: red; margin: 0;">● AI ECONAVI智慧節能科技</div>
         <div style="margin: 0; padding: 0;">
            ● 溫水泡洗淨   ● 溫水槽洗淨<br>● 靜音降噪設計　● 筒槽夜視燈<br>● 強化玻璃門 
@@ -3498,7 +3498,7 @@ smartRawData.push(
         ],
        desc: `
         <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
-        <div style="margin: 0; font-weight: bold;">n● 洗衣 17kg</div>
+        <div style="margin: 0; font-weight: bold;">● 洗衣 17kg</div>
         <div style="color: red; margin: 0;">● AI ECONAVI智慧節能科技</div>
         <div style="margin: 0; padding: 0;">
            ● 溫水泡洗淨   ● 溫水槽洗淨<br>● 靜音降噪設計　● 筒槽夜視燈<br>● 強化玻璃門 
@@ -3537,7 +3537,7 @@ smartRawData.push(
         ],
        desc: `
         <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
-        <div style="margin: 0; font-weight: bold;">n● 洗衣 19kg</div>
+        <div style="margin: 0; font-weight: bold;">● 洗衣 19kg</div>
         <div style="color: red; margin: 0;">● AI ECONAVI智慧節能科技</div>
         <div style="margin: 0; padding: 0;">
            ● 溫水泡洗淨   ● 溫水槽洗淨
@@ -3577,7 +3577,7 @@ smartRawData.push(
         ],
        desc: `
         <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
-        <div style="margin: 0; font-weight: bold;">n● 洗衣 15kg　● 乾衣 10kg</div>
+        <div style="margin: 0; font-weight: bold;">● 洗衣 15kg　● 乾衣 10kg</div>
         <div style="color: red; margin: 0;">● IoT智慧健康家電</div>
         <div style="margin: 0; padding: 0;">
            ● 洗劑量自動精準投入   ● 溫水泡洗淨<br>● nanoe™ X 健康科技   ● 雙效自動槽洗淨<br>● 溫水槽洗淨   ● 溫風循環烘衣<br>● ECONAVI智慧節能科技   ● 強化玻璃門
@@ -3618,7 +3618,7 @@ smartRawData.push(
         ],
        desc: `
         <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
-        <div style="margin: 0; font-weight: bold;">n● 洗衣 17kg　● 乾衣 10kg</div>
+        <div style="margin: 0; font-weight: bold;">● 洗衣 17kg　● 乾衣 10kg</div>
         <div style="color: red; margin: 0;">● IoT智慧健康家電</div>
         <div style="margin: 0; padding: 0;">
            ● 洗劑量自動精準投入   ● 溫水泡洗淨<br>● nanoe™ X 健康科技   ● 雙效自動槽洗淨<br>● 溫水槽洗淨   ● 溫風循環烘衣<br>● ECONAVI智慧節能科技   ● 強化玻璃門
@@ -3658,7 +3658,7 @@ smartRawData.push(
         ],
        desc: `
         <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
-        <div style="margin: 0; font-weight: bold;">n● 洗衣 17kg　● 乾衣 10kg</div>
+        <div style="margin: 0; font-weight: bold;">● 洗衣 17kg　● 乾衣 10kg</div>
         <div style="color: red; margin: 0;">● IoT智慧健康家電</div>
         <div style="margin: 0; padding: 0;">
            ● 洗劑量自動精準投入   ● 溫水泡洗淨<br>● nanoe™ X 健康科技   ● 雙效自動槽洗淨<br>● 溫水槽洗淨   ● 溫風循環烘衣<br>● ECONAVI智慧節能科技   ● 強化玻璃門
@@ -3697,7 +3697,7 @@ smartRawData.push(
         ],
        desc: `
         <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
-        <div style="margin: 0; font-weight: bold;">n● 洗衣 19kg　● 乾衣 11kg</div>
+        <div style="margin: 0; font-weight: bold;">● 洗衣 19kg　● 乾衣 11kg</div>
         <div style="color: red; margin: 0;">● IoT智慧健康家電</div>
         <div style="margin: 0; padding: 0;">
            ● 洗劑量自動精準投入   ● 溫水泡洗淨<br>● nanoe™ X 健康科技   ● 雙效自動槽洗淨<br>● 溫水槽洗淨   ● 溫風循環烘衣<br>● ECONAVI智慧節能科技   ● 筒窗．膠圈清潔
@@ -3737,7 +3737,7 @@ smartRawData.push(
         ],
        desc: `
         <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
-        <div style="margin: 0; font-weight: bold;">n● 洗衣 15kg　● 乾衣 10kg</div>
+        <div style="margin: 0; font-weight: bold;">● 洗衣 15kg　● 乾衣 10kg</div>
         <div style="color: red; margin: 0;">● 熱泵除濕式烘乾Heat Pump</div>
         <div style="margin: 0; padding: 0;">
            ● 洗劑量自動精準投入   ● IoT智慧健康家電<br>● nanoe™ X 健康科技   ● 雙效自動槽洗淨<br>● 溫水槽洗淨   ● ECONAVI智慧節能科技<br>● 一鍵喚醒 觸控面板   ● 筒窗．膠圈清潔
@@ -3777,7 +3777,7 @@ smartRawData.push(
         ],
        desc: `
         <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
-        <div style="margin: 0; font-weight: bold;">n● 洗衣 15kg　● 乾衣 10kg</div>
+        <div style="margin: 0; font-weight: bold;">● 洗衣 15kg　● 乾衣 10kg</div>
         <div style="color: red; margin: 0;">● 熱泵除濕式烘乾Heat Pump</div>
         <div style="margin: 0; padding: 0;">
            ● 洗劑量自動精準投入   ● IoT智慧健康家電<br>● nanoe™ X 健康科技   ● 雙效自動槽洗淨<br>● 溫水槽洗淨   ● ECONAVI智慧節能科技<br>● 一鍵喚醒 觸控面板   ● 筒窗．膠圈清潔
@@ -3817,7 +3817,7 @@ smartRawData.push(
         ],
        desc: `
         <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
-        <div style="margin: 0; font-weight: bold;">n● 洗衣 17kg　● 乾衣 10kg</div>
+        <div style="margin: 0; font-weight: bold;">● 洗衣 17kg　● 乾衣 10kg</div>
         <div style="color: red; margin: 0;">● 熱泵除濕式烘乾Heat Pump</div>
         <div style="margin: 0; padding: 0;">
            ● 洗劑量自動精準投入   ● IoT智慧健康家電<br>● nanoe™ X 健康科技   ● 雙效自動槽洗淨<br>● 溫水槽洗淨   ● ECONAVI智慧節能科技<br>● 一鍵喚醒 觸控面板   ● 筒窗．膠圈清潔
@@ -3857,7 +3857,7 @@ smartRawData.push(
         ],
        desc: `
         <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
-        <div style="margin: 0; font-weight: bold;">n● 洗衣 17kg　● 乾衣 10kg</div>
+        <div style="margin: 0; font-weight: bold;">● 洗衣 17kg　● 乾衣 10kg</div>
         <div style="color: red; margin: 0;">● 熱泵除濕式烘乾Heat Pump</div>
         <div style="margin: 0; padding: 0;">
            ● 洗劑量自動精準投入   ● IoT智慧健康家電<br>● nanoe™ X 健康科技   ● 雙效自動槽洗淨<br>● 溫水槽洗淨   ● ECONAVI智慧節能科技<br>● 一鍵喚醒 觸控面板   ● 筒窗．膠圈清潔
