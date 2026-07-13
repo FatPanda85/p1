@@ -835,14 +835,18 @@ rawData.push(
             },
 { 
     cat: "聲寶", brand: "冰箱", 
-    name: "購買聲寶冷氣、冰箱、冷凍櫃、洗衣機、電視、除濕機、清淨機 \n登錄參加抽獎資格\n<span class='text-blue'>每月可抽一次</span>\n<span class='text-red'>活動到9/30為止</span>", 
+    name: "購買聲寶冷氣、冰箱、冷凍櫃、洗衣機、電視、除濕機、清淨機 <br>登錄參加抽獎資格<br><span class='text-blue'>每月可抽一次</span><br><span class='text-red'>活動到9/30為止</span>", 
     // 使用一個完整的反引號包覆所有內容
-    desc: `
-        <div style="color: #666; font-size: 0.9rem; line-height: 1.5;">
-            <p>聲寶90年義氣相挺喝咖啡活動</p>
-            <p>登陸時間為即日起(已開始) ~<br>2026/9/30</p>
-            <p style="color: blue;">上官網登錄可參加抽獎<br>有機會抽中【Balzano】 義式半自動雙膠囊3 in 1咖啡機*1</p>
-            <table style="width: 100%; text-align: center; margin-top: 10px; margin: 10px auto; border-collapse: collapse;">
+    desc: `<div style="color: #666; font-size: 0.9rem; line-height: 1.4; padding: 0 10px;">
+        <!-- 改用 div 並設定 margin: 0，避免產生多餘間距 -->
+        <div style="margin: 0; font-weight: bold;">聲寶90年義氣相挺喝咖啡活動</div>
+        <div style="margin: 0;">登陸時間為即日起 ~<br> 2026/9/30</div>
+        <div style="color: blue; margin-top: 8px;">
+            上官網登錄可參加抽獎<br>
+            有機會抽中【Balzano】 義式半自動雙膠囊3 in 1咖啡機*1
+        </div>
+        
+        <table style="width: 100%; max-width: 400px; margin: 10px auto; text-align: center; border-collapse: collapse;">
                 <tr style="background:#eee;"><th>抽獎時間</th><th>公告時間</th></tr>
                 <tr><td style="color: red;">第一波5/29</td><td style="color: red;">第一波6/5</td></tr>
                 <tr><td style="color: red;">第二波6/30</td><td style="color: red;">第二波7/7</td></tr>
