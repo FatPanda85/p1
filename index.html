@@ -639,8 +639,9 @@ function renderGiftCards(matches, container) {
     
     matches.forEach(g => {
         // 1. 處理名稱與描述
-        let formattedName = g.name.replace(/\n/g, '<br>').replace(/(\$\d+)/g, '<span class="price-red">$1</span>');
-        let formattedDesc = g.desc ? g.desc.replace(/\n/g, '<br>').replace(/(\$\d+)/g, '<span class="price-red">$1</span>') : "";
+        let formattedName = g.name.replace(/(\$\d+)/g, '<span class="price-red">$1</span>');
+        // 只有在 desc 需要替換 (如果 desc 內還有 \n 的話)
+        let formattedDesc = g.desc ? g.desc.replace(/(\$\d+)/g, '<span class="price-red">$1</span>') : "";
         
 // 2. 處理規格表格 (specsHtml) - 強制兩欄，永不跑版
 let specsHtml = "";
