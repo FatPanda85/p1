@@ -462,7 +462,7 @@ rawData.push(
             // --- 家電資料 ---
                        { 
                 cat: "冷氣", brand: "大金", 
-                name: "一對一機型20 ~ 36現折<span class='text-red'>$2,000</span>\n一對一機型40 ~ 90現折<span class='text-red'>$3,000</span>\n一對二機型2MXM現折<span class='text-red'>$4,000</span>\n一對三、一對四機型3MXM,4MXM現折<span class='text-red'>$5,000</span>", 
+                name: "一對一機型20 ~ 36現折<span class='text-red'>$2,000</span><br>一對一機型40 ~ 90現折<span class='text-red'>$3,000</span><br>一對二機型2MXM現折<span class='text-red'>$4,000</span><br>一對三、一對四機型3MXM,4MXM現折<span class='text-red'>$5,000</span>", 
                 desc: "2026/3/1 ~ 2026/7/31\n金豪禮現折 ", 
                 barcode: "", img: "", qrUrl: "", 
                 taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
@@ -478,8 +478,8 @@ rawData.push(
             },
              { 
                 cat: "冷氣", brand: "國際", 
-                name: "4月1日起購買家用空調指定機種，現金回饋最高省12000元！", 
-                desc: "國際活動官網申請\n發票: 2026.4.01~2026.07.31\n登錄最晚至 2026.08.15\n<span class='text-red '>今年現金回饋只針對冷暖\n冷專和窗型無回饋金　請注意!!!!</span>\n現金回饋$8000機種:UX 超高效系列\n現金回饋$2000機種:VX極致旗艦系列，UX頂級旗艦系列，UX旗艦系列，UJ系列，一對多系列<span class='text-red '>*以室外機計算*</span>\n現金回饋$1000機種:UK．K標準系列", 
+                name: "<br>4月1日起購買家用空調指定機種<br>現金回饋最高省12000元！", 
+                desc: "國際活動官網申請<br>發票: 2026.4.01~2026.07.31\n登錄最晚至 2026.08.15\n<span class='text-red '>今年現金回饋只針對冷暖\n冷專和窗型無回饋金　請注意!!!!</span>\n現金回饋$8000機種:UX 超高效系列\n現金回饋$2000機種:VX極致旗艦系列，UX頂級旗艦系列，UX旗艦系列，UJ系列，一對多系列<span class='text-red '>*以室外機計算*</span>\n現金回饋$1000機種:UK．K標準系列", 
                 barcode: "", 
                 img: "冷氣贈品/2026.jpg",
                 qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=5D143BC7-EAFB-472D-865B-B3D088CAD790", 
@@ -507,7 +507,7 @@ rawData.push(
             },
                         { 
                 cat: "冷氣", brand: "日立", 
-                name: "日立冷氣月月抽百萬現金\n<span class='text-blue'>每個月都可以抽一次\n因此客人越早買，抽獎次數越多</span>", 
+                name: "<br>日立冷氣月月抽百萬現金<br><span class='text-blue'>每個月都可以抽一次<br>因此客人越早買，抽獎次數越多</span>", 
                 desc: "2026/4/1 ~ 2026/7/31\n購買日立冷氣分離、窗型、一對多可抽獎\n(一對多機種以室外機計算)\n有打統編不可申請\n<span class='text-red'>最晚登錄時間為:2026/08/06中午12點前</span>\n登錄資料:\n1.發票\n2.產品保證書(需在正本蓋印購買通路店章)\n3.於2026年 8月6日中午12點前登錄完成", 
                 barcode:  [""],
                 img: "冷氣贈品/H01.jpg",
@@ -535,7 +535,7 @@ rawData.push(
             },
             { 
                 cat: "冷氣", brand: "LG", 
-                name: "極智2.0、極淨2.0冷暖系列 \n<span class='text-blue'>就是今年的DHST系列</span>\n登陸贈好禮即享卷<span class='text-red'>$2,000元</span>\ ", 
+                name: "<br>極智2.0、極淨2.0冷暖系列 <br><span class='text-blue'>就是今年的DHST系列</span><br>登陸贈好禮即享卷<span class='text-red'>$2,000元</span>\ ", 
                 desc: "LG活動時間2026/2/1 ~ 5/31\n購買指定型號型號　登錄贈好禮即享卷\n登陸時間為2026/3/1 ~ 2026/6/30\n<span class='text-orange'>LG活贈品登錄活動為LG官方LIN\n請客人在自己的LIN申請\n因為即享卷會直接依照客人LIN的電話簡訊發放</span>", 
                 barcode: "", 
                 img: "冷氣贈品/LG2026.jpg", 
@@ -545,7 +545,7 @@ rawData.push(
             },
                         { 
                 cat: "冷氣", brand: "LG", 
-                name: "極效2.0冷暖系列 \n<span class='text-blue'>就是今年的DST系列</span>\n登陸贈好禮即享卷<span class='text-red'>$1,000元</span>\ ", 
+                name: "<br>極效2.0冷暖系列 <br><span class='text-blue'>就是今年的DST系列</span><br>登陸贈好禮即享卷<span class='text-red'>$1,000元</span>\ ", 
                 desc: "LG活動時間2026/2/1 ~ 5/31\n購買指定型號型號　登錄贈好禮即享卷\n登陸時間為2026/3/1 ~ 2026/6/30\n<span class='text-orange'>LG活贈品登錄活動為LG官方LIN\n請客人在自己的LIN申請\n因為即享卷會直接依照客人LIN的電話簡訊發放</span>", 
                 barcode: "", 
                 img: "冷氣贈品/LG2026.jpg", 
@@ -555,7 +555,7 @@ rawData.push(
             },
                                     { 
                 cat: "冷氣", brand: "LG", 
-                name: "一對多系列 \n登陸贈好禮即享卷<span class='text-red'>$2,500元</span>\ ", 
+                name: "<br>一對多系列 <br>登陸贈好禮即享卷<span class='text-red'>$2,500元</span>\ ", 
                 desc: "LG活動時間2026/2/1 ~ 5/31\n購買指定型號型號　登錄贈好禮即享卷\n登陸時間為2026/3/1 ~ 2026/6/30\n<span class='text-orange'>LG活贈品登錄活動為LG官方LIN\n請客人在自己的LIN申請\n因為即享卷會直接依照客人LIN的電話簡訊發放</span>", 
                 barcode: "", 
                 img: "冷氣贈品/LG2026.jpg", 
@@ -581,7 +581,7 @@ rawData.push(
             },
                         { 
                 cat: "冷氣", brand: "東元", 
-                name: "\n7/1-7/14\n會員專屬\n買東元全系列一對一變頻冷氣贈\n<span class='text-blue'>40-630051-001\n(贈)2026東元XA1628BRD\n16吋DC電扇*1</span>", 
+                name: "<br>7/1-7/14\n會員專屬<br>買東元全系列一對一變頻冷氣贈<br><span class='text-blue'>40-630051-001<br>(贈)2026東元XA1628BRD<br>16吋DC電扇*1</span>", 
                 desc: "<span class='text-red'>停產機種不送\n數量有限，送完為止</span>", 
                 type: "gift",
                 barcode: ["4718074412228"], // 請換成正確條碼
@@ -600,7 +600,7 @@ rawData.push(
             },
             { 
                 cat: "冷氣", brand: "聲寶", 
-    name: "購買聲寶冷氣、冰箱、冷凍櫃、洗衣機、電視、除濕機、清淨機 <br>登錄參加抽獎資格<br><span class='text-blue'>每月可抽一次</span><br><span class='text-red'>活動到9/30為止</span>", 
+    name: "<br>購買聲寶冷氣、冰箱、冷凍櫃、洗衣機、電視、除濕機、清淨機 <br>登錄參加抽獎資格<br><span class='text-blue'>每月可抽一次</span><br><span class='text-red'>活動到9/30為止</span>", 
     // 使用一個完整的反引號包覆所有內容
     desc: `<div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
         <div style="margin: 0; font-weight: bold;">聲寶90年義氣相挺喝咖啡活動</div>
@@ -643,7 +643,7 @@ rawData.push(
             },
             {
                 cat: "冷氣", brand: "富士通", 
-                name: "\n(贈)2026品諾DF-1609DR\n16吋直流四季DC扇 \n<span class='text-blue'>40-630007-001</span>", 
+                name: "<br>(贈)2026品諾DF-1609DR<br>16吋直流四季DC扇 <br><span class='text-blue'>40-630007-001</span>", 
                 desc: "活動時間2026/7/10 ~ 2026/7/19 \n 購買以下兩款冷氣才有送\n<span class='text-blue'>富士通AS/AOCG028KMTC 1-1變頻冷暖空調\n富士通AS/AOCG036KMTC 1-1變頻冷暖空調</span>\n即享好禮送\n<span class='text-red'>數量有限．送完為止</span>", 
                 type: "gift",
                 barcode: ["4710859912343"], 
@@ -654,7 +654,7 @@ rawData.push(
             },
             {
                 cat: "冷氣", brand: "富士通", 
-                name: "富士通UTY-HACT1家用APP控制器 \n<span class='text-blue'>40-630002-001</span>", 
+                name: "<br>富士通UTY-HACT1家用APP控制器<br><span class='text-blue'>40-630002-001</span>", 
                 desc: "活動時間2026/1/1 ~ 2026/4/30 \n 只有KGTB系列和一對多室內機可送.請碰扣\nCMTD.KMTC.KBT這幾個系列都是選配沒有送\n提醒\n一對多室外機請碰好禮三選一\n一對多室內機請碰控制器", 
                 type: "gift",
                 barcode: ["4710829605862"], 
@@ -673,7 +673,7 @@ rawData.push(
             },
             {
                 cat: "冷氣", brand: "三菱重工", 
-                name: "(贈)2026 HX2421/02飛利浦音波牙刷 \n<span class='text-blue'>40-630014-001</span>", 
+                name: "<br>(贈)2026 HX2421/02飛利浦音波牙刷 <br><span class='text-blue'>40-630014-001</span>", 
                 desc: "2026/5/1 延長送贈品\n<span class='text-red'>注意後勤備註\n送完為主，請勿超訂</span> \n 三菱全系列1-1變頻分離冷氣享好禮三選一\n<span class='text-red'>一對一和一對多送的贈品不同</span>\n一對一贈品為電動牙刷/16吋電風扇/負離子吹風機", 
                 type: "gift",
                 barcode: ["8710103968795"], 
@@ -684,7 +684,7 @@ rawData.push(
             },
             {
                 cat: "冷氣", brand: "三菱重工", 
-                name: "(贈)2026 三菱 TD760TW負離子吹風機 \n<span class='text-blue'>40-630037-001</span>", 
+                name: "<br>(贈)2026 三菱 TD760TW負離子吹風機 <br><span class='text-blue'>40-630037-001</span>", 
                 desc: "2026/5/1 延長送贈品\n<span class='text-red'>注意後勤備註\n送完為主，請勿超訂</span> \n 三菱全系列1-1變頻分離冷氣享好禮三選一\n<span class='text-red'>一對一和一對多送的贈品不同</span>\n一對一贈品為電動牙刷/16吋電風扇/負離子吹風機", 
                 type: "gift",
                 barcode: ["4711216461535"], 
@@ -695,7 +695,7 @@ rawData.push(
             },
             {
                 cat: "冷氣", brand: "三菱重工", 
-                name: "(贈)2026 VESTA 16吋遙控DC風扇 \n<span class='text-blue'>40-630071-001</span>", 
+                name: "<br>(贈)2026 VESTA 16吋遙控DC風扇 <br><span class='text-blue'>40-630071-001</span>", 
                 desc: "2026/5/1 延長送贈品\n<span class='text-red'>注意後勤備註\n送完為主，請勿超訂</span>\n 三菱全系列1-1變頻分離冷氣享好禮三選一\n<span class='text-red'>一對一和一對多送的贈品不同</span>\n一對一贈品為電動牙刷/16吋電風扇/負離子吹風機", 
                 type: "gift",
                 barcode: ["4711216460538"], 
@@ -706,7 +706,7 @@ rawData.push(
             },
             {
                 cat: "冷氣", brand: "三菱重工", 
-                name: "(贈)2026 三菱 ES301-BK除氯蓮蓬頭 \n<span class='text-blue'>40-630029-001</span>", 
+                name: "<br>(贈)2026 三菱 ES301-BK除氯蓮蓬頭 <br><span class='text-blue'>40-630029-001</span>", 
                 desc: "2026/5/1 延長送贈品\n<span class='text-red'>注意後勤備註\n送完為主，請勿超訂</span> \n 三菱全系列一對多變頻分離冷氣享好禮三選一(以室外機數量計算)\n<span class='text-red'>一對一和一對多送的贈品不同</span>\n一對多贈品為護眼樂/象印電子鍋/除氯蓮蓬頭", 
                 type: "gift",
                 barcode: ["4962752008818"], 
@@ -717,7 +717,7 @@ rawData.push(
             },
             {
                 cat: "冷氣", brand: "三菱重工", 
-                name: "(贈)2026 三菱 OS-1251護眼樂Air 2 \n<span class='text-blue'>40-630032-001</span>", 
+                name: "<br>(贈)2026 三菱 OS-1251護眼樂Air 2 <br><span class='text-blue'>40-630032-001</span>", 
                 desc: "2026/5/1 延長送贈品\n<span class='text-red'>注意後勤備註\n送完為主，請勿超訂</span> \n 三菱全系列一對多變頻分離冷氣享好禮三選一(以室外機數量計算)\n<span class='text-red'>一對一和一對多送的贈品不同</span>\n一對多贈品為護眼樂/象印電子鍋/除氯蓮蓬頭", 
                 type: "gift",
                 barcode: ["8888657167480"], 
@@ -728,7 +728,7 @@ rawData.push(
             },
              {
                 cat: "冷氣", brand: "三菱重工", 
-                name: "(贈)2026 象印S-WAF10 6人份電子鍋 \n<span class='text-blue'>40-630074-001</span>", 
+                name: "<br>(贈)2026 象印S-WAF10 6人份電子鍋 <br><span class='text-blue'>40-630074-001</span>", 
                 desc: "2026/5/1 延長送贈品\n<span class='text-red'>注意後勤備註\n送完為主，請勿超訂</span> \n 三菱全系列一對多變頻分離冷氣享好禮三選一(以室外機數量計算)\n<span class='text-red'>一對一和一對多送的贈品不同</span>\n一對多贈品為護眼樂/象印電子鍋/除氯蓮蓬頭", 
                 type: "gift",
                  barcode: ["4711216460972"], 
@@ -739,7 +739,7 @@ rawData.push(
             },
                          {
                 cat: "冷氣", brand: "三菱重工", 
-                name: "(贈)2025airmon智慧遠端控制器 \n<span class='text-blue'>40-630072-001</span>", 
+                name: "<br>(贈)2025airmon智慧遠端控制器 <br><span class='text-blue'>40-630072-001</span>", 
                 desc: "活動時間2026/1/1 ~ 2026/4/30 \n <span class='text-red'>只有晴空冷暖有送控制器(以室外機數量計算)</span>", 
                 type: "gift",
                 barcode: ["4711216460644"], 
@@ -758,7 +758,7 @@ rawData.push(
             },
              {
                 cat: "日立藝思生活節", brand: "日立", 
-                name: "買指定機型冰箱送  \n <span class='text-blue'>40-004136-001</span> \n  (贈)康寧餐具輕瓷保溫/冰吸管杯SN-BZ850DP", 
+                name: "<br>買指定機型冰箱送<br><span class='text-blue'>40-004136-001</span><br>(贈)康寧餐具輕瓷保溫/冰吸管杯SN-BZ850DP", 
                 desc: "2026/4/1 ~ 2026/7/31 \n(申請截止日2026/8/31) \n 兩門變頻冰箱  \n <span class='text-blue'>HRTN5275MF、HRTN5255MF\nRVX429、RV469</span>\n這四款可贈送", 
                 type: "gift", 
                 img: "air.jpg", 
@@ -770,7 +770,7 @@ rawData.push(
             },
             {
                 cat: "日立藝思生活節", brand: "日立", 
-                name: "藝思即享卷-居家款或享樂款$6000  \n (需線上申請)", 
+                name: <br>"藝思即享卷-居家款或享樂款$6000<br>(需線上申請)", 
                 desc: "2026/4/1 ~ 2026/7/31 \n(申請截止日2026/8/31) \n 日本製旗艦冰箱  \n <span class='text-blue'>RZXC740KJ、RGG670TJ</span>", 
                 barcode: "", 
                 img: "日立冰洗/CQQ.jpg", // 請確保 GitHub 上檔案名為 ka10r.jpg (小寫)
@@ -780,7 +780,7 @@ rawData.push(
             },
             {
                 cat: "日立藝思生活節", brand: "日立", 
-                name: "藝思即享卷-居家款或享樂款$5000  \n (需線上申請)", 
+                name: "<br>藝思即享卷-居家款或享樂款$5000<br>(需線上申請)", 
                 desc: "2026/4/1 ~ 2026/7/31\n (申請截止日2026/8/31) \n 十字對開琉璃冰箱 \n<span class='text-blue'> HR4N9713DFSVA、HR4N9638ESVAD</span>", 
                 barcode: "", 
                 img: "日立冰洗/CQQ.jpg", // 請確保 GitHub 上檔案名為 ka10r.jpg (小寫)
@@ -790,7 +790,7 @@ rawData.push(
             },
             {
                 cat: "日立藝思生活節", brand: "日立", 
-                name: "藝思即享卷-居家款或享樂款$3000  \n (需線上申請)", 
+                name: "<br>藝思即享卷-居家款或享樂款$3000<br>(需線上申請)", 
                 desc: "2026/4/1 ~ 2026/7/31 \n(申請截止日2026/8/31)\n 買日本製琉璃冰箱 \n <span class='text-blue'> RHW540RJ、RHW620RH</span> \n日本製鋼板冰箱\n<span class='text-blue'>RTSF62WJ、RHSF53NJ</span>\n日本製滾筒洗脫烘\n<span class='text-blue'>BDSX150JJ、BDSX150JJR \nBDSZ150KJ、BDSZ150KJR\nBDSG120JJ、BDSX120HJ\nBDSX120HJR、BDSX115FJ\nBDSX115FJR</span>\n 過熱水蒸氣烘烤微波爐 \n<span class='text-blue'> MROBK5000AT</span>", 
                 barcode: "", 
                 img: "日立冰洗/CQQ.jpg", // 請確保 GitHub 上檔案名為 ka10r.jpg (小寫)
@@ -800,7 +800,7 @@ rawData.push(
             },
             {
                 cat: "日立藝思生活節", brand: "日立", 
-                name: "藝思即享卷-居家款或享樂款$2000  \n (需線上申請)", 
+                name: "<br>藝思即享卷-居家款或享樂款$2000<br>(需線上申請)", 
                 desc: "2026/4/1 ~ 2026/7/31 \n(申請截止日2026/8/31)\n買日本製鋼板冰箱 \n<span class='text-blue'> RHS54TJ、RHS49NJ </span>\n 兩門下冷凍冰箱 \n <span class='text-blue'>HRBN7415DD</span> \n 過熱水蒸氣烘烤微波爐 \n <span class='text-blue'>NROS800AT</span> ", 
                 barcode: "", 
                 img: "日立冰洗/CQQ.jpg", // 請確保 GitHub 上檔案名為 ka10r.jpg (小寫)
@@ -810,7 +810,7 @@ rawData.push(
             },
                         {
                 cat: "日立藝思生活節", brand: "日立", 
-                name: "藝思即享卷-居家款或享樂款$1000  \n (需線上申請)", 
+                name: "<br>藝思即享卷-居家款或享樂款$1000<br>(需線上申請)", 
                 desc: "2026/4/1 ~ 2026/7/31 \n(申請截止日2026/8/31)\n買兩門變頻鋼板冰箱 \n<span class='text-blue'> HRTN6443S、HRTN6408S</span> \n 直立式變頻洗衣機 \n <span class='text-blue'>LTL12MVW0T、LTLH3MVW0T \nLTL15MVW0T、SF200ZHV\nSF170ZHV</span>\n 熱泵式乾衣機 \n <span class='text-blue'>TD120XFVEM </span>\n獨立式洗碗機\n<span class='text-blue'>HDFF168CV</span>\n過熱水蒸氣烘烤微波爐\n<span class='text-blue'>MROW1000YT</span>", 
                 barcode: "", 
                 img: "日立冰洗/CQQ.jpg", // 請確保 GitHub 上檔案名為 ka10r.jpg (小寫)
@@ -852,7 +852,7 @@ rawData.push(
             },
 { 
     cat: "聲寶", brand: "冰箱", 
-    name: "購買聲寶冷氣、冰箱、冷凍櫃、洗衣機、電視、除濕機、清淨機 <br>登錄參加抽獎資格<br><span class='text-blue'>每月可抽一次</span><br><span class='text-red'>活動到9/30為止</span>", 
+    name: "<br>購買聲寶冷氣、冰箱、冷凍櫃、洗衣機、電視、除濕機、清淨機 <br>登錄參加抽獎資格<br><span class='text-blue'>每月可抽一次</span><br><span class='text-red'>活動到9/30為止</span>", 
     // 使用一個完整的反引號包覆所有內容
     desc: `<div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
         <div style="margin: 0; font-weight: bold;">聲寶90年義氣相挺喝咖啡活動</div>
@@ -879,7 +879,7 @@ rawData.push(
 },
             { 
                 cat: "聲寶", brand: "冰箱", 
-                name: "買SR-F61D(S2)、SR-F61DV(Y7)\n<span class='text-blue'>40-105955-001</span>\n(贈)德國卡爾雲朵系列鑄鐵鍋(R65D1)*1\n第一個贈品\n第二個免運$10\n第三個收費$10", 
+                name: "<br>買SR-F61D(S2)、SR-F61DV(Y7)<br><span class='text-blue'>40-105955-001</span><br>(贈)德國卡爾雲朵系列鑄鐵鍋(R65D1)*1", 
                 desc: "<span class='text-red '>2026/05/08 ~ 2026/08/10 </span> \n100公升以下$200\n101-199公升$250\n200-299公升$300\n300-399公升$450\n400-499公升$500\n600公升以上$900\n對開冰箱$1200\nLG敲敲看冰箱$1500\n電子衣櫥$600\n1.拆大門/室內門/過窗$200\n2.拆冰箱門$1500/門\n3.冰箱過扶手$300\n4.對開冰箱過扶手$500", 
                 barcode: ["4711420206205", "2449400006027", "2449400002029"], 
                customLabels: ["🎁 贈品",  "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
@@ -890,7 +890,7 @@ rawData.push(
             },
             { 
                 cat: "聲寶", brand: "冰箱", 
-                name: "買SR-F42D(Y2)、SR-B46D(R6)\nSR-C48D(S1)、SR-C48DV(Y1)\nSR-B53DV、SR-C53GDV(Y3)\nSR-C48GDV(P2)\n<span class='text-blue'>40-011054-001</span>\n(贈)聲寶旅行茶具8件套(R65C2)*1\n第一個贈品\n第二個免運$10\n第三個收費$10", 
+                name: "<br>買SR-F42D(Y2)、SR-B46D(R6)<br>SR-C48D(S1)、SR-C48DV(Y1)<br>SR-B53DV、SR-C53GDV(Y3)<br>SR-C48GDV(P2)<br><span class='text-blue'>40-011054-001</span><br>(贈)聲寶旅行茶具8件套(R65C2)*1", 
                 desc: "<span class='text-red '>2026/05/08 ~ 2026/08/10 </span>\n100公升以下$200\n101-199公升$250\n200-299公升$300\n300-399公升$450\n400-499公升$500\n500-599公升$700\n600公升以上$900\n對開冰箱$1200\nLG敲敲看冰箱$1500\n電子衣櫥$600\n1.拆大門/室內門/過窗$200\n2.拆冰箱門$1500/門\n3.冰箱過扶手$300\n4.對開冰箱過扶手$500", 
                 barcode: ["4713795351672", "2449400006027", "2449400002029"], 
                 img: "聲寶冰洗/SAMPO6.jpg", 
@@ -901,7 +901,7 @@ rawData.push(
             },
                 { 
                 cat: "聲寶", brand: "冰箱", 
-                name: "買SR-C37D(K5)、SR-C35GD\nSR-M25D\n<span class='text-blue'>40-002086-001</span>\n(贈)聲寶手提胖胖保溫杯(R65C1)*1\n第一個贈品\n第二個免運$10\n第三個收費$10", 
+                name: "<br>買SR-C37D(K5)、SR-C35GD<br>SR-M25D<br><span class='text-blue'>40-002086-001</span><br>(贈)聲寶手提胖胖保溫杯(R65C1)*1", 
                 desc: "<span class='text-red '>2026/05/08 ~ 2026/08/10 </span> \n100公升以下$200\n101-199公升$250\n200-299公升$300\n300-399公升$450\n400-499公升$500\n500-599公升$700\n600公升以上$900\n對開冰箱$1200\nLG敲敲看冰箱$1500\n電子衣櫥$600\n1.拆大門/室內門/過窗$200\n2.拆冰箱門$1500/門\n3.冰箱過扶手$300\n4.對開冰箱過扶手$500", 
                 barcode: ["4711720897479", "2449400006027", "2449400002029"], 
                customLabels: ["🎁 贈品",  "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
@@ -912,7 +912,7 @@ rawData.push(
             },
 { 
     cat: "聲寶", brand: "洗衣機", 
-    name: "購買聲寶冷氣、冰箱、冷凍櫃、洗衣機、電視、除濕機、清淨機 <br>登錄參加抽獎資格<br><span class='text-blue'>每月可抽一次</span><br><span class='text-red'>活動到9/30為止</span>", 
+    name: "<br>購買聲寶冷氣、冰箱、冷凍櫃、洗衣機、電視、除濕機、清淨機 <br>登錄參加抽獎資格<br><span class='text-blue'>每月可抽一次</span><br><span class='text-red'>活動到9/30為止</span>", 
     // 使用一個完整的反引號包覆所有內容
     desc: `<div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
         <div style="margin: 0; font-weight: bold;">聲寶90年義氣相挺喝咖啡活動</div>
@@ -939,7 +939,7 @@ rawData.push(
 },
              { 
                 cat: "聲寶", brand: "洗衣機", 
-                name: "買ES-P19DAS(S1)\n<span class='text-blue'>40-105955-001</span>\n(贈)德國卡爾雲朵系列鑄鐵鍋(R65D1)*1\n第一個贈品\n第二個免運$10\n第三個收費$10", 
+                name: "<br>買ES-P19DAS(S1)<br><span class='text-blue'>40-105955-001</span><br>(贈)德國卡爾雲朵系列鑄鐵鍋(R65D1)*1", 
                 desc: "<span class='text-red '>2026/05/08 ~ 2026/07/06</span>  \n12公斤(含)以下$300\n13-18公斤$400\n19公斤以上$500\nLG上乾下洗$2700\n滾筒洗衣機12公斤(含)以下$600\n滾筒洗衣機13-16公斤$700\n滾筒洗衣機17公斤以上$750\nLG下洗迷你洗衣機$300\n乾衣機10公斤$250\n乾衣機11公斤以上$300\n免曬衣乾衣機$500\n1.拆大門/室內門/過窗$200\n2.直立式洗衣機過扶手$300\n3.滾筒洗衣機過扶手$500\n國際上下洗運費$2000", 
                 barcode: ["4711420206205","2449401006026","2449401002028"], 
                customLabels: ["🎁 贈品",  "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
@@ -950,7 +950,7 @@ rawData.push(
             },
             { 
                 cat: "聲寶", brand: "洗衣機", 
-                name: "買ES-P17DPS(S1)、ES-P19DPS(S1)\nES-ND12DH、SD-10DH\n<span class='text-blue'>40-104983-001</span>\n(贈)聲寶星漾行旅包(W65C3)*1\n第一個贈品\n第二個免運$10\n第三個收費$10", 
+                name: "<br>買ES-P17DPS(S1)、ES-P19DPS(S1)<br>ES-ND12DH、SD-10DH<br><span class='text-blue'>40-104983-001</span><br>(贈)聲寶星漾行旅包(W65C3)*1", 
                 desc: "<span class='text-red '>2026/05/08 ~ 2026/07/06</span>  \n12公斤(含)以下$300\n13-18公斤$400\n19公斤以上$500\nLG上乾下洗$2700\n滾筒洗衣機12公斤(含)以下$600\n滾筒洗衣機13-16公斤$700\n滾筒洗衣機17公斤以上$750\nLG下洗迷你洗衣機$300\n乾衣機10公斤$250\n乾衣機11公斤以上$300\n免曬衣乾衣機$500\n1.拆大門/室內門/過窗$200\n2.直立式洗衣機過扶手$300\n3.滾筒洗衣機過扶手$500\n國際上下洗運費$2000", 
                 barcode: ["4711720897486","2449401006026","2449401002028"], 
                customLabels: ["🎁 贈品",  "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
@@ -961,7 +961,7 @@ rawData.push(
             },
              { 
                 cat: "聲寶", brand: "洗衣機", 
-                name: "買ES-B15D、ES-B17D\nES-P16DV(P1)、ES-L14V(G5)\nES-L16V(G5)\n<span class='text-blue'>40-103994-001</span>\n(贈)Lynx清奢旅行五件組(W65C1)*1\n第一個贈品\n第二個免運$10\n第三個收費$10", 
+                name: "<br>買ES-B15D、ES-B17D<br>ES-P16DV(P1)、ES-L14V(G5)<br>ES-L16V(G5)<br><span class='text-blue'>40-103994-001</span><br>(贈)Lynx清奢旅行五件組(W65C1)*1", 
                 desc: "<span class='text-red '>2026/05/08 ~ 2026/07/06</span>  \n12公斤(含)以下$300\n13-18公斤$400\n19公斤以上$500\nLG上乾下洗$2700\n滾筒洗衣機12公斤(含)以下$600\n滾筒洗衣機13-16公斤$700\n滾筒洗衣機17公斤以上$750\nLG下洗迷你洗衣機$300\n乾衣機10公斤$250\n乾衣機11公斤以上$300\n免曬衣乾衣機$500\n1.拆大門/室內門/過窗$200\n2.直立式洗衣機過扶手$300\n3.滾筒洗衣機過扶手$500\n國際上下洗運費$2000", 
                 barcode: ["4715862482340","2449401006026","2449401002028"], 
                customLabels: ["🎁 贈品",  "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
@@ -972,7 +972,7 @@ rawData.push(
             },
                         {
                 cat: "SONY電視原廠活動", brand: "SONY電視", 
-                name: "SONY夏季繽紛好時光\nSONY官網註冊申請即享卷", 
+                name: "<br>SONY夏季繽紛好時光<br>SONY官網註冊申請即享卷", 
                 desc: "發票時間:2026/3/9 ~ 2026/8/9  \n最晚註冊時間為2026/8/16\n<span class='text-blue'>如客人需延後送貨\n請洽SONY業務申請資料備註 </span>\n<span class='text-mblue'>買65XR90M2、85XR50\n65XR80M2、85XR30M2</span>\n這四款註冊送好禮即享卷$5000\n<span class='text-mblue'>買75XR70M2、55XR80M2\n65XR70M2、75XR50</span>\n這四款註冊送好禮即享卷$3000\n<span class='text-mblue'>買55XR80、65XR70\n65XR50、55XR50\n75S30、75XR30M2\n55XR70M2、50XR70M2\n65XR30M2</span>\n這九款註冊送好禮即享卷$2000\n<span class='text-mblue'>買65S31T</span>\n這款註冊送好禮即享卷$1000\n<span class='text-red'>請客人至SONY官網註冊會員並完成商品\n註冊後\n需按下*點我兌換*的按鈕才可以喔!\n兌換流程可點圖片有兌換流程說明</span>", 
                 barcode: [""], 
                 img: "SONY/SONY20261.jpg", // 請確保 GitHub 上檔案名為 ka10r.jpg (小寫)
