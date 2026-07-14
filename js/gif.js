@@ -770,7 +770,7 @@ rawData.push(
             },
             {
                 cat: "日立藝思生活節", brand: "日立", 
-                name: <br>"藝思即享卷-居家款或享樂款$6000<br>(需線上申請)", 
+                name: "<br>藝思即享卷-居家款或享樂款$6000<br>(需線上申請)", 
                 desc: "2026/4/1 ~ 2026/7/31 \n(申請截止日2026/8/31) \n 日本製旗艦冰箱  \n <span class='text-blue'>RZXC740KJ、RGG670TJ</span>", 
                 barcode: "", 
                 img: "日立冰洗/CQQ.jpg", // 請確保 GitHub 上檔案名為 ka10r.jpg (小寫)
