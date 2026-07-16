@@ -579,17 +579,6 @@ rawData.push(
                 barcode: ["2449405007012"], // 請換成正確條碼
                 img: "", qrUrl: "", taxUrl: "", oldUrl: "" 
             },
-                        { 
-                cat: "冷氣", brand: "東元", 
-                name: "<br>7/1-7/14\n會員專屬<br>買東元全系列一對一變頻冷氣贈<br><span class='text-blue'>40-630051-001<br>(贈)2026東元XA1628BRD<br>16吋DC電扇*1</span>", 
-                desc: "<span class='text-red'>停產機種不送\n數量有限，送完為止</span>", 
-                type: "gift",
-                barcode: ["4718074412228"], // 請換成正確條碼
-                img: "冷氣贈品/XA1628.jpg", 
-                qrUrl: "", 
-                taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
-                oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
-            },
             { 
                 cat: "冷氣", brand: "東元", 
                 name: "冷氣免運\n免基本安裝費\n$100", 
