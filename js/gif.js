@@ -579,6 +579,14 @@ rawData.push(
                 barcode: ["2449405007012"], // 請換成正確條碼
                 img: "", qrUrl: "", taxUrl: "", oldUrl: "" 
             },
+        { 
+                cat: "冷氣", brand: "東元", 
+                name: "<br>(贈)2026東元XA1628BRD<br>16吋DC風扇*1<br><span class='text-blue'>40-630051-001</span>", 
+                desc: "7/17-7/23購買東元全系列一對一變頻冷氣<br>即贈原廠好禮一台", 
+                type: "gift", 
+                barcode: ["4718074412228"], // 請換成正確條碼
+                img: "冷氣贈品/XA1628.jpg", qrUrl: "", taxUrl: "", oldUrl: "" 
+            },
  { 
                 cat: "冷氣", brand: "東元", 
                 name: "冷氣免運\n免基本安裝費\n$100", 
