@@ -489,10 +489,21 @@ rawData.push(
             {
                 cat: "冷氣", brand: "國際", 
                 name: "加碼贈品", 
-                desc: "7/4-7/31\n購買國際指定機型冷氣\n<span class='text-red'>一對一分離式UJ系列2.8KW(含)以下\n即享原廠好禮送</span>\n<span class='text-blue'>40-630019-001\n(贈)國際F-S14KM\n14吋DC電風扇*1</span>\n<span class='text-red'>停產機種不在此限\n數量有限，送完為止</span>", 
+                desc: "<br>7/4-7/31<br>購買國際指定機型冷氣<br><span class='text-red'>一對一分離式UJ系列2.8KW(含)以下<br>即享原廠好禮送</span><br><span class='text-blue'>40-630999-001<br>(贈)國際F-S14KM\n14吋DC電風扇0*1</span><br><span class='text-red'>停產機種不在此限<br>數量有限，送完為止</span>", 
                 type: "gift",
                 barcode: ["4717523402643"], 
                 img: "冷氣贈品/S14KM.jpg", 
+                qrUrl: "", 
+                taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+                oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
+            },
+            {
+                cat: "冷氣", brand: "國際", 
+                name: "加碼贈品", 
+                desc: "7/17-7/31\n購買國際變頻冷氣\n<span class='text-red'>一對一分離式UX系列3.6Kw~16.0Kw\n即享原廠好禮送</span>\n<span class='text-blue'>40-630019-001\n(贈)2026國際製麵包機SD-PD100*1</span>\n<span class='text-red'>停產機種不在此限\n數量有限，送完為止</span>", 
+                type: "gift",
+                barcode: ["4717523730135"], 
+                img: "冷氣贈品/PD100.jpg", 
                 qrUrl: "", 
                 taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
                 oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
@@ -959,6 +970,140 @@ rawData.push(
                 taxUrl: "", 
                 oldUrl: "" 
             },
+ { 
+             cat: "DM-7/29-9/1", 
+             brand: "電視", 
+             name: "<br><span class='text-red'>HERAM電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span><br>單筆購買55型(含)以上液晶顯示器或電視即贈<br> <span class='text-blue'>43-303001-001 blacklabel BL-ANC88 PLUS降躁式耳機*1</span>", 
+             desc: "電視32吋吋以下$300<br>電視33-49吋$450<br>電視50-54吋$55<br>電視55-59吋$600<br>電視60-74吋$700<br>電視75吋以上$1300", 
+             barcode: ["4719579893819", "2444042817017","4710631940694","2449440007022","2449440003024"], 
+             img: "DM活動贈品/ANC88.jpg", 
+               customLabels: ["🎁 壁掛", "💣 壁掛負扣","🎧 耳機", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+             qrUrl: "", 
+             taxUrl: "", 
+            oldUrl: "" 
+            }, 
+            { 
+    cat: "DM-7/29-9/1", 
+    brand: "電視", 
+    name: "<br><span class='text-red'>LG電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span><br>單筆購買55型(含)以上液晶顯示器或電視即贈<br> <span class='text-blue'>43-303001-001 blacklabel BL-ANC88 PLUS降躁式耳機*1</span>", 
+    desc: "電視32吋吋以下$300<br>電視33-49吋$450<br>電視50-54吋$55<br>電視55-59吋$600<br>電視60-74吋$700<br>電視75吋以上$1300", 
+    barcode: ["4719579893819", "2444042811015","4710631940694","2449440007022","2449440003024"], 
+    img: "DM活動贈品/ANC88.jpg", 
+    customLabels: ["🎁 壁掛", "💣 壁掛負扣","🎧 耳機", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+    qrUrl: "", 
+    taxUrl: "", 
+    oldUrl: "" 
+},
+{ 
+    cat: "DM-7/29-9/1", 
+    brand: "電視", 
+    name: "<br><span class='text-red'>SONY電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span><br>單筆購買55型(含)以上液晶顯示器或電視即贈<br> <span class='text-blue'>43-303001-001 blacklabel BL-ANC88 PLUS降躁式耳機*1</span>", 
+    desc: "電視32吋吋以下$300<br>電視33-49吋$450<br>電視50-54吋$55<br>電視55-59吋$600<br>電視60-74吋$700<br>電視75吋以上$1300", 
+    barcode: ["4719579893819", "2444042813019","4710631940694","2449440007022","2449440003024"], 
+    img: "DM活動贈品/ANC88.jpg", 
+    customLabels: ["🎁 壁掛", "💣 壁掛負扣","🎧 耳機", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+    qrUrl: "", 
+    taxUrl: "", 
+    oldUrl: "" 
+},
+{ 
+    cat: "DM-7/29-9/1", 
+    brand: "電視", 
+    name: "<br><span class='text-red'>SAMSUNG電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span><br>單筆購買55型(含)以上液晶顯示器或電視即贈<br> <span class='text-blue'>43-303001-001 blacklabel BL-ANC88 PLUS降躁式耳機*1</span>", 
+    desc: "電視32吋吋以下$300<br>電視33-49吋$450<br>電視50-54吋$55<br>電視55-59吋$600<br>電視60-74吋$700<br>電視75吋以上$1300", 
+    barcode: ["4719579893819", "2444042814016","4710631940694","2449440007022","2449440003024"], 
+    img: "DM活動贈品/ANC88.jpg", 
+    customLabels: ["🎁 壁掛", "💣 壁掛負扣","🎧 耳機", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+    qrUrl: "", 
+    taxUrl: "", 
+    oldUrl: "" 
+},
+{ 
+    cat: "DM-7/29-9/1", 
+    brand: "電視", 
+    name: "<br><span class='text-red'>PHILIPS電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span><br>單筆購買55型(含)以上液晶顯示器或電視即贈<br> <span class='text-blue'>43-303001-001 blacklabel BL-ANC88 PLUS降躁式耳機*1</span>", 
+    desc: "電視32吋吋以下$300<br>電視33-49吋$450<br>電視50-54吋$55<br>電視55-59吋$600<br>電視60-74吋$700<br>電視75吋以上$1300", 
+    barcode: ["4719579893819", "2444042815013","4710631940694","2449440007022","2449440003024"], 
+    img: "DM活動贈品/ANC88.jpg", 
+    customLabels: ["🎁 壁掛", "💣 壁掛負扣","🎧 耳機", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+    qrUrl: "", 
+    taxUrl: "", 
+    oldUrl: "" 
+},
+{ 
+    cat: "DM-7/29-9/1", 
+    brand: "電視", 
+    name: "<br><span class='text-red'>TOSHIBA電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span><br>單筆購買55型(含)以上液晶顯示器或電視即贈<br> <span class='text-blue'>43-303001-001 blacklabel BL-ANC88 PLUS降躁式耳機*1</span>", 
+    desc: "電視32吋吋以下$300<br>電視33-49吋$450<br>電視50-54吋$55<br>電視55-59吋$600<br>電視60-74吋$700<br>電視75吋以上$1300", 
+    barcode: ["4719579893819", "2444042998013","4710631940694","2449440007022","2449440003024"], 
+    img: "DM活動贈品/ANC88.jpg", 
+    customLabels: ["🎁 壁掛", "💣 壁掛負扣","🎧 耳機", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+    qrUrl: "", 
+    taxUrl: "", 
+    oldUrl: "" 
+},
+{ 
+    cat: "DM-7/29-9/1", 
+    brand: "電視", 
+    name: "<br><span class='text-red'>SANSUI電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span><br>單筆購買55型(含)以上液晶顯示器或電視即贈<br> <span class='text-blue'>43-303001-001 blacklabel BL-ANC88 PLUS降躁式耳機*1</span>", 
+    desc: "電視32吋吋以下$300<br>電視33-49吋$450<br>電視50-54吋$55<br>電視55-59吋$600<br>電視60-74吋$700<br>電視75吋以上$1300", 
+    barcode: ["4719579893819", "2444042818014","4710631940694","2449440007022","2449440003024"], 
+    img: "DM活動贈品/ANC88.jpg", 
+    customLabels: ["🎁 壁掛", "💣 壁掛負扣","🎧 耳機", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+    qrUrl: "", 
+    taxUrl: "", 
+    oldUrl: ""
+},
+{ 
+    cat: "DM-7/29-9/1", 
+    brand: "電視", 
+    name: "<br><span class='text-red'>國際電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span><br>單筆購買55型(含)以上液晶顯示器或電視即贈<br> <span class='text-blue'>43-303001-001 blacklabel BL-ANC88 PLUS降躁式耳機*1</span>", 
+    desc: "電視32吋吋以下$300<br>電視33-49吋$450<br>電視50-54吋$55<br>電視55-59吋$600<br>電視60-74吋$700<br>電視75吋以上$1300",  
+    barcode: ["4719579893819", "2444042885016","4710631940694","2449440007022","2449440003024"], 
+    img: "DM活動贈品/ANC88.jpg", 
+    customLabels: ["🎁 壁掛", "💣 壁掛負扣","🎧 耳機", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+    qrUrl: "", 
+    taxUrl: "", 
+    oldUrl: "" 
+},
+{ 
+    cat: "DM-7/29-9/1", 
+    brand: "電視", 
+    name: "<br><span class='text-red'>奇美電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span><br>單筆購買55型(含)以上液晶顯示器或電視即贈<br> <span class='text-blue'>43-303001-001 blacklabel BL-ANC88 PLUS降躁式耳機*1</span>", 
+    desc: "電視32吋吋以下$300<br>電視33-49吋$450<br>電視50-54吋$55<br>電視55-59吋$600<br>電視60-74吋$700<br>電視75吋以上$1300", 
+    barcode: ["4719579893819", "2444042942016","4710631940694","2449440007022","2449440003024"], 
+    img: "DM活動贈品/ANC88.jpg", 
+    customLabels: ["🎁 壁掛", "💣 壁掛負扣","🎧 耳機", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+    qrUrl: "", 
+    taxUrl: "", 
+    oldUrl: "" 
+},
+{ 
+    cat: "DM-7/29-9/1", 
+    brand: "電視", 
+    name: "<br><span class='text-red'>SHARP電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span><br>單筆購買55型(含)以上液晶顯示器或電視即贈<br> <span class='text-blue'>43-303001-001 blacklabel BL-ANC88 PLUS降躁式耳機*1</span>", 
+    desc: "電視32吋吋以下$300<br>電視33-49吋$450<br>電視50-54吋$55<br>電視55-59吋$600<br>電視60-74吋$700<br>電視75吋以上$1300",  
+    barcode: ["4719579893819", "2444042949015","4710631940694","2449440007022","2449440003024"], 
+    img: "DM活動贈品/ANC88.jpg", 
+    customLabels: ["🎁 壁掛", "💣 壁掛負扣","🎧 耳機", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+    qrUrl: "", 
+    taxUrl: "", 
+    oldUrl: "" 
+},
+{ 
+    cat: "DM-7/29-9/1", 
+    brand: "刮鬍刀", 
+    name: "<br>電鬍刀單品現折後滿額加碼送<br>(不累贈，不跨區贈送)<br>滿<span class='text-red'>$3,000~$4,999元</span>贈<br><span class='text-blue'>41-512929-001<br>RASTO半導體高速製冷LED手持風扇RK24一台</span><br>價值$690元<br>滿<span class='text-red'>$5,000~$9,999元</span>贈<br><span class='text-blue'>41-316004-001<br>RASTO不沾鍋五段溫控功能電烤盤AP7一台</span><br>價值<span class='text-red'>$1,250元</span><br>滿<span class='text-red'>$10,000~$14,999元</span>贈<br><span class='text-blue'>41-401138-001(粉紅)<br>41-401138-002(可可)<br>奇美自動電壓吹風機HD-32HFPO一台</span><br>價值<span class='text-red'>$3,988元</span><br>滿<span class='text-red'>$15,000~$17,999元</span>贈<br><span class='text-blue'>41-102003-001<br>MOVA羽量級防纏平躺洗地機M10一台</span><br>價值<span class='text-red'>$7,499元</span>", 
+    desc: "※第二重之滿額標準<br>以扣除第一重折扣後之金額判定<br>※大宗採購不適用<br>※活動詳情請見店內公告",  
+    barcode: ["4711100848220","4711100848336","4713170849480","4713170849541","6977728941370"], 
+    img: "DM活動贈品/PP.jpg", 
+    customLabels: ["🪭 手持風扇", "🪔 電烤盤", "🎁 吹風機(粉紅)", "🎁 吹風機(可可)", "🧹 洗地機"], // <--- 在這裡定義
+    qrUrl: "", 
+    taxUrl: "", 
+    oldUrl: "" 
+},
+
+
                         {
                 cat: "SONY電視原廠活動", brand: "SONY電視", 
                 name: "<br>SONY夏季繽紛好時光<br>SONY官網註冊申請即享卷", 
