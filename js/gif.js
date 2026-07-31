@@ -479,7 +479,7 @@ rawData.push(
              { 
                 cat: "冷氣", brand: "國際", 
                 name: "<br>4月1日起購買家用空調指定機種<br>現金回饋最高省12000元！", 
-                desc: "國際活動官網申請<br>發票: 2026.4.01~2026.07.31\n登錄最晚至 2026.08.15\n<span class='text-red '>今年現金回饋只針對冷暖\n冷專和窗型無回饋金　請注意!!!!</span>\n現金回饋$8000機種:UX 超高效系列\n現金回饋$2000機種:VX極致旗艦系列，UX頂級旗艦系列，UX旗艦系列，UJ系列，一對多系列<span class='text-red '>*以室外機計算*</span>\n現金回饋$1000機種:UK．K標準系列", 
+                desc: "國際活動官網申請<br>發票: 2026.4.01~2026.08.31\n登錄最晚至 2026.09.15\n<span class='text-red '>今年現金回饋只針對冷暖\n冷專和窗型無回饋金　請注意!!!!</span>\n現金回饋$8000機種:UX 超高效系列\n現金回饋$2000機種:VX極致旗艦系列，UX頂級旗艦系列，UX旗艦系列，UJ系列，一對多系列<span class='text-red '>*以室外機計算*</span>\n現金回饋$1000機種:UK．K標準系列", 
                 barcode: "", 
                 img: "冷氣贈品/2026.jpg",
                 qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=5D143BC7-EAFB-472D-865B-B3D088CAD790", 
@@ -489,7 +489,7 @@ rawData.push(
             {
                 cat: "冷氣", brand: "國際", 
                 name: "加碼贈品", 
-                desc: "<br>7/4-7/31<br>購買國際指定機型冷氣<br><span class='text-red'>一對一分離式UJ系列2.8KW(含)以下<br>即享原廠好禮送</span><br><span class='text-blue'>40-630999-001<br>(贈)國際F-S14KM\n14吋DC電風扇0*1</span><br><span class='text-red'>停產機種不在此限<br>數量有限，送完為止</span>", 
+                desc: "8/1-8/16<br>購買國際變頻冷氣<br><span class='text-red'>UJ28BHA2 1-1變頻冷暖<br>即享原廠好禮送</span><br><span class='text-blue'>40-630999-001<br>(贈)國際F-S14KM\n14吋DC電風扇0*1</span><br><span class='text-red'>停產機種不在此限<br>數量有限，送完為止</span>", 
                 type: "gift",
                 barcode: ["4717523402643"], 
                 img: "冷氣贈品/S14KM.jpg", 
@@ -500,10 +500,10 @@ rawData.push(
             {
                 cat: "冷氣", brand: "國際", 
                 name: "加碼贈品", 
-                desc: "7/17-7/31\n購買國際變頻冷氣\n<span class='text-red'>一對一分離式UX系列3.6Kw~16.0Kw\n即享原廠好禮送</span>\n<span class='text-blue'>40-630019-001\n(贈)2026國際製麵包機SD-PD100*1</span>\n<span class='text-red'>停產機種不在此限\n數量有限，送完為止</span>", 
+                desc: "8/1-8/16\n購買國際變頻冷氣\n<span class='text-red'>窗型系列\n即享原廠好禮送</span>\n<span class='text-blue'>40-630998-001\n(贈)2026國際保溫瓶組CW-SP2601*1</span>\n<span class='text-red'>停產機種不在此限\n數量有限，送完為止</span>", 
                 type: "gift",
-                barcode: ["4717523730135"], 
-                img: "冷氣贈品/PD100.jpg", 
+                barcode: ["4713112091113"], 
+                img: "冷氣贈品/SP2601.jpg", 
                 qrUrl: "", 
                 taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
                 oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
@@ -529,9 +529,10 @@ rawData.push(
                         { 
                 cat: "冷氣", brand: "日立", 
                 name: "原廠好禮", 
-                desc: "7/4 ~ 7/31\n購買日立指定系列變頻冷氣\nVP豪華系列一對一變頻分離式\n即享好禮送\n<span class='text-blue'>40-630084-001\n(贈)2026日立微波爐HMRM2003*1</span>\n<span class='text-red'>停產機種不在此限\n數量有限，送完為止</span>", 
-                barcode:  ["8850207800062"],
-                img: "冷氣贈品/HMRM.jpg",
+                desc: "8/1 ~ 8/16<br>購買日立指定系列變頻冷氣<br>頂級/豪華系列一對一變頻分離式<br>即享好禮二選一<br><span class='text-blue'>40-630084-001<br>(贈)2026日立微波爐HMRM2003*1<br>40-630921-001<br>(贈)2026日立哈根諾克HGN168DC電風扇*1</span><br><span class='text-red'>停產機種不在此限<br>數量有限，送完為止</span>", 
+                barcode:  ["8850207800062","4713780039202"],
+                 customLabels: ["🎁 微波爐", "🎁 電風扇"], // <--- 在這裡定義
+                img: "冷氣贈品/168DCC.jpg",
                 qrUrl: "", 
                 taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
                 oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
@@ -589,6 +590,17 @@ rawData.push(
                 type: "shipping", 
                 barcode: ["2449405007012"], // 請換成正確條碼
                 img: "", qrUrl: "", taxUrl: "", oldUrl: "" 
+            },
+            {
+                cat: "冷氣", brand: "東元", 
+                name: "加碼贈品", 
+                desc: "8/1-8/15\n購買東元GA5/GAT6系列一對一變頻冷氣\n<span class='text-red'>即享原廠好禮送</span>\n<span class='text-blue'>40-630051-001\n(贈)2026東元XA1628BRD 16吋DC風扇*1</span>\n<span class='text-red'>停產機種不在此限\n數量有限，送完為止</span>", 
+                type: "gift",
+                barcode: ["4718074412228"], 
+                img: "冷氣贈品/XA1628.jpg", 
+                qrUrl: "", 
+                taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+                oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
             },
  { 
                 cat: "冷氣", brand: "東元", 
@@ -671,84 +683,7 @@ rawData.push(
                 barcode: ["2449405007012"], // 請換成正確條碼
                 img: "", qrUrl: "", taxUrl: "", oldUrl: "" 
             },
-            {
-                cat: "冷氣", brand: "三菱重工", 
-                name: "<br>(贈)2026 HX2421/02飛利浦音波牙刷 <br><span class='text-blue'>40-630014-001</span>", 
-                desc: "2026/5/1 延長送贈品\n<span class='text-red'>注意後勤備註\n送完為主，請勿超訂</span> \n 三菱全系列1-1變頻分離冷氣享好禮三選一\n<span class='text-red'>一對一和一對多送的贈品不同</span>\n一對一贈品為電動牙刷/16吋電風扇/負離子吹風機", 
-                type: "gift",
-                barcode: ["8710103968795"], 
-                img: "冷氣贈品/2421.jpg", 
-                qrUrl: "", 
-                taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
-                oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
-            },
-            {
-                cat: "冷氣", brand: "三菱重工", 
-                name: "<br>(贈)2026 三菱 TD760TW負離子吹風機 <br><span class='text-blue'>40-630037-001</span>", 
-                desc: "2026/5/1 延長送贈品\n<span class='text-red'>注意後勤備註\n送完為主，請勿超訂</span> \n 三菱全系列1-1變頻分離冷氣享好禮三選一\n<span class='text-red'>一對一和一對多送的贈品不同</span>\n一對一贈品為電動牙刷/16吋電風扇/負離子吹風機", 
-                type: "gift",
-                barcode: ["4711216461535"], 
-                img: "冷氣贈品/TD760TW.jpg", 
-                qrUrl: "", 
-                taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
-                oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
-            },
-            {
-                cat: "冷氣", brand: "三菱重工", 
-                name: "<br>(贈)2026 VESTA 16吋遙控DC風扇 <br><span class='text-blue'>40-630071-001</span>", 
-                desc: "2026/5/1 延長送贈品\n<span class='text-red'>注意後勤備註\n送完為主，請勿超訂</span>\n 三菱全系列1-1變頻分離冷氣享好禮三選一\n<span class='text-red'>一對一和一對多送的贈品不同</span>\n一對一贈品為電動牙刷/16吋電風扇/負離子吹風機", 
-                type: "gift",
-                barcode: ["4711216460538"], 
-                img: "冷氣贈品/DC1601.jpg", 
-                qrUrl: "", 
-                taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
-                oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
-            },
-            {
-                cat: "冷氣", brand: "三菱重工", 
-                name: "<br>(贈)2026 三菱 ES301-BK除氯蓮蓬頭 <br><span class='text-blue'>40-630029-001</span>", 
-                desc: "2026/5/1 延長送贈品\n<span class='text-red'>注意後勤備註\n送完為主，請勿超訂</span> \n 三菱全系列一對多變頻分離冷氣享好禮三選一(以室外機數量計算)\n<span class='text-red'>一對一和一對多送的贈品不同</span>\n一對多贈品為護眼樂/象印電子鍋/除氯蓮蓬頭", 
-                type: "gift",
-                barcode: ["4962752008818"], 
-                img: "冷氣贈品/ES301.jpg", 
-                qrUrl: "", 
-                taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
-                oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
-            },
-            {
-                cat: "冷氣", brand: "三菱重工", 
-                name: "<br>(贈)2026 三菱 OS-1251護眼樂Air 2 <br><span class='text-blue'>40-630032-001</span>", 
-                desc: "2026/5/1 延長送贈品\n<span class='text-red'>注意後勤備註\n送完為主，請勿超訂</span> \n 三菱全系列一對多變頻分離冷氣享好禮三選一(以室外機數量計算)\n<span class='text-red'>一對一和一對多送的贈品不同</span>\n一對多贈品為護眼樂/象印電子鍋/除氯蓮蓬頭", 
-                type: "gift",
-                barcode: ["8888657167480"], 
-                img: "冷氣贈品/1251.jpg", 
-                qrUrl: "", 
-                taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
-                oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
-            },
-             {
-                cat: "冷氣", brand: "三菱重工", 
-                name: "<br>(贈)2026 象印S-WAF10 6人份電子鍋 <br><span class='text-blue'>40-630074-001</span>", 
-                desc: "2026/5/1 延長送贈品\n<span class='text-red'>注意後勤備註\n送完為主，請勿超訂</span> \n 三菱全系列一對多變頻分離冷氣享好禮三選一(以室外機數量計算)\n<span class='text-red'>一對一和一對多送的贈品不同</span>\n一對多贈品為護眼樂/象印電子鍋/除氯蓮蓬頭", 
-                type: "gift",
-                 barcode: ["4711216460972"], 
-                img: "冷氣贈品/WAF10.jpg", 
-                qrUrl: "", 
-                taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
-                oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
-            },
-                         {
-                cat: "冷氣", brand: "三菱重工", 
-                name: "<br>(贈)2025airmon智慧遠端控制器 <br><span class='text-blue'>40-630072-001</span>", 
-                desc: "活動時間2026/1/1 ~ 2026/4/30 \n <span class='text-red'>只有晴空冷暖有送控制器(以室外機數量計算)</span>", 
-                type: "gift",
-                barcode: ["4711216460644"], 
-                img: "冷氣贈品/air.jpg", 
-                qrUrl: "", 
-                taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
-                oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
-            },
-            { 
+             { 
                 cat: "冷氣", brand: "三菱重工", 
                 name: "冷氣免運\n免基本安裝費\n$100", 
                 desc: "一對一分離式冷氣:  \n 3.6KW以下(含)$3100元  3.7KW - 4.1KW $3500元 \n  4.2KW - 5.2KW $3900元   \n 5.3KW - 6.5KW $4500元\n6.6KW - 7.2KW $5000元  \n   7.3KW - 9.1KW $6000元  \n  9.2KW - 11.6KW $8000元  \n 11.7KW以上$9200元  \n  一對多分離式冷氣:   \n  超出10米以外(以室內機KW計算)   \n 家樂福補助10米(日立冷氣除外)$5000元   \n  窗型/直立式冷氣/移動式:  \n 3.2KW(含)以下$800元  \n   3.21KW - 5.3KW $1000元   \n  超過5.3KW $1200元  \n  只送不裝收費: \n 窗型/直立式 $200/台 \n  一對一分離 $300/組 \n一對二分離式 $400/組   \n 隨貨其他商品100/件", 
@@ -756,6 +691,7 @@ rawData.push(
                 barcode: ["2449405007012"], // 請換成正確條碼
                 img: "", qrUrl: "", taxUrl: "", oldUrl: "" 
             },
+
              {
                 cat: "日立藝思生活節", brand: "日立", 
                 name: "<br>買指定機型冰箱送<br><span class='text-blue'>40-004136-001</span><br>(贈)康寧餐具輕瓷保溫/冰吸管杯SN-BZ850DP", 
