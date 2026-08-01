@@ -683,6 +683,17 @@ rawData.push(
                 barcode: ["2449405007012"], // 請換成正確條碼
                 img: "", qrUrl: "", taxUrl: "", oldUrl: "" 
             },
+                                {
+                cat: "冷氣", brand: "三菱重工", 
+                name: "(贈)2025airmon智慧遠端控制器 \n<span class='text-blue'>40-630072-001</span>", 
+                desc: "活動時間2026/1/1 ~ 2026/12/31 \n <span class='text-red'>只有晴空冷暖有送控制器(以室外機數量計算)</span>", 
+                type: "gift",
+                barcode: ["4711216460644"], 
+                img: "air.jpg", 
+                qrUrl: "", 
+                taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+                oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
+            },
              { 
                 cat: "冷氣", brand: "三菱重工", 
                 name: "冷氣免運\n免基本安裝費\n$100", 
