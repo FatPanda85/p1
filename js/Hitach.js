@@ -146,7 +146,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "日立", 
         spec: "變頻直立式", 
-        name: "<br>日立SF170ZHVGG變頻溫水直立式洗衣機17kg><br><span class='text-red'>(泰國製)、(靜墨灰)</span><br><span class='text-blue'>40-104984-001</span>", 
+        name: "<br>日立SF170ZHVGG變頻溫水直立式洗衣機17kg<br><span class='text-red'>(泰國製)、(靜墨灰)</span><br><span class='text-blue'>40-104984-001</span>", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "64公分" },
@@ -193,7 +193,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "日立", 
         spec: "變頻直立式", 
-        name: "<br>日立SF200ZHVGG變頻溫水直立式洗衣機20kg><br><span class='text-red'>(泰國製)、(靜墨灰)</span><br><span class='text-blue'>40-105952-001</span>", 
+        name: "<br>日立SF200ZHVGG變頻溫水直立式洗衣機20kg<br><span class='text-red'>(泰國製)、(靜墨灰)</span><br><span class='text-blue'>40-105952-001</span>", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "64公分" },
