@@ -287,7 +287,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "日立", 
         spec: "熱泵洗脫烘滾筒", 
-        name: "<br>日立BDSX150JJRW變頻熱泵洗脫烘滾筒右開15kg<span class='text-red'>(日本製)、(雪霧白)</span><br><span class='text-blue'>40-110252-001</span><br>", 
+        name: "<br>日立BDSX150JJRW變頻熱泵洗脫烘滾筒右開15kg<br><span class='text-red'>(日本製)、(雪霧白)</span><br><span class='text-blue'>40-110252-001</span><br>", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "63公分(含排水管)" },
@@ -338,7 +338,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "日立", 
         spec: "熱泵洗脫烘滾筒", 
-        name: "<br>日立BDSX150JJW變頻熱泵洗脫烘滾筒左開15kg<span class='text-red'>(日本製)、(雪霧白)</span><br><span class='text-blue'>40-110252-001</span><br>", 
+        name: "<br>日立BDSX150JJW變頻熱泵洗脫烘滾筒左開15kg<br><span class='text-red'>(日本製)、(雪霧白)</span><br><span class='text-blue'>40-110252-001</span><br>", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "63公分(含排水管)" },
