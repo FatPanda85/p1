@@ -656,7 +656,7 @@ rawData.push(
             {
                 cat: "冷氣", brand: "富士通", 
                 name: "<br>(贈)2026品諾DF-1609DR<br>16吋直流四季DC扇 <br><span class='text-blue'>40-630007-001</span>", 
-                desc: "活動時間2026/7/10 ~ 2026/7/19 \n 購買以下兩款冷氣才有送\n<span class='text-blue'>富士通AS/AOCG028KMTC 1-1變頻冷暖空調\n富士通AS/AOCG036KMTC 1-1變頻冷暖空調</span>\n即享好禮送\n<span class='text-red'>數量有限．送完為止</span>", 
+                desc: "活動時間2026/8/19 ~ 2026/7/31 \n 購買以下兩款冷氣才有送\n<span class='text-blue'>富士通28KMTC\n富士通28CMTD</span>\n即享好禮送\n<span class='text-red'>數量有限．送完為止</span>", 
                 type: "gift",
                 barcode: ["4710859912343"], 
                 img: "冷氣贈品/1609DR.jpg", // 請確保 GitHub 上檔案名為 ka10r.jpg (小寫)
@@ -686,7 +686,7 @@ rawData.push(
                          {
                 cat: "冷氣", brand: "三菱重工", 
                 name: "<br>(贈)2025airmon智慧遠端控制器<br><span class='text-blue'>40-630072-001</span>", 
-                desc: "活動時間2026/1/1 ~ 2026/4/30 \n <span class='text-red'>只有晴空冷暖有送控制器<br>(以室外機數量計算)</span>", 
+                desc: "活動時間2026/1/1 ~ 2026/12/31 \n <span class='text-red'>只有晴空冷暖有送控制器<br>(以室外機數量計算)</span>", 
                 type: "gift",
                 barcode: ["4711216460644"], 
                 img: "冷氣贈品/air.jpg", 
@@ -1059,170 +1059,5 @@ rawData.push(
                 qrUrl: "https://event.sony.com.tw/2026/06/Summer/?cpint=web:dsp:twinfo:linklsp:26_6__image&utm_id=lsp&utm_source=sony_web_internal&utm_medium=sony_internal_banner&utm_campaign=SSO_Main&utm_content=26_6__image&utm_term=26_6_pe_sony_web_internal_sony_internal_banner_SSO_Main_", 
                 taxUrl: "", 
                 oldUrl: "" 
-            },
-            {
-                cat: "國際夏日有禮賞", brand: "日本製電冰箱無邊框鏡面/玻璃系列F651", 
-                name: "買NR-F651WX登錄送\n<span class='text-blue'>40-013998-001</span>\n(贈)SP-2608不鏽鋼雙鍋組*1\n<span class='text-blue'>$5000元節能回饋</span>\n第一個贈品\n第二個免運$10\n第三個收費$10", 
-                desc: "發票日期:\n<span class='text-blue'>2026.04.10~2026.08.19</span>\n登錄最晚時間:\n<span class='text-blue'>2026.09.02</span>\n100公升以下$200\n101-199公升$250\n200-299公升$300\n300-399公升$450\n400-499公升$500\n600公升以上$900\n對開冰箱$1200\nLG敲敲看冰箱$1500\n電子衣櫥$600\n1.拆大門/室內門/過窗$200\n2.拆冰箱門$1500/門\n3.冰箱過扶手$300\n4.對開冰箱過扶手$500", 
-                model: "NR-F651WX",
-                barcode: ["4009839713620", "2449400006027", "2449400002029"], 
-                img: "國際冰箱/A1.jpg", // 請確保 GitHub 上檔案名為 ka10r.jpg (小寫)
-                qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=CC49B685-0A02-4FA4-BB33-AA7FD72AB27C", 
-                taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
-                oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
-            },
-            {
-                cat: "國際夏日有禮賞", brand: "日本製電冰箱無邊框鏡面/玻璃系列(其他款)", 
-                name: "買NR-F601WX、NR-F551WX、NR-F521HX登錄送\n<span class='text-blue'>40-013998-001</span>\n(贈)SP-2608不鏽鋼雙鍋組*1\n<span class='text-blue'>$3000元節能回饋</span>\n第一個贈品\n第二個免運$10\n第三個收費$10", 
-                desc: "發票日期:\n<span class='text-blue'>2026.04.10~2026.08.19</span>\n登錄最晚時間:\n<span class='text-blue'>2026.09.02</span>\n100公升以下$200\n101-199公升$250\n200-299公升$300\n300-399公升$450\n400-499公升$500\n600公升以上$900\n對開冰箱$1200\nLG敲敲看冰箱$1500\n電子衣櫥$600\n1.拆大門/室內門/過窗$200\n2.拆冰箱門$1500/門\n3.冰箱過扶手$300\n4.對開冰箱過扶手$500", 
-                model: "NR-F601WX,NR-F551WX,NR-F521HX",
-                barcode: ["4009839713620", "2449400006027", "2449400002029"], 
-                img: "國際冰箱/A2.jpg", // 請確保 GitHub 上檔案名為 ka10r.jpg (小寫)
-                qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=CC49B685-0A02-4FA4-BB33-AA7FD72AB27C", 
-                taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
-                oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
-            },
-            {
-                cat: "國際夏日有禮賞", brand: "日本製電冰箱鋼板系列", 
-                name: "買NR-F601XT、NR-E507XT、NR-E417XT登錄送\n<span class='text-blue'>40-013998-001</span>\n(贈)SP-2608不鏽鋼雙鍋組*1\n<span class='text-blue'>$2000元節能回饋</span>\n第一個贈品\n第二個免運$10\n第三個收費$10", 
-                desc: "發票日期:\n<span class='text-blue'>2026.04.10~2026.08.19</span>\n登錄最晚時間:\n<span class='text-blue'>2026.09.02</span>\n100公升以下$200\n101-199公升$250\n200-299公升$300\n300-399公升$450\n400-499公升$500\n600公升以上$900\n對開冰箱$1200\nLG敲敲看冰箱$1500\n電子衣櫥$600\n1.拆大門/室內門/過窗$200\n2.拆冰箱門$1500/門\n3.冰箱過扶手$300\n4.對開冰箱過扶手$500", 
-                model: "NR-F601XT,NR-E507XT,NR-E417XT",
-                barcode: ["4009839713620", "2449400006027", "2449400002029"], 
-                img: "國際冰箱/A3.jpg", // 請確保 GitHub 上檔案名為 ka10r.jpg (小寫)
-                qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=CC49B685-0A02-4FA4-BB33-AA7FD72AB27C", 
-                taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
-                oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
-            },
-            {
-                cat: "國際夏日有禮賞", brand: "變頻電冰箱玻璃/鋼板系列(400L以上)(日本製除外)(XGS/XV系列)", 
-                name: "買NR-D615XGS、NR-C615XGS、NR-D505XGS、NR-C505XGS、NR-C454HG、NR-D615XV、NR-D505XV、NR-C615XV、NR-C505XV、NR-C454HV、NR-B656TV、NR-B586TV、NR-B496TV、NR-B426TV送\n<span class='text-blue'>40-004137-001\n(贈)SP-2610可微波不鏽鋼保鮮盒三入組*1</span>\n第一個贈品\n第二個免運$10\n第三個收費$10", 
-                desc: "發票日期:\n<span class='text-blue'>2026.04.10~2026.08.19</span>\n登錄最晚時間:\n<span class='text-blue'>2026.09.02</span>\n100公升以下$200\n101-199公升$250\n200-299公升$300\n300-399公升$450\n400-499公升$500\n600公升以上$900\n對開冰箱$1200\nLG敲敲看冰箱$1500\n電子衣櫥$600\n1.拆大門/室內門/過窗$200\n2.拆冰箱門$1500/門\n3.冰箱過扶手$300\n4.對開冰箱過扶手$500", 
-                model: "NR-D615XGS、NR-C615XGS、NR-D505XGS、NR-C505XGS、NR-C454HG、NR-D615XV、NR-D505XV、NR-C615XV、NR-C505XV、NR-C454HV、NR-B656TV、NR-B586TV、NR-B496TV、NR-B426TV",
-                barcode: ["6939749620146", "2449400006027", "2449400002029"], 
-                img: "國際冰箱/A5.jpg", // 請確保 GitHub 上檔案名為 ka10r.jpg (小寫)
-                qrUrl: "", 
-                taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
-                oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
-            },
-            {
-                cat: "國際夏日有禮賞", brand: "變頻電冰箱玻璃系列(PG系列)", 
-                name: "買NR-C501PG登錄送\n<span class='text-blue'>40-004137-001</span>\n(贈)SP-2610可微波不鏽鋼保鮮盒三入組*1\n<span class='text-blue'>$2000元節能回饋</span>\n第一個贈品\n第二個免運$10\n第三個收費$10", 
-                desc: "發票日期:\n<span class='text-blue'>2026.04.10~2026.08.19</span>\n登錄最晚時間:\n<span class='text-blue'>2026.09.02</span>\n100公升以下$200\n101-199公升$250\n200-299公升$300\n300-399公升$450\n400-499公升$500\n600公升以上$900\n對開冰箱$1200\nLG敲敲看冰箱$1500\n電子衣櫥$600\n1.拆大門/室內門/過窗$200\n2.拆冰箱門$1500/門\n3.冰箱過扶手$300\n4.對開冰箱過扶手$500", 
-                model: "NR-C501PG",
-                barcode: ["6939749620146", "2449400006027", "2449400002029"], 
-                img: "國際冰箱/A4.jpg", // 請確保 GitHub 上檔案名為 ka10r.jpg (小寫)
-                qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=CC49B685-0A02-4FA4-BB33-AA7FD72AB27C", 
-                taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
-                oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
-            },
-            {
-                cat: "國際夏日有禮賞", brand: "變頻電冰箱(400L以下)", 
-                name: "買NR-C384HV、NR-C384HVL、NR-B371TV、NR-B331VG、NR-B301VG送\n<span class='text-blue'>40-003064-001\n(贈)SP-2612陶瓷防燙隨手機三入組*1</span>\n第一個贈品\n第二個免運$10\n第三個收費$10", 
-                desc: "發票日期:\n<span class='text-blue'>2026.04.10~2026.08.19</span>\n登錄最晚時間:\n<span class='text-blue'>2026.09.02</span>\n100公升以下$200\n101-199公升$250\n200-299公升$300\n300-399公升$450\n400-499公升$500\n600公升以上$900\n對開冰箱$1200\nLG敲敲看冰箱$1500\n電子衣櫥$600\n1.拆大門/室內門/過窗$200\n2.拆冰箱門$1500/門\n3.冰箱過扶手$300\n4.對開冰箱過扶手$500", 
-                model: "NR-C384HV,NR-C384HVL,NR-B371TV,NR-B331VG,NR-B301VG",
-                barcode: ["6503533673207", "2449400006027", "2449400002029"], 
-                img: "國際冰箱/A6.jpg", // 請確保 GitHub 上檔案名為 ka10r.jpg (小寫)
-                qrUrl: "", 
-                taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
-                oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
-            },
-            {
-                cat: "國際夏日有禮賞", brand: "冷凍櫃", 
-                name: "買NR-FZ383AV-S、NR-FZ255AV-S、NR-FZ175AV-S送\n<span class='text-blue'>40-122059-001\n(贈)SP-2613陶瓷石紋碗*1</span>\n第一個贈品\n第二個免運$10\n第三個收費$10", 
-                desc: "發票日期:\n<span class='text-blue'>2026.04.10~2026.08.19</span>\n登錄最晚時間:\n<span class='text-blue'>2026.09.02</span>\n100公升以下$200\n101-199公升$250\n200-299公升$300\n300-399公升$450\n400-499公升$500\n600公升以上$900\n對開冰箱$1200\nLG敲敲看冰箱$1500\n電子衣櫥$600\n1.拆大門/室內門/過窗$200\n2.拆冰箱門$1500/門\n3.冰箱過扶手$300\n4.對開冰箱過扶手$500", 
-                model: "NR-FZ383AV-S、NR-FZ255AV-S、NR-FZ175AV-S",
-                barcode: ["4715754026133", "2449400006027", "2449400002029"], 
-                img: "國際冰箱/A7.jpg", // 請確保 GitHub 上檔案名為 ka10r.jpg (小寫)
-                qrUrl: "", 
-                taxUrl: "", 
-                oldUrl: "" 
-            },
-            {
-                cat: "國際夏日有禮賞", brand: "台灣製熱泵滾筒洗衣機", 
-                name: "買NA-V170RPH、NA-V150RPH\n登錄送\n<span class='text-blue'>40-013998-001</span>\n(贈)SP-2608不鏽鋼雙鍋組*1\n<span class='text-blue'>40-110176-001</span>\n(贈)南僑水晶洗劑SP-NA02*1\n<span class='text-blue'>$3000元節能回饋</span>\n第一跟第二是贈品\n第三個免運$10\n第四個收費$10", 
-                desc: "發票日期:\n<span class='text-blue'>2026.04.10~2026.08.19</span>\n登錄最晚時間:\n<span class='text-blue'>2026.09.02</span>\n12公斤(含)以下$300\n13-18公斤$400\n19公斤以上$500\nLG上乾下洗$2700\n滾筒洗衣機12公斤(含)以下$600\n滾筒洗衣機13-16公斤$700\n滾筒洗衣機17公斤以上$750\nLG下洗迷你洗衣機$300\n乾衣機10公斤$250\n乾衣機11公斤以上$300\n免曬衣乾衣機$500\n1.拆大門/室內門/過窗$200\n2.直立式洗衣機過扶手$300\n3.滾筒洗衣機過扶手$500\n國際上下洗運費$2000", 
-                model: "NA-V170RPH、NA-V150RPH",
-                barcode: ["4009839713620","4710060009153" ,"2449401006026", "2449401002028"], 
-                img: "國際冰箱/A8.jpg", // 請確保 GitHub 上檔案名為 ka10r.jpg (小寫)
-                qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=7A7E5BF7-E981-4721-9926-2ABA4D20E623", 
-                taxUrl: "", 
-                oldUrl: "" 
-            },
-             {
-                cat: "國際夏日有禮賞", brand: "AI智慧雙控洗烘衣機", 
-                name: "買NA-V1715SP、NA-V1515SP\n登錄送\n<span class='text-blue'>40-013998-001</span>\n(贈)SP-2608不鏽鋼雙鍋組*1\n<span class='text-blue'>$3000元節能回饋</span>\n第一個是贈品\n第二個免運$10\n第三個收費$10", 
-                desc: "發票日期:\n<span class='text-blue'>2026.04.10~2026.08.19</span>\n登錄最晚時間:\n<span class='text-blue'>2026.09.02</span>\n12公斤(含)以下$300\n13-18公斤$400\n19公斤以上$500\nLG上乾下洗$2700\n滾筒洗衣機12公斤(含)以下$600\n滾筒洗衣機13-16公斤$700\n滾筒洗衣機17公斤以上$750\nLG下洗迷你洗衣機$300\n乾衣機10公斤$250\n乾衣機11公斤以上$300\n免曬衣乾衣機$500\n1.拆大門/室內門/過窗$200\n2.直立式洗衣機過扶手$300\n3.滾筒洗衣機過扶手$500\n國際上下洗運費$2000", 
-                model: "NA-V1715SP、NA-V1515SP",
-                barcode: ["4009839713620","2449401006026","2449401002028"], 
-                img: "國際冰箱/A9.jpg", // 請確保 GitHub 上檔案名為 ka10r.jpg (小寫)
-                qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=7A7E5BF7-E981-4721-9926-2ABA4D20E623", 
-                taxUrl: "", 
-                oldUrl: "" 
-            },
-             {
-                cat: "國際夏日有禮賞", brand: "淨護完美洗烘衣機組", 
-                name: "買NA-VS120RW-B + NH-VS100HP-B(合購)\n登錄送\n<span class='text-blue'>40-013998-001</span>\n(贈)SP-2608不鏽鋼雙鍋組*1\n<span class='text-blue'>40-110176-001</span>\n(贈)南僑水晶洗劑SP-NA02*1\n<span class='text-blue'>40-103993-001</span>\n(贈)SP-2611強化餐盤八件組*1\n<span class='text-blue'>$3000元節能回饋</span>\n第一跟第二跟第三是贈品\n第四個免運$10\n第五個收費$10", 
-                desc: "發票日期:\n<span class='text-blue'>2026.04.10~2026.08.19</span>\n登錄最晚時間:\n<span class='text-blue'>2026.09.02</span>\n12公斤(含)以下$300\n13-18公斤$400\n19公斤以上$500\nLG上乾下洗$2700\n滾筒洗衣機12公斤(含)以下$600\n滾筒洗衣機13-16公斤$700\n滾筒洗衣機17公斤以上$750\nLG下洗迷你洗衣機$300\n乾衣機10公斤$250\n乾衣機11公斤以上$300\n免曬衣乾衣機$500\n1.拆大門/室內門/過窗$200\n2.直立式洗衣機過扶手$300\n3.滾筒洗衣機過扶手$500\n國際上下洗運費$2000", 
-                model: "NA-VS120RW-B、NH-VS100HP-B",
-                barcode: ["4009839713620","4710060009153","4717879104451","2449401006026","2449401002028"], 
-                img: "國際冰箱/A11.jpg", // 請確保 GitHub 上檔案名為 ka10r.jpg (小寫)
-                qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=E0211A45-24BA-4314-AB33-04EB946B0622", 
-                taxUrl: "", 
-                oldUrl: "" 
-            },
-            {
-                cat: "國際夏日有禮賞", brand: "熱泵除濕式乾衣機", 
-                name: "買NH-VS100HP-B送\n<span class='text-blue'>40-013998-001\n(贈)SP-2608不鏽鋼雙鍋組*1</span>\n第一個是贈品\n第二個免運$10\n第三個收費$10", 
-                desc: "發票日期:\n<span class='text-blue'>2026.04.10~2026.08.19</span>\n登錄最晚時間:\n<span class='text-blue'>2026.09.02</span>\n12公斤(含)以下$300\n13-18公斤$400\n19公斤以上$500\nLG上乾下洗$2700\n滾筒洗衣機12公斤(含)以下$600\n滾筒洗衣機13-16公斤$700\n滾筒洗衣機17公斤以上$750\nLG下洗迷你洗衣機$300\n乾衣機10公斤$250\n乾衣機11公斤以上$300\n免曬衣乾衣機$500\n1.拆大門/室內門/過窗$200\n2.直立式洗衣機過扶手$300\n3.滾筒洗衣機過扶手$500\n國際上下洗運費$2000", 
-                model: "NH-VS100HP-B",
-                barcode: ["4009839713620","2449401006026","2449401002028"], 
-                img: "國際冰箱/A10.jpg", // 請確保 GitHub 上檔案名為 ka10r.jpg (小寫)
-                qrUrl: "", 
-                taxUrl: "", 
-                oldUrl: "" 
-            },
-            {
-                cat: "國際夏日有禮賞", brand: "變頻溫水滾筒和直立洗衣機", 
-                name: "買NA-VS120RW-B、NA-V190RDH、NA-V170MDH、NA-V150MDH、NA-V220NMS、NA-V200NMS、NA-V190NM、NA-V190NMS、NA-V170NM、NA-V170NMS、NA-V150NM、NA-V150NMS送\n<span class='text-blue'>40-103993-001</span>\n(贈)SP-2611強化餐具八件組*1\n<span class='text-blue'>40-110176-001</span>\n(贈)南僑水晶洗劑SP-NA02*1\n第一跟第二是贈品\n第三個免運$10\n第四個收費$10", 
-                desc: "發票日期:\n<span class='text-blue'>2026.04.10~2026.08.19</span>\n登錄最晚時間:\n<span class='text-blue'>2026.09.02</span>\n12公斤(含)以下$300\n13-18公斤$400\n19公斤以上$500\nLG上乾下洗$2700\n滾筒洗衣機12公斤(含)以下$600\n滾筒洗衣機13-16公斤$700\n滾筒洗衣機17公斤以上$750\nLG下洗迷你洗衣機$300\n乾衣機10公斤$250\n乾衣機11公斤以上$300\n免曬衣乾衣機$500\n1.拆大門/室內門/過窗$200\n2.直立式洗衣機過扶手$300\n3.滾筒洗衣機過扶手$500\n國際上下洗運費$2000", 
-                model: "NA-VS120RW-B、NA-V190RDH、NA-V170MDH、NA-V150MDH、NA-V220NMS、NA-V200NMS、NA-V190NM、NA-V190NMS、NA-V170NM、NA-V170NMS、NA-V150NM、NA-V150NMS",
-                barcode: ["4717879104451","4710060009153","2449401006026","2449401002028"], 
-                img: "國際冰箱/A12.jpg", // 請確保 GitHub 上檔案名為 ka10r.jpg (小寫)
-                qrUrl: "", 
-                taxUrl: "", 
-                oldUrl: "" 
-            },
-            {
-                cat: "國際夏日有禮賞", brand: "乾衣機", 
-                name: "買NH-80RZ-W、NH-70G-L送\n<span class='text-blue'>40-122059-001\n(贈)SP-2613陶瓷石紋碗*1</span>\n第一個贈品\n第二個免運$10\n第三個收費$10", 
-                desc: "發票日期:\n<span class='text-blue'>2026.04.10~2026.08.19</span>\n登錄最晚時間:\n<span class='text-blue'>2026.09.02</span>\n12公斤(含)以下$300\n13-18公斤$400\n19公斤以上$500\nLG上乾下洗$2700\n滾筒洗衣機12公斤(含)以下$600\n滾筒洗衣機13-16公斤$700\n滾筒洗衣機17公斤以上$750\nLG下洗迷你洗衣機$300\n乾衣機10公斤$250\n乾衣機11公斤以上$300\n免曬衣乾衣機$500\n1.拆大門/室內門/過窗$200\n2.直立式洗衣機過扶手$300\n3.滾筒洗衣機過扶手$500\n國際上下洗運費$2000", 
-                model: "NH-80RZ-W、NH-70G-L",
-                barcode: ["4715754026133","2449401006026","2449401002028"], 
-                img: "國際冰箱/A7.jpg", // 請確保 GitHub 上檔案名為 ka10r.jpg (小寫)
-                qrUrl: "", 
-                taxUrl: "", 
-                oldUrl: "" 
-            },
-            {
-                cat: "國際夏日有禮賞", brand: "變頻滾筒洗衣機和變頻直立式洗衣機", 
-                name: "買NA-V190RW、NA-V170SW、NA-V150SW、NA-V190MT、NA-V170MT、NA-V150MT、NA-V130LB(S)、NA-V120LBS、NA-V110LB(S)送\n<span class='text-blue'>40-103993-001\n(贈)SP-2611強化餐具八件組*1</span>\n第一個是贈品\n第二個免運$10\n第三個收費$10", 
-                desc: "發票日期:\n<span class='text-blue'>2026.04.10~2026.08.19</span>\n登錄最晚時間:\n<span class='text-blue'>2026.09.02</span>\n12公斤(含)以下$300\n13-18公斤$400\n19公斤以上$500\nLG上乾下洗$2700\n滾筒洗衣機12公斤(含)以下$600\n滾筒洗衣機13-16公斤$700\n滾筒洗衣機17公斤以上$750\nLG下洗迷你洗衣機$300\n乾衣機10公斤$250\n乾衣機11公斤以上$300\n免曬衣乾衣機$500\n1.拆大門/室內門/過窗$200\n2.直立式洗衣機過扶手$300\n3.滾筒洗衣機過扶手$500\n國際上下洗運費$2000", 
-                model: "NA-V190RW、NA-V170SW、NA-V150SW、NA-V190MT、NA-V190MT(S)、NA-V170MT、NA-V170MT(S)、NA-V150MT、NA-V130LBS、NA-V130LB、NA-V120LB、NA-V120LBS、NA-V110LB、NA-V110LBS",
-                barcode: ["4717879104451","2449401006026","2449401002028"], 
-                img: "國際冰箱/A13.jpg", // 請確保 GitHub 上檔案名為 ka10r.jpg (小寫)
-                qrUrl: "", 
-                taxUrl: "", 
-                oldUrl: "" 
-            },
-            {
-                cat: "國際夏日有禮賞", brand: "非變頻系列洗衣機", 
-                name: "買NA-150MU、NA-120EB、NA-110EB、NA-90EB送\n<span class='text-blue'>40-003064-001\n(贈)SP-2612陶瓷防燙隨手機三入組*1</span>\n第一個贈品\n第二個免運$10\n第三個收費$10", 
-                desc: "發票日期:\n<span class='text-blue'>2026.04.10~2026.08.19</span>\n登錄最晚時間:\n<span class='text-blue'>2026.09.02</span>\n12公斤(含)以下$300\n13-18公斤$400\n19公斤以上$500\nLG上乾下洗$2700\n滾筒洗衣機12公斤(含)以下$600\n滾筒洗衣機13-16公斤$700\n滾筒洗衣機17公斤以上$750\nLG下洗迷你洗衣機$300\n乾衣機10公斤$250\n乾衣機11公斤以上$300\n免曬衣乾衣機$500\n1.拆大門/室內門/過窗$200\n2.直立式洗衣機過扶手$300\n3.滾筒洗衣機過扶手$500\n國際上下洗運費$2000", 
-                model: "NA-150MU、NA-120EB、NA-110EB、NA-90EB",
-                barcode: ["6503533673207","2449401006026","2449401002028"], 
-                img: "國際冰箱/A6.jpg", // 請確保 GitHub 上檔案名為 ka10r.jpg (小寫)
-                qrUrl: "", 
-                taxUrl: "", 
-                oldUrl: "" 
             }
-); // 最後記得用括號封起來，並加上分號
+           ); // 最後記得用括號封起來，並加上分號
