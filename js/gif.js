@@ -656,7 +656,7 @@ rawData.push(
             {
                 cat: "冷氣", brand: "富士通", 
                 name: "<br>(贈)2026品諾DF-1609DR<br>16吋直流四季DC扇 <br><span class='text-blue'>40-630007-001</span>", 
-                desc: "活動時間2026/8/19 ~ 2026/7/31 \n 購買以下兩款冷氣才有送\n<span class='text-blue'>富士通28KMTC\n富士通28CMTD</span>\n即享好禮送\n<span class='text-red'>數量有限．送完為止</span>", 
+                desc: "活動時間2026/8/19 ~ 2026/8/31 \n 購買以下兩款冷氣才有送\n<span class='text-blue'>富士通28KMTC\n富士通28CMTD</span>\n即享好禮送\n<span class='text-red'>數量有限．送完為止</span>", 
                 type: "gift",
                 barcode: ["4710859912343"], 
                 img: "冷氣贈品/1609DR.jpg", // 請確保 GitHub 上檔案名為 ka10r.jpg (小寫)
@@ -667,7 +667,7 @@ rawData.push(
             {
                 cat: "冷氣", brand: "富士通", 
                 name: "<br>富士通UTY-HACT1家用APP控制器<br><span class='text-blue'>40-630002-001</span>", 
-                desc: "活動時間2026/1/1 ~ 2026/4/30 \n 只有KGTB系列和一對多室內機可送.請碰扣\nCMTD.KMTC.KBT這幾個系列都是選配沒有送\n提醒\n一對多室外機請碰好禮三選一\n一對多室內機請碰控制器", 
+                desc: "活動時間2026/1/1 ~ 2026/12/31 \n 只有KGTB系列和一對多室內機可送.請碰扣\nCMTD.KMTC.KBT這幾個系列都是選配沒有送\n提醒\n一對多室外機請碰好禮三選一\n一對多室內機請碰控制器", 
                 type: "gift",
                 barcode: ["4710829605862"], 
                 img: "冷氣贈品/HACT1.jpg", // 請確保 GitHub 上檔案名為 ka10r.jpg (小寫)
