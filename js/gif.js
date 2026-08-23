@@ -594,7 +594,7 @@ rawData.push(
             {
                 cat: "冷氣", brand: "東元", 
                 name: "加碼贈品", 
-                desc: "8/1-8/15\n購買東元GA5/GAT6系列一對一變頻冷氣\n<span class='text-red'>即享原廠好禮送</span>\n<span class='text-blue'>40-630051-001\n(贈)2026東元XA1628BRD 16吋DC風扇*1</span>\n<span class='text-red'>停產機種不在此限\n數量有限，送完為止</span>", 
+                desc: "8/22-8/31\n購買東元GA5/GAT6系列一對一變頻冷氣\n<span class='text-red'>即享原廠好禮送</span>\n<span class='text-blue'>40-630051-001\n(贈)2026東元XA1628BRD 16吋DC風扇*1</span>\n<span class='text-red'>停產機種不在此限\n數量有限，送完為止</span>", 
                 type: "gift",
                 barcode: ["4718074412228"], 
                 img: "冷氣贈品/XA1628.jpg", 
