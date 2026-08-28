@@ -489,7 +489,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "奇美", 
         spec: "滾筒洗脫烘", 
-        name: "<br>奇美WS-V139WD變頻洗脫烘滾筒-13kg<br><span class='text-red'>(質感銀)、(中國製)</span><br><span class='text-blue'>40-110256-001</span>", 
+        name: "<br>奇美WS-V139WD變頻洗脫烘滾筒-13kg<br><span class='text-red'>(冰鑽白)、(中國製)</span><br><span class='text-blue'>40-110256-001</span>", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "60公分" },
