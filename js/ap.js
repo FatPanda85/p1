@@ -228,6 +228,7 @@ targetContainer.innerHTML += `
                 <div class="product-images" style="display:flex; flex-direction:column; gap:10px; align-items:center;">
                     ${g.img ? `<img src="${g.img}" class="gift-img" onclick="zoomImg('${g.img}')" onerror="this.src='https://via.placeholder.com/90?text=無圖片'">` : ''}
                     ${g.giftImg ? `<img src="${g.giftImg}" class="gift-img" style="width:60%; border:1px solid #eee; border-radius:8px; padding:5px;" onclick="zoomImg('${g.giftImg}')">` : ''}
+                    ${g.giftImg2 ? `<img src="${g.giftImg2}" class="gift-img" style="width:60%; border:1px solid #eee; border-radius:8px; padding:5px;" onclick="zoomImg('${g.giftImg2}')">` : ''}
                 </div>
                 <div class="gift-info">
                     <h4><span style="color:var(--model-blue);">[${g.brand}-${g.cat}]</span>${formattedName}</h4>
