@@ -486,10 +486,10 @@ rawData.push(
                 taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
                 oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
             },
-            {
+ {
                 cat: "冷氣", brand: "國際", 
                 name: "加碼贈品", 
-                desc: "8/1-8/16<br>購買國際變頻冷氣<br><span class='text-red'>UJ28BHA2 1-1變頻冷暖<br>即享原廠好禮送</span><br><span class='text-blue'>40-630999-001<br>(贈)國際F-S14KM\n14吋DC電風扇0*1</span><br><span class='text-red'>停產機種不在此限<br>數量有限，送完為止</span>", 
+                desc: "9/1-9/15<br>購買國際變頻冷氣<br><span class='text-red'>UJ28BHA2 1-1變頻冷暖<br>即享原廠好禮送</span><br><span class='text-blue'>40-630999-001<br>(贈)國際F-S14KM<br>14吋DC電風扇0*1</span><br><span class='text-red'>停產機種不在此限<br>數量有限，送完為止</span>", 
                 type: "gift",
                 barcode: ["4717523402643"], 
                 img: "冷氣贈品/S14KM.jpg", 
@@ -500,10 +500,10 @@ rawData.push(
             {
                 cat: "冷氣", brand: "國際", 
                 name: "加碼贈品", 
-                desc: "8/1-8/16\n購買國際變頻冷氣\n<span class='text-red'>窗型系列\n即享原廠好禮送</span>\n<span class='text-blue'>40-630998-001\n(贈)2026國際保溫瓶組CW-SP2601*1</span>\n<span class='text-red'>停產機種不在此限\n數量有限，送完為止</span>", 
+                desc: "9/1-9/15<br>購買國際變頻冷氣\n<span class='text-red'>窗型系列<br>即享原廠好禮送</span><br><span class='text-blue'>40-630047-001<br>(贈)2026國際IH電磁爐KY-T30*1</span><br><span class='text-red'>停產機種不在此限<br>數量有限，送完為止，不再到貨</span>", 
                 type: "gift",
-                barcode: ["4713112091113"], 
-                img: "冷氣贈品/SP2601.jpg", 
+                barcode: ["4717523475029"], 
+                img: "冷氣贈品/T30.jpg", 
                 qrUrl: "", 
                 taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
                 oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
@@ -526,10 +526,10 @@ rawData.push(
                 taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
                 oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
             },
-                        { 
+{ 
                 cat: "冷氣", brand: "日立", 
                 name: "原廠好禮", 
-                desc: "8/1 ~ 8/16<br>購買日立指定系列變頻冷氣<br>頂級/豪華系列一對一變頻分離式<br>即享好禮二選一<br><span class='text-blue'>40-630084-001<br>(贈)2026日立微波爐HMRM2003*1<br>40-630921-001<br>(贈)2026日立哈根諾克HGN168DC電風扇*1</span><br><span class='text-red'>停產機種不在此限<br>數量有限，送完為止</span>", 
+                desc: "9/1 ~ 9/15<br>購買日立指定系列變頻冷氣<br>頂級/豪華系列一對一變頻分離式<br>即享好禮二選一<br><span class='text-blue'>40-630084-001<br>(贈)2026日立微波爐HMRM2003*1<br>40-630921-001<br>(贈)2026日立哈根諾克HGN168DC電風扇*1</span><br><span class='text-red'>停產機種不在此限<br>數量有限，送完為止</span>", 
                 barcode:  ["8850207800062","4713780039202"],
                  customLabels: ["🎁 微波爐", "🎁 電風扇"], // <--- 在這裡定義
                 img: "冷氣贈品/168DCC.jpg",
@@ -537,6 +537,7 @@ rawData.push(
                 taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
                 oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
             },
+
                         { 
                 cat: "冷氣", brand: "日立", 
                 name: "冷氣免運\n免基本安裝費\n$100", 
@@ -653,10 +654,10 @@ rawData.push(
                 barcode: ["2449405007012"], // 請換成正確條碼
                 img: "", qrUrl: "", taxUrl: "", oldUrl: "" 
             },
-            {
+           {
                 cat: "冷氣", brand: "富士通", 
                 name: "<br>(贈)2026品諾DF-1609DR<br>16吋直流四季DC扇 <br><span class='text-blue'>40-630007-001</span>", 
-                desc: "活動時間2026/8/19 ~ 2026/8/31 \n 購買以下兩款冷氣才有送\n<span class='text-blue'>富士通28KMTC\n富士通28CMTD</span>\n即享好禮送\n<span class='text-red'>數量有限．送完為止</span>", 
+                desc: "活動時間2026/9/1 ~ 2026/9/20 <br> 購買以下六款冷氣才有送<br><span class='text-blue'>富士通28KMTC<br>富士通40CMTC<br>富士通28CMTD<br>富士通36CMTD<br>富士通63CMTD<br>富士通71CMTD</span><br>即享好禮送<br><span class='text-red'>不在到貨，請各店移撥</span>", 
                 type: "gift",
                 barcode: ["4710859912343"], 
                 img: "冷氣贈品/1609DR.jpg", // 請確保 GitHub 上檔案名為 ka10r.jpg (小寫)
@@ -664,6 +665,7 @@ rawData.push(
                 taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
                 oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
             },
+
             {
                 cat: "冷氣", brand: "富士通", 
                 name: "<br>富士通UTY-HACT1家用APP控制器<br><span class='text-blue'>40-630002-001</span>", 
@@ -917,139 +919,44 @@ rawData.push(
                 oldUrl: "" 
             },
  { 
-             cat: "DM-7/29-9/1", 
-             brand: "電視", 
-             name: "<br><span class='text-red'>HERAM電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span><br>單筆購買55型(含)以上液晶顯示器或電視即贈<br> <span class='text-blue'>43-303001-001 blacklabel BL-ANC88 PLUS降躁式耳機*1</span>", 
-             desc: "電視32吋吋以下$300<br>電視33-49吋$450<br>電視50-54吋$55<br>電視55-59吋$600<br>電視60-74吋$700<br>電視75吋以上$1300", 
-             barcode: ["4719579893819", "2444042817017","4710631940694","2449440007022","2449440003024"], 
-             img: "DM活動贈品/ANC88.jpg", 
-               customLabels: ["🎁 壁掛", "💣 壁掛負扣","🎧 耳機", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+             cat: "DM-9/2-9/15", 
+             brand: "指定電視贈PS5", 
+             name: "<br><span class='text-red'>購買以下指定機型</span><br>即贈PS5主機數位版<span class='text-blue'>(限量100台)</span><br><span class='text-blue'>44-131133-002 PS5 Slim數位版主機*1</span><br>碰扣結帳，依照各店庫存結帳，不可超結<br>視32吋吋以下$300<br>電視33-49吋$450<br>電視50-54吋$550<br>電視55-59吋$600<br>電視60-74吋$700<br>電視75吋以上$1300", 
+desc: `<div style="color: red; margin: 0; padding: 0;">指定機型如下
+        </div>
+        <table style="width: 100%; max-width: 400px; margin: 5px auto; ...">
+                <tr style="background:#eee;"><th>抽獎時間</th><th>公告時間</th></tr>
+                <tr><td style="color: blue;">44-044006-001</td><td style="color: red;">LG OLED77C6PTA OLED顯示器</td></tr>
+                <tr><td style="color: blue;">44-044046-001</td><td style="color: red;">LG OLED83C6PTA OLED顯示器</td></tr>
+                <tr><td style="color: blue;">44-044054-001</td><td style="color: red;">LG 86QNED86BTA 一奈米UHD顯示器</td></tr>
+                <tr><td style="color: blue;">44-044016-001</td><td style="color: red;">SAMSUNG QA100QN80H QLED顯示器</td></tr>
+                <tr><td style="color: blue;">44-044032-001</td><td style="color: red;">SAMSUN 115MR95F Micro RGB顯示器</td></tr>
+                <tr><td style="color: blue;">44-044080-001</td><td style="color: red;">SAMSUNG 100R85H Micro RGB顯示器</td></tr>
+                <tr><td style="color: blue;">44-044102-001</td><td style="color: red;">SAMSUNG 85R85H Micro RGB顯示器</td></tr>
+                <tr><td style="color: blue;">44-044109-001</td><td style="color: red;">SAMSUNG UA85M80H Mini LED顯示器</td></tr>
+                <tr><td style="color: blue;">44-044135-001</td><td style="color: red;">SAMSUNG 85R95H Micro RGB顯示器</td></tr>
+                <tr><td style="color: blue;">44-044144-001</td><td style="color: red;">SAMSUNG QA83S90H OLED顯示器</td></tr>
+                <tr><td style="color: blue;">44-044146-001</td><td style="color: red;">SAMSUNG QA83S95H OLED顯示器</td></tr>
+                <tr><td style="color: blue;">44-044156-001</td><td style="color: red;">SAMSUNG QA85QN80H QLED顯示器</td></tr>
+                <tr><td style="color: blue;">44-044946-001</td><td style="color: red;">SAMSUNG QA83S95F QLED顯示器</td></tr>
+                <tr><td style="color: blue;">44-044981-001</td><td style="color: red;">SAMSUNG QA100QN80F QLED顯示器</td></tr>
+                <tr><td style="color: blue;">44-044074-001</td><td style="color: red;">SONY Y-98XR50 UHD顯示器</td></tr>
+                <tr><td style="color: blue;">44-044077-001</td><td style="color: red;">SONY Y-85XR50 UHD顯示器</td></tr>
+                <tr><td style="color: blue;">44-044079-001</td><td style="color: red;">SONY Y-85XR90M2 UHD顯示器</td></tr>
+                <tr><td style="color: blue;">44-044094-001</td><td style="color: red;">SONY Y-85XR30M2 UHD顯示器</td></tr>
+                <tr><td style="color: blue;">44-044122-001</td><td style="color: red;">SONY Y-100XR30M2 UHD顯示器</td></tr>
+                <tr><td style="color: blue;">44-044159-001</td><td style="color: red;">SONY Y-98XR70M2 UHD顯示器</td></tr>
+                <tr><td style="color: blue;">44-044164-001</td><td style="color: red;">SONY Y-85XR70M2 UHD顯示器</td></tr>
+            </table>
+        </div>
+    `,
+             barcode: ["4948872416955","2449440007022","2449440003024"], 
+             img: "DM活動贈品/PS5.jpg", 
+               customLabels: ["🎁 PS5", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
              qrUrl: "", 
              taxUrl: "", 
             oldUrl: "" 
             }, 
-            { 
-    cat: "DM-7/29-9/1", 
-    brand: "電視", 
-    name: "<br><span class='text-red'>LG電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span><br>單筆購買55型(含)以上液晶顯示器或電視即贈<br> <span class='text-blue'>43-303001-001 blacklabel BL-ANC88 PLUS降躁式耳機*1</span>", 
-    desc: "電視32吋吋以下$300<br>電視33-49吋$450<br>電視50-54吋$55<br>電視55-59吋$600<br>電視60-74吋$700<br>電視75吋以上$1300", 
-    barcode: ["4719579893819", "2444042811015","4710631940694","2449440007022","2449440003024"], 
-    img: "DM活動贈品/ANC88.jpg", 
-    customLabels: ["🎁 壁掛", "💣 壁掛負扣","🎧 耳機", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
-    qrUrl: "", 
-    taxUrl: "", 
-    oldUrl: "" 
-},
-{ 
-    cat: "DM-7/29-9/1", 
-    brand: "電視", 
-    name: "<br><span class='text-red'>SONY電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span><br>單筆購買55型(含)以上液晶顯示器或電視即贈<br> <span class='text-blue'>43-303001-001 blacklabel BL-ANC88 PLUS降躁式耳機*1</span>", 
-    desc: "電視32吋吋以下$300<br>電視33-49吋$450<br>電視50-54吋$55<br>電視55-59吋$600<br>電視60-74吋$700<br>電視75吋以上$1300", 
-    barcode: ["4719579893819", "2444042813019","4710631940694","2449440007022","2449440003024"], 
-    img: "DM活動贈品/ANC88.jpg", 
-    customLabels: ["🎁 壁掛", "💣 壁掛負扣","🎧 耳機", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
-    qrUrl: "", 
-    taxUrl: "", 
-    oldUrl: "" 
-},
-{ 
-    cat: "DM-7/29-9/1", 
-    brand: "電視", 
-    name: "<br><span class='text-red'>SAMSUNG電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span><br>單筆購買55型(含)以上液晶顯示器或電視即贈<br> <span class='text-blue'>43-303001-001 blacklabel BL-ANC88 PLUS降躁式耳機*1</span>", 
-    desc: "電視32吋吋以下$300<br>電視33-49吋$450<br>電視50-54吋$55<br>電視55-59吋$600<br>電視60-74吋$700<br>電視75吋以上$1300", 
-    barcode: ["4719579893819", "2444042814016","4710631940694","2449440007022","2449440003024"], 
-    img: "DM活動贈品/ANC88.jpg", 
-    customLabels: ["🎁 壁掛", "💣 壁掛負扣","🎧 耳機", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
-    qrUrl: "", 
-    taxUrl: "", 
-    oldUrl: "" 
-},
-{ 
-    cat: "DM-7/29-9/1", 
-    brand: "電視", 
-    name: "<br><span class='text-red'>PHILIPS電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span><br>單筆購買55型(含)以上液晶顯示器或電視即贈<br> <span class='text-blue'>43-303001-001 blacklabel BL-ANC88 PLUS降躁式耳機*1</span>", 
-    desc: "電視32吋吋以下$300<br>電視33-49吋$450<br>電視50-54吋$55<br>電視55-59吋$600<br>電視60-74吋$700<br>電視75吋以上$1300", 
-    barcode: ["4719579893819", "2444042815013","4710631940694","2449440007022","2449440003024"], 
-    img: "DM活動贈品/ANC88.jpg", 
-    customLabels: ["🎁 壁掛", "💣 壁掛負扣","🎧 耳機", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
-    qrUrl: "", 
-    taxUrl: "", 
-    oldUrl: "" 
-},
-{ 
-    cat: "DM-7/29-9/1", 
-    brand: "電視", 
-    name: "<br><span class='text-red'>TOSHIBA電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span><br>單筆購買55型(含)以上液晶顯示器或電視即贈<br> <span class='text-blue'>43-303001-001 blacklabel BL-ANC88 PLUS降躁式耳機*1</span>", 
-    desc: "電視32吋吋以下$300<br>電視33-49吋$450<br>電視50-54吋$55<br>電視55-59吋$600<br>電視60-74吋$700<br>電視75吋以上$1300", 
-    barcode: ["4719579893819", "2444042998013","4710631940694","2449440007022","2449440003024"], 
-    img: "DM活動贈品/ANC88.jpg", 
-    customLabels: ["🎁 壁掛", "💣 壁掛負扣","🎧 耳機", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
-    qrUrl: "", 
-    taxUrl: "", 
-    oldUrl: "" 
-},
-{ 
-    cat: "DM-7/29-9/1", 
-    brand: "電視", 
-    name: "<br><span class='text-red'>SANSUI電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span><br>單筆購買55型(含)以上液晶顯示器或電視即贈<br> <span class='text-blue'>43-303001-001 blacklabel BL-ANC88 PLUS降躁式耳機*1</span>", 
-    desc: "電視32吋吋以下$300<br>電視33-49吋$450<br>電視50-54吋$55<br>電視55-59吋$600<br>電視60-74吋$700<br>電視75吋以上$1300", 
-    barcode: ["4719579893819", "2444042818014","4710631940694","2449440007022","2449440003024"], 
-    img: "DM活動贈品/ANC88.jpg", 
-    customLabels: ["🎁 壁掛", "💣 壁掛負扣","🎧 耳機", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
-    qrUrl: "", 
-    taxUrl: "", 
-    oldUrl: ""
-},
-{ 
-    cat: "DM-7/29-9/1", 
-    brand: "電視", 
-    name: "<br><span class='text-red'>國際電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span><br>單筆購買55型(含)以上液晶顯示器或電視即贈<br> <span class='text-blue'>43-303001-001 blacklabel BL-ANC88 PLUS降躁式耳機*1</span>", 
-    desc: "電視32吋吋以下$300<br>電視33-49吋$450<br>電視50-54吋$55<br>電視55-59吋$600<br>電視60-74吋$700<br>電視75吋以上$1300",  
-    barcode: ["4719579893819", "2444042885016","4710631940694","2449440007022","2449440003024"], 
-    img: "DM活動贈品/ANC88.jpg", 
-    customLabels: ["🎁 壁掛", "💣 壁掛負扣","🎧 耳機", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
-    qrUrl: "", 
-    taxUrl: "", 
-    oldUrl: "" 
-},
-{ 
-    cat: "DM-7/29-9/1", 
-    brand: "電視", 
-    name: "<br><span class='text-red'>奇美電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span><br>單筆購買55型(含)以上液晶顯示器或電視即贈<br> <span class='text-blue'>43-303001-001 blacklabel BL-ANC88 PLUS降躁式耳機*1</span>", 
-    desc: "電視32吋吋以下$300<br>電視33-49吋$450<br>電視50-54吋$55<br>電視55-59吋$600<br>電視60-74吋$700<br>電視75吋以上$1300", 
-    barcode: ["4719579893819", "2444042942016","4710631940694","2449440007022","2449440003024"], 
-    img: "DM活動贈品/ANC88.jpg", 
-    customLabels: ["🎁 壁掛", "💣 壁掛負扣","🎧 耳機", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
-    qrUrl: "", 
-    taxUrl: "", 
-    oldUrl: "" 
-},
-{ 
-    cat: "DM-7/29-9/1", 
-    brand: "電視", 
-    name: "<br><span class='text-red'>SHARP電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span><br>單筆購買55型(含)以上液晶顯示器或電視即贈<br> <span class='text-blue'>43-303001-001 blacklabel BL-ANC88 PLUS降躁式耳機*1</span>", 
-    desc: "電視32吋吋以下$300<br>電視33-49吋$450<br>電視50-54吋$55<br>電視55-59吋$600<br>電視60-74吋$700<br>電視75吋以上$1300",  
-    barcode: ["4719579893819", "2444042949015","4710631940694","2449440007022","2449440003024"], 
-    img: "DM活動贈品/ANC88.jpg", 
-    customLabels: ["🎁 壁掛", "💣 壁掛負扣","🎧 耳機", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
-    qrUrl: "", 
-    taxUrl: "", 
-    oldUrl: "" 
-},
-{ 
-    cat: "DM-7/29-9/1", 
-    brand: "刮鬍刀", 
-    name: "<br>電鬍刀單品現折後滿額加碼送<br>(不累贈，不跨區贈送)<br>滿<span class='text-red'>$3,000~$4,999元</span>贈<br><span class='text-blue'>41-512929-001<br>RASTO半導體高速製冷LED手持風扇RK24一台</span><br>價值$690元<br>滿<span class='text-red'>$5,000~$9,999元</span>贈<br><span class='text-blue'>41-316004-001<br>RASTO不沾鍋五段溫控功能電烤盤AP7一台</span><br>價值<span class='text-red'>$1,250元</span><br>滿<span class='text-red'>$10,000~$14,999元</span>贈<br><span class='text-blue'>41-401138-001(粉紅)<br>41-401138-002(可可)<br>奇美自動電壓吹風機HD-32HFPO一台</span><br>價值<span class='text-red'>$3,988元</span><br>滿<span class='text-red'>$15,000~$17,999元</span>贈<br><span class='text-blue'>41-102003-001<br>MOVA羽量級防纏平躺洗地機M10一台</span><br>價值<span class='text-red'>$7,499元</span>", 
-    desc: "※第二重之滿額標準<br>以扣除第一重折扣後之金額判定<br>※大宗採購不適用<br>※活動詳情請見店內公告",  
-    barcode: ["4711100848220","4711100848336","4713170849480","4713170849541","6977728941370"], 
-    img: "DM活動贈品/PP.jpg", 
-    customLabels: ["🪭 手持風扇", "🪔 電烤盤", "🎁 吹風機(粉紅)", "🎁 吹風機(可可)", "🧹 洗地機"], // <--- 在這裡定義
-    qrUrl: "", 
-    taxUrl: "", 
-    oldUrl: "" 
-},
-
-
                         {
                 cat: "SONY電視原廠活動", brand: "SONY電視", 
                 name: "<br>SONY夏季繽紛好時光<br>SONY官網註冊申請即享卷", 
