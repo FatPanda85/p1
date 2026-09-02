@@ -918,45 +918,6 @@ rawData.push(
                 taxUrl: "", 
                 oldUrl: "" 
             },
- { 
-             cat: "DM-9/2-9/15", 
-             brand: "指定電視贈PS5", 
-             name: "<br><span class='text-red'>購買以下指定機型</span><br>即贈PS5主機數位版<span class='text-blue'>(限量100台)</span><br><span class='text-blue'>44-131133-002 PS5 Slim數位版主機*1</span><br>碰扣結帳，依照各店庫存結帳，不可超結<br>視32吋吋以下$300<br>電視33-49吋$450<br>電視50-54吋$550<br>電視55-59吋$600<br>電視60-74吋$700<br>電視75吋以上$1300", 
-desc: `<div style="color: red; margin: 0; padding: 0;">指定機型如下
-        </div>
-        <table style="width: 100%; max-width: 400px; margin: 5px auto; ...">
-                <tr style="background:#eee;"><th>抽獎時間</th><th>公告時間</th></tr>
-                <tr><td style="color: blue;">44-044006-001</td><td style="color: red;">LG OLED77C6PTA OLED顯示器</td></tr>
-                <tr><td style="color: blue;">44-044046-001</td><td style="color: red;">LG OLED83C6PTA OLED顯示器</td></tr>
-                <tr><td style="color: blue;">44-044054-001</td><td style="color: red;">LG 86QNED86BTA 一奈米UHD顯示器</td></tr>
-                <tr><td style="color: blue;">44-044016-001</td><td style="color: red;">SAMSUNG QA100QN80H QLED顯示器</td></tr>
-                <tr><td style="color: blue;">44-044032-001</td><td style="color: red;">SAMSUN 115MR95F Micro RGB顯示器</td></tr>
-                <tr><td style="color: blue;">44-044080-001</td><td style="color: red;">SAMSUNG 100R85H Micro RGB顯示器</td></tr>
-                <tr><td style="color: blue;">44-044102-001</td><td style="color: red;">SAMSUNG 85R85H Micro RGB顯示器</td></tr>
-                <tr><td style="color: blue;">44-044109-001</td><td style="color: red;">SAMSUNG UA85M80H Mini LED顯示器</td></tr>
-                <tr><td style="color: blue;">44-044135-001</td><td style="color: red;">SAMSUNG 85R95H Micro RGB顯示器</td></tr>
-                <tr><td style="color: blue;">44-044144-001</td><td style="color: red;">SAMSUNG QA83S90H OLED顯示器</td></tr>
-                <tr><td style="color: blue;">44-044146-001</td><td style="color: red;">SAMSUNG QA83S95H OLED顯示器</td></tr>
-                <tr><td style="color: blue;">44-044156-001</td><td style="color: red;">SAMSUNG QA85QN80H QLED顯示器</td></tr>
-                <tr><td style="color: blue;">44-044946-001</td><td style="color: red;">SAMSUNG QA83S95F QLED顯示器</td></tr>
-                <tr><td style="color: blue;">44-044981-001</td><td style="color: red;">SAMSUNG QA100QN80F QLED顯示器</td></tr>
-                <tr><td style="color: blue;">44-044074-001</td><td style="color: red;">SONY Y-98XR50 UHD顯示器</td></tr>
-                <tr><td style="color: blue;">44-044077-001</td><td style="color: red;">SONY Y-85XR50 UHD顯示器</td></tr>
-                <tr><td style="color: blue;">44-044079-001</td><td style="color: red;">SONY Y-85XR90M2 UHD顯示器</td></tr>
-                <tr><td style="color: blue;">44-044094-001</td><td style="color: red;">SONY Y-85XR30M2 UHD顯示器</td></tr>
-                <tr><td style="color: blue;">44-044122-001</td><td style="color: red;">SONY Y-100XR30M2 UHD顯示器</td></tr>
-                <tr><td style="color: blue;">44-044159-001</td><td style="color: red;">SONY Y-98XR70M2 UHD顯示器</td></tr>
-                <tr><td style="color: blue;">44-044164-001</td><td style="color: red;">SONY Y-85XR70M2 UHD顯示器</td></tr>
-            </table>
-        </div>
-    `,
-             barcode: ["4948872416955","2449440007022","2449440003024"], 
-             img: "DM活動贈品/PS5.jpg", 
-               customLabels: ["🎁 PS5", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
-             qrUrl: "", 
-             taxUrl: "", 
-            oldUrl: "" 
-            }, 
                         {
                 cat: "SONY電視原廠活動", brand: "SONY電視", 
                 name: "<br>SONY夏季繽紛好時光<br>SONY官網註冊申請即享卷", 
