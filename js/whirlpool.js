@@ -661,6 +661,51 @@ smartRawData.push(
     {
         cat: "洗衣機", 
         brand: "惠而浦", 
+        spec: "下洗上烘", 
+        name: "<br>惠而浦XWGD131001BG智能活氧洗乾衣機-13kg<br><span class='text-red'>(中國製)、(曜石灰)</span><br><span class='text-blue'>40-110267-001</span>", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "60.1公分" },
+        { label: "高", value: "162公分" },
+        { label: "深", value: "68公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "69.5公分" },
+        { label: "高", value: "176.5公分" },
+        { label: "深", value: "78.8公分" },
+        { label: "洗/烘重量", value: "" },
+        { label: "洗衣", value: "13<span style='color: #666;'>公斤</span>" },
+        { label: "烘衣", value: "10<span style='color: #666;'>公斤</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$2700</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 洗衣 13kg ● 乾衣 10kg</div>
+        <div style="color: red; margin: 0;">※INTELLI-CARE 第六感智能活氧洗衣塔</div>
+        <div style="margin: 0; padding: 0;">
+           ● 熱泵低溫烘乾技術：<br> 
+           ● 6th Sense第六感智能操控科技<br> 
+           ● 活氧蒸汽除菌 & 活氧蒸汽清新<br> 
+           ● Load & Go 自動洗劑投入技術<br> 
+           ● 洗乾衣機智慧連動，提早預熱乾衣<br> 
+           ● 110V/60Hz 便利電源規格<br> 
+        </div>
+    </div>
+`, 
+        type: "",
+        model: "惠而浦XWGD131001BG智能活氧洗乾衣機",
+        barcode: ["4895120713000","2449401006026","2449401002028"], 
+        customLabels: ["📦 商品", "🚚 免運$10", "💰 收費$10"], 
+        img: "惠而浦冰洗/XWGD131001.jpg", 
+        giftImg: "",
+        qrUrl: "",
+        taxUrl: "", 
+        oldUrl: "",
+        catalogUrl: "", 
+        productUrl: "https://www.whirlpool.com.tw/product/washers/front-load-washers?id=XWGD131001BG%20"
+    },
+    {
+        cat: "洗衣機", 
+        brand: "惠而浦", 
         spec: "乾衣機", 
         name: "<br>惠而浦8TWGD5620HW瓦斯型滾筒乾衣機-16kg<br><span class='text-red'>(美國製)</span><br><span class='text-blue'>40-122017-001</span>", 
        specs: [
