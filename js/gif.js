@@ -918,6 +918,19 @@ rawData.push(
                 taxUrl: "", 
                 oldUrl: "" 
             },
+        { 
+             cat: "DM-9/2-9/15", 
+             brand: "指定電視贈PS5", 
+             name: "<br><span class='text-red'>購買左圖指定電視機型(請看左圖機型)</span><br>即贈PS5主機數位版<span class='text-blue'>(限量100台)</span><br><span class='text-blue'>44-131133-002 PS5 Slim數位版主機*1</span><br>碰扣結帳，依照各店庫存結帳，不可超結", 
+             desc: "電視32吋吋以下$300<br>電視33-49吋$450<br>電視50-54吋$550<br>電視55-59吋$600<br>電視60-74吋$700<br>電視75吋以上$1300", 
+             barcode: ["4948872416955","2449440007022","2449440003024"], 
+             img: "DM活動贈品/TV.jpg", 
+               customLabels: ["🎁 PS5", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+             qrUrl: "", 
+             taxUrl: "", 
+            oldUrl: "" 
+            }, 
+
                         {
                 cat: "SONY電視原廠活動", brand: "SONY電視", 
                 name: "<br>SONY夏季繽紛好時光<br>SONY官網註冊申請即享卷", 
