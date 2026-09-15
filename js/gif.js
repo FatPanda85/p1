@@ -929,7 +929,21 @@ rawData.push(
              qrUrl: "", 
              taxUrl: "", 
             oldUrl: "" 
-            }, 
+            },
+       {
+    cat: "LG冰箱贈品", 
+    brand: "LG冰箱活動", 
+    name: "LG智慧冰箱節能季", // 移除了開頭多餘的 <br>，若版面需要可在 CSS 調整
+    desc: "2026/9/01 ~ 2026/11/30<br>購買指定冰箱型號<br>贈送指定贈品<br><span class='text-blue'>請看左側圖片看指定型號和贈品贈送</span><br><span class='text-mblue'>贈品1:<span class='text-blue'><br>40-005925-001<br>(贈)蔬果保鮮盒</span><br>贈品2<span class='text-blue'>:<br>40-013006-001<br>(贈)抽屜式雙層雞蛋盒</span><br><span class='text-red'>自行碰扣和SBS下單喔</span>", 
+    barcode: ["8806096652176", "8806096652138", "2449400006027", "2449400002029"], 
+    customLabels: ["🎁 蔬果保鮮盒", "🎁 雙層雞蛋盒", "🚚 免運$10", "💰 收費$10"], 
+    img: "LG冰洗贈品/LG1.jpg", 
+    giftImg: "",
+    qrUrl: "https://www.lg.com/tw/promotions/refrigerator/", 
+    taxUrl: "", 
+    oldUrl: "" 
+},
+
 
                         {
                 cat: "SONY電視原廠活動", brand: "SONY電視", 
