@@ -933,11 +933,12 @@ rawData.push(
 
                         {
                 cat: "SONY電視原廠活動", brand: "SONY電視", 
-                name: "<br>SONY夏季繽紛好時光<br>SONY官網註冊申請即享卷", 
-                desc: "發票時間:2026/3/9 ~ 2026/8/9  \n最晚註冊時間為2026/8/16\n<span class='text-blue'>如客人需延後送貨\n請洽SONY業務申請資料備註 </span>\n<span class='text-mblue'>買65XR90M2、85XR50\n65XR80M2、85XR30M2</span>\n這四款註冊送好禮即享卷$5000\n<span class='text-mblue'>買75XR70M2、55XR80M2\n65XR70M2、75XR50</span>\n這四款註冊送好禮即享卷$3000\n<span class='text-mblue'>買55XR80、65XR70\n65XR50、55XR50\n75S30、75XR30M2\n55XR70M2、50XR70M2\n65XR30M2</span>\n這九款註冊送好禮即享卷$2000\n<span class='text-mblue'>買65S31T</span>\n這款註冊送好禮即享卷$1000\n<span class='text-red'>請客人至SONY官網註冊會員並完成商品\n註冊後\n需按下*點我兌換*的按鈕才可以喔!\n兌換流程可點圖片有兌換流程說明</span>", 
+                name: "<br>SONY80周年<br>SONY官網註冊申請即享卷", 
+                desc: "發票時間:2026/9/15 ~ 2026/11/22  \n<span class='text-blue'>如客人需延後送貨\n請洽SONY業務申請資料備註 </span>\n<span class='text-mblue'>贈送品項請點旁邊圖片</span>\n<span class='text-red'>請客人至SONY官網註冊會員並完成商品\n註冊後\n需按下*點我兌換*的按鈕才可以喔!\n兌換流程可點圖片有兌換流程說明</span>", 
                 barcode: [""], 
-                img: "SONY/SONY20261.jpg", // 請確保 GitHub 上檔案名為 ka10r.jpg (小寫)
-                qrUrl: "https://event.sony.com.tw/2026/06/Summer/?cpint=web:dsp:twinfo:linklsp:26_6__image&utm_id=lsp&utm_source=sony_web_internal&utm_medium=sony_internal_banner&utm_campaign=SSO_Main&utm_content=26_6__image&utm_term=26_6_pe_sony_web_internal_sony_internal_banner_SSO_Main_", 
+                img: "SONY/SONY20269.jpg", // 請確保 GitHub 上檔案名為 ka10r.jpg (小寫)
+                giftImg: "SONY/SONY202691.jpg",
+                qrUrl: "https://event.sony.com.tw/2026/09/Autumn/?cpint=web:dsp:twinfo:linklsp:26_9__&utm_id=lsp&utm_source=sony_web_internal&utm_medium=sony_internal_banner&utm_campaign=SSO_Main(HE)&utm_content=26_9__&utm_term=26_9_cross_sony_web_internal_sony_internal_banner_SSO_Main(HE)_", 
                 taxUrl: "", 
                 oldUrl: "" 
             }
