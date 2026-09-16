@@ -918,25 +918,109 @@ rawData.push(
                 taxUrl: "", 
                 oldUrl: "" 
             },
-        { 
-             cat: "DM-9/2-9/15", 
-             brand: "指定電視贈PS5", 
-             name: "<br><span class='text-red'>購買左圖指定電視機型(請看左圖機型)</span><br>即贈PS5主機數位版<span class='text-blue'>(限量100台)</span><br><span class='text-blue'>44-131133-002 PS5 Slim數位版主機*1</span><br>碰扣結帳，依照各店庫存結帳，不可超結", 
-             desc: "電視32吋吋以下$300<br>電視33-49吋$450<br>電視50-54吋$550<br>電視55-59吋$600<br>電視60-74吋$700<br>電視75吋以上$1300", 
-             barcode: ["4948872416955","2449440007022","2449440003024"], 
-             img: "DM活動贈品/TV.jpg", 
-               customLabels: ["🎁 PS5", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+ { 
+             cat: "DM-9/16-9/29", 
+             brand: "電視", 
+             name: "<br><span class='text-red'>HERAM電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span>", 
+             desc: "電視32吋吋以下$300<br>電視33-49吋$450<br>電視50-54吋$55<br>電視55-59吋$600<br>電視60-74吋$700<br>電視75吋以上$1300", 
+             barcode: ["4719579893819", "2444042817017","2449440007022","2449440003024"], 
+             img: "DM活動贈品/0916.jpg", 
+               customLabels: ["🎁 壁掛", "💣 壁掛負扣", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
              qrUrl: "", 
              taxUrl: "", 
             oldUrl: "" 
-            },
-       {
+            }, 
+            { 
+    cat: "DM-9/16-9/29", 
+    brand: "電視", 
+    name: "<br><span class='text-red'>LG電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span>", 
+    desc: "電視32吋吋以下$300<br>電視33-49吋$450<br>電視50-54吋$55<br>電視55-59吋$600<br>電視60-74吋$700<br>電視75吋以上$1300", 
+    barcode: ["4719579893819", "2444042811015","2449440007022","2449440003024"], 
+    img: "DM活動贈品/0916.jpg", 
+    customLabels: ["🎁 壁掛", "💣 壁掛負扣", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+    qrUrl: "", 
+    taxUrl: "", 
+    oldUrl: "" 
+},
+{ 
+    cat: "DM-9/16-9/29", 
+    brand: "電視", 
+    name: "<br><span class='text-red'>SONY電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span>", 
+    desc: "電視32吋吋以下$300<br>電視33-49吋$450<br>電視50-54吋$55<br>電視55-59吋$600<br>電視60-74吋$700<br>電視75吋以上$1300", 
+    barcode: ["4719579893819", "2444042813019","2449440007022","2449440003024"], 
+    img: "DM活動贈品/0916.jpg", 
+    customLabels: ["🎁 壁掛", "💣 壁掛負扣", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+    qrUrl: "", 
+    taxUrl: "", 
+    oldUrl: "" 
+},
+{ 
+    cat: "DM-9/16-9/29", 
+    brand: "電視", 
+    name: "<br><span class='text-red'>PHILIPS電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span>", 
+    desc: "電視32吋吋以下$300<br>電視33-49吋$450<br>電視50-54吋$55<br>電視55-59吋$600<br>電視60-74吋$700<br>電視75吋以上$1300", 
+    barcode: ["4719579893819", "2444042815013","2449440007022","2449440003024"], 
+    img: "DM活動贈品/0916.jpg", 
+    customLabels: ["🎁 壁掛", "💣 壁掛負扣", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+    qrUrl: "", 
+    taxUrl: "", 
+    oldUrl: "" 
+},
+{ 
+    cat: "DM-9/16-9/29", 
+    brand: "電視", 
+    name: "<br><span class='text-red'>TOSHIBA電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span>", 
+    desc: "電視32吋吋以下$300<br>電視33-49吋$450<br>電視50-54吋$55<br>電視55-59吋$600<br>電視60-74吋$700<br>電視75吋以上$1300", 
+    barcode: ["4719579893819", "2444042998013","2449440007022","2449440003024"], 
+    img: "DM活動贈品/0916.jpg", 
+    customLabels: ["🎁 壁掛", "💣 壁掛負扣", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+    qrUrl: "", 
+    taxUrl: "", 
+    oldUrl: "" 
+},
+{ 
+    cat: "DM-9/16-9/29", 
+    brand: "電視", 
+    name: "<br><span class='text-red'>SANSUI電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span>", 
+    desc: "電視32吋吋以下$300<br>電視33-49吋$450<br>電視50-54吋$55<br>電視55-59吋$600<br>電視60-74吋$700<br>電視75吋以上$1300", 
+    barcode: ["4719579893819", "2444042818014","2449440007022","2449440003024"], 
+    img: "DM活動贈品/0916.jpg", 
+    customLabels: ["🎁 壁掛", "💣 壁掛負扣","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+    qrUrl: "", 
+    taxUrl: "", 
+    oldUrl: ""
+},
+{ 
+    cat: "DM-9/16-9/29", 
+    brand: "電視", 
+    name: "<br><span class='text-red'>奇美電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span>", 
+    desc: "電視32吋吋以下$300<br>電視33-49吋$450<br>電視50-54吋$55<br>電視55-59吋$600<br>電視60-74吋$700<br>電視75吋以上$1300", 
+    barcode: ["4719579893819", "2444042942016","2449440007022","2449440003024"], 
+    img: "DM活動贈品/0916.jpg", 
+    customLabels: ["🎁 壁掛", "💣 壁掛負扣", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+    qrUrl: "", 
+    taxUrl: "", 
+    oldUrl: "" 
+},
+{ 
+    cat: "DM-9/16-9/29", 
+    brand: "電視", 
+    name: "<br><span class='text-red'>SHARP電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span>", 
+    desc: "電視32吋吋以下$300<br>電視33-49吋$450<br>電視50-54吋$55<br>電視55-59吋$600<br>電視60-74吋$700<br>電視75吋以上$1300",  
+    barcode: ["4719579893819", "2444042949015","2449440007022","2449440003024"], 
+    img: "DM活動贈品/0916.jpg", 
+    customLabels: ["🎁 壁掛", "💣 壁掛負扣", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+    qrUrl: "", 
+    taxUrl: "", 
+    oldUrl: "" 
+},
+{
     cat: "LG冰箱贈品", 
     brand: "LG冰箱活動", 
-    name: "LG智慧冰箱節能季", // 移除了開頭多餘的 <br>，若版面需要可在 CSS 調整
-    desc: "2026/9/01 ~ 2026/11/30<br>購買指定冰箱型號<br>贈送指定贈品<br><span class='text-blue'>請看左側圖片看指定型號和贈品贈送</span><br><span class='text-mblue'>贈品1:<span class='text-blue'><br>40-005925-001<br>(贈)蔬果保鮮盒</span><br>贈品2<span class='text-blue'>:<br>40-013006-001<br>(贈)抽屜式雙層雞蛋盒</span><br><span class='text-red'>自行碰扣和SBS下單喔</span>", 
+    name: " <br>LG智慧冰箱節能季",
+    desc: "2026/9/01 ~ 2026/11/30<br>購買指定冰箱型號<br>贈送指定贈品<br><span class='text-blue'>請看左側圖片看指定型號和贈品贈送</span><br><span class='text-mblue'>贈品1:<span class='text-blue'><br>40-005925-001<br>(贈)蔬果保鮮盒</span><br><span class='text-red'>蔬果保鮮盒已缺貨<br>9/16開始的都不再贈送</span><br>贈品2<span class='text-blue'>:<br>40-013006-001<br>(贈)抽屜式雙層雞蛋盒</span><br><span class='text-red'>自行碰扣和SBS下單喔</span>", 
     barcode: ["8806096652176", "8806096652138", "2449400006027", "2449400002029"], 
-    customLabels: ["🎁 蔬果保鮮盒", "🎁 雙層雞蛋盒", "🚚 免運$10", "💰 收費$10"], 
+    customLabels: ["🎁 蔬果保鮮盒", "🎁 雙層雞蛋盒", "🚚 免運$10", "💰 收費$10"],
     img: "LG冰洗贈品/LG1.jpg", 
     giftImg: "",
     qrUrl: "https://www.lg.com/tw/promotions/refrigerator/", 
