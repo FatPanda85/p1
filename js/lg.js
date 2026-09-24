@@ -41,7 +41,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://www.lg.com/content/dam/channel/wcms/tw/images/catalog/2026%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%85%A8%E5%9E%8B%E9%8C%84.pdf", 
+        catalogUrl: "https://drive.google.com/file/d/1NnTkwB7w8tBW3--8wmB5vJAMTjwPmSws/view?usp=drive_link", 
         productUrl: "https://www.lg.com/tw/refrigerators/top-freezer/gn-l243svn/"
     },
     {
@@ -83,7 +83,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://www.lg.com/content/dam/channel/wcms/tw/images/catalog/2026%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%85%A8%E5%9E%8B%E9%8C%84.pdf", 
+        catalogUrl: "https://drive.google.com/file/d/1NnTkwB7w8tBW3--8wmB5vJAMTjwPmSws/view?usp=drive_link", 
         productUrl: "https://www.lg.com/tw/refrigerators/top-freezer/gn-l266svn/"
     },
     {
@@ -125,7 +125,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://www.lg.com/content/dam/channel/wcms/tw/images/catalog/2026%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%85%A8%E5%9E%8B%E9%8C%84.pdf", 
+        catalogUrl: "https://drive.google.com/file/d/1NnTkwB7w8tBW3--8wmB5vJAMTjwPmSws/view?usp=drive_link", 
         productUrl: "https://www.lg.com/tw/refrigerators/top-freezer/gn-l332bs/"
     },
     {
@@ -167,7 +167,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://www.lg.com/content/dam/channel/wcms/tw/images/catalog/2026%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%85%A8%E5%9E%8B%E9%8C%84.pdf", 
+        catalogUrl: "https://drive.google.com/file/d/1NnTkwB7w8tBW3--8wmB5vJAMTjwPmSws/view?usp=drive_link", 
         productUrl: "https://www.lg.com/tw/refrigerators/top-freezer/gn-l372ben/"
     },
     {
@@ -211,7 +211,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://www.lg.com/content/dam/channel/wcms/tw/images/catalog/2026%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%85%A8%E5%9E%8B%E9%8C%84.pdf", 
+        catalogUrl: "https://drive.google.com/file/d/1NnTkwB7w8tBW3--8wmB5vJAMTjwPmSws/view?usp=drive_link", 
         productUrl: "https://www.lg.com/tw/refrigerators/top-freezer/gn-hl392bsn/"
     },
     {
@@ -253,7 +253,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://www.lg.com/content/dam/channel/wcms/tw/images/catalog/2026%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%85%A8%E5%9E%8B%E9%8C%84.pdf", 
+        catalogUrl: "https://drive.google.com/file/d/1NnTkwB7w8tBW3--8wmB5vJAMTjwPmSws/view?usp=drive_link", 
         productUrl: "https://www.lg.com/tw/refrigerators/bottom-freezer/gn-bf330be/"
     },
     {
@@ -295,7 +295,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://www.lg.com/content/dam/channel/wcms/tw/images/catalog/2026%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%85%A8%E5%9E%8B%E9%8C%84.pdf", 
+        catalogUrl: "https://drive.google.com/file/d/1NnTkwB7w8tBW3--8wmB5vJAMTjwPmSws/view?usp=drive_link", 
         productUrl: "https://www.lg.com/tw/refrigerators/top-freezer/gn-hl460ps/"
     },
     {
@@ -337,7 +337,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://www.lg.com/content/dam/channel/wcms/tw/images/catalog/2026%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%85%A8%E5%9E%8B%E9%8C%84.pdf", 
+        catalogUrl: "https://drive.google.com/file/d/1NnTkwB7w8tBW3--8wmB5vJAMTjwPmSws/view?usp=drive_link", 
         productUrl: "https://www.lg.com/tw/refrigerators/top-freezer/gn-hl567svn/"
     },
     {
@@ -378,7 +378,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://www.lg.com/content/dam/channel/wcms/tw/images/catalog/2026%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%85%A8%E5%9E%8B%E9%8C%84.pdf", 
+        catalogUrl: "https://drive.google.com/file/d/1NnTkwB7w8tBW3--8wmB5vJAMTjwPmSws/view?usp=drive_link", 
         productUrl: "https://www.lg.com/tw/refrigerators/top-freezer/gn-hl567gbn/"
     },
     {
@@ -419,7 +419,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://www.lg.com/content/dam/channel/wcms/tw/images/catalog/2026%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%85%A8%E5%9E%8B%E9%8C%84.pdf", 
+        catalogUrl: "https://drive.google.com/file/d/1NnTkwB7w8tBW3--8wmB5vJAMTjwPmSws/view?usp=drive_link", 
         productUrl: "https://www.lg.com/tw/refrigerators/top-freezer/gr-hl600mbn/"
     },
     {
@@ -460,7 +460,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://www.lg.com/content/dam/channel/wcms/tw/images/catalog/2026%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%85%A8%E5%9E%8B%E9%8C%84.pdf", 
+        catalogUrl: "https://drive.google.com/file/d/1NnTkwB7w8tBW3--8wmB5vJAMTjwPmSws/view?usp=drive_link", 
         productUrl: "https://www.lg.com/tw/refrigerators/multi-door/gv-nb61bg/"
     },
     {
@@ -501,7 +501,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://www.lg.com/content/dam/channel/wcms/tw/images/catalog/2026%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%85%A8%E5%9E%8B%E9%8C%84.pdf", 
+        catalogUrl: "https://drive.google.com/file/d/1NnTkwB7w8tBW3--8wmB5vJAMTjwPmSws/view?usp=drive_link", 
         productUrl: "https://www.lg.com/tw/refrigerators/multi-door/gv-nb58ps/"
     },
     {
@@ -542,7 +542,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://www.lg.com/content/dam/channel/wcms/tw/images/catalog/2026%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%85%A8%E5%9E%8B%E9%8C%84.pdf", 
+        catalogUrl: "https://drive.google.com/file/d/1NnTkwB7w8tBW3--8wmB5vJAMTjwPmSws/view?usp=drive_link", 
         productUrl: "https://www.lg.com/tw/refrigerators/side-by-side/gr-qplc82ss/"
     },
     {
@@ -580,7 +580,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
-        catalogUrl: "https://www.lg.com/content/dam/channel/wcms/tw/images/catalog/2026%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%85%A8%E5%9E%8B%E9%8C%84.pdf", 
+        catalogUrl: "https://drive.google.com/file/d/1NnTkwB7w8tBW3--8wmB5vJAMTjwPmSws/view?usp=drive_link", 
         productUrl: "https://www.lg.com/tw/appliance-accessories/washer-dryer-accessories/lwp-25n14/"
     },
     {
@@ -617,7 +617,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
-        catalogUrl: "https://www.lg.com/content/dam/channel/wcms/tw/images/catalog/2026%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%85%A8%E5%9E%8B%E9%8C%84.pdf", 
+        catalogUrl: "https://drive.google.com/file/d/1NnTkwB7w8tBW3--8wmB5vJAMTjwPmSws/view?usp=drive_link", 
         productUrl: "https://www.lg.com/tw/appliance-accessories/washer-dryer-accessories/lwp-25n24/"
     },
     {
@@ -654,7 +654,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
-        catalogUrl: "https://www.lg.com/content/dam/channel/wcms/tw/images/catalog/2026%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%85%A8%E5%9E%8B%E9%8C%84.pdf", 
+        catalogUrl: "https://drive.google.com/file/d/1NnTkwB7w8tBW3--8wmB5vJAMTjwPmSws/view?usp=drive_link", 
         productUrl: "https://www.lg.com/tw/appliance-accessories/washer-dryer-accessories/lwp-25n1c/"
     },
     {
@@ -691,7 +691,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
-        catalogUrl: "https://www.lg.com/content/dam/channel/wcms/tw/images/catalog/2026%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%85%A8%E5%9E%8B%E9%8C%84.pdf", 
+        catalogUrl: "https://drive.google.com/file/d/1NnTkwB7w8tBW3--8wmB5vJAMTjwPmSws/view?usp=drive_link", 
         productUrl: "https://www.lg.com/tw/appliance-accessories/washer-dryer-accessories/lwp-25n2c/?gad_source=1&gad_campaignid=24205304295&gbraid=0AAAAA91RGTuXHeujUqJFTVPoGzxou8MNM&gclid=Cj0KCQjwlNPVBhCMARIsAPZ5RqhHE4V-LOOXnS3rOgi_nPi7wVzWAORNXyMb7wGAcj9f88stRpUjwJEaAiDZEALw_wcB/"
     },
     {
@@ -730,7 +730,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
-        catalogUrl: "https://www.lg.com/content/dam/channel/wcms/tw/images/catalog/2026%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%85%A8%E5%9E%8B%E9%8C%84.pdf", 
+        catalogUrl: "https://drive.google.com/file/d/1NnTkwB7w8tBW3--8wmB5vJAMTjwPmSws/view?usp=drive_link", 
         productUrl: "https://www.lg.com/tw/washer-dryers/twinwash/wt-sd250hw/?gad_source=1&gad_campaignid=24205304295&gbraid=0AAAAA91RGTuXHeujUqJFTVPoGzxou8MNM&gclid=Cj0KCQjwlNPVBhCMARIsAPZ5RqhRMCWUjuRjtnzdp2r3PbdtAWKtiASWHECte1FSQCQTe3e5dKEXhDMaArxREALw_wcB"
     },
     {
@@ -807,7 +807,7 @@ smartRawData.push(
         img: "LG冰洗/WT-VDN12HM.jpg", 
         giftImg: "",
         qrUrl: "",
-        catalogUrl: "https://www.lg.com/content/dam/channel/wcms/tw/images/catalog/2026%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%85%A8%E5%9E%8B%E9%8C%84.pdf", 
+        catalogUrl: "https://drive.google.com/file/d/1NnTkwB7w8tBW3--8wmB5vJAMTjwPmSws/view?usp=drive_link", 
         productUrl: "https://www.lg.com/tw/washer-dryers/top-loading-washing-machine/wt-vdn12hm/"
     },
     {
@@ -846,7 +846,7 @@ smartRawData.push(
         img: "LG冰洗/WT-TD16HW.jpg", 
         giftImg: "",
         qrUrl: "",
-        catalogUrl: "https://www.lg.com/content/dam/channel/wcms/tw/images/catalog/2026%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%85%A8%E5%9E%8B%E9%8C%84.pdf", 
+        catalogUrl: "https://drive.google.com/file/d/1NnTkwB7w8tBW3--8wmB5vJAMTjwPmSws/view?usp=drive_link", 
         productUrl: "https://www.lg.com/tw/washer-dryers/top-loading-washing-machine/wt-td16hw/"
     },
     {
@@ -884,7 +884,7 @@ smartRawData.push(
         img: "LG冰洗/WT-TD18OB.jpg", 
         giftImg: "",
         qrUrl: "",
-        catalogUrl: "https://www.lg.com/content/dam/channel/wcms/tw/images/catalog/2026%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%85%A8%E5%9E%8B%E9%8C%84.pdf", 
+        catalogUrl: "https://drive.google.com/file/d/1NnTkwB7w8tBW3--8wmB5vJAMTjwPmSws/view?usp=drive_link", 
         productUrl: "https://www.lg.com/tw/washer-dryers/top-loading-washing-machine/wt-td18ob/"
     },
     {
@@ -922,7 +922,7 @@ smartRawData.push(
         img: "LG冰洗/WT-TD20HG.jpg", 
         giftImg: "",
         qrUrl: "",
-        catalogUrl: "https://www.lg.com/content/dam/channel/wcms/tw/images/catalog/2026%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%85%A8%E5%9E%8B%E9%8C%84.pdf", 
+        catalogUrl: "https://drive.google.com/file/d/1NnTkwB7w8tBW3--8wmB5vJAMTjwPmSws/view?usp=drive_link", 
         productUrl: "https://www.lg.com/tw/washer-dryers/top-loading-washing-machine/wt-td20hg/"
     },
     {
@@ -960,7 +960,7 @@ smartRawData.push(
         img: "LG冰洗/WT-TD23HG.jpg", 
         giftImg: "",
         qrUrl: "",
-        catalogUrl: "https://www.lg.com/content/dam/channel/wcms/tw/images/catalog/2026%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%85%A8%E5%9E%8B%E9%8C%84.pdf", 
+        catalogUrl: "https://drive.google.com/file/d/1NnTkwB7w8tBW3--8wmB5vJAMTjwPmSws/view?usp=drive_link", 
         productUrl: "https://www.lg.com/tw/washer-dryers/top-loading-washing-machine/wt-td23hg/"
     },
     {
@@ -998,7 +998,7 @@ smartRawData.push(
         img: "LG冰洗/WD-S13VBW.jpg", 
         giftImg: "",
         qrUrl: "",
-        catalogUrl: "https://www.lg.com/content/dam/channel/wcms/tw/images/catalog/2026%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%85%A8%E5%9E%8B%E9%8C%84.pdf", 
+        catalogUrl: "https://drive.google.com/file/d/1NnTkwB7w8tBW3--8wmB5vJAMTjwPmSws/view?usp=drive_link", 
         productUrl: "https://www.lg.com/tw/washer-dryers/front-loading-washing-machines/wd-s13vbw/"
     },
     {
@@ -1037,7 +1037,7 @@ smartRawData.push(
         img: "LG冰洗/WD-S13VDW.jpg", 
         giftImg: "",
         qrUrl: "",
-        catalogUrl: "https://www.lg.com/content/dam/channel/wcms/tw/images/catalog/2026%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%85%A8%E5%9E%8B%E9%8C%84.pdf", 
+        catalogUrl: "https://drive.google.com/file/d/1NnTkwB7w8tBW3--8wmB5vJAMTjwPmSws/view?usp=drive_link", 
         productUrl: "https://www.lg.com/tw/washer-dryers/front-loading-washing-machines/wd-s13vdw/"
     },
     {
@@ -1075,7 +1075,7 @@ smartRawData.push(
         img: "LG冰洗/WD-S15NW.jpg", 
         giftImg: "",
         qrUrl: "",
-        catalogUrl: "https://www.lg.com/content/dam/channel/wcms/tw/images/catalog/2026%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%85%A8%E5%9E%8B%E9%8C%84.pdf", 
+        catalogUrl: "https://drive.google.com/file/d/1NnTkwB7w8tBW3--8wmB5vJAMTjwPmSws/view?usp=drive_link", 
         productUrl: "https://www.lg.com/tw/washer-dryers/front-loading-washing-machines/wd-s15nw/"
     },
     {
@@ -1114,7 +1114,7 @@ smartRawData.push(
         img: "LG冰洗/WD-S15NDB.jpg", 
         giftImg: "",
         qrUrl: "",
-        catalogUrl: "https://www.lg.com/content/dam/channel/wcms/tw/images/catalog/2026%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%85%A8%E5%9E%8B%E9%8C%84.pdf", 
+        catalogUrl: "https://drive.google.com/file/d/1NnTkwB7w8tBW3--8wmB5vJAMTjwPmSws/view?usp=drive_link", 
         productUrl: "https://www.lg.com/tw/washer-dryers/front-loading-washing-machines/wd-s15ndb/"
     },
     {
@@ -1152,7 +1152,7 @@ smartRawData.push(
         img: "LG冰洗/WD-S18NW.jpg", 
         giftImg: "",
         qrUrl: "",
-        catalogUrl: "https://www.lg.com/content/dam/channel/wcms/tw/images/catalog/2026%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%85%A8%E5%9E%8B%E9%8C%84.pdf", 
+        catalogUrl: "https://drive.google.com/file/d/1NnTkwB7w8tBW3--8wmB5vJAMTjwPmSws/view?usp=drive_link", 
         productUrl: "https://www.lg.com/tw/washer-dryers/front-loading-washing-machines/wd-s18nw/"
     },
     {
@@ -1191,7 +1191,7 @@ smartRawData.push(
         img: "LG冰洗/WD-S18NDB.jpg", 
         giftImg: "",
         qrUrl: "",
-        catalogUrl: "https://www.lg.com/content/dam/channel/wcms/tw/images/catalog/2026%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%85%A8%E5%9E%8B%E9%8C%84.pdf", 
+        catalogUrl: "https://drive.google.com/file/d/1NnTkwB7w8tBW3--8wmB5vJAMTjwPmSws/view?usp=drive_link", 
         productUrl: "https://www.lg.com/tw/washer-dryers/front-loading-washing-machines/wd-s18ndb/?gad_source=1&gad_campaignid=24205304295&gbraid=0AAAAA91RGTuXHeujUqJFTVPoGzxou8MNM&gclid=Cj0KCQjwlNPVBhCMARIsAPZ5RqiD4mfueUgq49YQQhsBBRevQ0kbtRgi79PqnRDa3_UBeAh7doSs1NUaAjoqEALw_wcB"
     },
     {
@@ -1229,7 +1229,7 @@ smartRawData.push(
         img: "LG冰洗/WD-S22FW.jpg", 
         giftImg: "",
         qrUrl: "",
-        catalogUrl: "https://www.lg.com/content/dam/channel/wcms/tw/images/catalog/2026%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%85%A8%E5%9E%8B%E9%8C%84.pdf", 
+        catalogUrl: "https://drive.google.com/file/d/1NnTkwB7w8tBW3--8wmB5vJAMTjwPmSws/view?usp=drive_link", 
         productUrl: "https://www.lg.com/tw/washer-dryers/front-loading-washing-machines/wd-s22fw/?gad_source=1&gad_campaignid=24211001432&gbraid=0AAAAA91RGTvbjIpyVRo3GsZppc0GjlzWq&gclid=Cj0KCQjwlNPVBhCMARIsAPZ5RqjI4Jp5RR8zFT2ZUHbeJIsWb-4Va43hHWqUVmluePxjarMRdGgfeHkaAuFBEALw_wcB"
     },
     {
@@ -1268,7 +1268,7 @@ smartRawData.push(
         img: "LG冰洗/WD-S1310B.jpg", 
         giftImg: "",
         qrUrl: "",
-        catalogUrl: "https://www.lg.com/content/dam/channel/wcms/tw/images/catalog/2026%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%85%A8%E5%9E%8B%E9%8C%84.pdf", 
+        catalogUrl: "https://drive.google.com/file/d/1NnTkwB7w8tBW3--8wmB5vJAMTjwPmSws/view?usp=drive_link", 
         productUrl: "https://www.lg.com/tw/washer-dryers/washtower/wd-s1310b/"
     },
     {
@@ -1307,7 +1307,7 @@ smartRawData.push(
         img: "LG冰洗/WD-S1818PB.jpg", 
         giftImg: "",
         qrUrl: "",
-        catalogUrl: "https://www.lg.com/content/dam/channel/wcms/tw/images/catalog/2026%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%85%A8%E5%9E%8B%E9%8C%84.pdf", 
+        catalogUrl: "https://drive.google.com/file/d/1NnTkwB7w8tBW3--8wmB5vJAMTjwPmSws/view?usp=drive_link", 
         productUrl: "https://www.lg.com/tw/washer-dryers/washtower/wd-s1818pb/"
     },
     {
@@ -1346,7 +1346,7 @@ smartRawData.push(
         img: "LG冰洗/WD-S2220VM.jpg", 
         giftImg: "",
         qrUrl: "",
-        catalogUrl: "https://www.lg.com/content/dam/channel/wcms/tw/images/catalog/2026%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%85%A8%E5%9E%8B%E9%8C%84.pdf", 
+        catalogUrl: "https://drive.google.com/file/d/1NnTkwB7w8tBW3--8wmB5vJAMTjwPmSws/view?usp=drive_link", 
         productUrl: "https://www.lg.com/tw/washer-dryers/washtower/wd-s2220vm/?gad_source=1&gad_campaignid=24205304295&gbraid=0AAAAA91RGTuXHeujUqJFTVPoGzxou8MNM&gclid=Cj0KCQjwlNPVBhCMARIsAPZ5RqhaA2bT1alr8zos37F0KSPsT5uSDuiy2ve2U5g6h0QG2prIB6xl5l4aApHcEALw_wcB"
     },
     {
@@ -1385,7 +1385,7 @@ smartRawData.push(
         img: "LG冰洗/WD-S2220B.jpg", 
         giftImg: "",
         qrUrl: "",
-        catalogUrl: "https://www.lg.com/content/dam/channel/wcms/tw/images/catalog/2026%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%85%A8%E5%9E%8B%E9%8C%84.pdf", 
+        catalogUrl: "https://drive.google.com/file/d/1NnTkwB7w8tBW3--8wmB5vJAMTjwPmSws/view?usp=drive_link", 
         productUrl: "https://www.lg.com/tw/washer-dryers/washtower/wd-s2220b/"
     },
     {
@@ -1424,7 +1424,7 @@ smartRawData.push(
         img: "LG冰洗/WD-S22FHDB.jpg", 
         giftImg: "",
         qrUrl: "",
-        catalogUrl: "https://www.lg.com/content/dam/channel/wcms/tw/images/catalog/2026%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%85%A8%E5%9E%8B%E9%8C%84.pdf", 
+        catalogUrl: "https://drive.google.com/file/d/1NnTkwB7w8tBW3--8wmB5vJAMTjwPmSws/view?usp=drive_link", 
         productUrl: "https://www.lg.com/tw/washer-dryers/front-loading-washing-machines/wd-s22fhdb/"
     },
     {
@@ -1462,7 +1462,7 @@ smartRawData.push(
         img: "LG冰洗/WR-20DW.jpg", 
         giftImg: "",
         qrUrl: "",
-        catalogUrl: "https://www.lg.com/content/dam/channel/wcms/tw/images/catalog/2026%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%85%A8%E5%9E%8B%E9%8C%84.pdf", 
+        catalogUrl: "https://drive.google.com/file/d/1NnTkwB7w8tBW3--8wmB5vJAMTjwPmSws/view?usp=drive_link", 
         productUrl: "https://www.lg.com/tw/washer-dryers/dryers/wr-20dw/"
     },
     {
@@ -1500,7 +1500,7 @@ smartRawData.push(
         img: "LG冰洗/R723MG.jpg", 
         giftImg: "",
         qrUrl: "",
-        catalogUrl: "https://www.lg.com/content/dam/channel/wcms/tw/images/catalog/2026%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%85%A8%E5%9E%8B%E9%8C%84.pdf", 
+        catalogUrl: "https://drive.google.com/file/d/1NnTkwB7w8tBW3--8wmB5vJAMTjwPmSws/view?usp=drive_link", 
         productUrl: "https://www.lg.com/tw/washer-dryers/styler/r723mg/"
     },
     {
@@ -1538,7 +1538,7 @@ smartRawData.push(
         img: "LG冰洗/R723MB.jpg", 
         giftImg: "",
         qrUrl: "",
-        catalogUrl: "https://www.lg.com/content/dam/channel/wcms/tw/images/catalog/2026%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%85%A8%E5%9E%8B%E9%8C%84.pdf", 
+        catalogUrl: "https://drive.google.com/file/d/1NnTkwB7w8tBW3--8wmB5vJAMTjwPmSws/view?usp=drive_link", 
         productUrl: "https://www.lg.com/tw/washer-dryers/styler/r723mb/"
     },
     {
@@ -1576,7 +1576,7 @@ smartRawData.push(
         img: "LG冰洗/R723WG.jpg", 
         giftImg: "",
         qrUrl: "",
-        catalogUrl: "https://www.lg.com/content/dam/channel/wcms/tw/images/catalog/2026%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%85%A8%E5%9E%8B%E9%8C%84.pdf", 
+        catalogUrl: "https://drive.google.com/file/d/1NnTkwB7w8tBW3--8wmB5vJAMTjwPmSws/view?usp=drive_link", 
         productUrl: "https://www.lg.com/tw/washer-dryers/styler/r723wg/?gad_source=1&gad_campaignid=24205304295&gbraid=0AAAAA91RGTuXHeujUqJFTVPoGzxou8MNM&gclid=Cj0KCQjwlNPVBhCMARIsAPZ5RqgXazlTHslQo7gbwwapR3H4LqMlQRk6j9kHUEo9iMrAgqVE5045-38aApALEALw_wcB"
     },
 {
@@ -1614,7 +1614,7 @@ smartRawData.push(
         img: "LG冰洗/DFB533FW.jpg", 
         giftImg: "",
         qrUrl: "",
-        catalogUrl: "https://www.lg.com/content/dam/channel/wcms/tw/images/catalog/2026%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%85%A8%E5%9E%8B%E9%8C%84.pdf", 
+        catalogUrl: "https://drive.google.com/file/d/1NnTkwB7w8tBW3--8wmB5vJAMTjwPmSws/view?usp=drive_link", 
         productUrl: "https://www.lg.com/tw/dishwashers/all-dishwashers/dfb533fw/lgsubscribe/"
     }
 );
