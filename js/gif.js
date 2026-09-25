@@ -1034,7 +1034,7 @@ rawData.push(
     desc: "2026/09/25 ~ 2026/09/28<br>單品購買$1000以上<br><span class='text-red'>電烤盤、火烤兩用鍋</span>即可享<br>A.$988加購_新格14吋DC遙控立扇*1<span class='text-blue'><br>(41-521114-001)</span><br>B.<span class='text-red'>$1,988</span>加購_聲寶15L多功能氣炸烤箱*1<span class='text-blue'><br>(41-333061-001)</span><br>C.<span class='text-red'>$5,488</span>加購_奇美智能空氣清淨機*1<span class='text-blue'><br>(41-000062-001)</span><br>D.<span class='text-red'>$5,490</span>加購_特福高級動能營養調理機*1<span class='text-blue'><br>(41-214023-001)</span><br>E.<span class='text-red'>$5,690</span>加購_特福紅外線卡茲氣炸鍋*1<span class='text-blue'><br>(41-313010-001)</span><br>F.<span class='text-red'>$6,166</span>加購_夏普速淨智慧空氣清淨機*1<span class='text-blue'><br>(41-000063-001白)<br>(41-000063-002棕)</span><br><span class='text-red'>請碰扣，可一次加購多樣商品</span>", 
     barcode: ["4718060346346", "4718060387868", "4713170848223", "3016661159336", "3045387295813", "4550556129145", "4550556133920"], 
     customLabels: ["🎁 新格14吋DC遙控立扇", "🎁 聲寶15L多功能氣炸烤箱", "🎁 奇美智能空氣清淨機", "🎁 特福高級動能營養調理機", "🎁 特福紅外線卡茲氣炸鍋", "🎁 夏普速淨智慧空氣清淨機(白)", "🎁 夏普速淨智慧空氣清淨機(棕)"],
-    img: "DM活動贈品/0925.jpg", 
+    img: "DM活動贈品/0925.JPG", 
     giftImg: "",
     qrUrl: "", 
     taxUrl: "", 
