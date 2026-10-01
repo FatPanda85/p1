@@ -478,36 +478,15 @@ rawData.push(
             },
              { 
                 cat: "冷氣", brand: "國際", 
-                name: "<br>4月1日起購買家用空調指定機種<br>現金回饋最高省12000元！", 
-                desc: "國際活動官網申請<br>發票: 2026.4.01~2026.08.31\n登錄最晚至 2026.09.15\n<span class='text-red '>今年現金回饋只針對冷暖\n冷專和窗型無回饋金　請注意!!!!</span>\n現金回饋$8000機種:UX 超高效系列\n現金回饋$2000機種:VX極致旗艦系列，UX頂級旗艦系列，UX旗艦系列，UJ系列，一對多系列<span class='text-red '>*以室外機計算*</span>\n現金回饋$1000機種:UK．K標準系列", 
+                name: "<br>10月1日起購買家用空調指定機種<br>現金回饋最高省12000元！", 
+                desc: "國際活動官網申請<br>發票: 2026.10.01~2027.01.31\n登錄最晚至 2027.02.26\n<span class='text-red '>今年現金回饋只針對冷暖\n冷專和窗型無回饋金　請注意!!!!</span>\n現金回饋$8000機種:UX 超高效系列\n現金回饋$2000機種:VX極致旗艦系列，UX頂級旗艦系列，UX旗艦系列，UJ系列，一對多系列<span class='text-red '>*以室外機計算*</span>\n現金回饋$1000機種:UK．K標準系列", 
                 barcode: "", 
                 img: "冷氣贈品/2026.jpg",
-                qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=5D143BC7-EAFB-472D-865B-B3D088CAD790", 
+                qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity?EventID=E7D22005-F51D-40C9-B048-F2E00762C170", 
                 taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
                 oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
             },
- {
-                cat: "冷氣", brand: "國際", 
-                name: "加碼贈品", 
-                desc: "9/1-9/15<br>購買國際變頻冷氣<br><span class='text-red'>UJ28BHA2 1-1變頻冷暖<br>即享原廠好禮送</span><br><span class='text-blue'>40-630999-001<br>(贈)國際F-S14KM<br>14吋DC電風扇0*1</span><br><span class='text-red'>停產機種不在此限<br>數量有限，送完為止</span>", 
-                type: "gift",
-                barcode: ["4717523402643"], 
-                img: "冷氣贈品/S14KM.jpg", 
-                qrUrl: "", 
-                taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
-                oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
-            },
-            {
-                cat: "冷氣", brand: "國際", 
-                name: "加碼贈品", 
-                desc: "9/1-9/15<br>購買國際變頻冷氣\n<span class='text-red'>窗型系列<br>即享原廠好禮送</span><br><span class='text-blue'>40-630047-001<br>(贈)2026國際IH電磁爐KY-T30*1</span><br><span class='text-red'>停產機種不在此限<br>數量有限，送完為止，不再到貨</span>", 
-                type: "gift",
-                barcode: ["4717523475029"], 
-                img: "冷氣贈品/T30.jpg", 
-                qrUrl: "", 
-                taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
-                oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
-            },
+
                         { 
                 cat: "冷氣", brand: "國際", 
                 name: "冷氣免運\n免基本安裝費\n$100", 
@@ -529,7 +508,7 @@ rawData.push(
 { 
                 cat: "冷氣", brand: "日立", 
                 name: "原廠好禮", 
-                desc: "9/1 ~ 9/15<br>購買日立指定系列變頻冷氣<br>頂級/豪華系列一對一變頻分離式<br>即享好禮二選一<br><span class='text-blue'>40-630084-001<br>(贈)2026日立微波爐HMRM2003*1<br>40-630921-001<br>(贈)2026日立哈根諾克HGN168DC電風扇*1</span><br><span class='text-red'>停產機種不在此限<br>數量有限，送完為止</span>", 
+                desc: "10/1 ~ 10/31<br>購買日立指定系列變頻冷氣<br>頂級/豪華系列一對一變頻分離式<br>即享好禮二選一<br><span class='text-blue'>40-630084-001<br>(贈)2026日立微波爐HMRM2003*1<br>40-630921-001<br>(贈)2026日立哈根諾克HGN168DC電風扇*1</span><br><span class='text-red'>停產機種不在此限<br>數量有限，送完為止</span>", 
                 barcode:  ["8850207800062","4713780039202"],
                  customLabels: ["🎁 微波爐", "🎁 電風扇"], // <--- 在這裡定義
                 img: "冷氣贈品/168DCC.jpg",
@@ -548,41 +527,77 @@ rawData.push(
             },
             { 
                 cat: "冷氣", brand: "LG", 
-                name: "<br>極智2.0、極淨2.0冷暖系列 <br><span class='text-blue'>就是今年的DHST系列</span><br>登陸贈好禮即享卷<span class='text-red'>$2,000元</span>\ ", 
-                desc: "LG活動時間2026/2/1 ~ 5/31\n購買指定型號型號　登錄贈好禮即享卷\n登陸時間為2026/3/1 ~ 2026/6/30\n<span class='text-orange'>LG活贈品登錄活動為LG官方LIN\n請客人在自己的LIN申請\n因為即享卷會直接依照客人LIN的電話簡訊發放</span>", 
+                name: "<br>買空調滿六萬送空氣清淨機", 
+                desc: "LG活動時間2026/10/1 ~ 2027/1/31<br>購買空調滿六萬<br>登錄贈LG空氣清淨機AS351GW10*1\n登陸時間為2026/10/1 ~ 2027/2/28\n<span class='text-orange'>LG活贈品登錄活動為LG官方LIN\n請客人在自己的LIN申請\n因為即享卷會直接依照客人LIN的電話簡訊發放</span>", 
                 barcode: "", 
-                img: "冷氣贈品/LG2026.jpg", 
-                qrUrl: "https://liff.line.me/1657320610-MwQld1o9/home", 
+                img: "冷氣贈品/LG202610.jpg",
+                giftImg: "", 
+                qrUrl: "https://redirect-line.accunix.net/redirect.html?liffId=1657320610-EX054qze&lineId=26e7eaaeb5nPA&lineBasicId=@xou5836o&linkId=1994ce32d29TDk", 
                 taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
                 oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
             },
-                        { 
-                cat: "冷氣", brand: "LG", 
-                name: "<br>極效2.0冷暖系列 <br><span class='text-blue'>就是今年的DST系列</span><br>登陸贈好禮即享卷<span class='text-red'>$1,000元</span>\ ", 
-                desc: "LG活動時間2026/2/1 ~ 5/31\n購買指定型號型號　登錄贈好禮即享卷\n登陸時間為2026/3/1 ~ 2026/6/30\n<span class='text-orange'>LG活贈品登錄活動為LG官方LIN\n請客人在自己的LIN申請\n因為即享卷會直接依照客人LIN的電話簡訊發放</span>", 
-                barcode: "", 
-                img: "冷氣贈品/LG2026.jpg", 
-                qrUrl: "https://liff.line.me/1657320610-MwQld1o9/home", 
-                taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
-                oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
-            },
-                                    { 
-                cat: "冷氣", brand: "LG", 
-                name: "<br>一對多系列 <br>登陸贈好禮即享卷<span class='text-red'>$2,500元</span>\ ", 
-                desc: "LG活動時間2026/2/1 ~ 5/31\n購買指定型號型號　登錄贈好禮即享卷\n登陸時間為2026/3/1 ~ 2026/6/30\n<span class='text-orange'>LG活贈品登錄活動為LG官方LIN\n請客人在自己的LIN申請\n因為即享卷會直接依照客人LIN的電話簡訊發放</span>", 
-                barcode: "", 
-                img: "冷氣贈品/LG2026.jpg", 
-                qrUrl: "https://liff.line.me/1657320610-MwQld1o9/home", 
-                taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
-                oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
-            },
-            { 
+                                  { 
                 cat: "冷氣", brand: "LG", 
                 name: "冷氣免運\n免基本安裝費\n$100", 
                 desc: "一對一分離式冷氣:  \n 3.6KW以下(含)$3100元  3.7KW - 4.1KW $3500元 \n  4.2KW - 5.2KW $3900元   \n 5.3KW - 6.5KW $4500元\n6.6KW - 7.2KW $5000元  \n   7.3KW - 9.1KW $6000元  \n  9.2KW - 11.6KW $8000元  \n 11.7KW以上$9200元  \n  一對多分離式冷氣:   \n  超出10米以外(以室內機KW計算)   \n 家樂福補助10米(日立冷氣除外)$5000元   \n  窗型/直立式冷氣/移動式:  \n 3.2KW(含)以下$800元  \n   3.21KW - 5.3KW $1000元   \n  超過5.3KW $1200元  \n  只送不裝收費: \n 窗型/直立式 $200/台 \n  一對一分離 $300/組 \n一對二分離式 $400/組   \n 隨貨其他商品100/件", 
                 type: "shipping", 
                 barcode: ["2449405007012"], // 請換成正確條碼
                 img: "", qrUrl: "", taxUrl: "", oldUrl: "" 
+            },
+{ 
+                cat: "冷氣", brand: "禾聯", 
+                name: "原廠贈品", 
+                desc: "2026/10/1 ~ 2027/01/31<br>禾聯2.2kw(含)以上全系列一級變頻冷氣<br>即贈好禮五選一<br><span class='text-blue'>40-630001-001<br>(贈)2026禾聯HMO-20MD16T 轉盤式微波爐*1", 
+                barcode:  ["4711649721930"],
+                 customLabels: ["🎁 微波爐"], // <--- 在這裡定義
+                img: "冷氣贈品/HMO-20MD16T.jpg",
+                qrUrl: "", 
+                taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+                oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
+            },
+{ 
+                cat: "冷氣", brand: "禾聯", 
+                name: "原廠贈品", 
+                desc: "2026/10/1 ~ 2027/01/31<br>禾聯2.2kw(含)以上全系列一級變頻冷氣<br>即贈好禮五選一<br><span class='text-blue'>40-630012-001<br>(贈)2026禾聯HDF-16CH510 16吋DC風扇*1", 
+                barcode:  ["4711229593711"],
+                 customLabels: ["🎁 DC扇"], // <--- 在這裡定義
+                img: "冷氣贈品/HDF-16CH510.jpg",
+                qrUrl: "", 
+                taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+                oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
+            },
+{ 
+                cat: "冷氣", brand: "禾聯", 
+                name: "原廠贈品", 
+                desc: "2026/10/1 ~ 2027/01/31<br>禾聯2.2kw(含)以上全系列一級變頻冷氣<br>即贈好禮五選一<br><span class='text-blue'>40-630013-001<br>(贈)2026禾聯HVC-14PV010 無線手持吸塵*1", 
+                barcode:  ["4711649721831"],
+                 customLabels: ["🎁 吸塵器"], // <--- 在這裡定義
+                img: "冷氣贈品/HVC-14PV010.jpg",
+                qrUrl: "", 
+                taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+                oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
+            },
+{ 
+                cat: "冷氣", brand: "禾聯", 
+                name: "原廠贈品", 
+                desc: "2026/10/1 ~ 2027/01/31<br>禾聯2.2kw(含)以上全系列一級變頻冷氣<br>即贈好禮五選一<br><span class='text-blue'>40-630992-001<br>(贈)2026禾聯SCZS-115 全不鏽鋼電鍋*1", 
+                barcode:  ["4710273765198"],
+                 customLabels: ["🎁 電鍋"], // <--- 在這裡定義
+                img: "冷氣贈品/SCZS-115.jpg",
+                qrUrl: "", 
+                taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+                oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
+            },
+{ 
+                cat: "冷氣", brand: "禾聯", 
+                name: "原廠贈品", 
+                desc: "2026/10/1 ~ 2027/01/31<br>禾聯2.2kw(含)以上全系列一級變頻冷氣<br>即贈好禮五選一<br><span class='text-blue'>40-630023-001<br>(贈)2026 MINAE MAB-A01T1機上盒*1", 
+                barcode:  ["4710273766416"],
+                 customLabels: ["🎁 機上盒"], // <--- 在這裡定義
+                img: "冷氣贈品/MINAE MAB-A01T1.jpg",
+                qrUrl: "", 
+                taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+                oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
             },
             { 
                 cat: "冷氣", brand: "禾聯", 
@@ -592,17 +607,7 @@ rawData.push(
                 barcode: ["2449405007012"], // 請換成正確條碼
                 img: "", qrUrl: "", taxUrl: "", oldUrl: "" 
             },
-            {
-                cat: "冷氣", brand: "東元", 
-                name: "加碼贈品", 
-                desc: "8/22-8/31\n購買東元GA5/GAT6系列一對一變頻冷氣\n<span class='text-red'>即享原廠好禮送</span>\n<span class='text-blue'>40-630051-001\n(贈)2026東元XA1628BRD 16吋DC風扇*1</span>\n<span class='text-red'>停產機種不在此限\n數量有限，送完為止</span>", 
-                type: "gift",
-                barcode: ["4718074412228"], 
-                img: "冷氣贈品/XA1628.jpg", 
-                qrUrl: "", 
-                taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
-                oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
-            },
+
  { 
                 cat: "冷氣", brand: "東元", 
                 name: "冷氣免運\n免基本安裝費\n$100", 
@@ -611,30 +616,47 @@ rawData.push(
                 barcode: ["2449405007012"], // 請換成正確條碼
                 img: "", qrUrl: "", taxUrl: "", oldUrl: "" 
             },
-            { 
+{ 
                 cat: "冷氣", brand: "聲寶", 
-    name: "<br>購買聲寶冷氣、冰箱、冷凍櫃、洗衣機、電視、除濕機、清淨機 <br>登錄參加抽獎資格<br><span class='text-blue'>每月可抽一次</span><br><span class='text-red'>活動到9/30為止</span>", 
-    // 使用一個完整的反引號包覆所有內容
-    desc: `<div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
-        <div style="margin: 0; font-weight: bold;">聲寶90年義氣相挺喝咖啡活動</div>
-        <div style="margin: 0;">登陸時間為即日起 ~ 2026/9/30</div>
-        <div style="color: blue; margin: 0; padding: 0;">
-            上官網登錄可參加抽獎<br>
-            有機會抽中【Balzano】 義式半自動雙膠囊3 in 1咖啡機*1
-        </div>
-        <table style="width: 100%; max-width: 400px; margin: 5px auto; ...">
-                <tr style="background:#eee;"><th>抽獎時間</th><th>公告時間</th></tr>
-                <tr><td style="color: red;">第一波5/29</td><td style="color: red;">第一波6/5</td></tr>
-                <tr><td style="color: red;">第二波6/30</td><td style="color: red;">第二波7/7</td></tr>
-                <tr><td style="color: red;">第三波7/31</td><td style="color: red;">第三波8/7</td></tr>
-                <tr><td style="color: red;">第四波8/31</td><td style="color: red;">第四波9/7</td></tr>
-                <tr><td style="color: red;">第五波10/1</td><td style="color: red;">第五波10/8</td></tr>
-            </table>
-        </div>
-    `,
-                barcode: "", 
-                img: "冷氣贈品/SAMPO000.jpg", 
-                qrUrl: "https://event.sampo.com.tw/2026q2-campaign", 
+                name: "原廠贈品", 
+                desc: "2026/10/1 ~ 2027/1/31<br>聲寶全系列一級變頻冷氣2.2kw(含)以上<br>即享好禮四選一<br><span class='text-blue'>40-630011-001<br>(贈)2026聲寶KM-AC2026 IH變頻電磁爐*1", 
+                barcode:  ["4718060388308"],
+                 customLabels: ["🎁 電磁爐"], // <--- 在這裡定義
+                img: "冷氣贈品/KM-AC2026.jpg",
+                qrUrl: "", 
+                taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+                oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
+            },
+{ 
+                cat: "冷氣", brand: "聲寶", 
+                name: "原廠贈品", 
+                desc: "2026/10/1 ~ 2027/1/31<br>聲寶全系列一級變頻冷氣2.2kw(含)以上<br>即享好禮四選一<br><span class='text-blue'>40-630080-001<br>(贈)聲寶新格SRE-AC2025 20L微波爐*1", 
+                barcode:  ["4718060332448"],
+                 customLabels: ["🎁 微波爐"], // <--- 在這裡定義
+                img: "冷氣贈品/SRE-AC2025.jpg",
+                qrUrl: "", 
+                taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+                oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
+            },
+{ 
+                cat: "冷氣", brand: "聲寶", 
+                name: "原廠贈品", 
+                desc: "2026/10/1 ~ 2027/1/31<br>聲寶全系列一級變頻冷氣2.2kw(含)以上<br>即享好禮四選一<br><span class='text-blue'>40-630010-001<br>(贈)2026CLAIRE CED-AC2026AI溫控吹風機*1", 
+                barcode:  ["4718060393814"],
+                 customLabels: ["🎁 吹風機"], // <--- 在這裡定義
+                img: "冷氣贈品/CED-AC2026.jpg",
+                qrUrl: "", 
+                taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+                oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
+            },
+{ 
+                cat: "冷氣", brand: "聲寶", 
+                name: "原廠贈品", 
+                desc: "2026/10/1 ~ 2027/1/31<br>聲寶全系列一級變頻冷氣2.2kw(含)以上<br>即享好禮四選一<br><span class='text-blue'>40-630024-001<br>(贈)2026Balzano 破壁調理機(BZ-WBD1068) 粉紅色*1<br>40-630025-001<br>(贈)2026Balzano 破壁調理機(BZ-WBD1066)白色*1", 
+                barcode:  ["4711041660561","4711041660554"],
+                 customLabels: ["🎁 吹風機(粉紅色)","🎁 吹風機(白色)"], // <--- 在這裡定義
+                img: "冷氣贈品/WBD10666.jpg",
+                qrUrl: "", 
                 taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
                 oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
             },
@@ -646,6 +668,70 @@ rawData.push(
                 barcode: ["2449405007012"], // 請換成正確條碼
                 img: "", qrUrl: "", taxUrl: "", oldUrl: "" 
             },
+{ 
+                cat: "冷氣", brand: "奇美", 
+                name: "原廠贈品", 
+                desc: "2026/10/1 ~ 2026/11/31<br>奇美2.2kw(含)以上變頻冷氣<br>即贈<br><span class='text-blue'>40-630022-001<br>(贈)2026-奇美8吋無線遙控DC扇DF-08X1UM*1", 
+                barcode:  ["4713170848407"],
+                 customLabels: ["🎁 DC扇"], // <--- 在這裡定義
+                img: "冷氣贈品/DF-08X1UM.jpg",
+                qrUrl: "", 
+                taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+                oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
+            },
+                                  { 
+                cat: "冷氣", brand: "奇美", 
+                name: "冷氣免運\n免基本安裝費\n$100", 
+                desc: "一對一分離式冷氣:  \n 3.6KW以下(含)$3100元  3.7KW - 4.1KW $3500元 \n  4.2KW - 5.2KW $3900元   \n 5.3KW - 6.5KW $4500元\n6.6KW - 7.2KW $5000元  \n   7.3KW - 9.1KW $6000元  \n  9.2KW - 11.6KW $8000元  \n 11.7KW以上$9200元  \n  一對多分離式冷氣:   \n  超出10米以外(以室內機KW計算)   \n 家樂福補助10米(日立冷氣除外)$5000元   \n  窗型/直立式冷氣/移動式:  \n 3.2KW(含)以下$800元  \n   3.21KW - 5.3KW $1000元   \n  超過5.3KW $1200元  \n  只送不裝收費: \n 窗型/直立式 $200/台 \n  一對一分離 $300/組 \n一對二分離式 $400/組   \n 隨貨其他商品100/件", 
+                type: "shipping", 
+                barcode: ["2449405007012"], // 請換成正確條碼
+                img: "", qrUrl: "", taxUrl: "", oldUrl: "" 
+            },
+{ 
+                cat: "冷氣", brand: "SHARP", 
+                name: "原廠贈品", 
+                desc: "2026/10/1 ~ 2026/12/31<br>SHARP 2.2kw(含)以上全系列一級變頻冷氣<br>即贈好禮四選一<br><span class='text-blue'>40-630018-001<br>(贈)2026YAMADA YHP-10LH010陶瓷式電*1", 
+                barcode:  ["4711229591120"],
+                 customLabels: ["🎁 電暖器"], // <--- 在這裡定義
+                img: "冷氣贈品/YAMADA YHP-10LH010.jpg",
+                qrUrl: "", 
+                taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+                oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
+            },
+{ 
+                cat: "冷氣", brand: "SHARP", 
+                name: "原廠贈品", 
+                desc: "2026/10/1 ~ 2026/12/31<br>SHARP 2.2kw(含)以上全系列一級變頻冷氣<br>即贈好禮四選一<br><span class='text-blue'>40-630020-001<br>(贈)2026YAMADA YHP-130B010 電烤盤*1", 
+                barcode:  ["4710273766942"],
+                 customLabels: ["🎁 電烤盤"], // <--- 在這裡定義
+                img: "冷氣贈品/YAMADA YHP-130B010.jpg",
+                qrUrl: "", 
+                taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+                oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
+            },
+{ 
+                cat: "冷氣", brand: "SHARP", 
+                name: "原廠贈品", 
+                desc: "2026/10/1 ~ 2026/12/31<br>SHARP 2.2kw(含)以上全系列一級變頻冷氣<br>即贈好禮四選一<br><span class='text-blue'>40-630987-001<br>(贈)2026山田 YBH-12QN060 吹風機*1", 
+                barcode:  ["4711460502879"],
+                 customLabels: ["🎁 吹風機"], // <--- 在這裡定義
+                img: "冷氣贈品/YBH-12QN060.jpg",
+                qrUrl: "", 
+                taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+                oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
+            },
+{ 
+                cat: "冷氣", brand: "SHARP", 
+                name: "原廠贈品", 
+                desc: "2026/10/1 ~ 2026/12/31<br>SHARP 2.2kw(含)以上全系列一級變頻冷氣<br>即贈好禮四選一<br><span class='text-blue'>40-630989-001<br>(贈)2026YDF-14AH57114吋DC直流電扇*1", 
+                barcode:  ["4711229593346"],
+                 customLabels: ["🎁 電扇"], // <--- 在這裡定義
+                img: "冷氣贈品/YDF-14AH57114.jpg",
+                qrUrl: "", 
+                taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+                oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
+            },
+
             { 
                 cat: "冷氣", brand: "SHARP", 
                 name: "冷氣免運\n免基本安裝費\n$100", 
@@ -692,6 +778,28 @@ rawData.push(
                 type: "gift",
                 barcode: ["4711216460644"], 
                 img: "冷氣贈品/air.jpg", 
+                qrUrl: "", 
+                taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+                oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
+            },
+{ 
+                cat: "冷氣", brand: "三菱重工", 
+                name: "原廠贈品", 
+                desc: "2026/10/1 ~ 2026/12/31<br>三菱重工2.0kw(含)以上(一對一)變頻冷氣<br>即贈<br><span class='text-blue'>40-630071-001<br>(贈)2026VESTA16寸搖控DC風扇*1", 
+                barcode:  ["4711216460538"],
+                 customLabels: ["🎁 風扇"], // <--- 在這裡定義
+                img: "冷氣贈品/6VESTA16.jpg",
+                qrUrl: "", 
+                taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+                oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
+            },
+{ 
+                cat: "冷氣", brand: "三菱重工", 
+                name: "原廠贈品", 
+                desc: "2026/10/1 ~ 2026/12/31<br>三菱重工一對多變頻冷氣<br>即贈<br><span class='text-blue'>40-630032-001<br>(贈)(贈)2026 三菱 OS-1251 護眼樂Air 2*1", 
+                barcode:  ["8888657167480"],
+                 customLabels: ["🎁 護眼"], // <--- 在這裡定義
+                img: "冷氣贈品/1251.jpg",
                 qrUrl: "", 
                 taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
                 oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
