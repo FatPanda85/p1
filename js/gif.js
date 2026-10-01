@@ -655,7 +655,7 @@ rawData.push(
                 desc: "2026/10/1 ~ 2027/1/31<br>聲寶全系列一級變頻冷氣2.2kw(含)以上<br>即享好禮四選一<br><span class='text-blue'>40-630024-001<br>(贈)2026Balzano 破壁調理機(BZ-WBD1068) 粉紅色*1<br>40-630025-001<br>(贈)2026Balzano 破壁調理機(BZ-WBD1066)白色*1", 
                 barcode:  ["4711041660561","4711041660554"],
                  customLabels: ["🎁 吹風機(粉紅色)","🎁 吹風機(白色)"], // <--- 在這裡定義
-                img: "冷氣贈品/WBD10666.jpg",
+                img: "冷氣贈品/WBD1066.jpg",
                 qrUrl: "", 
                 taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
                 oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
