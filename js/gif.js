@@ -528,7 +528,7 @@ rawData.push(
             { 
                 cat: "冷氣", brand: "LG", 
                 name: "<br>買空調滿六萬送空氣清淨機", 
-                desc: "LG活動時間2026/10/1 ~ 2027/1/31<br>購買空調滿六萬<br>登錄贈LG空氣清淨機AS351GW10*1\n登陸時間為2026/10/1 ~ 2027/2/28\n<span class='text-orange'>LG活贈品登錄活動為LG官方LIN\n請客人在自己的LIN申請\n因為即享卷會直接依照客人LIN的電話簡訊發放</span>", 
+                desc: "LG活動時間2026/10/1 ~ 2027/1/31<br>購買空調滿六萬<br>登錄贈LG空氣清淨機AS351GW10*1\n登陸時間為2026/10/1 ~ 2027/2/28\n<span class='text-orange'>LG活贈品登錄活動為LG官方LIN\n請客人在自己的LIN申請</span>", 
                 barcode: "", 
                 img: "冷氣贈品/LG202610.jpg",
                 giftImg: "", 
