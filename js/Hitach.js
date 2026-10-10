@@ -45,7 +45,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
-        catalogUrl: "", 
+        catalogUrl: "https://www.hitachi-homeappliances.com.tw/image/hsct/service/download/catalog/2026fullprodcutcatalog(AW).pdf", 
         productUrl: "https://hitachi-homeappliances.com.tw/products/products_03.php?pid=R115ETW"
     },
        {
