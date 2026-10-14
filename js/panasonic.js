@@ -6,7 +6,7 @@ smartRawData.push(
         cat: "冷凍櫃", 
         brand: "國際", 
         spec: "直立式", 
-        name: "<br>NR-FZ175AV-S直立式冷凍櫃170L<br><span class='text-blue'>40-030049-001</span>", 
+        name: "<br>NR-FZ175AV-S直立式冷凍櫃170L<br><span class='text-blue'>40-030049-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130030-001</span><br>(贈)SP-2707萬用不沾刀具五件組*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "54.7公分" },
@@ -39,10 +39,10 @@ smartRawData.push(
 `,
         type: "gift",
         model: "NR-FZ175AV-S冷凍櫃",
-        barcode: ["4717523710700","2449400006027","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523710700","4713968220170","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 不沾刀具","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/FZ175.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2707.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -53,7 +53,7 @@ smartRawData.push(
         cat: "冷凍櫃", 
         brand: "國際", 
         spec: "直立式", 
-        name: "<br>NR-FZ255AV-S直立式冷凍櫃242L<br><span class='text-blue'>40-030050-001</span>", 
+        name: "<br>NR-FZ255AV-S直立式冷凍櫃242L<br><span class='text-blue'>40-030050-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130030-001</span><br>(贈)SP-2707萬用不沾刀具五件組*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "59.5公分" },
@@ -86,10 +86,10 @@ smartRawData.push(
 `,
         type: "gift",
         model: "NR-FZ255AV-S冷凍櫃",
-        barcode: ["4717523710700","2449400006027","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523710700","4713968220170","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 不沾刀具","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/FZ255.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2707.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -100,7 +100,7 @@ smartRawData.push(
         cat: "冷凍櫃", 
         brand: "國際", 
         spec: "直立式", 
-        name: "<br>NR-FZ383AV-S變頻冷凍櫃-銀<br><span class='text-blue'>40-030040-001</span>", 
+        name: "<br>NR-FZ383AV-S變頻冷凍櫃-銀<br><span class='text-blue'>40-030040-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130030-001</span><br>(贈)SP-2707萬用不沾刀具五件組*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "71公分" },
@@ -133,10 +133,10 @@ smartRawData.push(
 `,
         type: "gift",
         model: "NR-FZ383AV-S冷凍櫃",
-        barcode: ["4717523306200","2449400006027","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523306200","4713968220170","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 不沾刀具","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/FZ383.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2707.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -147,7 +147,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "雙門", 
-        name: "<br>NR-B301VG-X1變頻雙門冰箱300L-鑽石黑<span class='text-red'>(鏡面)</span><span class='text-blue'><br>40-002074-001</span>", 
+        name: "<br>NR-B301VG-X1變頻雙門冰箱300L-鑽石黑<span class='text-red'>(鏡面)</span><span class='text-blue'><br>40-002074-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040009-001</span><br>(贈)SP-2706廚房剪/小餐叉*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "60.1公分" },
@@ -178,10 +178,10 @@ smartRawData.push(
 `,
         type: "gift",
         model: "NR-B301VG-X1",
-        barcode: ["8887549850592","2449400006027","2449400002029"], 
-        customLabels: ["📦 商品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["8887549850592","4712755795952","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 廚房剪", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/1B301VG.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2706.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -192,7 +192,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "雙門", 
-        name: "<br>NR-B331VG-X1變頻雙門冰箱325L-鑽石黑<span class='text-red'>(鏡面)</span><span class='text-blue'><br>40-003043-001</span>", 
+        name: "<br>NR-B331VG-X1變頻雙門冰箱325L-鑽石黑<span class='text-red'>(鏡面)</span><span class='text-blue'><br>40-003043-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040009-001</span><br>(贈)SP-2706廚房剪/小餐叉*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "60.1公分" },
@@ -223,10 +223,10 @@ smartRawData.push(
 `,
         type: "gift",
         model: "NR-B331VG-X1",
-        barcode: ["8887549850585","2449400006027","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["8887549850585","4712755795952","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 廚房剪","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/1B331VG.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2706.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -237,7 +237,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "雙門", 
-        name: "<br>NR-B371TV-S1變頻雙門冰箱366L-晶鈦銀<span class='text-red'>(鋼板)</span><span class='text-blue'><br>40-003035-001</span>", 
+        name: "<br>NR-B371TV-S1變頻雙門冰箱366L-晶鈦銀<span class='text-red'>(鋼板)</span><span class='text-blue'><br>40-003035-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040009-001</span><br>(贈)SP-2706廚房剪/小餐叉*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "65公分" },
@@ -266,10 +266,10 @@ smartRawData.push(
 `,
         type: "gift",
         model: "NR-B371TV-S1",
-        barcode: ["8887549818974","2449400006027","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["8887549818974","4712755795952","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 廚房剪","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/B371TV.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2706.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -280,7 +280,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "雙門", 
-        name: "<br>NR-B426TV變頻雙門冰箱422L-星礦銀<span class='text-red'>(鋼板)</span><span class='text-blue'><br>40-004133-001</span>", 
+        name: "<br>NR-B426TV變頻雙門冰箱422L-星礦銀<span class='text-red'>(鋼板)</span><span class='text-blue'><br>40-004133-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040002-001</span><br>(贈)SP-2703可瀝水不鏽鋼湯鍋*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "69.5公分" },
@@ -311,10 +311,10 @@ smartRawData.push(
 `,
         type: "",
         model: "NR-B426TV",
-        barcode: ["4717523306828","2449400006027","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523306828","4260480620549","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 不鏽鋼湯鍋","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/B426TV1.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2703.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -325,7 +325,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "雙門", 
-        name: "<br>NR-B426TV變頻雙門冰箱422L-燦雪白<span class='text-red'>(鋼板)</span><span class='text-blue'><br>40-004133-002</span>", 
+        name: "<br>NR-B426TV變頻雙門冰箱422L-燦雪白<span class='text-red'>(鋼板)</span><span class='text-blue'><br>40-004133-002</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040002-001</span><br>(贈)SP-2703可瀝水不鏽鋼湯鍋*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "69.5公分" },
@@ -356,10 +356,10 @@ smartRawData.push(
 `,
         type: "",
         model: "NR-B426TV",
-        barcode: ["4717523306811","2449400006027","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523306811","4260480620549","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 不鏽鋼湯鍋","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/B426TV2.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2703.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -370,7 +370,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "雙門", 
-        name: "<br>NR-B496TV變頻雙門冰箱498L-星礦銀<span class='text-red'>(鋼板)</span><span class='text-blue'><br>40-004132-001</span>", 
+        name: "<br>NR-B496TV變頻雙門冰箱498L-星礦銀<span class='text-red'>(鋼板)</span><span class='text-blue'><br>40-004132-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040002-001</span><br>(贈)SP-2703可瀝水不鏽鋼湯鍋*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "69.5公分" },
@@ -401,10 +401,10 @@ smartRawData.push(
 `,
         type: "",
         model: "NR-B496TV",
-        barcode: ["4717523306842","2449400006027","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523306842","4260480620549","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 不鏽鋼湯鍋","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/B496TV1.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2703.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -415,7 +415,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "雙門", 
-        name: "<br>NR-B496TV變頻雙門冰箱498L-燦雪白<span class='text-red'>(鋼板)</span><span class='text-blue'><br>40-004132-002</span>", 
+        name: "<br>NR-B496TV變頻雙門冰箱498L-燦雪白<span class='text-red'>(鋼板)</span><span class='text-blue'><br>40-004132-002</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040002-001</span><br>(贈)SP-2703可瀝水不鏽鋼湯鍋*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "69.5公分" },
@@ -446,10 +446,10 @@ smartRawData.push(
 `,
         type: "",
         model: "NR-B496TV",
-        barcode: ["4717523306835","2449400006027","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523306835","4260480620549","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 不鏽鋼湯鍋","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/B496TV2.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2703.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -460,7 +460,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "雙門", 
-        name: "<br>NR-B586TV變頻雙門冰箱580L-星礦銀<span class='text-red'>(鋼板)</span><span class='text-blue'><br>40-005923-001</span>", 
+        name: "<br>NR-B586TV變頻雙門冰箱580L-星礦銀<span class='text-red'>(鋼板)</span><span class='text-blue'><br>40-005923-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040002-001</span><br>(贈)SP-2703可瀝水不鏽鋼湯鍋*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "77.5公分" },
@@ -491,10 +491,10 @@ smartRawData.push(
 `,
         type: "",
         model: "NR-B586TV",
-        barcode: ["4717523306880","2449400006027","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523306880","4260480620549","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 不鏽鋼湯鍋","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/B586TV1.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2703.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -505,7 +505,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "雙門", 
-        name: "<br>NR-B586TV變頻雙門冰箱580L-燦雪白<span class='text-red'>(鋼板)</span><span class='text-blue'><br>40-005923-002</span>", 
+        name: "<br>NR-B586TV變頻雙門冰箱580L-燦雪白<span class='text-red'>(鋼板)</span><span class='text-blue'><br>40-005923-002</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040002-001</span><br>(贈)SP-2703可瀝水不鏽鋼湯鍋*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "77.5公分" },
@@ -536,10 +536,10 @@ smartRawData.push(
 `,
         type: "",
         model: "NR-B586TV",
-        barcode: ["4717523306873","2449400006027","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523306873","4260480620549","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 不鏽鋼湯鍋","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/B586TV2.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2703.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -550,7 +550,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "雙門", 
-        name: "<br>NR-B656TV變頻雙門冰箱650L-星礦銀<span class='text-red'>(鋼板)</span><span class='text-blue'><br>40-005922-001</span>", 
+        name: "<br>NR-B656TV變頻雙門冰箱650L-星礦銀<span class='text-red'>(鋼板)</span><span class='text-blue'><br>40-005922-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040002-001</span><br>(贈)SP-2703可瀝水不鏽鋼湯鍋*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "80.1公分" },
@@ -581,10 +581,10 @@ smartRawData.push(
 `,
         type: "",
         model: "NR-B656TV",
-        barcode: ["4717523306927","2449400006027","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523306927","4260480620549","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 不鏽鋼湯鍋","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/B656TV1.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2703.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -595,7 +595,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "雙門", 
-        name: "<br>NR-B656TV變頻雙門冰箱650L-燦雪白<span class='text-red'>(鋼板)</span><span class='text-blue'><br>40-005922-002</span>", 
+        name: "<br>NR-B656TV變頻雙門冰箱650L-燦雪白<span class='text-red'>(鋼板)</span><span class='text-blue'><br>40-005922-002</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040002-001</span><br>(贈)SP-2703可瀝水不鏽鋼湯鍋*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "80.1公分" },
@@ -626,10 +626,10 @@ smartRawData.push(
 `,
         type: "",
         model: "NR-B656TV",
-        barcode: ["4717523306910","2449400006027","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523306910","4260480620549","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 不鏽鋼湯鍋","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/B656TV2.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2703.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -640,7 +640,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "三門", 
-        name: "<br>NR-C384HV變頻三門冰箱385L-香檳金<span class='text-red'>(鋼板)</span><span class='text-blue'><br>40-010048-001</span>", 
+        name: "<br>NR-C384HV變頻三門冰箱385L-香檳金<span class='text-red'>(鋼板)</span><span class='text-blue'><br>40-010048-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040009-001</span><br>(贈)SP-2706廚房剪/小餐叉*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "60公分" },
@@ -672,10 +672,10 @@ smartRawData.push(
 `,
         type: "",
         model: "NR-C384HV",
-        barcode: ["4717523306484","2449400006027","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523306484","4712755795952","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 廚房剪","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/C384HV1.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2706.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -686,7 +686,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "三門", 
-        name: "<br>NR-C384HV變頻三門冰箱385L-晶鑽白<span class='text-red'>(鋼板)</span><span class='text-blue'><br>40-010048-002</span>", 
+        name: "<br>NR-C384HV變頻三門冰箱385L-晶鑽白<span class='text-red'>(鋼板)</span><span class='text-blue'><br>40-010048-002</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040009-001</span><br>(贈)SP-2706廚房剪/小餐叉*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "60公分" },
@@ -718,10 +718,10 @@ smartRawData.push(
 `,
         type: "",
         model: "NR-C384HV",
-        barcode: ["4717523306491","2449400006027","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523306491","4712755795952","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 廚房剪","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/C384HV2.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2706.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -732,7 +732,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "三門", 
-        name: "<br>NR-C454HV變頻三門冰箱450L-晶鑽白<span class='text-red'>(鋼板)</span><span class='text-blue'><br>40-010051-001</span>", 
+        name: "<br>NR-C454HV變頻三門冰箱450L-晶鑽白<span class='text-red'>(鋼板)</span><span class='text-blue'><br>40-010051-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040002-001</span><br>(贈)SP-2703可瀝水不鏽鋼湯鍋*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "67.5公分" },
@@ -766,10 +766,10 @@ smartRawData.push(
 `,
         type: "",
         model: "NR-C454HV",
-        barcode: ["4717523306453","2449400006027","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523306453","4260480620549","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 不鏽鋼湯鍋","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/C454HV1.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2703.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -780,7 +780,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "三門", 
-        name: "<br>NR-C454HV變頻三門冰箱450L-香檳金<span class='text-red'>(鋼板)</span><span class='text-blue'><br>40-010051-002</span>", 
+        name: "<br>NR-C454HV變頻三門冰箱450L-香檳金<span class='text-red'>(鋼板)</span><span class='text-blue'><br>40-010051-002</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040002-001</span><br>(贈)SP-2703可瀝水不鏽鋼湯鍋*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "67.5公分" },
@@ -814,10 +814,10 @@ smartRawData.push(
 `,
         type: "",
         model: "NR-C454HV",
-        barcode: ["4717523306446","2449400006027","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523306446","4260480620549","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 不鏽鋼湯鍋","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/C454HV1.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2703.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -924,7 +924,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "三門", 
-        name: "<br>NR-C505XV變頻三門冰箱500L-雪霧白<span class='text-red'>(絲絨鋼板)</span><span class='text-blue'><br>40-010049-001</span>", 
+        name: "<br>NR-C505XV變頻三門冰箱500L-雪霧白<span class='text-red'>(絲絨鋼板)</span><span class='text-blue'><br>40-010049-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040002-001</span><br>(贈)SP-2703可瀝水不鏽鋼湯鍋*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "72.5公分" },
@@ -960,10 +960,10 @@ smartRawData.push(
 `,
         type: "",
         model: "NR-C505XV",
-        barcode: ["4717523306651","2449400006027","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523306651","4260480620549","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 不鏽鋼湯鍋","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/C505XV.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2703.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -974,7 +974,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "三門", 
-        name: "<br>NR-C505XV變頻三門冰箱500L-星礦銀<span class='text-red'>(霧面鋼板)</span><span class='text-blue'><br>40-010049-003</span>", 
+        name: "<br>NR-C505XV變頻三門冰箱500L-星礦銀<span class='text-red'>(霧面鋼板)</span><span class='text-blue'><br>40-010049-003</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040002-001</span><br>(贈)SP-2703可瀝水不鏽鋼湯鍋*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "72.5公分" },
@@ -1010,10 +1010,10 @@ smartRawData.push(
 `,
         type: "",
         model: "NR-C505XV",
-        barcode: ["4717523306804","2449400006027","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523306804","4260480620549","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 不鏽鋼湯鍋","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/C505XV.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2703.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -1128,7 +1128,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "三門", 
-        name: "<br>NR-C615XV變頻三門冰箱610L-雪霧白<span class='text-red'>(絲絨鋼板)</span><span class='text-blue'><br>40-011051-001</span>", 
+        name: "<br>NR-C615XV變頻三門冰箱610L-雪霧白<span class='text-red'>(絲絨鋼板)</span><span class='text-blue'><br>40-011051-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040002-001</span><br>(贈)SP-2703可瀝水不鏽鋼湯鍋*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "77.5公分" },
@@ -1164,10 +1164,10 @@ smartRawData.push(
 `,
         type: "",
         model: "NR-C615XV",
-        barcode: ["4717523306613","2449400006027","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523306613","4260480620549","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 不鏽鋼湯鍋","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/C615XV.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2703.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -1178,7 +1178,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "三門", 
-        name: "<br>NR-C615XV變頻三門冰箱610L-星礦銀<span class='text-red'>(霧面鋼板)</span><span class='text-blue'><br>40-011051-003</span>", 
+        name: "<br>NR-C615XV變頻三門冰箱610L-星礦銀<span class='text-red'>(霧面鋼板)</span><span class='text-blue'><br>40-011051-003</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040002-001</span><br>(贈)SP-2703可瀝水不鏽鋼湯鍋*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "77.5公分" },
@@ -1214,10 +1214,10 @@ smartRawData.push(
 `,
         type: "",
         model: "NR-C615XV",
-        barcode: ["4717523306781","2449400006027","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523306781","4260480620549","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 不鏽鋼湯鍋","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/C615XV.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2703.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -1332,7 +1332,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "四門", 
-        name: "<br>NR-D505XV變頻三門冰箱500L-雪霧白<span class='text-red'>(絲絨鋼板)</span><span class='text-blue'><br>40-013990-001</span>", 
+        name: "<br>NR-D505XV變頻三門冰箱500L-雪霧白<span class='text-red'>(絲絨鋼板)</span><span class='text-blue'><br>40-013990-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040002-001</span><br>(贈)SP-2703可瀝水不鏽鋼湯鍋*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "72.5公分" },
@@ -1368,10 +1368,10 @@ smartRawData.push(
 `,
         type: "",
         model: "NR-D505XV",
-        barcode: ["4717523306637","2449400006027","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523306637","4260480620549","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 不鏽鋼湯鍋","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/D505XV.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2703.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -1382,7 +1382,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "四門", 
-        name: "<br>NR-D505XV變頻三門冰箱500L-星礦銀<span class='text-red'>(霧面鋼板)</span><span class='text-blue'><br>40-013990-003</span>", 
+        name: "<br>NR-D505XV變頻三門冰箱500L-星礦銀<span class='text-red'>(霧面鋼板)</span><span class='text-blue'><br>40-013990-003</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040002-001</span><br>(贈)SP-2703可瀝水不鏽鋼湯鍋*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "72.5公分" },
@@ -1418,10 +1418,10 @@ smartRawData.push(
 `,
         type: "",
         model: "NR-D505XV",
-        barcode: ["4717523306798","2449400006027","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523306798","4260480620549","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 不鏽鋼湯鍋","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/D505XV.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2703.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -1473,7 +1473,7 @@ smartRawData.push(
         barcode: ["4717523306552","2449400006027","2449400002029"], 
         customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/D505XG.jpg", 
-        giftImg: "國際冰箱/A5.jpg",
+        giftImg: "",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -1536,7 +1536,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "四門", 
-        name: "<br>NR-D615XV變頻三門冰箱610L-雪霧白<span class='text-red'>(絲絨鋼板)</span><span class='text-blue'><br>40-013987-001</span>", 
+        name: "<br>NR-D615XV變頻三門冰箱610L-雪霧白<span class='text-red'>(絲絨鋼板)</span><span class='text-blue'><br>40-013987-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040002-001</span><br>(贈)SP-2703可瀝水不鏽鋼湯鍋*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "77.5公分" },
@@ -1572,10 +1572,10 @@ smartRawData.push(
 `,
         type: "",
         model: "NR-D615XV",
-        barcode: ["4717523306590","2449400006027","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523306590","4260480620549","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 不鏽鋼湯鍋","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/D615XV.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2703.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -1586,7 +1586,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "四門", 
-        name: "<br>NR-D615XV變頻三門冰箱610L-星礦銀<span class='text-red'>(霧面鋼板)</span><span class='text-blue'><br>40-013987-003</span>", 
+        name: "<br>NR-D615XV變頻三門冰箱610L-星礦銀<span class='text-red'>(霧面鋼板)</span><span class='text-blue'><br>40-013987-003</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040002-001</span><br>(贈)SP-2703可瀝水不鏽鋼湯鍋*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "77.5公分" },
@@ -1622,10 +1622,10 @@ smartRawData.push(
 `,
         type: "",
         model: "NR-D615XV",
-        barcode: ["4717523306774","2449400006027","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523306774","4260480620549","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 不鏽鋼湯鍋","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/D615XV.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2703.jpg",
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
@@ -1740,7 +1740,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "日製五門", 
-        name: "<br>NR-E417XT五門變頻冰箱406L-香檳金<span class='text-red'>(鋼板)</span><span class='text-blue'><br>40-012054-001</span><br><span class='text-red'>※登陸最晚時間:2026.09.02</span>", 
+        name: "<br>NR-E417XT五門變頻冰箱406L-香檳金<span class='text-red'>(鋼板)</span><span class='text-blue'><br>40-012054-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040001-001</span><br>(贈)SP-2701可微波不鏽鋼保鮮盒四入組*1<br>登錄送$2000元節能回饋金<br><span class='text-red'>※登陸最晚時間:2027.03.31前</span>", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "60公分" },
@@ -1774,11 +1774,11 @@ smartRawData.push(
 `,
         type: "",
         model: "NR-E417XT",
-        barcode: ["4549980496237","2449400006027","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4549980496237","6909141613114","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 保鮮盒","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/E417XT.jpg", 
-        giftImg: "",
-        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=CC49B685-0A02-4FA4-BB33-AA7FD72AB27C",
+        giftImg: "國際冰洗贈品/SP-2701$2000.jpg",
+        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
         catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
@@ -1788,7 +1788,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "日製五門", 
-        name: "<br>NR-E417XT五門變頻冰箱406L-晶鑽白<span class='text-red'>(鋼板)</span><span class='text-blue'><br>40-012054-002</span><br><span class='text-red'>※登陸最晚時間:2026.09.02</span>", 
+        name: "<br>NR-E417XT五門變頻冰箱406L-晶鑽白<span class='text-red'>(鋼板)</span><span class='text-blue'><br>40-012054-002</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040001-001</span><br>(贈)SP-2701可微波不鏽鋼保鮮盒四入組*1<br>登錄送$2000元節能回饋金<br><span class='text-red'>※登陸最晚時間:2027.03.31前</span>", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "60公分" },
@@ -1822,11 +1822,11 @@ smartRawData.push(
 `,
         type: "",
         model: "NR-E417XT",
-        barcode: ["4549980496244","2449400006027","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4549980496244","6909141613114","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 保鮮盒","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/E417XT.jpg", 
-        giftImg: "",
-        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=CC49B685-0A02-4FA4-BB33-AA7FD72AB27C",
+        giftImg: "國際冰洗贈品/SP-2701$2000.jpg",
+        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
         catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
@@ -1836,7 +1836,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "日製五門", 
-        name: "<br>NR-E507XT五門變頻冰箱502L-晶鑽白<span class='text-red'>(鋼板)</span><span class='text-blue'><br>40-013002-001</span><span class='text-red'><br>※登陸最晚時間:2026.09.02</span>", 
+        name: "<br>NR-E507XT五門變頻冰箱502L-晶鑽白<span class='text-red'>(鋼板)</span><span class='text-blue'><br>40-013002-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040001-001</span><br>(贈)SP-2701可微波不鏽鋼保鮮盒四入組*1<br>登錄送$2000元節能回饋金<br><span class='text-red'>※登陸最晚時間:2027.03.31前</span>", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "65公分" },
@@ -1871,11 +1871,11 @@ smartRawData.push(
 `,
         type: "",
         model: "NR-E507XT",
-        barcode: ["4549980496268","2449400006027","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4549980496268","6909141613114","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 保鮮盒","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/E507XT.jpg", 
-        giftImg: "",
-        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=CC49B685-0A02-4FA4-BB33-AA7FD72AB27C",
+        giftImg: "國際冰洗贈品/SP-2701$2000.jpg",
+        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
         catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
@@ -1885,7 +1885,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "日製五門", 
-        name: "<br>NR-E507XT五門變頻冰箱502L-香檳金<span class='text-red'>(鋼板)</span><span class='text-blue'><br>40-013002-002</span><span class='text-red'><br>※登陸最晚時間:2026.09.02</span>", 
+        name: "<br>NR-E507XT五門變頻冰箱502L-香檳金<span class='text-red'>(鋼板)</span><span class='text-blue'><br>40-013002-002</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040001-001</span><br>(贈)SP-2701可微波不鏽鋼保鮮盒四入組*1<br>登錄送$2000元節能回饋金<br><span class='text-red'>※登陸最晚時間:2027.03.31前</span>", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "65公分" },
@@ -1920,11 +1920,11 @@ smartRawData.push(
 `,
         type: "",
         model: "NR-E507XT",
-        barcode: ["4549980496251","2449400006027","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4549980496251","6909141613114","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 保鮮盒","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/E507XT.jpg",
-        giftImg: "", 
-        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=CC49B685-0A02-4FA4-BB33-AA7FD72AB27C",
+        giftImg: "國際冰洗贈品/SP-2701$2000.jpg", 
+        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
         catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
@@ -1934,7 +1934,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "日製六門", 
-        name: "<br>NR-F521HX日製變頻六門冰箱502L-翡翠白<span class='text-red'>(無邊框鏡面玻璃)</span><span class='text-blue'><br>40-013992-001</span><span class='text-red'><br>※登陸最晚時間:2026.09.02</span>", 
+        name: "<br>NR-F521HX日製變頻六門冰箱502L-翡翠白<span class='text-red'>(無邊框鏡面玻璃)</span><span class='text-blue'><br>40-013992-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040001-001</span><br>(贈)SP-2701可微波不鏽鋼保鮮盒四入組*1<br>登錄送$3000元節能回饋金<br><span class='text-red'>※登陸最晚時間:2027.03.31前</span>", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "65公分" },
@@ -1971,11 +1971,11 @@ smartRawData.push(
 `,
         type: "",
         model: "NR-F521HX",
-        barcode: ["4549980804254","2449400006027","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4549980804254","6909141613114","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 保鮮盒","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/F521HX.jpg", 
-        giftImg: "",
-        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=CC49B685-0A02-4FA4-BB33-AA7FD72AB27C",
+        giftImg: "國際冰洗贈品/SP-2701$3000.jpg",
+        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
         catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
@@ -1985,7 +1985,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "日製六門", 
-        name: "<br>NR-F521HX日製變頻六門冰箱502L-鑽石黑<span class='text-red'>(無邊框鏡面玻璃)</span><span class='text-blue'><br>40-013992-002</span><span class='text-red'><br>※登陸最晚時間:2026.09.02</span>", 
+        name: "<br>NR-F521HX日製變頻六門冰箱502L-鑽石黑<span class='text-red'>(無邊框鏡面玻璃)</span><span class='text-blue'><br>40-013992-002</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040001-001</span><br>(贈)SP-2701可微波不鏽鋼保鮮盒四入組*1<br>登錄送$3000元節能回饋金<br><span class='text-red'>※登陸最晚時間:2027.03.31前</span>", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "65公分" },
@@ -2022,11 +2022,11 @@ smartRawData.push(
 `,
         type: "",
         model: "NR-F521HX",
-        barcode: ["4549980804261","2449400006027","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4549980804261","6909141613114","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 保鮮盒","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/F521HX.jpg", 
-        giftImg: "",
-        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=CC49B685-0A02-4FA4-BB33-AA7FD72AB27C",
+        giftImg: "國際冰洗贈品/SP-2701$3000.jpg",
+        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
         catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
@@ -2036,7 +2036,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "日製六門", 
-        name: "<br>NR-F551WX日製變頻六門冰箱550L-翡翠白<span class='text-red'>(無邊框鏡面玻璃)</span><span class='text-blue'><br>40-013993-001</span><span class='text-red'><br>※登陸最晚時間:2026.09.02</span>", 
+        name: "<br>NR-F551WX日製變頻六門冰箱550L-翡翠白<span class='text-red'>(無邊框鏡面玻璃)</span><span class='text-blue'><br>40-013993-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040001-001</span><br>(贈)SP-2701可微波不鏽鋼保鮮盒四入組*1<br>登錄送$3000元節能回饋金<br><span class='text-red'>※登陸最晚時間:2027.03.31前</span>", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "68.5公分" },
@@ -2073,11 +2073,11 @@ smartRawData.push(
 `,
         type: "",
         model: "NR-F551WX",
-        barcode: ["4549980804278","2449400006027","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4549980804278","6909141613114","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 保鮮盒","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/F551WX.jpg", 
-        giftImg: "",
-        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=CC49B685-0A02-4FA4-BB33-AA7FD72AB27C",
+        giftImg: "國際冰洗贈品/SP-2701$3000.jpg",
+        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
         catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
@@ -2087,7 +2087,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "日製六門", 
-        name: "<br>NR-F551WX日製變頻六門冰箱550L-鑽石黑<span class='text-red'>(無邊框鏡面玻璃)</span><span class='text-blue'><br>40-013993-002</span><span class='text-red'><br>※登陸最晚時間:2026.09.02</span>", 
+        name: "<br>NR-F551WX日製變頻六門冰箱550L-鑽石黑<span class='text-red'>(無邊框鏡面玻璃)</span><span class='text-blue'><br>40-013993-002</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040001-001</span><br>(贈)SP-2701可微波不鏽鋼保鮮盒四入組*1<br>登錄送$3000元節能回饋金<br><span class='text-red'>※登陸最晚時間:2027.03.31前</span>", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "68.5公分" },
@@ -2124,11 +2124,11 @@ smartRawData.push(
 `,
         type: "",
         model: "NR-F551WX",
-        barcode: ["4549980804285","2449400006027","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4549980804285","6909141613114","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 保鮮盒","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/F551WX.jpg", 
-        giftImg: "",
-        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=CC49B685-0A02-4FA4-BB33-AA7FD72AB27C",
+        giftImg: "國際冰洗贈品/SP-2701$3000.jpg",
+        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
         catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
@@ -2138,7 +2138,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "日製六門", 
-        name: "<br>NR-F601XT日製變頻六門冰箱601L-晶鑽白<span class='text-red'>(鋼板)</span><span class='text-blue'><br>40-013994-001</span><span class='text-red'><br>※登陸最晚時間:2026.09.02</span>", 
+        name: "<br>NR-F601XT日製變頻六門冰箱601L-晶鑽白<span class='text-red'>(鋼板)</span><span class='text-blue'><br>40-013994-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040001-001</span><br>(贈)SP-2701可微波不鏽鋼保鮮盒四入組*1<br>登錄送$2000元節能回饋金<br><span class='text-red'>※登陸最晚時間:2027.03.31前</span>", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "68.5公分" },
@@ -2174,11 +2174,11 @@ smartRawData.push(
 `,
         type: "",
         model: "NR-F601XT",
-        barcode: ["4549980804339","2449400006027","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4549980804339","6909141613114","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 保鮮盒","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/F601XT.jpg", 
-        giftImg: "",
-        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=CC49B685-0A02-4FA4-BB33-AA7FD72AB27C",
+        giftImg: "國際冰洗贈品/SP-2701$2000.jpg",
+        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
         catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
@@ -2188,7 +2188,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "日製六門", 
-        name: "<br>NR-F601XT日製變頻六門冰箱601L-瓷釉灰<span class='text-red'>(鋼板)</span><span class='text-blue'><br>40-013994-002</span><span class='text-red'><br>※登陸最晚時間:2026.09.02</span>", 
+        name: "<br>NR-F601XT日製變頻六門冰箱601L-瓷釉灰<span class='text-red'>(鋼板)</span><span class='text-blue'><br>40-013994-002</span><span class='text-red'><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040001-001</span><br>(贈)SP-2701可微波不鏽鋼保鮮盒四入組*1<br>登錄送$2000元節能回饋金<br><span class='text-red'>※登陸最晚時間:2027.03.31前</span>", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "68.5公分" },
@@ -2224,271 +2224,21 @@ smartRawData.push(
 `,
         type: "",
         model: "NR-F601XT",
-        barcode: ["4549980804322","2449400006027","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4549980804322","6909141613114","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 保鮮盒","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/F601XT.jpg", 
-        giftImg: "",
-        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=CC49B685-0A02-4FA4-BB33-AA7FD72AB27C",
+        giftImg: "國際冰洗贈品/SP-2701$2000.jpg",
+        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
         catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/six-door/nr-f601xt.html"
     },
-    {
-        cat: "冰箱", 
-        brand: "國際", 
-        spec: "日製六門", 
-        name: "<br>NR-F601WX日製變頻六門冰箱600L-翡翠白<span class='text-red'>(無邊框鏡面玻璃)</span><span class='text-blue'><br>40-013995-001</span><span class='text-red'><br>※登陸最晚時間:2026.09.02</span>", 
-       specs: [
-        { label: "機器尺寸", value: "" },
-        { label: "寬", value: "68.5公分" },
-        { label: "高", value: "182.8公分" },
-        { label: "深", value: "74.5公分" },
-        { label: "包裝箱尺寸", value: "" },
-        { label: "寬", value: "74.7公分" },
-        { label: "高", value: "192.9公分" },
-        { label: "深", value: "84.2公分" },
-        { label: "年耗電(度)", value: "<span class='text-red'>276</span>" },
-        { label: "容量", value: "" },
-        { label: "有效容積", value: "600<span style='color: #666;'>L</span>" },
-        { label: "冷凍室", value: "113<span style='color: #666;'>L</span>" },
-        { label: "冷藏室", value: "293<span style='color: #666;'>L</span>" },
-        { label: "製冰室", value: "19<span style='color: #666;'>L</span>" },
-        { label: "蔬果室", value: "125<span style='color: #666;'>L</span>" },
-        { label: "新鮮急凍結", value: "31<span style='color: #666;'>L</span>" },
-        { label: "-3℃微凍結室", value: "19<span style='color: #666;'>L</span>" },
-        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$900</span>" }
-        ],
-       desc: `
-        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
-        <div style="margin: 0; font-weight: bold;">● 有效容積600L</div>
-        <div style="color: red; margin: 0;">● 新1級能源效率</div>
-        <div style="margin: 0; padding: 0;">
-           ● AI ECONAVI智慧節能科技<br>
-           ● 抑霜鮮凍　● 新鮮急凍結<br>
-           ● -3°C微凍結　● 智慧保濕蔬果室<br>
-           ● nanoe™ X 健康科技　● 自動製冰<br>
-           ●IoT智慧健康家電
-        </div>
-    </div>
-`,
-        type: "",
-        model: "NR-F601WX",
-        barcode: ["4549980804308","2449400006027","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
-        img: "國際冰箱/F601WX.jpg", 
-        giftImg: "",
-        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=CC49B685-0A02-4FA4-BB33-AA7FD72AB27C",
-        taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
-        oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
-        productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/six-door/nr-f601wx.html"
-    },
-    {
-        cat: "冰箱", 
-        brand: "國際", 
-        spec: "日製六門", 
-        name: "<br>NR-F601WX日製變頻六門冰箱600L-雲霧灰<span class='text-red'>(無邊框鏡面玻璃)</span><span class='text-blue'><br>40-013995-002</span><span class='text-red'><br>※登陸最晚時間:2026.09.02</span>", 
-       specs: [
-        { label: "機器尺寸", value: "" },
-        { label: "寬", value: "68.5公分" },
-        { label: "高", value: "182.8公分" },
-        { label: "深", value: "74.5公分" },
-        { label: "包裝箱尺寸", value: "" },
-        { label: "寬", value: "74.7公分" },
-        { label: "高", value: "192.9公分" },
-        { label: "深", value: "84.2公分" },
-        { label: "年耗電(度)", value: "<span class='text-red'>276</span>" },
-        { label: "容量", value: "" },
-        { label: "有效容積", value: "600<span style='color: #666;'>L</span>" },
-        { label: "冷凍室", value: "113<span style='color: #666;'>L</span>" },
-        { label: "冷藏室", value: "293<span style='color: #666;'>L</span>" },
-        { label: "製冰室", value: "19<span style='color: #666;'>L</span>" },
-        { label: "蔬果室", value: "125<span style='color: #666;'>L</span>" },
-        { label: "新鮮急凍結", value: "31<span style='color: #666;'>L</span>" },
-        { label: "-3℃微凍結室", value: "19<span style='color: #666;'>L</span>" },
-        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$900</span>" }
-        ],
-       desc: `
-        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
-        <div style="margin: 0; font-weight: bold;">● 有效容積600L</div>
-        <div style="color: red; margin: 0;">● 新1級能源效率</div>
-        <div style="margin: 0; padding: 0;">
-           ● AI ECONAVI智慧節能科技<br>
-           ● 抑霜鮮凍　● 新鮮急凍結<br>
-           ● -3°C微凍結　● 智慧保濕蔬果室<br>
-           ● nanoe™ X 健康科技　● 自動製冰<br>
-           ●IoT智慧健康家電
-        </div>
-    </div>
-`, 
-        type: "",
-        model: "NR-F601WXS",
-        barcode: ["4549980804292","2449400006027","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
-        img: "國際冰箱/F601WX.jpg", 
-        giftImg: "",
-        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=CC49B685-0A02-4FA4-BB33-AA7FD72AB27C",
-        taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
-        oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
-        productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/six-door/nr-f601wx.html"
-    },
-    {
-        cat: "冰箱", 
-        brand: "國際", 
-        spec: "日製六門", 
-        name: "<br>NR-F601WX日製變頻六門冰箱600L-鑽石黑<span class='text-red'>(無邊框鏡面玻璃)</span><span class='text-blue'><br>40-013995-003</span><span class='text-red'><br>※登陸最晚時間:2026.09.02</span>", 
-       specs: [
-        { label: "機器尺寸", value: "" },
-        { label: "寬", value: "68.5公分" },
-        { label: "高", value: "182.8公分" },
-        { label: "深", value: "74.5公分" },
-        { label: "包裝箱尺寸", value: "" },
-        { label: "寬", value: "74.7公分" },
-        { label: "高", value: "192.9公分" },
-        { label: "深", value: "84.2公分" },
-        { label: "年耗電(度)", value: "<span class='text-red'>276</span>" },
-        { label: "容量", value: "" },
-        { label: "有效容積", value: "600<span style='color: #666;'>L</span>" },
-        { label: "冷凍室", value: "113<span style='color: #666;'>L</span>" },
-        { label: "冷藏室", value: "293<span style='color: #666;'>L</span>" },
-        { label: "製冰室", value: "19<span style='color: #666;'>L</span>" },
-        { label: "蔬果室", value: "125<span style='color: #666;'>L</span>" },
-        { label: "新鮮急凍結", value: "31<span style='color: #666;'>L</span>" },
-        { label: "-3℃微凍結室", value: "19<span style='color: #666;'>L</span>" },
-        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$900</span>" }
-        ],
-       desc: `
-        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
-        <div style="margin: 0; font-weight: bold;">● 有效容積600L</div>
-        <div style="color: red; margin: 0;">● 新1級能源效率</div>
-        <div style="margin: 0; padding: 0;">
-           ● AI ECONAVI智慧節能科技<br>
-           ● 抑霜鮮凍　● 新鮮急凍結<br>
-           ● -3°C微凍結　● 智慧保濕蔬果室<br>
-           ● nanoe™ X 健康科技　● 自動製冰<br>
-           ●IoT智慧健康家電
-        </div>
-    </div>
-`, 
-        type: "",
-        model: "NR-F601WX",
-        barcode: ["4549980804315","2449400006027","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
-        img: "國際冰箱/F601WX.jpg", 
-        giftImg: "",
-        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=CC49B685-0A02-4FA4-BB33-AA7FD72AB27C",
-        taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
-        oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
-        productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/six-door/nr-f601wx.html"
-    },
-    {
-        cat: "冰箱", 
-        brand: "國際", 
-        spec: "日製六門", 
-        name: "<br>NR-F651WX日製變頻六門冰箱650L-雲霧灰<span class='text-red'>(無邊框鏡面玻璃)</span><span class='text-blue'><br>40-013991-001</span><span class='text-red'><br>※登陸最晚時間:2026.09.02</span>", 
-       specs: [
-        { label: "機器尺寸", value: "" },
-        { label: "寬", value: "75公分" },
-        { label: "高", value: "182.8公分" },
-        { label: "深", value: "74.5公分" },
-        { label: "包裝箱尺寸", value: "" },
-        { label: "寬", value: "81.4公分" },
-        { label: "高", value: "192.9公分" },
-        { label: "深", value: "84.2公分" },
-        { label: "年耗電(度)", value: "<span class='text-red'>312</span>" },
-        { label: "容量", value: "" },
-        { label: "有效容積", value: "650<span style='color: #666;'>L</span>" },
-        { label: "冷凍室", value: "123<span style='color: #666;'>L</span>" },
-        { label: "冷藏室", value: "314<span style='color: #666;'>L</span>" },
-        { label: "製冰室", value: "24<span style='color: #666;'>L</span>" },
-        { label: "蔬果室", value: "135<span style='color: #666;'>L</span>" },
-        { label: "新鮮急凍結", value: "33<span style='color: #666;'>L</span>" },
-        { label: "-3℃微凍結室", value: "21<span style='color: #666;'>L</span>" },
-        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$900</span>" }
-        ],
-       desc: `
-        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
-        <div style="margin: 0; font-weight: bold;">● 有效容積650L</div>
-        <div style="color: red; margin: 0;">● 新1級能源效率</div>
-        <div style="margin: 0; padding: 0;">
-           ● AI ECONAVI智慧節能科技<br>
-           ● 抑霜鮮凍　● 新鮮急凍結<br>
-           ● -3°C微凍結　● 智慧保濕蔬果室<br>
-           ● nanoe™ X 健康科技　● 自動製冰<br>
-           ●IoT智慧健康家電
-        </div>
-    </div>
-`, 
-        type: "",
-        model: "NR-F651WX",
-        barcode: ["4549980804346","2449400006027","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
-        img: "國際冰箱/F651WX.jpg", 
-        giftImg: "",
-        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=CC49B685-0A02-4FA4-BB33-AA7FD72AB27C",
-        taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
-        oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
-        productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/six-door/nr-f651wx.html"
-    },
-    {
-        cat: "冰箱", 
-        brand: "國際", 
-        spec: "日製六門", 
-        name: "<br>NR-F651WX日製變頻六門冰箱650L-鑽石黑<span class='text-red'>(無邊框鏡面玻璃)</span><span class='text-blue'><br>40-013991-002</span><span class='text-red'><br>※登陸最晚時間:2026.09.02</span>", 
-       specs: [
-        { label: "機器尺寸", value: "" },
-        { label: "寬", value: "75公分" },
-        { label: "高", value: "182.8公分" },
-        { label: "深", value: "74.5公分" },
-        { label: "包裝箱尺寸", value: "" },
-        { label: "寬", value: "81.4公分" },
-        { label: "高", value: "192.9公分" },
-        { label: "深", value: "84.2公分" },
-        { label: "年耗電(度)", value: "<span class='text-red'>312</span>" },
-        { label: "容量", value: "" },
-        { label: "有效容積", value: "650<span style='color: #666;'>L</span>" },
-        { label: "冷凍室", value: "123<span style='color: #666;'>L</span>" },
-        { label: "冷藏室", value: "314<span style='color: #666;'>L</span>" },
-        { label: "製冰室", value: "24<span style='color: #666;'>L</span>" },
-        { label: "蔬果室", value: "135<span style='color: #666;'>L</span>" },
-        { label: "新鮮急凍結", value: "33<span style='color: #666;'>L</span>" },
-        { label: "-3℃微凍結室", value: "21<span style='color: #666;'>L</span>" },
-        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$900</span>" }
-        ],
-       desc: `
-        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
-        <div style="margin: 0; font-weight: bold;">● 有效容積650L</div>
-        <div style="color: red; margin: 0;">● 新1級能源效率</div>
-        <div style="margin: 0; padding: 0;">
-           ● AI ECONAVI智慧節能科技<br>
-           ● 抑霜鮮凍　● 新鮮急凍結<br>
-           ● -3°C微凍結　● 智慧保濕蔬果室<br>
-           ● nanoe™ X 健康科技　● 自動製冰<br>
-           ●IoT智慧健康家電
-        </div>
-    </div>
-`, 
-        type: "",
-        model: "NR-F651WX",
-        barcode: ["4549980804353","2449400006027","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
-        img: "國際冰箱/F651WX.jpg", 
-        giftImg: "",
-        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=CC49B685-0A02-4FA4-BB33-AA7FD72AB27C",
-        taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
-        oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
-        productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/six-door/nr-f651wx.html"
-    },
-    {
+     {
         cat: "洗衣機", 
         brand: "國際", 
         spec: "定頻直立式", 
-        name: "<br>NA-90EB-W洗衣機-白<br><span class='text-blue'>40-101987-001</span>", 
+        name: "<br>NA-90EB-W洗衣機-白<br><span class='text-blue'>40-101987-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040009-001</span><br>(贈)SP-2706廚房剪/小餐叉*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "55.4公分" },
@@ -2515,10 +2265,10 @@ smartRawData.push(
 `, 
         type: "",
         model: "NR-90EB",
-        barcode: ["4717523353150","2449401006026","2449401002028"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523353150","4712755795952","2449401006026","2449401002028"], 
+        customLabels: ["📦 商品","🎁 廚房剪","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/90EB.jpg", 
-        giftImg: "國際冰箱/A6.jpg",
+        giftImg: "國際冰洗贈品/SP-2706.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -2529,7 +2279,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "定頻直立式", 
-        name: "<br>NA-110EB-W洗衣機-白<br><span class='text-blue'>40-102011-001</span>", 
+        name: "<br>NA-110EB-W洗衣機-白<br><span class='text-blue'>40-102011-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040009-001</span><br>(贈)SP-2706廚房剪/小餐叉*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "55.4公分" },
@@ -2556,10 +2306,10 @@ smartRawData.push(
 `, 
         type: "",
         model: "NR-110EB",
-        barcode: ["4717523353143","2449401006026","2449401002028"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523353143","4712755795952","2449401006026","2449401002028"], 
+        customLabels: ["📦 商品","🎁 廚房剪","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/110EB.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2706.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -2570,7 +2320,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "定頻直立式", 
-        name: "<br>NA-120EB-W洗衣機-白<br><span class='text-blue'>40-102013-001</span>", 
+        name: "<br>NA-120EB-W洗衣機-白<br><span class='text-blue'>40-102013-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040009-001</span><br>(贈)SP-2706廚房剪/小餐叉*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "55.4公分" },
@@ -2597,10 +2347,10 @@ smartRawData.push(
 `, 
         type: "",
         model: "NR-120EB",
-        barcode: ["4717523353136","2449401006026","2449401002028"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523353136","4712755795952","2449401006026","2449401002028"], 
+        customLabels: ["📦 商品","🎁 廚房剪","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/120EB.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2706.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -2611,7 +2361,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "定頻直立式", 
-        name: "<br>NA-150MU-L直立式洗衣機15KG<br><span class='text-blue'>40-103964-001</span>", 
+        name: "<br>NA-150MU-L直立式洗衣機15KG<br><span class='text-blue'>40-103964-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040009-001</span><br>(贈)SP-2706廚房剪/小餐叉*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "64公分" },
@@ -2637,10 +2387,10 @@ smartRawData.push(
 `, 
         type: "",
         model: "NR-150MU",
-        barcode: ["4717523353723","2449401006026","2449401002028"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523353723","4712755795952","2449401006026","2449401002028"], 
+        customLabels: ["📦 商品","🎁 廚房剪","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/150MU.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2706.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -2651,7 +2401,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "變頻直立式", 
-        name: "<br>NA-V110LBS-S變頻直立式洗衣機11KG<span class='text-red'>(不鏽鋼)</span><br><span class='text-blue'>40-102028-001</span>", 
+        name: "<br>NA-V110LBS-S變頻直立式洗衣機11KG<span class='text-red'>(不鏽鋼)</span><br><span class='text-blue'>40-102028-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "55.4公分" },
@@ -2677,10 +2427,10 @@ smartRawData.push(
 `, 
         type: "",
         model: "NR-V110LBS",
-        barcode: ["4717523353587","2449401006026","2449401002028"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523353587","6940284010118","2449401006026","2449401002028"], 
+        customLabels: ["📦 商品","🎁 雙耳瀝水套裝","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/V110LB.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2705.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -2691,7 +2441,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "變頻直立式", 
-        name: "<br>NA-V130LBS-S變頻直立式洗衣機13KG<span class='text-red'>(不鏽鋼)</span><br><span class='text-blue'>40-103953-001</span>",  
+        name: "<br>NA-V130LBS-S變頻直立式洗衣機13KG<span class='text-red'>(不鏽鋼)</span><br><span class='text-blue'>40-103953-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1",  
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "55.4公分" },
@@ -2717,10 +2467,10 @@ smartRawData.push(
 `, 
         type: "",
         model: "NR-V130LBS",
-        barcode: ["4717523353617","2449401006026","2449401002028"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523353617","6940284010118","2449401006026","2449401002028"], 
+        customLabels: ["📦 商品","🎁 雙耳瀝水套裝","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/V130LBS.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2705.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -2731,7 +2481,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "變頻直立式", 
-        name: "<br>NA-V130LB-L變頻直立式洗衣機13KG<span class='text-red'>(炫銀灰)</span><br><span class='text-blue'>40-103954-001</span>", 
+        name: "<br>NA-V130LB-L變頻直立式洗衣機13KG<span class='text-red'>(炫銀灰)</span><br><span class='text-blue'>40-103954-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1<br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "55.4公分" },
@@ -2757,10 +2507,10 @@ smartRawData.push(
 `, 
         type: "",
         model: "NR-V130LB",
-        barcode: ["4717523353617","2449401006026","2449401002028"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523353617","6940284010118","2449401006026","2449401002028"], 
+        customLabels: ["📦 商品","🎁 雙耳瀝水套裝","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/V130LB.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2705.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -2771,7 +2521,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "變頻直立式", 
-        name: "<br>NA-V150MT-PN變頻直立式洗衣機15KG<span class='text-red'>(玫瑰金)</span><br><span class='text-blue'>40-103962-001</span>", 
+        name: "<br>NA-V150MT-PN變頻直立式洗衣機15KG<span class='text-red'>(玫瑰金)</span><br><span class='text-blue'>40-103962-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "64公分" },
@@ -2797,10 +2547,10 @@ smartRawData.push(
 `, 
         type: "",
         model: "NR-V150MT",
-        barcode: ["4717523353693","2449401006026","2449401002028"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523353693","6940284010118","2449401006026","2449401002028"], 
+        customLabels: ["📦 商品","🎁 雙耳瀝水套裝","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/V150MT.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2705.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -2811,7 +2561,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "變頻直立式", 
-        name: "<br>NA-V150NM-S變頻直立式洗衣機15KG<span class='text-red'>(不鏽鋼)</span><br><span class='text-blue'>40-103980-001</span>", 
+        name: "<br>NA-V150NM-S變頻直立式洗衣機15KG<span class='text-red'>(不鏽鋼)</span><br><span class='text-blue'>40-103980-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1<br>贈品:<br><span class='text-blue'>40-110176-001</span><br>(贈)南僑水晶洗劑SP-NA02*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "64公分" },
@@ -2837,10 +2587,10 @@ smartRawData.push(
 `, 
         type: "",
         model: "NR-V150NM-S",
-        barcode: ["4717523353877","2449401006026","2449401002028"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523353877","6940284010118","4710060009153","2449401006026","2449401002028"], 
+        customLabels: ["📦 商品","🎁 雙耳瀝水套裝","🚚 水晶洗劑","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/V150NM.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2705NA02.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -2851,7 +2601,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "變頻直立式", 
-        name: "<br>NA-V170MT-PN變頻直立式洗衣機17KG<span class='text-red'>(玫瑰金)</span><br><span class='text-blue'>40-104959-001</span>", 
+        name: "<br>NA-V170MT-PN變頻直立式洗衣機17KG<span class='text-red'>(玫瑰金)</span><br><span class='text-blue'>40-104959-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "64公分" },
@@ -2877,10 +2627,10 @@ smartRawData.push(
 `, 
         type: "",
         model: "NR-V170MT",
-        barcode: ["4717523353686","2449401006026","2449401002028"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523353686","6940284010118","2449401006026","2449401002028"], 
+        customLabels: ["📦 商品","🎁 雙耳瀝水套裝","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/V170MT.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2705.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -2891,7 +2641,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "變頻直立式", 
-        name: "<br>NA-V170NM-S變頻直立式洗衣機17KG<span class='text-red'>(不鏽鋼)</span><br><span class='text-blue'>40-104970-001</span>", 
+        name: "<br>NA-V170NM-S變頻直立式洗衣機17KG<span class='text-red'>(不鏽鋼)</span><br><span class='text-blue'>40-104970-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1<br>贈品:<br><span class='text-blue'>40-110176-001</span><br>(贈)南僑水晶洗劑SP-NA02*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "64公分" },
@@ -2917,10 +2667,10 @@ smartRawData.push(
 `, 
         type: "",
         model: "NR-V170NM-S",
-        barcode: ["4717523353853","2449401006026","2449401002028"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523353853","6940284010118","4710060009153","2449401006026","2449401002028"], 
+        customLabels: ["📦 商品","🎁 雙耳瀝水套裝","🚚 水晶洗劑","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/V170NM.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2705NA02.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -2931,7 +2681,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "變頻直立式", 
-        name: "<br>NA-V190MT-PN變頻直立式洗衣機19KG<span class='text-red'>(玫瑰金)</span><br><span class='text-blue'>40-105932-001</span>", 
+        name: "<br>NA-V190MT-PN變頻直立式洗衣機19KG<span class='text-red'>(玫瑰金)</span><br><span class='text-blue'>40-105932-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "64公分" },
@@ -2958,10 +2708,10 @@ smartRawData.push(
 `, 
         type: "",
         model: "NR-V190MT",
-        barcode: ["4717523353679","2449401006026","2449401002028"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523353679","6940284010118","2449401006026","2449401002028"], 
+        customLabels: ["📦 商品","🎁 雙耳瀝水套裝","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/V190MT.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2705.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -2972,7 +2722,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "變頻直立式", 
-        name: "<br>NA-V190NM-S變頻直立式洗衣機19KG<span class='text-red'>(不鏽鋼)</span><br><span class='text-blue'>40-105937-001</span>", 
+        name: "<br>NA-V190NM-S變頻直立式洗衣機19KG<span class='text-red'>(不鏽鋼)</span><br><span class='text-blue'>40-105937-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1<br>贈品:<br><span class='text-blue'>40-110176-001</span><br>(贈)南僑水晶洗劑SP-NA02*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "64公分" },
@@ -2998,61 +2748,21 @@ smartRawData.push(
 `, 
         type: "",
         model: "NR-V190NM-S",
-        barcode: ["4717523353839","2449401006026","2449401002028"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523353839","6940284010118","4710060009153","2449401006026","2449401002028"], 
+        customLabels: ["📦 商品","🎁 雙耳瀝水套裝","🚚 水晶洗劑","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/V190NM.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2705NA02.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
         catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/WM/WM.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/washing-machine/vertical-washing-machine/inverter/na-v190nm-nms.html"
     },
-    {
+        {
         cat: "洗衣機", 
         brand: "國際", 
         spec: "變頻直立式", 
-        name: "<br>NA-V200NM-S變頻直立式洗衣機20KG<span class='text-red'>(不鏽鋼)</span><br><span class='text-blue'>40-105939-001</span>", 
-       specs: [
-        { label: "機器尺寸", value: "" },
-        { label: "寬", value: "67.9公分" },
-        { label: "高", value: "108.1公分" },
-        { label: "深", value: "75.2公分" },
-        { label: "包裝箱尺寸", value: "" },
-        { label: "寬", value: "78公分" },
-        { label: "高", value: "117.5公分" },
-        { label: "深", value: "88.5公分" },
-        { label: "洗衣重量", value: "" },
-        { label: "洗衣/脫水", value: "20<span style='color: #666;'>公斤</span>" },
-        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$500</span>" }
-        ],
-       desc: `
-        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
-        <div style="margin: 0; font-weight: bold;">洗衣/脫水20kg</div>
-        <div style="margin: 0; padding: 0;">
-           • 洗劑量自動精準投入<br>• nanoAg抗菌銀離子<br>• 雙渦輪強淨水流<br>• 抗菌渦輪迴轉盤<br>
-           • 溫水泡洗淨<br>• ECONAVI智慧節能科技<br>雙效自動槽洗淨<br>• IoT智慧健康家電
-           
-        </div>
-    </div>
-`, 
-        type: "",
-        model: "NR-V200NM-S",
-        barcode: ["4717523353907","2449401006026","2449401002028"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
-        img: "國際冰箱/V200NM.jpg", 
-        giftImg: "",
-        qrUrl: "",
-        taxUrl: "", 
-        oldUrl: "",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/WM/WM.html", 
-        productUrl: "https://www.panasonic.com/tw/consumer/washing-machine/vertical-washing-machine/inverter/na-v200nms.html"
-    },
-    {
-        cat: "洗衣機", 
-        brand: "國際", 
-        spec: "變頻直立式", 
-        name: "<br>NA-V220NM-S變頻直立式洗衣機22KG<span class='text-red'>(不鏽鋼)</span><br><span class='text-blue'>40-105940-001</span>", 
+        name: "<br>NA-V220NM-S變頻直立式洗衣機22KG<span class='text-red'>(不鏽鋼)</span><br><span class='text-blue'>40-105940-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1<br>贈品:<br><span class='text-blue'>40-110176-001</span><br>(贈)南僑水晶洗劑SP-NA02*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "67.9公分" },
@@ -3078,10 +2788,10 @@ smartRawData.push(
 `, 
         type: "",
         model: "NR-V220NM-S",
-        barcode: ["4717523353891","2449401006026","2449401002028"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523353891","6940284010118","4710060009153","2449401006026","2449401002028"], 
+        customLabels: ["📦 商品","🎁 雙耳瀝水套裝","🚚 水晶洗劑","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/V220NM.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2705NA02.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -3092,7 +2802,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "淨護完美系列", 
-        name: "<br>NA-VS120RW-B淨護洗脫滾筒12KG<span class='text-red'>(銀河藍)</span><br><span class='text-blue'>40-110232-001</span>",  
+        name: "<br>NA-VS120RW-B淨護洗脫滾筒12KG<span class='text-red'>(銀河藍)</span><br><span class='text-blue'>40-110232-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1<br>贈品:<br><span class='text-blue'>40-110176-001</span><br>(贈)南僑水晶洗劑SP-NA02*1<br><span class='text-red'>※跟NA-VS100HP-B淨護熱泵乾衣機合購<br>會可以拿乾衣機贈品和額外加贈登錄送$3000元節能回饋金<br>※登陸最晚時間:2027.03.31前</span>",  
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "59.6公分" },
@@ -3117,11 +2827,12 @@ smartRawData.push(
 `, 
         type: "",
         model: "NR-VS120RW-B",
-        barcode: ["6924898158770","2449401006026","2449401002028"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["6924898158770","6940284010118","4710060009153","2449401006026","2449401002028"], 
+        customLabels: ["📦 商品","🎁 雙耳瀝水套裝","🚚 水晶洗劑","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/VS120R.jpg", 
-        giftImg: "",
-        qrUrl: "",
+        giftImg: "國際冰洗贈品/SP-2705NA02.jpg",
+        giftImg2: "國際冰洗贈品/SP27052707NA02$3000.jpg",
+        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=7E19A271-F8F3-4280-BE8F-6C72C8E86278",
         taxUrl: "", 
         oldUrl: "",
         catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/WM/WM.html", 
@@ -3131,7 +2842,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "淨護完美系列", 
-        name: "<br>NA-VS100HP-B淨護熱泵乾衣機10KG<span class='text-red'>(銀河藍)</span><br><span class='text-blue'>40-122045-001</span>", 
+        name: "<br>NA-VS100HP-B淨護熱泵乾衣機10KG<span class='text-red'>(銀河藍)</span><br><span class='text-blue'>40-122045-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130030-001</span><br>(贈)SP-2707萬用不沾刀具五件組*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "59.6公分" },
@@ -3156,10 +2867,10 @@ smartRawData.push(
 `, 
         type: "",
         model: "NR-VS100HP乾衣機",
-        barcode: ["6924898158763","2449401006026","2449401002028"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["6924898158763","4713968220170","2449401006026","2449401002028"], 
+        customLabels: ["📦 商品","🎁 不沾刀具","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/VS100H.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2707.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -3170,7 +2881,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "乾衣機", 
-        name: "<br>NH-70G-L乾衣機7K<br><span class='text-blue'>40-122016-001</span>", 
+        name: "<br>NH-70G-L乾衣機7K<br><span class='text-blue'>40-122016-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130030-001</span><br>(贈)SP-2707萬用不沾刀具五件組*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "60公分" },
@@ -3194,10 +2905,10 @@ smartRawData.push(
 `, 
         type: "",
         model: "NH-70G-L乾衣機",
-        barcode: ["4717523360400","2449401006026","2449401002028"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523360400","4713968220170","2449401006026","2449401002028"], 
+        customLabels: ["📦 商品","🎁 不沾刀具","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/NH70G.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2707.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -3208,7 +2919,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "乾衣機", 
-        name: "<br>國際電子加熱式乾衣機NH-80RZ-W<span class='text-red'>(釉光白)</span><br><span class='text-blue'>40-122048-001</span>", 
+        name: "<br>國際電子加熱式乾衣機NH-80RZ-W<span class='text-red'>(釉光白)</span><br><span class='text-blue'>40-122048-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130030-001</span><br>(贈)SP-2707萬用不沾刀具五件組*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "60公分" },
@@ -3232,10 +2943,10 @@ smartRawData.push(
 `, 
         type: "",
         model: "NH-80RZ-W乾衣機",
-        barcode: ["4717523360431","2449401006026","2449401002028"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523360431","4713968220170","2449401006026","2449401002028"], 
+        customLabels: ["📦 商品","🎁 不沾刀具","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/NH80RZ.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2707.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -3246,7 +2957,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "下洗上烘", 
-        name: "<br>NA-V1515SP熱泵洗乾衣機兩件組<span class='text-red'>(白)</span><br><span class='text-blue'>40-110260-001</span><br><span class='text-red'>※登陸最晚時間:2026.09.02</span>", 
+        name: "<br>NA-V1515SP熱泵洗乾衣機兩件組<span class='text-red'>(白)</span><br><span class='text-blue'>40-110260-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040001-001</span><br>(贈)SP-2701可微波不鏽鋼保鮮盒四入組*1<br>登錄送$3000元節能回饋金<br><span class='text-red'>※登陸最晚時間:2027.03.31前</span>", 
        specs: [
         { label: "機器尺寸(不含給、排水管)", value: "" },
         { label: "寬", value: "64公分" },
@@ -3277,11 +2988,11 @@ smartRawData.push(
 `, 
         type: "",
         model: "NR-V1515SP乾衣機",
-        barcode: ["4717523354096","2449400007024","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$100", "💰 收費$100"], // <--- 在這裡定義
+        barcode: ["4717523354096","6909141613114","2449400007024","2449400002029"], 
+        customLabels: ["📦 商品","🎁 保鮮盒","🚚 免運$100", "💰 收費$100"], // <--- 在這裡定義
         img: "國際冰箱/VS1515SP1.jpg", 
-        giftImg: "",
-        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=7A7E5BF7-E981-4721-9926-2ABA4D20E623",
+        giftImg: "國際冰洗贈品/SP-2701$3000.jpg",
+        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=F5EFBAAC-BF5D-4F1E-9A2D-2716EA9E0F4E",
         taxUrl: "", 
         oldUrl: "",
         catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/WM/WM.html", 
@@ -3291,7 +3002,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "下洗上烘", 
-        name: "<br>NA-V1515SP熱泵洗乾衣機兩件組<span class='text-red'>(黑)</span><br><span class='text-blue'>40-110260-002</span><br><span class='text-red'>※登陸最晚時間:2026.09.02</span>", 
+        name: "<br>NA-V1515SP熱泵洗乾衣機兩件組<span class='text-red'>(黑)</span><br><span class='text-blue'>40-110260-002</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040001-001</span><br>(贈)SP-2701可微波不鏽鋼保鮮盒四入組*1<br>登錄送$3000元節能回饋金<br><span class='text-red'>※登陸最晚時間:2027.03.31前</span>", 
        specs: [
         { label: "機器尺寸(不含給、排水管)", value: "" },
         { label: "寬", value: "64公分" },
@@ -3322,11 +3033,11 @@ smartRawData.push(
 `, 
         type: "",
         model: "NR-V1515SP乾衣機",
-        barcode: ["4717523354102","2449400007024","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$100", "💰 收費$100"], // <--- 在這裡定義
+        barcode: ["4717523354102","6909141613114","2449400007024","2449400002029"], 
+        customLabels: ["📦 商品","🎁 保鮮盒","🚚 免運$100", "💰 收費$100"], // <--- 在這裡定義
         img: "國際冰箱/VS1515SP2.jpg",
-        giftImg: "",
-        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=7A7E5BF7-E981-4721-9926-2ABA4D20E623",
+        giftImg: "國際冰洗贈品/SP-2701$3000.jpg",
+        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=F5EFBAAC-BF5D-4F1E-9A2D-2716EA9E0F4E",
         taxUrl: "", 
         oldUrl: "",
         catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/WM/WM.html", 
@@ -3336,7 +3047,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "下洗上烘", 
-        name: "<br>NA-V1715SP熱泵洗乾衣機兩件組<span class='text-red'>(白)</span><br><span class='text-blue'>40-110261-001</span><br><span class='text-red'>※登陸最晚時間:2026.09.02</span>", 
+        name: "<br>NA-V1715SP熱泵洗乾衣機兩件組<span class='text-red'>(白)</span><br><span class='text-blue'>40-110261-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040001-001</span><br>(贈)SP-2701可微波不鏽鋼保鮮盒四入組*1<br>登錄送$3000元節能回饋金<br><span class='text-red'>※登陸最晚時間:2027.03.31前</span>", 
        specs: [
         { label: "機器尺寸(不含給、排水管)", value: "" },
         { label: "寬", value: "64公分" },
@@ -3367,11 +3078,11 @@ smartRawData.push(
 `, 
         type: "",
         model: "NR-V1715SP乾衣機",
-        barcode: ["4717523354072","2449400007024","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$100", "💰 收費$100"], // <--- 在這裡定義
+        barcode: ["4717523354072","6909141613114","2449400007024","2449400002029"], 
+        customLabels: ["📦 商品","🎁 保鮮盒","🚚 免運$100", "💰 收費$100"], // <--- 在這裡定義
         img: "國際冰箱/VS1715SP1.jpg", 
-        giftImg: "",
-        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=7A7E5BF7-E981-4721-9926-2ABA4D20E623",
+        giftImg: "國際冰洗贈品/SP-2701$3000.jpg",
+        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=F5EFBAAC-BF5D-4F1E-9A2D-2716EA9E0F4E",
         taxUrl: "", 
         oldUrl: "",
         catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/WM/WM.html", 
@@ -3381,7 +3092,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "下洗上烘", 
-        name: "<br>NA-V1715SP熱泵洗乾衣機兩件組<span class='text-red'>(黑)</span><br><span class='text-blue'>40-110261-002</span><br><span class='text-red'>※登陸最晚時間:2026.09.02</span>", 
+        name: "<br>NA-V1715SP熱泵洗乾衣機兩件組<span class='text-red'>(黑)</span><br><span class='text-blue'>40-110261-002</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040001-001</span><br>(贈)SP-2701可微波不鏽鋼保鮮盒四入組*1<br>登錄送$3000元節能回饋金<br><span class='text-red'>※登陸最晚時間:2027.03.31前</span>", 
        specs: [
         { label: "機器尺寸(不含給、排水管)", value: "" },
         { label: "寬", value: "64公分" },
@@ -3412,11 +3123,11 @@ smartRawData.push(
 `,  
         type: "",
         model: "NR-V1715SP乾衣機",
-        barcode: ["4717523354072","2449400007024","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$100", "💰 收費$100"], // <--- 在這裡定義
+        barcode: ["4717523354072","6909141613114","2449400007024","2449400002029"], 
+        customLabels: ["📦 商品","🎁 保鮮盒","🚚 免運$100", "💰 收費$100"], // <--- 在這裡定義
         img: "國際冰箱/VS1715SP2.jpg", 
-        giftImg: "",
-        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=7A7E5BF7-E981-4721-9926-2ABA4D20E623",
+        giftImg: "國際冰洗贈品/SP-2701$3000.jpg",
+        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=F5EFBAAC-BF5D-4F1E-9A2D-2716EA9E0F4E",
         taxUrl: "", 
         oldUrl: "",
         catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/WM/WM.html", 
@@ -3426,7 +3137,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "洗脫滾筒", 
-        name: "<br>NA-V150SW-W洗脫滾筒15KG<span class='text-red'>(晶鑽白)</span><br><span class='text-blue'>40-110254-001</span>", 
+        name: "<br>NA-V150SW-W洗脫滾筒15KG<span class='text-red'>(晶鑽白)</span><br><span class='text-blue'>40-110254-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "64公分" },
@@ -3451,10 +3162,10 @@ smartRawData.push(
 `,  
         type: "",
         model: "NR-V150SW",
-        barcode: ["4717523354065","2449401006026","2449401002028"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523354065","6940284010118","2449401006026","2449401002028"], 
+        customLabels: ["📦 商品","🎁 雙耳瀝水套裝","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/V150SW.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2705.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -3465,7 +3176,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "洗脫滾筒", 
-        name: "<br>NA-V170SW-W洗脫滾筒17KG<span class='text-red'>(晶鑽白)</span><br><span class='text-blue'>40-110255-001</span>", 
+        name: "<br>NA-V170SW-W洗脫滾筒17KG<span class='text-red'>(晶鑽白)</span><br><span class='text-blue'>40-110255-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "64公分" },
@@ -3490,10 +3201,10 @@ smartRawData.push(
 `,   
         type: "",
         model: "NR-V170SW",
-        barcode: ["4717523354058","2449401006026","2449401002028"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523354058","6940284010118","2449401006026","2449401002028"], 
+        customLabels: ["📦 商品","🎁 雙耳瀝水套裝","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/V170SW.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2705.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -3504,7 +3215,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "洗脫滾筒", 
-        name: "<br>NA-V190RW洗脫滾筒19KG<span class='text-red'>(溫風循環晶鑽白)</span><br><span class='text-blue'>40-110240-001</span>", 
+        name: "<br>NA-V190RW洗脫滾筒19KG<span class='text-red'>(溫風循環晶鑽白)</span><br><span class='text-blue'>40-110240-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "68.6公分" },
@@ -3529,10 +3240,10 @@ smartRawData.push(
 `,  
         type: "",
         model: "NR-V190RW",
-        barcode: ["4717523353990","2449401006026","2449401002028"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523353990","6940284010118","2449401006026","2449401002028"], 
+        customLabels: ["📦 商品","🎁 雙耳瀝水套裝","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/V190RW.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2705.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -3543,7 +3254,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "洗脫烘滾筒", 
-        name: "<br>NA-V150MDH-W洗脫烘滾筒15KG<span class='text-red'>(晶鑽白)</span><br><span class='text-blue'>40-110193-001</span>", 
+        name: "<br>NA-V150MDH-W洗脫烘滾筒15KG<span class='text-red'>(晶鑽白)</span><br><span class='text-blue'>40-110193-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1<br>贈品:<br><span class='text-blue'>40-110176-001</span><br>(贈)南僑水晶洗劑SP-NA02*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "64公分" },
@@ -3570,10 +3281,10 @@ smartRawData.push(
     
         type: "",
         model: "NR-V150MDH",
-        barcode: ["4717523353785","2449401006026","2449401002028"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523353785","6940284010118","4710060009153","2449401006026","2449401002028"], 
+        customLabels: ["📦 商品","🎁 雙耳瀝水套裝","🚚 水晶洗劑","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/V150MDH.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2705NA02.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -3584,7 +3295,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "洗脫烘滾筒", 
-        name: "<br>NA-V170MDH洗脫烘滾筒17KG<span class='text-red'>(炫亮銀)</span><br><span class='text-blue'>40-110197-001</span>", 
+        name: "<br>NA-V170MDH洗脫烘滾筒17KG<span class='text-red'>(炫亮銀)</span><br><span class='text-blue'>40-110197-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1<br>贈品:<br><span class='text-blue'>40-110176-001</span><br>(贈)南僑水晶洗劑SP-NA02*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "64公分" },
@@ -3610,10 +3321,10 @@ smartRawData.push(
 `,  
         type: "",
         model: "NR-V170MDH",
-        barcode: ["4717523353761","2449401006026","2449401002028"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523353761","6940284010118","4710060009153","2449401006026","2449401002028"], 
+        customLabels: ["📦 商品","🎁 雙耳瀝水套裝","🚚 水晶洗劑","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/V170MDH1.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2705NA02.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -3624,7 +3335,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "洗脫烘滾筒", 
-        name: "<br>NA-V170MDH洗脫烘滾筒17KG<span class='text-red'>(晶鑽白)</span><br><span class='text-blue'>40-110197-002</span>", 
+        name: "<br>NA-V170MDH洗脫烘滾筒17KG<span class='text-red'>(晶鑽白)</span><br><span class='text-blue'>40-110197-002</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1<br>贈品:<br><span class='text-blue'>40-110176-001</span><br>(贈)南僑水晶洗劑SP-NA02*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "64公分" },
@@ -3650,10 +3361,10 @@ smartRawData.push(
 `,  
         type: "",
         model: "NR-V170MDH",
-        barcode: ["4717523353778","2449401006026","2449401002028"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523353778","6940284010118","4710060009153","2449401006026","2449401002028"], 
+        customLabels: ["📦 商品","🎁 雙耳瀝水套裝","🚚 水晶洗劑","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/V170MDH2.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2705NA02.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -3664,7 +3375,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "洗脫烘滾筒", 
-        name: "<br>NA-V190RDH洗脫烘滾筒19KG<span class='text-red'>(溫風循環炫亮銀)</span><br><span class='text-blue'>40-110242-002</span>", 
+        name: "<br>NA-V190RDH洗脫烘滾筒19KG<span class='text-red'>(溫風循環炫亮銀)</span><br><span class='text-blue'>40-110242-002</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1<br>贈品:<br><span class='text-blue'>40-110176-001</span><br>(贈)南僑水晶洗劑SP-NA02*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "68.6公分" },
@@ -3690,10 +3401,10 @@ smartRawData.push(
 `,  
         type: "",
         model: "NR-V190MRDH",
-        barcode: ["4717523353983","2449401006026","2449401002028"], 
-        customLabels: ["📦 商品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523353983","6940284010118","4710060009153","2449401006026","2449401002028"], 
+        customLabels: ["📦 商品","🎁 雙耳瀝水套裝","🚚 水晶洗劑", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/V190RDH.jpg", 
-        giftImg: "",
+        giftImg: "國際冰洗贈品/SP-2705NA02.jpg",
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
@@ -3704,7 +3415,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "熱泵洗脫烘滾筒", 
-        name: "<br>NA-V150RPH洗脫烘滾筒15KG-晶鑽白<span class='text-red'>(熱泵)</span><br><span class='text-blue'>40-110241-001</span><span class='text-red'><br>※登陸最晚時間:2026.09.02</span>", 
+        name: "<br>NA-V150RPH洗脫烘滾筒15KG-晶鑽白<span class='text-red'>(熱泵)</span><br><span class='text-blue'>40-110241-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040001-001</span><br>(贈)SP-2701可微波不鏽鋼保鮮盒四入組*1<br>贈品:<br><span class='text-blue'>40-110176-001</span><br>(贈)南僑水晶洗劑SP-NA02*1<br>登錄送$3000元節能回饋金<br><span class='text-red'>※登陸最晚時間:2027.03.31前</span>", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "64公分" },
@@ -3730,11 +3441,11 @@ smartRawData.push(
 `, 
         type: "",
         model: "NR-V150RPH",
-        barcode: ["4717523354027","2449401006026","2449401002028"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523354027","6909141613114","4710060009153","2449401006026","2449401002028"], 
+        customLabels: ["📦 商品","🎁 保鮮盒","🎁 水晶洗劑","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/V150RP1.jpg", 
-        giftImg: "",
-        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=7A7E5BF7-E981-4721-9926-2ABA4D20E623",
+        giftImg: "國際冰洗贈品/SP-2701NA02$3000.jpg",
+        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=F5EFBAAC-BF5D-4F1E-9A2D-2716EA9E0F4E",
         taxUrl: "", 
         oldUrl: "",
         catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/WM/WM.html", 
@@ -3744,7 +3455,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "熱泵洗脫烘滾筒", 
-        name: "<br>NA-V150RPH洗脫烘滾筒15KG-夜幕黑<span class='text-red'>(熱泵)</span><br><span class='text-blue'>40-110241-002</span><span class='text-red'><br>※登陸最晚時間:2026.09.02</span>", 
+        name: "<br>NA-V150RPH洗脫烘滾筒15KG-夜幕黑<span class='text-red'>(熱泵)</span><br><span class='text-blue'>40-110241-002</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040001-001</span><br>(贈)SP-2701可微波不鏽鋼保鮮盒四入組*1<br>贈品:<br><span class='text-blue'>40-110176-001</span><br>(贈)南僑水晶洗劑SP-NA02*1<br>登錄送$3000元節能回饋金<br><span class='text-red'>※登陸最晚時間:2027.03.31前</span>", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "64公分" },
@@ -3770,11 +3481,11 @@ smartRawData.push(
 `, 
         type: "",
         model: "NR-V150RPH",
-        barcode: ["4717523354034","2449401006026","2449401002028"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523354034","6909141613114","4710060009153","2449401006026","2449401002028"], 
+        customLabels: ["📦 商品","🎁 保鮮盒","🎁 水晶洗劑","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/V150RP2.jpg", 
-        giftImg: "",
-        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=7A7E5BF7-E981-4721-9926-2ABA4D20E623",
+        giftImg: "國際冰洗贈品/SP-2701NA02$3000.jpg",
+        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=F5EFBAAC-BF5D-4F1E-9A2D-2716EA9E0F4E",
         taxUrl: "", 
         oldUrl: "",
         catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/WM/WM.html", 
@@ -3784,7 +3495,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "熱泵洗脫烘滾筒", 
-        name: "<br>NA-V170RPH洗脫烘滾筒17KG-晶鑽白<span class='text-red'>(熱泵)</span><br><span class='text-blue'>40-110243-001</span><span class='text-red'><br>※登陸最晚時間:2026.09.02</span>", 
+        name: "<br>NA-V170RPH洗脫烘滾筒17KG-晶鑽白<span class='text-red'>(熱泵)</span><br><span class='text-blue'>40-110243-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040001-001</span><br>(贈)SP-2701可微波不鏽鋼保鮮盒四入組*1<br>贈品:<br><span class='text-blue'>40-110176-001</span><br>(贈)南僑水晶洗劑SP-NA02*1<br>登錄送$3000元節能回饋金<br><span class='text-red'>※登陸最晚時間:2027.03.31前</span>", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "64公分" },
@@ -3810,11 +3521,11 @@ smartRawData.push(
 `,  
         type: "",
         model: "NR-V170RPH",
-        barcode: ["4717523354003","2449401006026","2449401002028"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523354003","6909141613114","4710060009153","2449401006026","2449401002028"], 
+        customLabels: ["📦 商品","🎁 保鮮盒","🎁 水晶洗劑","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/V170RP1.jpg", 
-        giftImg: "",
-        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=7A7E5BF7-E981-4721-9926-2ABA4D20E623",
+        giftImg: "國際冰洗贈品/SP-2701NA02$3000.jpg",
+        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=F5EFBAAC-BF5D-4F1E-9A2D-2716EA9E0F4E",
         taxUrl: "", 
         oldUrl: "",
         catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/WM/WM.html", 
@@ -3824,7 +3535,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "熱泵洗脫烘滾筒", 
-        name: "<br>NA-V170RPH洗脫烘滾筒17KG-夜幕黑<span class='text-red'>(熱泵)</span><br><span class='text-blue'>40-110243-002</span><span class='text-red'><br>※登陸最晚時間:2026.09.02</span>", 
+        name: "<br>NA-V170RPH洗脫烘滾筒17KG-夜幕黑<span class='text-red'>(熱泵)</span><br><span class='text-blue'>40-110243-002</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040001-001</span><br>(贈)SP-2701可微波不鏽鋼保鮮盒四入組*1<br>贈品:<br><span class='text-blue'>40-110176-001</span><br>(贈)南僑水晶洗劑SP-NA02*1<br>登錄送$3000元節能回饋金<br><span class='text-red'>※登陸最晚時間:2027.03.31前</span>", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "64公分" },
@@ -3850,11 +3561,11 @@ smartRawData.push(
 `, 
         type: "",
         model: "NR-V170RPH",
-        barcode: ["4717523354010","8887549452284","2449401006026","2449401002028"], 
-        customLabels: ["📦 商品","🎁 加碼贈品7-11","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["4717523354010","6909141613114","4710060009153","2449401006026","2449401002028"], 
+        customLabels: ["📦 商品","🎁 保鮮盒","🎁 水晶洗劑","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/V170RP2.jpg", 
-        giftImg: "",
-        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=7A7E5BF7-E981-4721-9926-2ABA4D20E623",
+        giftImg: "國際冰洗贈品/SP-2701NA02$3000.jpg",
+        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=F5EFBAAC-BF5D-4F1E-9A2D-2716EA9E0F4E",
         taxUrl: "", 
         oldUrl: "",
         catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/WM/WM.html", 
@@ -3864,7 +3575,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "三門", 
-        name: "<br>NR-C501PG變頻三門冰箱495L<span class='text-red'>(霧面玻璃)</span><span class='text-blue'><br>40-010050-001</span><span class='text-red'><br>※登陸最晚時間:2026.09.02</span>", 
+        name: "<br>NR-C501PG變頻三門冰箱495L<span class='text-red'>(霧面玻璃)</span><span class='text-blue'><br>40-010050-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040002-001</span><br>(贈)SP-2703可瀝水不鏽鋼湯鍋*1<br>登錄送$1500元節能回饋金<br><span class='text-red'>※登陸最晚時間:2027.03.31前</span>", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "75.1公分" },
@@ -3897,11 +3608,11 @@ smartRawData.push(
 `,
         type: "gift",
         model: "NR-C501PG",
-        barcode: ["8887549851971","2449400006027","2449400002029"], 
-        customLabels: ["📦 商品","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        barcode: ["8887549851971","4260480620549","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 不鏽鋼湯鍋","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/C501PG.jpg", 
-        giftImg: "",
-        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=CC49B685-0A02-4FA4-BB33-AA7FD72AB27C",
+        giftImg: "國際冰洗贈品/SP-2703$1500.jpg",
+        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
         catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
