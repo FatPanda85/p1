@@ -4,91 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>家電輔助與查詢綜合系統</title>
+
+    <!-- 外部套件：JsBarcode（產生條碼）、qrcodejs（產生 QR Code） -->
     <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.5/dist/JsBarcode.all.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+
     <style>
         /* ==========================================================================
-           🎨 全域變數與樣式設定
+           🎨 1. 全域變數與基本樣式
            ========================================================================== */
-        :root { 
-            --primary: #007AFF;          /* 標準藍：分店導航、活動按鈕 */
+        :root {
+            --primary: #007AFF;          /* 標準藍：導航、活動按鈕 */
             --tax-color: #28a745;        /* 退稅綠：退稅按鈕 */
-            --old-color: #fd7e14;        /* 補助橘：汰舊換新補助按鈕 */
-            --text-red: #ff3b30;         /* 金額紅：用於強調警語或限制金額 */
-            --barcode-color: #34495e;    /* 深藍灰 */
+            --old-color: #fd7e14;        /* 補助橘：舊機補助按鈕 */
+            --text-red: #ff3b30;         /* 金額紅：強調警語或金額 */
             --model-blue: #0056b3;       /* 型號深藍 */
-            --date-orange: #d35400;      /* 日期磚橘 */
-            --bg: #f5f5f7;               /* 蘋果風淺灰背景 */
+            --bg: #f5f5f7;              /* 蘋果風淺灰背景 */
         }
 
-        body { 
-            font-family: -apple-system, "Segoe UI", Roboto, sans-serif; 
-            background: var(--bg); 
-            color: #1d1d1f; 
-            margin: 0; 
-            padding: 0; 
-            box-sizing: border-box; 
-            -webkit-font-smoothing: antialiased; 
-        }
-
-        /* 側邊導覽列與主佈局 */
-        .main-container {
-            display: flex;
-            min-height: 100vh;
-        }
-
-        .sidebar {
-            width: 200px;
-            background-color: #ffffff;
-            border-right: 1px solid #e5e5e7;
-            display: flex;
-            flex-direction: column;
-            flex-shrink: 0;
-        }
-
-        .sidebar-title {
-            padding: 20px 15px;
-            font-size: 1.1rem;
-            font-weight: bold;
+        body {
+            font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+            background: var(--bg);
             color: #1d1d1f;
-            border-bottom: 1px solid #e5e5e7;
-            background: #fafafa;
-            text-align: center;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-font-smoothing: antialiased;
         }
 
-        .tab-btn {
-            padding: 18px 15px;
+        /* ==========================================================================
+           🧭 2. 頂部導覽列與內容區
+           ========================================================================== */
+        .top-navbar {
+            display: flex;
+            width: 100%;
+            background-color: #ffffff;
+            border-bottom: 1px solid #e5e5e7;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .top-navbar .tab-btn {
+            flex: 1;                       /* 每個按鈕平分寬度 */
+            padding: 15px 5px;
             border: none;
             background: none;
-            text-align: left;
+            text-align: center;
             cursor: pointer;
-            font-size: 1rem;
-            font-weight: 500;
+            font-size: 0.95rem;
+            font-weight: 600;
             color: #333;
-            width: 100%;
-            transition: all 0.2s;
-            border-left: 4px solid transparent;
+            border-bottom: 3px solid transparent;
         }
-
-        .tab-btn:hover { background-color: #f5f5f7; }
-        .tab-btn.active {
-            background-color: #e8f0fe;
+        .top-navbar .tab-btn.active {      /* 目前所在分頁 */
             color: var(--primary);
-            font-weight: bold;
-            border-left: 4px solid var(--primary);
+            border-bottom: 3px solid var(--primary);
+            background-color: #f8faff;
         }
 
-        .content-area {
-            flex-grow: 1;
-            padding: 20px;
-            box-sizing: border-box;
-            overflow-y: auto;
-        }
-
+        .content-area { padding: 20px; box-sizing: border-box; }
         .tab-content { display: none; }
         .tab-content.active { display: block; }
 
-        /* 卡片與元件樣式 */
+        /* 通用白底卡片 */
         .card {
             background: white;
             padding: 20px;
@@ -97,7 +75,9 @@
             margin-bottom: 20px;
         }
 
-        /* 第一頁：配送分店結果卡片 */
+        /* ==========================================================================
+           📍 3. 跨店出貨查詢：分店結果卡片
+           ========================================================================== */
         .store-result-card {
             border: 1px solid #b3d7ff;
             background-color: #f8faff;
@@ -106,22 +86,9 @@
             margin-bottom: 15px;
             box-shadow: 0 2px 8px rgba(0,122,255,0.05);
         }
-        .store-header {
-            font-size: 1.1rem;
-            color: #007AFF;
-            font-weight: bold;
-            margin-bottom: 5px;
-        }
-        .store-address {
-            font-size: 0.95rem;
-            color: #555;
-            margin-bottom: 12px;
-        }
-        .store-btn-row {
-            display: flex;
-            gap: 8px;
-            width: 100%;
-        }
+        .store-header  { font-size: 1.1rem; color: var(--primary); font-weight: bold; margin-bottom: 5px; }
+        .store-address { font-size: 0.95rem; color: #555; margin-bottom: 12px; }
+        .store-btn-row { display: flex; gap: 8px; width: 100%; }
         .store-action-btn {
             flex: 1;
             padding: 12px 5px;
@@ -137,355 +104,306 @@
             transition: opacity 0.2s;
         }
         .store-action-btn:hover { opacity: 0.9; }
-        .btn-call { background-color: #34c759; color: white; }
-        .btn-nav { background-color: #007AFF; color: white; }
-        .btn-fee-trigger { background-color: #ffebe9; color: #ff3b30; border: 1px solid #ffccd2; }
-/* 運費卡片樣式 */
-.fee-card {
-    background: white;
-    border: 1px solid #e5e7eb;
-    border-radius: 12px;
-    padding: 18px;
-    text-align: center;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-}
-.fee-price {
-    font-size: 1.8rem;    /* 金額放大 */
-    color: #ff3b30;       /* 強調紅色 */
-    font-weight: 800;
-    margin-bottom: 8px;
-}
-.fee-area {
-    font-size: 0.95rem;
-    color: #4b5563;
-    line-height: 1.5;
-}
-/* 確保 Modal 捲軸與體驗 */
-#feeContent {
-    max-height: 60vh; 
-    overflow-y: auto;
-    padding: 5px;
-}
+        .btn-call        { background-color: #34c759; color: white; }
+        .btn-nav         { background-color: var(--primary); color: white; }
+        .btn-fee-trigger { background-color: #ffebe9; color: var(--text-red); border: 1px solid #ffccd2; }
 
-        /* 第二、三頁：搜尋欄與下拉選單 */
-        .header-container { 
-            position: sticky; 
-            top: 0; 
-            z-index: 100; 
-            background: var(--bg); 
-            padding-bottom: 12px; 
-            display: flex; 
-            flex-direction: column; 
-            gap: 10px; 
+        /* 運費卡片（由 stor.js 產生內容時使用） */
+        .fee-card {
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 12px;
+            padding: 18px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
         }
-        
+        .fee-price { font-size: 1.8rem; color: var(--text-red); font-weight: 800; margin-bottom: 8px; }
+        .fee-area  { font-size: 0.95rem; color: #4b5563; line-height: 1.5; }
+        #feeContent { max-height: 60vh; overflow-y: auto; padding: 5px; }  /* 內容過長可捲動 */
+
+        /* ==========================================================================
+           🔍 4. 搜尋列與下拉選單（贈品頁、家電頁共用）
+           ========================================================================== */
+        .header-container {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: var(--bg);
+            padding-bottom: 12px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
         .search-row { display: flex; gap: 8px; }
-        .search-box { 
-            flex-grow: 1; 
-            padding: 12px; 
-            border-radius: 12px; 
-            border: 2px solid var(--primary); 
-            font-size: 1rem; 
-            outline: none; 
+        .search-box {
+            flex-grow: 1;
+            padding: 12px;
+            border-radius: 12px;
+            border: 2px solid var(--primary);
+            font-size: 1rem;
+            outline: none;
         }
-        .btn-search { 
-            width: 80px; 
-            background: var(--primary); 
-            color: white; 
-            border: none; 
-            border-radius: 12px; 
-            font-weight: bold; 
-            cursor: pointer; 
+        .btn-search {
+            width: 80px;
+            background: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-weight: bold;
+            cursor: pointer;
         }
         .selector-row { display: flex; gap: 8px; }
-        select { 
-            flex: 1; 
-            padding: 12px; 
-            border-radius: 12px; 
-            border: 1px solid #ccc; 
-            font-size: 0.9rem; 
-            background: white; 
+        select {
+            flex: 1;
+            padding: 12px;
+            border-radius: 12px;
+            border: 1px solid #ccc;
+            font-size: 0.9rem;
+            background: white;
         }
 
-        /* 贈品/條碼結果卡片樣式 */
-        .gift-card { 
-            background: white; 
-            border-radius: 16px; 
-            padding: 16px; 
-            margin-bottom: 15px; 
-            display: flex; 
-            box-shadow: 0 4px 12px rgba(0,0,0,0.08); 
+        /* ==========================================================================
+           🎁 5. 商品 / 贈品結果卡片
+           ========================================================================== */
+        .gift-card {
+            background: white;
+            border-radius: 16px;
+            padding: 16px;
+            margin-bottom: 15px;
+            display: flex;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
         }
-        
-        .gift-img { 
-            width: 90px; 
-            height: 90px; 
-            object-fit: cover; 
-            border-radius: 12px; 
-            margin-right: 15px; 
-            border: 1px solid #eee; 
-            flex-shrink: 0; 
+        .gift-img {
+            width: 90px;
+            height: 90px;
+            object-fit: cover;
+            border-radius: 12px;
+            margin-right: 15px;
+            border: 1px solid #eee;
+            flex-shrink: 0;
             cursor: pointer;
         }
         .gift-info { flex-grow: 1; min-width: 0; }
         .gift-info h4 { margin: 0 0 6px 0; color: #1d1d1f; font-size: 1.05rem; line-height: 1.4; }
-        .gift-info p { margin: 0 0 6px 0; font-size: 0.95rem; color: #333; line-height: 1.5; white-space: pre-line; }
+        .gift-info p  { margin: 0 0 6px 0; font-size: 0.95rem; color: #333; line-height: 1.5; white-space: pre-line; }
 
-        /* 卡片底部按鈕包裝區 */
+        /* 卡片底部按鈕區 */
         .action-btns { display: flex; gap: 8px; margin-top: 12px; flex-wrap: wrap; }
-        .action-btn { 
-            padding: 10px 14px; 
-            border-radius: 10px; 
-            font-size: 0.85rem; 
-            border: none; 
-            color: white; 
-            cursor: pointer; 
-            font-weight: 600; 
+        .action-btn {
+            padding: 10px 14px;
+            border-radius: 10px;
+            font-size: 0.85rem;
+            border: none;
+            color: white;
+            cursor: pointer;
+            font-weight: 600;
         }
-
         .btn-activity { background-color: var(--primary); }
-        .btn-tax { background-color: var(--tax-color); }
-        .btn-old { background-color: var(--old-color); }
+        .btn-tax      { background-color: var(--tax-color); }
+        .btn-old      { background-color: var(--old-color); }
 
-.modal {
-    display: none; /* 預設隱藏 */
-    position: fixed; 
-    z-index: 1000; 
-    left: 0; 
-    top: 0; 
-    width: 100%; 
-    height: 100%; 
-    background-color: rgba(0,0,0,0.5); /* 半透明黑底 */
-    align-items: center; 
-    justify-content: center;
-}
+        /* ==========================================================================
+           🪟 6. 彈出視窗（Modal）
+           ========================================================================== */
+        .modal {
+            display: none;                 /* 預設隱藏，JS 會改成 flex 顯示 */
+            position: fixed;
+            z-index: 1000;
+            left: 0; top: 0;
+            width: 100%; height: 100%;
+            background-color: rgba(0,0,0,0.5);
+            align-items: center;
+            justify-content: center;
+        }
+        .modal-body {                      /* 跨區費視窗本體 */
+            background: white;
+            padding: 20px;
+            border-radius: 16px;
+            width: 90%;
+            max-width: 400px;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+        #barcodeNumBlue {                  /* 條碼下方的藍色大數字 */
+            font-size: 1.8rem;
+            color: var(--primary);
+            font-weight: bold;
+            margin-top: 10px;
+            text-align: center;
+        }
+        #barcodeCanvas { display: block; margin: 0 auto; }
 
-/* 視窗本體 */
-.modal-body {
-    background: white;
-    padding: 20px;
-    border-radius: 16px;
-    width: 90%;
-    max-width: 400px; /* 限制最大寬度，手機版才不會太寬 */
-    max-height: 80vh;
-    overflow-y: auto; /* 內容太長時自動出現捲軸 */
-}
-
-/* 新增或修改這段，讓數字顯示在下方 */
-#barcodeNum {
-    font-size: 1.2rem;
-    color: black;      /* 改回黑色 */
-    font-weight: bold;
-    margin-top: 10px;
-    text-align: center;
-    font-family: monospace;
-}
-        /* 文字變色快速 CSS 標籤 */
-        .text-blue, span.text-blue { color: var(--primary) !important; font-weight: bold; }
-        .text-red, span.text-red { color: var(--text-red) !important; font-weight: bold; }
-        .text-green, span.text-green { color: var(--tax-color) !important; font-weight: bold; }
-        .text-orange, span.text-orange { color: var(--old-color) !important; font-weight: bold; }
-        .price-red, span.price-red { color: #ff3b30 !important; font-weight: bold; }
-/* 藍色大標題 */
-#barcodeNumBlue {
-    font-size: 1.8rem;    /* 稍微縮小一點，符合舊版比例 */
-    color: #007AFF;       /* 藍色 */
-    font-weight: bold;
-    margin-top: 10px;     /* 與條碼下方的黑色數字拉開一點距離 */
-    text-align: center;
-}
-/* 條碼容器 */
-#barcodeCanvas {
-    display: block;
-    margin: 0 auto;
-}
-top-navbar {
-    display: flex;             /* 關鍵：讓子元素橫向排列 */
-    width: 100%;               /* 佔滿整個寬度 */
-    background-color: #f8f9fa; /* 給個背景色，看起來像導覽列 */
-    border-bottom: 1px solid #ddd;
-    padding: 5px 0;
-}
-
-.top-navbar .tab-btn {
-    flex: 1;                   /* 關鍵：讓每個按鈕平分寬度 */
-    padding: 15px 10px;
-    border: none;
-    background: none;
-    font-size: 1rem;
-    cursor: pointer;
-    text-align: center;        /* 文字置中 */
-    border-bottom: 3px solid transparent; /* 預設下方透明 */
-}
-
-/* 選中狀態的樣式 */
-.top-navbar .tab-btn.active {
-    color: #007AFF;
-    border-bottom: 3px solid #007AFF; /* 選中時底部出現藍色線 */
-    font-weight: bold;
-}
-/* 修正後的頂部選單 */
-.top-navbar {
-    display: flex;
-    width: 100%;
-    background-color: #ffffff;
-    border-bottom: 1px solid #e5e5e7;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-}
-
-.top-navbar .tab-btn {
-    flex: 1;
-    padding: 15px 5px;
-    border: none;
-    background: none;
-    text-align: center;
-    cursor: pointer;
-    font-size: 0.95rem;
-    font-weight: 600;
-    color: #333;
-    border-bottom: 3px solid transparent;
-}
-
-.top-navbar .tab-btn.active {
-    color: var(--primary);
-    border-bottom: 3px solid var(--primary);
-    background-color: #f8faff;
-}
-
-/* 確保內容區不被側邊欄擠壓 */
-.content-area {
-    padding: 20px;
-    margin-left: 0 !important; /* 強制移除左側間距 */
-}
-.top-navbar .btn-right {
-    margin-left: auto;
-}
+        /* ==========================================================================
+           🎨 7. 文字變色快速標籤（資料檔內可用 <span class="text-red"> 等）
+           ========================================================================== */
+        .text-blue   { color: var(--primary)   !important; font-weight: bold; }
+        .text-red    { color: var(--text-red)  !important; font-weight: bold; }
+        .text-green  { color: var(--tax-color) !important; font-weight: bold; }
+        .text-orange { color: var(--old-color) !important; font-weight: bold; }
+        .price-red   { color: var(--text-red)  !important; font-weight: bold; }
     </style>
 </head>
 <body>
 
+<!-- ==========================================================================
+     🧭 頂部導覽列（切換由 ap.js 的 switchPage 處理）
+     ========================================================================== -->
 <nav class="top-navbar">
     <button class="tab-btn active" onclick="switchPage(event, 'tab-gift')">贈品活動查詢</button>
     <button class="tab-btn" onclick="switchPage(event, 'tab3')">⚡ 家電商品查詢</button>
-    <button class="tab-btn btn-right" onclick="switchPage(event, 'tab-store')">跨店出貨查詢</button>
+    <button class="tab-btn" onclick="switchPage(event, 'tab-store')">跨店出貨查詢</button>
 </nav>
-        
-    <div class="content-area">
-        <div id="tab-store" class="tab-content">
-            <div class="card">
-                <h3>快速出貨分店查詢</h3>
-                <div style="background: #fdfdfd; padding: 20px; border-radius: 15px; border: 1px solid #eee; margin-bottom: 20px;">
-                    <input type="text" id="custAddr" placeholder="輸入地址 (例: 新北市新店區 或 林口)" 
-                           style="width: 100%; padding: 15px; border: 2px solid #e0e0e0; border-radius: 12px; font-size: 1.1rem; margin-bottom: 15px; box-sizing: border-box;">
-                    <button id="calcBtn" onclick="calculateNearest()" 
-                            style="width: 100%; padding: 15px; background: #3b71db; color: white; border: none; border-radius: 12px; font-size: 1.1rem; font-weight: bold; cursor: pointer;">
-                        🔍 計算最近門市
-                    </button>
-                </div>
-                <div id="finalResultList" style="margin-top: 20px;"></div>
+
+<div class="content-area">
+
+    <!-- ======================================================================
+         頁面一：贈品活動查詢（預設顯示）
+         資料來源：rawData
+         ====================================================================== -->
+    <div id="tab-gift" class="tab-content active">
+        <div class="header-container">
+            <div class="search-row">
+                <input type="text" id="searchInput" class="search-box" placeholder="🔍 輸入型號關鍵字..." onkeypress="handleKeyPress(event)">
+                <button class="btn-search" onclick="searchModel()">搜尋</button>
+            </div>
+            <div class="selector-row">
+                <select id="categorySelect" onchange="updateBrands()">
+                    <option value="">-- 1. 選擇分類 --</option>
+                </select>
+                <select id="brandSelect" onchange="showGiftsBySelect()" disabled>
+                    <option value="">-- 2. 選擇品牌 --</option>
+                </select>
             </div>
         </div>
-
-        <div id="tab-gift" class="tab-content active">
-            <div class="header-container">
-                <div class="search-row">
-                    <input type="text" id="searchInput" class="search-box" placeholder="🔍 輸入型號關鍵字..." onkeypress="handleKeyPress(event)">
-                    <button class="btn-search" onclick="searchModel()">搜尋</button>
-                </div>
-                <div class="selector-row">
-                    <select id="categorySelect" onchange="updateBrands()">
-                        <option value="">-- 1. 選擇分類 --</option>
-                    </select>
-                    <select id="brandSelect" onchange="showGiftsBySelect()" disabled>
-                        <option value="">-- 2. 選擇品牌 --</option>
-                    </select>
-                </div>
-            </div>
-            <div id="giftContainer" style="margin-top: 20px; display: flex; flex-direction: column; gap: 15px;"></div>
-        </div>
-
-        <div id="tab3" class="tab-content">
-            <div class="header-container" style="background: #fff; padding: 20px; border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); margin-bottom: 20px;">
-                <h3 style="margin-top:0; color:#3b71db;">⚡ 家電型號搜尋</h3>
-                <div class="search-row" style="display: flex; gap: 10px; margin-bottom: 15px;">
-                    <input type="text" id="smartSearchInput" placeholder="🔍 輸入型號搜尋 (例:B496、V170)" onkeypress="handleSmartKeyPress(event)" style="flex: 1; padding: 12px; border: 1px solid #ccc; border-radius: 12px; font-size: 1rem; box-sizing: border-box;">
-                    <button onclick="searchSmartModel()" style="padding: 12px 24px; background: #3b71db; color: white; border: none; border-radius: 12px; font-weight: bold; cursor: pointer;">搜尋</button>
-                </div>
-                <div style="text-align: center; color: #aaa; margin: 10px 0; font-size: 0.9rem;">或使用下方條件逐層篩選</div>
-                <div class="selector-row" style="display: flex; flex-direction: column; gap: 10px;">
-                    <select id="smartCatSelect" onchange="updateSmartTypes()" style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 12px;">
-                        <option value="">-- 1. 選擇分類 --</option>
-                    </select>
-                    <select id="smartBrandSelectSub" onchange="updateSmartSpecs()" disabled style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 12px;">
-                        <option value="">-- 2. 選擇品牌 --</option>
-                    </select>
-                    <select id="smartSpecSelect" onchange="showSmartGiftsBySelect()" disabled style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 12px;">
-                        <option value="">-- 3. 選擇規格 --</option>
-                    </select>
-                </div>
-            </div>
-            <div id="smartGiftContainer" style="margin-top: 20px; display: flex; flex-direction: column; gap: 15px;"></div>
-        </div>
-
+        <!-- 搜尋結果卡片會產生在這裡 -->
+        <div id="giftContainer" style="margin-top: 20px; display: flex; flex-direction: column; gap: 15px;"></div>
     </div>
-</div>
 
+    <!-- ======================================================================
+         頁面二：家電商品查詢（分類 → 品牌 → 規格 逐層篩選）
+         資料來源：smartRawData
+         ====================================================================== -->
+    <div id="tab3" class="tab-content">
+        <div class="header-container" style="background: #fff; padding: 20px; border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); margin-bottom: 20px;">
+            <h3 style="margin-top:0; color:#3b71db;">⚡ 家電型號搜尋</h3>
+            <div class="search-row" style="margin-bottom: 15px;">
+                <input type="text" id="smartSearchInput" placeholder="🔍 輸入型號搜尋 (例:B496、V170)" onkeypress="handleSmartKeyPress(event)"
+                       style="flex: 1; padding: 12px; border: 1px solid #ccc; border-radius: 12px; font-size: 1rem; box-sizing: border-box;">
+                <button onclick="searchSmartModel()"
+                        style="padding: 12px 24px; background: #3b71db; color: white; border: none; border-radius: 12px; font-weight: bold; cursor: pointer;">搜尋</button>
+            </div>
+            <div style="text-align: center; color: #aaa; margin: 10px 0; font-size: 0.9rem;">或使用下方條件逐層篩選</div>
+            <div class="selector-row" style="flex-direction: column;">
+                <select id="smartCatSelect" onchange="updateSmartTypes()" style="width: 100%;">
+                    <option value="">-- 1. 選擇分類 --</option>
+                </select>
+                <select id="smartBrandSelectSub" onchange="updateSmartSpecs()" disabled style="width: 100%;">
+                    <option value="">-- 2. 選擇品牌 --</option>
+                </select>
+                <select id="smartSpecSelect" onchange="showSmartGiftsBySelect()" disabled style="width: 100%;">
+                    <option value="">-- 3. 選擇規格 --</option>
+                </select>
+            </div>
+        </div>
+        <!-- 搜尋結果卡片會產生在這裡 -->
+        <div id="smartGiftContainer" style="margin-top: 20px; display: flex; flex-direction: column; gap: 15px;"></div>
+    </div>
+
+    <!-- ======================================================================
+         頁面三：跨店出貨查詢（輸入地址 → 找最近 3 間分店）
+         資料來源：storeDatabase、feeDatabase（stor.js）
+         ====================================================================== -->
+    <div id="tab-store" class="tab-content">
+        <div class="card">
+            <h3>快速出貨分店查詢</h3>
+            <div style="background: #fdfdfd; padding: 20px; border-radius: 15px; border: 1px solid #eee; margin-bottom: 20px;">
+                <input type="text" id="custAddr" placeholder="輸入地址 (例: 新北市新店區 或 林口)"
+                       style="width: 100%; padding: 15px; border: 2px solid #e0e0e0; border-radius: 12px; font-size: 1.1rem; margin-bottom: 15px; box-sizing: border-box;">
+                <button id="calcBtn" onclick="calculateNearest()"
+                        style="width: 100%; padding: 15px; background: #3b71db; color: white; border: none; border-radius: 12px; font-size: 1.1rem; font-weight: bold; cursor: pointer;">
+                    🔍 計算最近門市
+                </button>
+            </div>
+            <!-- 計算結果會產生在這裡 -->
+            <div id="finalResultList" style="margin-top: 20px;"></div>
+        </div>
+    </div>
+
+</div><!-- /.content-area -->
+
+
+<!-- ==========================================================================
+     🪟 彈出視窗區（預設隱藏，由 ap.js / stor.js 控制顯示）
+     ========================================================================== -->
+
+<!-- 結帳條碼視窗：由 zoomBarcode() 開啟，點背景或按「關閉」都可關閉 -->
 <div id="barcodeModal" class="modal" onclick="closeModal('barcodeModal')">
     <div style="background:white; width:90%; max-width:400px; padding:20px; border-radius:15px; text-align:center;">
         <h3 style="margin-top:0; margin-bottom:15px;">結帳條碼</h3>
-        
         <svg id="barcodeCanvas"></svg>
-        
         <p id="barcodeNumBlue"></p>
-     <button onclick="closeModal('barcodeModal')" 
-        style="width:100%; padding:12px; background-color:#333 !important; color:white !important; border:none; border-radius:8px; font-weight:bold; cursor:pointer;">
-    關閉
-</button>
+        <button onclick="closeModal('barcodeModal')"
+                style="width:100%; padding:12px; background-color:#333; color:white; border:none; border-radius:8px; font-weight:bold; cursor:pointer;">
+            關閉
+        </button>
     </div>
 </div>
+
+<!-- QR Code 視窗：showQrCode()（僅客人掃描）與 showInteractiveQr()（客人掃描＋服務人員點擊）共用 -->
 <div id="qrCodeOverlay" class="modal">
     <div style="background:white; width:90%; max-width:400px; padding:25px; border-radius:15px; text-align:center; position:relative; box-shadow: 0 5px 15px rgba(0,0,0,0.3);">
         <span onclick="closeModal('qrCodeOverlay')" style="position:absolute; right:15px; top:5px; font-size:32px; cursor:pointer; color:#888;">×</span>
         <h3 id="qrTitle" style="margin:0 0 15px 0; color:#333;">活動視窗</h3>
         <div id="qrCodeCanvas" style="margin: 20px auto; display: inline-block;"></div>
         <div id="qrHint" style="font-size: 0.95rem; color: #555; line-height: 1.6; text-align: left; background: #f9f9f9; padding: 15px; border-radius: 10px;"></div>
-        <button onclick="closeModal('qrCodeOverlay')" style="width:100%; padding:15px; background-color:#007AFF !important; color:white !important; border:none; border-radius:10px; font-size:1.1rem; font-weight:bold; margin-top:10px;">關閉</button>
+        <button onclick="closeModal('qrCodeOverlay')"
+                style="width:100%; padding:15px; background-color:#007AFF; color:white; border:none; border-radius:10px; font-size:1.1rem; font-weight:bold; margin-top:10px; cursor:pointer;">
+            關閉
+        </button>
     </div>
 </div>
 
+<!-- 圖片放大視窗：由 zoomImg() 開啟 -->
 <div id="imgOverlay" class="modal" onclick="closeModal('imgOverlay')">
     <div style="position:relative; max-width:90%; max-height:90%;">
         <img id="zoomedImg" src="" style="width:100%; height:auto; border-radius:10px; box-shadow:0 0 20px rgba(0,0,0,0.5);">
     </div>
 </div>
 
+<!-- 運費標準視窗：由 ap.js 的 showFeeDetail() 開啟 -->
 <div id="feeOverlay" class="modal">
     <div style="background:#f4f4f4; width:92%; max-width:400px; padding:20px; border-radius:20px; text-align:center;">
         <h3 style="margin:0 0 20px 0; color:#333; font-size:1.4rem;">🚚 <span id="feeTitle">運費標準</span></h3>
-        
-        <div id="feeContent">
-            </div>
-
-        <button onclick="closeModal('feeOverlay')" style="width:100%; padding:15px; background:#333; color:white; border:none; border-radius:12px; font-size:1.1rem; font-weight:bold; margin-top:20px; cursor:pointer;">
+        <div id="feeContent"></div>
+        <button onclick="closeModal('feeOverlay')"
+                style="width:100%; padding:15px; background:#333; color:white; border:none; border-radius:12px; font-size:1.1rem; font-weight:bold; margin-top:20px; cursor:pointer;">
             關閉視窗
         </button>
     </div>
 </div>
+
+<!-- 跨區費視窗：showShippingModal() 定義在 stor.js，內容填入 #shippingContent -->
 <div id="shippingModal" class="modal">
     <div class="modal-body">
-        <span onclick="closeModal()" style="cursor:pointer; float:right;">✕</span>
+        <span onclick="closeModal('shippingModal')" style="cursor:pointer; float:right; font-size:1.2rem;">✕</span>
         <div id="shippingContent"></div>
     </div>
 </div>
+
+
+<!-- ==========================================================================
+     📦 資料與程式載入（順序很重要，請勿調換）
+     ========================================================================== -->
+
+<!-- 步驟 1：先宣告空的資料容器，後面的資料檔會把資料放進來 -->
 <script>
-    // 這是最關鍵的宣告，如果沒有這行，下方的 JS 讀到 feeDatabase 就會掛掉
-    const rawData = [];
-    const smartRawData = [];
-    const storeDatabase = [];
-    const feeDatabase = {}; // <--- 這裡一定要初始化為空物件 {}，因為你在 stor.js 用到了 [storeName]
+    const rawData = [];         // 第一頁：贈品活動資料
+    const smartRawData = [];    // 第二頁：家電商品資料
+    const storeDatabase = [];   // 第三頁：分店資料（名稱、地址、經緯度、電話…）
+    const feeDatabase = {};     // 跨區運費資料（以分店名稱為 key，stor.js 會填入）
 </script>
+
+<!-- 步驟 2：各品牌 / 分店資料檔（負責把資料放進上面的容器） -->
 <script src="js/gif.js"></script>
 <script src="js/panasonic.js"></script>
 <script src="js/Hitach.js"></script>
@@ -495,6 +413,9 @@ top-navbar {
 <script src="js/lg.js"></script>
 <script src="js/日立冰洗.js"></script>
 <script src="js/stor.js"></script>
+
+<!-- 步驟 3：最後載入主程式（讀取上面的資料並處理畫面） -->
 <script src="js/ap.js"></script>
+
 </body>
 </html>
