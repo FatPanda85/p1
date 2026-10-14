@@ -1648,7 +1648,7 @@ smartRawData.push(
         taxUrl: "", 
         oldUrl: "",
         catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/WM/WM.html", 
-        productUrl: "https://www.panasonic.com/tw/consumer/washing-machine/na-v150tt.html"
+        productUrl: ""
     },
     {
         cat: "洗衣機", 
@@ -1686,7 +1686,7 @@ smartRawData.push(
         taxUrl: "", 
         oldUrl: "",
         catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/WM/WM.html", 
-        productUrl: "https://www.panasonic.com/tw/consumer/washing-machine/na-v150tt.html"
+        productUrl: ""
     },
     {
         cat: "洗衣機", 
@@ -1724,6 +1724,6 @@ smartRawData.push(
         taxUrl: "", 
         oldUrl: "",
         catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/WM/WM.html", 
-        productUrl: "https://www.panasonic.com/tw/consumer/washing-machine/na-v170tms.html"
+        productUrl: ""
     }
 );
