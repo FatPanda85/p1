@@ -1027,97 +1027,109 @@ rawData.push(
                 oldUrl: "" 
             },
  { 
-             cat: "DM-9/30-10/13", 
+             cat: "DM-10/14-10/27", 
              brand: "HERAM電視", 
-             name: "<br><span class='text-red'>HERAM電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span>", 
+             name: "<br><span class='text-red'>HERAM電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span><br>買55型(含)以上電視即贈<br>BL-PWS15復古式藍芽喇叭*1<br><span class='text-red'>(不可選色)</span><br><span class='text-blue'>43-008001-001</span> blacklanel BL-PWS15復古式藍芽喇叭(銀色)*1<br><span class='text-blue'>43-008001-002</span> blacklanel BL-PWS15復古式藍芽喇叭(木紋色)*1", 
              desc: "電視32吋吋以下$300<br>電視33-49吋$450<br>電視50-54吋$55<br>電視55-59吋$600<br>電視60-74吋$700<br>電視75吋以上$1300", 
-             barcode: ["4719579893819", "2444042817017","2449440007022","2449440003024"], 
-             img: "DM活動贈品/0930.jpg", 
-               customLabels: ["🎁 壁掛", "💣 壁掛負扣", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+             barcode: ["4719579893819", "2444042817017", "4710631940687", "4710631940700","2449440007022","2449440003024"], 
+             img: "DM活動贈品/DM1014.jpg", 
+               customLabels: ["🎁 壁掛", "💣 壁掛負扣", "🎁 喇叭(銀色)", "🎁 喇叭(木紋色)", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
              qrUrl: "", 
              taxUrl: "", 
             oldUrl: "" 
             }, 
             { 
-    cat: "DM-9/30-10/13", 
+    cat: "DM-10/14-10/27", 
     brand: "LG電視", 
-    name: "<br><span class='text-red'>LG電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span>", 
+    name: "<br><span class='text-red'>LG電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span><br>買55型(含)以上電視即贈<br>BL-PWS15復古式藍芽喇叭*1<br><span class='text-red'>(不可選色)</span><br><span class='text-blue'>43-008001-001</span> blacklanel BL-PWS15復古式藍芽喇叭(銀色)*1<br><span class='text-blue'>43-008001-002</span> blacklanel BL-PWS15復古式藍芽喇叭(木紋色)*1", 
     desc: "電視32吋吋以下$300<br>電視33-49吋$450<br>電視50-54吋$55<br>電視55-59吋$600<br>電視60-74吋$700<br>電視75吋以上$1300", 
-    barcode: ["4719579893819", "2444042811015","2449440007022","2449440003024"], 
-    img: "DM活動贈品/0930.jpg", 
-    customLabels: ["🎁 壁掛", "💣 壁掛負扣", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+    barcode: ["4719579893819", "2444042811015", "4710631940687", "4710631940700","2449440007022","2449440003024"], 
+    img: "DM活動贈品/DM1014.jpg", 
+    customLabels: ["🎁 壁掛", "💣 壁掛負扣", "🎁 喇叭(銀色)", "🎁 喇叭(木紋色)", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
     qrUrl: "", 
     taxUrl: "", 
     oldUrl: "" 
 },
 { 
-    cat: "DM-9/30-10/13", 
+    cat: "DM-10/14-10/27", 
     brand: "SONY電視", 
-    name: "<br><span class='text-red'>SONY電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span>", 
+    name: "<br><span class='text-red'>SONY電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span><br>買55型(含)以上電視即贈<br>BL-PWS15復古式藍芽喇叭*1<br><span class='text-red'>(不可選色)</span><br><span class='text-blue'>43-008001-001</span> blacklanel BL-PWS15復古式藍芽喇叭(銀色)*1<br><span class='text-blue'>43-008001-002</span> blacklanel BL-PWS15復古式藍芽喇叭(木紋色)*1", 
     desc: "電視32吋吋以下$300<br>電視33-49吋$450<br>電視50-54吋$55<br>電視55-59吋$600<br>電視60-74吋$700<br>電視75吋以上$1300", 
-    barcode: ["4719579893819", "2444042813019","2449440007022","2449440003024"], 
-    img: "DM活動贈品/0930.jpg", 
-    customLabels: ["🎁 壁掛", "💣 壁掛負扣", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+    barcode: ["4719579893819", "2444042813019", "4710631940687", "4710631940700","2449440007022","2449440003024"], 
+    img: "DM活動贈品/DM1014.jpg", 
+    customLabels: ["🎁 壁掛", "💣 壁掛負扣", "🎁 喇叭(銀色)", "🎁 喇叭(木紋色)", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
     qrUrl: "", 
     taxUrl: "", 
     oldUrl: "" 
 },
 { 
-    cat: "DM-9/30-10/13", 
+    cat: "DM-10/14-10/27", 
     brand: "PHILIPS電視", 
-    name: "<br><span class='text-red'>PHILIPS電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span>", 
+    name: "<br><span class='text-red'>PHILIPS電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span><br>買55型(含)以上電視即贈<br>BL-PWS15復古式藍芽喇叭*1<br><span class='text-red'>(不可選色)</span><br><span class='text-blue'>43-008001-001</span> blacklanel BL-PWS15復古式藍芽喇叭(銀色)*1<br><span class='text-blue'>43-008001-002</span> blacklanel BL-PWS15復古式藍芽喇叭(木紋色)*1", 
     desc: "電視32吋吋以下$300<br>電視33-49吋$450<br>電視50-54吋$55<br>電視55-59吋$600<br>電視60-74吋$700<br>電視75吋以上$1300", 
-    barcode: ["4719579893819", "2444042815013","2449440007022","2449440003024"], 
-    img: "DM活動贈品/0930.jpg", 
-    customLabels: ["🎁 壁掛", "💣 壁掛負扣", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+    barcode: ["4719579893819", "2444042815013", "4710631940687", "4710631940700","2449440007022","2449440003024"], 
+    img: "DM活動贈品/DM1014.jpg", 
+    customLabels: ["🎁 壁掛", "💣 壁掛負扣", "🎁 喇叭(銀色)", "🎁 喇叭(木紋色)", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
     qrUrl: "", 
     taxUrl: "", 
     oldUrl: "" 
 },
 { 
-    cat: "DM-9/30-10/13", 
+    cat: "DM-10/14-10/27", 
     brand: "TOSHIBA電視", 
-    name: "<br><span class='text-red'>TOSHIBA電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span>", 
+    name: "<br><span class='text-red'>TOSHIBA電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span><br>買55型(含)以上電視即贈<br>BL-PWS15復古式藍芽喇叭*1<br><span class='text-red'>(不可選色)</span><br><span class='text-blue'>43-008001-001</span> blacklanel BL-PWS15復古式藍芽喇叭(銀色)*1<br><span class='text-blue'>43-008001-002</span> blacklanel BL-PWS15復古式藍芽喇叭(木紋色)*1", 
     desc: "電視32吋吋以下$300<br>電視33-49吋$450<br>電視50-54吋$55<br>電視55-59吋$600<br>電視60-74吋$700<br>電視75吋以上$1300", 
-    barcode: ["4719579893819", "2444042998013","2449440007022","2449440003024"], 
-    img: "DM活動贈品/0930.jpg", 
-    customLabels: ["🎁 壁掛", "💣 壁掛負扣", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+    barcode: ["4719579893819", "2444042998013", "4710631940687", "4710631940700","2449440007022","2449440003024"], 
+    img: "DM活動贈品/DM1014.jpg", 
+    customLabels: ["🎁 壁掛", "💣 壁掛負扣", "🎁 喇叭(銀色)", "🎁 喇叭(木紋色)", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
     qrUrl: "", 
     taxUrl: "", 
     oldUrl: "" 
 },
 { 
-    cat: "DM-9/30-10/13", 
+    cat: "DM-10/14-10/27", 
     brand: "奇美電視", 
-    name: "<br><span class='text-red'>奇美電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span>", 
+    name: "<br><span class='text-red'>奇美電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span><br>買55型(含)以上電視即贈<br>BL-PWS15復古式藍芽喇叭*1<br><span class='text-red'>(不可選色)</span><br><span class='text-blue'>43-008001-001</span> blacklanel BL-PWS15復古式藍芽喇叭(銀色)*1<br><span class='text-blue'>43-008001-002</span> blacklanel BL-PWS15復古式藍芽喇叭(木紋色)*1", 
     desc: "電視32吋吋以下$300<br>電視33-49吋$450<br>電視50-54吋$55<br>電視55-59吋$600<br>電視60-74吋$700<br>電視75吋以上$1300", 
-    barcode: ["4719579893819", "2444042942016","2449440007022","2449440003024"], 
-    img: "DM活動贈品/0930.jpg", 
-    customLabels: ["🎁 壁掛", "💣 壁掛負扣", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+    barcode: ["4719579893819", "2444042942016", "4710631940687", "4710631940700","2449440007022","2449440003024"], 
+    img: "DM活動贈品/DM1014.jpg", 
+    customLabels: ["🎁 壁掛", "💣 壁掛負扣", "🎁 喇叭(銀色)", "🎁 喇叭(木紋色)", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
     qrUrl: "", 
     taxUrl: "", 
     oldUrl: "" 
 },
 { 
-    cat: "DM-9/30-10/13", 
+    cat: "DM-10/14-10/27", 
     brand: "聲寶電視", 
-    name: "<br><span class='text-red'>聲寶電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span>", 
+    name: "<br><span class='text-red'>聲寶電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span><br>買55型(含)以上電視即贈<br>BL-PWS15復古式藍芽喇叭*1<br><span class='text-red'>(不可選色)</span><br><span class='text-blue'>43-008001-001</span> blacklanel BL-PWS15復古式藍芽喇叭(銀色)*1<br><span class='text-blue'>43-008001-002</span> blacklanel BL-PWS15復古式藍芽喇叭(木紋色)*1", 
     desc: "電視32吋吋以下$300<br>電視33-49吋$450<br>電視50-54吋$55<br>電視55-59吋$600<br>電視60-74吋$700<br>電視75吋以上$1300", 
-    barcode: ["4719579893819", "2444042993018","2449440007022","2449440003024"], 
-    img: "DM活動贈品/0930.jpg", 
-    customLabels: ["🎁 壁掛", "💣 壁掛負扣", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+    barcode: ["4719579893819", "2444042993018", "4710631940687", "4710631940700","2449440007022","2449440003024"], 
+    img: "DM活動贈品/DM1014.jpg", 
+    customLabels: ["🎁 壁掛", "💣 壁掛負扣", "🎁 喇叭(銀色)", "🎁 喇叭(木紋色)", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
     qrUrl: "", 
     taxUrl: "", 
     oldUrl: "" 
 },
 { 
-    cat: "DM-9/30-10/13", 
+    cat: "DM-10/14-10/27", 
     brand: "SHARP電視", 
-    name: "<br><span class='text-red'>SHARP電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span>", 
+    name: "<br><span class='text-red'>SHARP電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span><br>買55型(含)以上電視即贈<br>BL-PWS15復古式藍芽喇叭*1<br><span class='text-red'>(不可選色)</span><br><span class='text-blue'>43-008001-001</span> blacklanel BL-PWS15復古式藍芽喇叭(銀色)*1<br><span class='text-blue'>43-008001-002</span> blacklanel BL-PWS15復古式藍芽喇叭(木紋色)*1", 
     desc: "電視32吋吋以下$300<br>電視33-49吋$450<br>電視50-54吋$55<br>電視55-59吋$600<br>電視60-74吋$700<br>電視75吋以上$1300",  
-    barcode: ["4719579893819", "2444042949015","2449440007022","2449440003024"], 
-    img: "DM活動贈品/0930.jpg", 
-    customLabels: ["🎁 壁掛", "💣 壁掛負扣", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+    barcode: ["4719579893819", "2444042949015", "4710631940687", "4710631940700","2449440007022","2449440003024"], 
+    img: "DM活動贈品/DM1014.jpg", 
+    customLabels: ["🎁 壁掛", "💣 壁掛負扣", "🎁 喇叭(銀色)", "🎁 喇叭(木紋色)", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+    qrUrl: "", 
+    taxUrl: "", 
+    oldUrl: "" 
+},
+{ 
+    cat: "DM-10/14-10/27", 
+    brand: "TCL電視", 
+    name: "<br><span class='text-red'>SHARP電視</span><br>買39型(含)以上電視即贈萬用壁掛架<br><span class='text-blue'>44-425056-001 Blacklabel BL-3270壁掛架*1</span><br>買55型(含)以上電視即贈<br>BL-PWS15復古式藍芽喇叭*1<br><span class='text-red'>(不可選色)</span><br><span class='text-blue'>43-008001-001</span> blacklanel BL-PWS15復古式藍芽喇叭(銀色)*1<br><span class='text-blue'>43-008001-002</span> blacklanel BL-PWS15復古式藍芽喇叭(木紋色)*1", 
+    desc: "電視32吋吋以下$300<br>電視33-49吋$450<br>電視50-54吋$55<br>電視55-59吋$600<br>電視60-74吋$700<br>電視75吋以上$1300",  
+    barcode: ["4719579893819", "2444042997016", "4710631940687", "4710631940700","2449440007022","2449440003024"], 
+    img: "DM活動贈品/DM1014.jpg", 
+    customLabels: ["🎁 壁掛", "💣 壁掛負扣", "🎁 喇叭(銀色)", "🎁 喇叭(木紋色)", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
     qrUrl: "", 
     taxUrl: "", 
     oldUrl: "" 
