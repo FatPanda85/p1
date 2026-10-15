@@ -21,6 +21,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     initCategoryDropdown();   // 第一頁分類
     initSmartCats();          // 第二頁分類
+    initCompareUI();          // 比較功能（底部比較列與視窗）
 });
 
 // 切換分頁：隱藏全部內容 → 取消所有按鈕高亮 → 顯示目標頁並高亮按下的按鈕
@@ -384,6 +385,7 @@ function renderGiftCards(matches, container) {
 
         html += `
         <div class="gift-card">
+            ${buildCompareBox(g)}
             <div class="product-images" style="display:flex; flex-direction:column; gap:10px; align-items:center;">
                 ${g.img ? `<img src="${g.img}" class="gift-img" onclick="zoomImg('${g.img}')" onerror="this.src='https://via.placeholder.com/90?text=無圖片'">` : ""}
                 ${g.giftImg ? `<img src="${g.giftImg}" class="gift-img" style="${imgStyle}" onclick="zoomImg('${g.giftImg}')">` : ""}
@@ -402,6 +404,7 @@ function renderGiftCards(matches, container) {
     });
 
     target.innerHTML = html;   // 一次寫入，比逐筆 += 更快
+    syncCompareBoxes();        // 讓已勾選的商品在重新搜尋後仍保持勾選
 }
 
 
@@ -456,4 +459,220 @@ function showInteractiveQr(url, title, hint) {
                 style="width:100%; padding:13px; background-color:#333; color:white; border:none; border-radius:8px; font-size:1rem; font-weight:bold; cursor:pointer; display:flex; align-items:center; justify-content:center; gap:6px;">
             🔗 服務人員直接點此開啟網頁
         </button>`);
+}
+
+
+// ==========================================================================
+// ⚖️ 7. 商品比較功能（客人勾選幾款 → 並排比較尺寸／容量／耗電／功能）
+//   - 每張有規格的商品卡右上角會有「⚖️ 比較」勾選框
+//   - 勾選狀態只存在記憶體：按 F5 重整就全部清除，也可按「清除全部」
+//   - 換頁、重新搜尋後，已勾選的商品仍保留，所以可以分次搜尋不同型號再一起比
+//   - 本段自帶 CSS 與視窗，不需要修改 index.html
+// ==========================================================================
+const COMPARE_MAX = 4;              // 最多同時比較幾款（手機畫面放不下太多）
+const CMP_TOP_LABELS = ["年耗電(度)", "運費資訊"];   // 這些規格不屬於任何小標題區塊
+const compareRegistry = {};         // key → 商品資料（畫卡片時登記，供比較使用）
+let compareSelected = [];           // 目前勾選的 key，順序＝勾選順序
+let compareOnlyDiff = false;        // 「只看差異」開關
+
+// ---- 小工具 ----
+// HTML → 純文字（<br>、</div> 轉成換行）
+function plainText(html) {
+    return String(html || "")
+        .replace(/<br\s*\/?>/gi, "\n").replace(/<\/div>/gi, "\n")
+        .replace(/<[^>]+>/g, "").replace(/&nbsp;/g, " ")
+        .replace(/[ \t]+\n/g, "\n").replace(/\n\s*\n+/g, "\n").trim();
+}
+// 跳脫 HTML，避免資料中的符號破壞表格
+function escHtml(s) {
+    return String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+// 每台商品的唯一代號：型號 + 料號（同型號不同顏色料號不同）
+function compareKey(g) {
+    const code = ((g.name || "").match(/40-\d{6}-\d{3}/) || [])[0];
+    return ((g.model || "item") + "_" + (code || plainText(g.name).slice(0, 20))).replace(/[^\w一-龥-]/g, "_");
+}
+// 從名稱抓顏色，例如 (冰霧銀)；跳過「台灣製、無邊框鋼板、贈…」這類括號
+function compareColor(g) {
+    const groups = [...plainText(g.name).matchAll(/\(([^()]+)\)/g)].map(m => m[1]);
+    return groups.find(s => !/製|板|框|贈|^\d|^\*/.test(s)) || "";
+}
+function compareTitle(g) { return (g.model || "") + (compareColor(g) ? "\n" + compareColor(g) : ""); }
+
+// ---- 商品卡片上的勾選框（由 renderGiftCards 呼叫）----
+function buildCompareBox(g) {
+    if (!Array.isArray(g.specs) || g.specs.length === 0) return "";   // 沒規格資料就不能比
+    const key = compareKey(g);
+    compareRegistry[key] = g;
+    return `<label class="cmp-box"><input type="checkbox" data-cmpkey="${key}" onchange="toggleCompare(this)"> ⚖️ 比較</label>`;
+}
+
+// ---- 勾選 / 取消 ----
+function toggleCompare(el) {
+    const key = el.dataset.cmpkey;
+    if (el.checked) {
+        if (compareSelected.length >= COMPARE_MAX) {
+            el.checked = false;
+            alert(`最多同時比較 ${COMPARE_MAX} 款，請先取消其中一款`);
+            return;
+        }
+        if (!compareSelected.includes(key)) compareSelected.push(key);
+    } else {
+        compareSelected = compareSelected.filter(k => k !== key);
+    }
+    updateCompareBar();
+}
+// 讓畫面上所有卡片的勾選框與 compareSelected 一致（重新搜尋後也能保持勾選）
+function syncCompareBoxes() {
+    document.querySelectorAll("input[data-cmpkey]").forEach(el => {
+        el.checked = compareSelected.includes(el.dataset.cmpkey);
+    });
+}
+// 更新底部比較列（0 款時隱藏）
+function updateCompareBar() {
+    const bar = document.getElementById("cmpBar");
+    if (!bar) return;
+    const n = compareSelected.length;
+    document.getElementById("cmpCount").innerText = n;
+    document.getElementById("cmpGo").disabled = n < 2;
+    document.getElementById("cmpGo").innerText = n < 2 ? "再選 1 款即可比較" : "開始比較";
+    bar.style.display = n > 0 ? "flex" : "none";
+    document.body.style.paddingBottom = n > 0 ? "70px" : "";   // 避免底部列蓋住最後一張卡片
+}
+// 從比較表移除單一款
+function removeFromCompare(key) {
+    compareSelected = compareSelected.filter(k => k !== key);
+    syncCompareBoxes();
+    updateCompareBar();
+    renderCompare();
+}
+// 清除全部比較
+function clearCompare() {
+    compareSelected = [];
+    syncCompareBoxes();
+    updateCompareBar();
+    closeModal("compareModal");
+}
+function openCompare() {
+    if (compareSelected.length < 2) return;
+    renderCompare();
+    document.getElementById("compareModal").style.display = "flex";
+}
+function toggleOnlyDiff(checked) { compareOnlyDiff = checked; renderCompare(); }
+
+// ---- 把一台商品整理成「項目 → 內容」的對照表 ----
+function compareRowsOf(g) {
+    const rows = new Map();
+    const nameText = plainText(g.name);
+    // 贈品、登錄回饋金（從名稱文字抓）
+    const gifts = [...nameText.matchAll(/\(贈\)([^\n]+)/g)].map(m => m[1]);
+    rows.set("贈品", gifts.length ? gifts.join("\n") : "—");
+    const reg = nameText.match(/登錄送(\$\d+)元/);
+    rows.set("登錄回饋金", reg ? reg[1] : "無");
+    // 規格：空值的項目是「小標題」(機器尺寸、包裝箱尺寸、容量規格…)，後面的項目會掛在它底下
+    let section = "";
+    (g.specs || []).forEach(s => {
+        if (s.value === "") { section = s.label; return; }
+        if (CMP_TOP_LABELS.includes(s.label)) section = "";
+        rows.set(section ? `${section}・${s.label}` : s.label, plainText(String(s.value)));
+    });
+    rows.set("功能特色", plainText(g.desc) || "—");
+    return rows;
+}
+
+// ---- 畫出比較表 ----
+function renderCompare() {
+    const body = document.getElementById("cmpBody");
+    const items = compareSelected.map(k => ({ key: k, g: compareRegistry[k] })).filter(x => x.g);
+    document.getElementById("cmpOnlyDiff").checked = compareOnlyDiff;
+    if (items.length < 2) {
+        body.innerHTML = `<p style="padding:24px; text-align:center; color:#888;">至少要選 2 款才能比較，請回到列表勾選。</p>`;
+        return;
+    }
+    const maps = items.map(x => compareRowsOf(x.g));
+    // 所有商品的項目聯集（維持出現順序；「贈品」在最前、「功能特色」在最後）
+    const labels = [];
+    maps.forEach(m => m.forEach((_, k) => { if (!labels.includes(k)) labels.push(k); }));
+    const ordered = ["贈品", "登錄回饋金", ...labels.filter(l => !["贈品", "登錄回饋金", "功能特色"].includes(l)), "功能特色"];
+
+    let html = `<table class="cmp-table"><thead><tr><th class="cmp-label"></th>`;
+    items.forEach(x => {
+        html += `<th>
+            ${x.g.img ? `<img src="${escHtml(x.g.img)}" class="cmp-img" onerror="this.style.display='none'">` : ""}
+            <div class="cmp-title">${escHtml(compareTitle(x.g)).replace(/\n/g, "<br>")}</div>
+            <button class="cmp-remove" onclick="removeFromCompare('${x.key}')">✕ 移除</button>
+        </th>`;
+    });
+    html += `</tr></thead><tbody>`;
+
+    ordered.forEach(label => {
+        const vals = maps.map(m => m.has(label) ? m.get(label) : "—");
+        if (vals.every(v => v === "—" || v === "無")) return;          // 全部都沒有的項目不顯示
+        const diff = new Set(vals).size > 1;
+        if (compareOnlyDiff && !diff && label !== "功能特色") return;    // 「只看差異」模式
+        // 年耗電：數字最小者標綠色（最省電）
+        let bestIdx = -1;
+        if (label === "年耗電(度)" && diff) {
+            const nums = vals.map(v => parseFloat(v));
+            if (nums.every(n => !isNaN(n))) bestIdx = nums.indexOf(Math.min(...nums));
+        }
+        html += `<tr class="${diff && label !== "功能特色" ? "cmp-diff" : ""}"><td class="cmp-label">${escHtml(label)}</td>`;
+        vals.forEach((v, i) => {
+            html += `<td class="${i === bestIdx ? "cmp-best" : ""}">${escHtml(v)}${i === bestIdx ? " ✔最省電" : ""}</td>`;
+        });
+        html += `</tr>`;
+    });
+    html += `</tbody></table>`;
+    body.innerHTML = html;
+}
+
+// ---- 初始化：注入 CSS、底部比較列、比較視窗 ----
+function initCompareUI() {
+    const css = document.createElement("style");
+    css.textContent = `
+        .gift-card { position: relative; }
+        .gift-info h4 { padding-right: 84px; }
+        .cmp-box { position:absolute; top:10px; right:12px; display:flex; align-items:center; gap:4px; padding:4px 8px; background:#eef4ff; border:1px solid #b3d7ff; border-radius:8px; font-size:.8rem; font-weight:600; color:#0056b3; cursor:pointer; }
+        .cmp-box input { width:18px; height:18px; margin:0; }
+        #cmpBar { display:none; position:fixed; left:0; right:0; bottom:0; z-index:900; gap:8px; align-items:center; justify-content:center; padding:10px 12px; background:#fff; border-top:1px solid #ddd; box-shadow:0 -2px 10px rgba(0,0,0,.08); }
+        #cmpBar button { padding:10px 14px; border:none; border-radius:10px; font-weight:bold; cursor:pointer; }
+        #cmpGo { background:#007AFF; color:#fff; }
+        #cmpGo:disabled { background:#b8c4d6; cursor:default; }
+        #cmpClear { background:#eee; color:#333; }
+        .cmp-panel { background:#fff; width:96%; max-width:900px; max-height:92vh; border-radius:16px; display:flex; flex-direction:column; overflow:hidden; }
+        .cmp-head { display:flex; flex-wrap:wrap; gap:8px; align-items:center; justify-content:space-between; padding:12px 14px; border-bottom:1px solid #eee; }
+        .cmp-head button { padding:8px 12px; border:none; border-radius:8px; font-weight:bold; cursor:pointer; }
+        #cmpBody { overflow:auto; padding-bottom:12px; }
+        .cmp-table { border-collapse:collapse; width:100%; font-size:.88rem; }
+        .cmp-table th, .cmp-table td { border-bottom:1px solid #eee; padding:8px 10px; vertical-align:top; min-width:120px; text-align:left; white-space:pre-line; }
+        .cmp-table .cmp-label { position:sticky; left:0; min-width:84px; max-width:110px; background:#f7f7f9; color:#555; font-weight:600; z-index:1; }
+        .cmp-table thead th { position:sticky; top:0; background:#fff; z-index:2; text-align:center; }
+        .cmp-table thead th.cmp-label { z-index:3; }
+        .cmp-table tr.cmp-diff td:not(.cmp-label) { background:#fff8e1; font-weight:600; }
+        .cmp-table td.cmp-best { color:#28a745; }
+        .cmp-img { display:block; width:60px; height:60px; object-fit:cover; margin:0 auto 6px; border-radius:8px; border:1px solid #eee; }
+        .cmp-title { font-size:.9rem; font-weight:bold; color:#0056b3; margin-bottom:6px; }
+        .cmp-remove { padding:4px 8px; border:1px solid #ffccd2; background:#ffebe9; color:#ff3b30; border-radius:6px; font-size:.75rem; cursor:pointer; }
+    `;
+    document.head.appendChild(css);
+
+    document.body.insertAdjacentHTML("beforeend", `
+        <div id="cmpBar">
+            <span>已選 <b id="cmpCount">0</b> 款</span>
+            <button id="cmpGo" onclick="openCompare()" disabled>再選 1 款即可比較</button>
+            <button id="cmpClear" onclick="clearCompare()">清除全部</button>
+        </div>
+        <div id="compareModal" class="modal" onclick="if(event.target===this) closeModal('compareModal')">
+            <div class="cmp-panel">
+                <div class="cmp-head">
+                    <b>⚖️ 商品比較</b>
+                    <label style="font-size:.85rem;"><input type="checkbox" id="cmpOnlyDiff" onchange="toggleOnlyDiff(this.checked)"> 只看差異</label>
+                    <span>
+                        <button style="background:#ffebe9; color:#ff3b30;" onclick="clearCompare()">取消全部比較</button>
+                        <button style="background:#333; color:#fff;" onclick="closeModal('compareModal')">關閉</button>
+                    </span>
+                </div>
+                <div id="cmpBody"></div>
+            </div>
+        </div>`);
 }
