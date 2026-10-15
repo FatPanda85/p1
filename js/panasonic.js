@@ -3080,7 +3080,7 @@ smartRawData.push(
         model: "NR-V1715SP乾衣機",
         barcode: ["4717523354072","6909141613114","2449400007024","2449400002029"], 
         customLabels: ["📦 商品","🎁 保鮮盒","🚚 免運$100", "💰 收費$100"], // <--- 在這裡定義
-        img: "國際冰箱/VS1715SP1.jpg", 
+        img: "國際冰箱/V1715SP1.jpg", 
         giftImg: "國際冰洗贈品/SP-2701$3000.jpg",
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=F5EFBAAC-BF5D-4F1E-9A2D-2716EA9E0F4E",
         taxUrl: "", 
@@ -3125,7 +3125,7 @@ smartRawData.push(
         model: "NR-V1715SP乾衣機",
         barcode: ["4717523354072","6909141613114","2449400007024","2449400002029"], 
         customLabels: ["📦 商品","🎁 保鮮盒","🚚 免運$100", "💰 收費$100"], // <--- 在這裡定義
-        img: "國際冰箱/VS1715SP2.jpg", 
+        img: "國際冰箱/V1715SP2.jpg", 
         giftImg: "國際冰洗贈品/SP-2701$3000.jpg",
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=F5EFBAAC-BF5D-4F1E-9A2D-2716EA9E0F4E",
         taxUrl: "", 
