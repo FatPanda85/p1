@@ -347,12 +347,12 @@ function buildBarcodeButtons(g) {
 }
 
 // 產生卡片底部的連結按鈕（活動 / 退稅 / 補助 / 全本目錄 / 單台介紹）
-//   活動 → showQrCode        ：只給客人掃
-//   其餘 → showInteractiveQr ：客人掃 QR ＋ 服務人員直接點開網頁
+//   全部都用 showInteractiveQr：客人掃 QR ＋ 服務人員直接點開網頁
+//   （showQrCode 為純 QR 版，目前沒有按鈕使用，保留備用）
 function buildLinkButtons(g) {
     let html = "";
     if (g.qrUrl)
-        html += `<button class="action-btn btn-activity" onclick="showQrCode('${g.qrUrl}','官方活動官網',QR_HINTS.activity)">📱 活動</button>`;
+        html += `<button class="action-btn btn-activity" onclick="showInteractiveQr('${g.qrUrl}','官方活動官網',QR_HINTS.activity)">📱 活動</button>`;
     if (g.taxUrl)
         html += `<button class="action-btn btn-tax" onclick="showInteractiveQr('${g.taxUrl}','貨物稅退稅申請',QR_HINTS.tax)">💰 退稅</button>`;
     if (g.oldUrl)
