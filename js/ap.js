@@ -54,6 +54,7 @@ function closeModal(id) {
 // 點圖片放大
 function zoomImg(url) {
     if (!url) return;
+    if (typeof openLightbox === "function") { openLightbox([{ src: url, title: "" }], 0); return; }   // 新版：可縮放燈箱（見第 7 節）
     document.getElementById("zoomedImg").src = url;
     document.getElementById("imgOverlay").style.display = "flex";
 }
@@ -613,7 +614,9 @@ function renderCompare() {
     let html = `<table class="cmp-table"><thead><tr><th class="cmp-label"></th>`;
     items.forEach(x => {
         html += `<th>
-            ${x.g.img ? `<img src="${escHtml(x.g.img)}" class="cmp-img" onerror="this.style.display='none'">` : ""}
+            ${x.g.img
+                ? `<img src="${escHtml(x.g.img)}" class="cmp-img" title="點擊放大" onclick="openCompareLightbox('${x.key}')" onerror="cmpImgFail(this)"><div class="cmp-zoomhint">🔍 點圖放大</div>`
+                : `<div class="cmp-noimg">無圖片</div>`}
             <div class="cmp-title">${escHtml(compareTitle(x.g)).replace(/\n/g, "<br>")}</div>
             <button class="cmp-remove" onclick="removeFromCompare('${x.key}')">✕ 移除</button>
         </th>`;
@@ -665,7 +668,24 @@ function initCompareUI() {
         .cmp-table thead th.cmp-label { z-index:3; }
         .cmp-table tr.cmp-diff td:not(.cmp-label) { background:#fff8e1; font-weight:600; }
         .cmp-table td.cmp-best { color:#28a745; }
-        .cmp-img { display:block; width:60px; height:60px; object-fit:cover; margin:0 auto 6px; border-radius:8px; border:1px solid #eee; }
+        .cmp-table thead th { vertical-align:top; }
+        .cmp-img { display:block; width:110px; height:110px; object-fit:contain; margin:0 auto 2px; border-radius:8px; border:1px solid #e3e3e8; background:#fff; cursor:zoom-in; }
+        .cmp-noimg { width:110px; height:110px; margin:0 auto 6px; display:flex; align-items:center; justify-content:center; border:1px dashed #ccc; border-radius:8px; color:#aaa; font-size:.8rem; }
+        .cmp-zoomhint { font-size:.7rem; color:#888; margin-bottom:6px; }
+        #lbBox { display:none; position:fixed; inset:0; z-index:3000; background:rgba(0,0,0,.9); touch-action:none; user-select:none; -webkit-user-select:none; overflow:hidden; }
+        #lbStage { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; }
+        #lbImg { max-width:92vw; max-height:78vh; object-fit:contain; transform-origin:50% 50%; will-change:transform; cursor:grab; -webkit-user-drag:none; border-radius:6px; background:#fff; }
+        #lbImg.grabbing { cursor:grabbing; }
+        #lbTop { position:absolute; top:0; left:0; right:0; display:flex; align-items:center; justify-content:space-between; gap:8px; padding:10px 12px; color:#fff; z-index:2; pointer-events:none; }
+        #lbTop > * { pointer-events:auto; }
+        #lbTitle { font-weight:bold; font-size:.95rem; text-align:center; flex:1; padding:6px 10px; border-radius:10px; background:rgba(20,20,24,.72); }
+        .lb-btn { background:rgba(20,20,24,.72); color:#fff; border:1px solid rgba(255,255,255,.35); border-radius:10px; min-width:42px; height:42px; font-size:1.1rem; font-weight:bold; cursor:pointer; padding:0 12px; }
+        .lb-btn:active { background:rgba(255,255,255,.35); }
+        #lbBottom { position:absolute; bottom:0; left:0; right:0; display:flex; flex-direction:column; align-items:center; gap:8px; padding:10px 12px 16px; z-index:2; pointer-events:none; }
+        #lbBottom > * { pointer-events:auto; }
+        #lbTools { display:flex; gap:8px; }
+        #lbHint { color:#fff; font-size:.75rem; pointer-events:none; padding:4px 10px; border-radius:8px; background:rgba(20,20,24,.72); }
+        #lbFail { color:#fff; display:none; }
         .cmp-title { font-size:.9rem; font-weight:bold; color:#0056b3; margin-bottom:6px; }
         .cmp-remove { padding:4px 8px; border:1px solid #ffccd2; background:#ffebe9; color:#ff3b30; border-radius:6px; font-size:.75rem; cursor:pointer; }
     `;
@@ -689,5 +709,176 @@ function initCompareUI() {
                 </div>
                 <div id="cmpBody"></div>
             </div>
+        </div>
+        <div id="lbBox">
+            <div id="lbStage"><img id="lbImg" alt="" draggable="false"><div id="lbFail">圖片載入失敗</div></div>
+            <div id="lbTop">
+                <button class="lb-btn" id="lbPrev" onclick="lbStep(-1)">◀</button>
+                <div id="lbTitle"></div>
+                <button class="lb-btn" id="lbNext" onclick="lbStep(1)">▶</button>
+                <button class="lb-btn" onclick="closeLightbox()">✕ 關閉</button>
+            </div>
+            <div id="lbBottom">
+                <div id="lbTools">
+                    <button class="lb-btn" onclick="lbZoomBy(1/1.4)">－</button>
+                    <button class="lb-btn" onclick="lbReset()">還原</button>
+                    <button class="lb-btn" onclick="lbZoomBy(1.4)">＋</button>
+                </div>
+                <div id="lbHint">雙指或滾輪縮放・拖曳移動・雙擊放大・點空白處關閉</div>
+            </div>
         </div>`);
+    initLightbox();
+}
+
+
+// ==========================================================================
+// 🔍 7. 圖片燈箱（可縮放）— 比較表與商品卡的圖片共用
+//   - 放大後：滾輪 / 雙指縮放、拖曳移動、雙擊（雙點）放大或還原、＋－還原 按鈕
+//   - 點圖片以外的空白處、按「✕ 關閉」或 Esc 都可關閉
+//   - 從比較表開啟時，可用 ◀ ▶（或鍵盤左右鍵）切換已勾選的各款，方便對照外型
+// ==========================================================================
+const LB_MIN = 1, LB_MAX = 8;
+let lbList = [], lbIndex = 0;
+let lbScale = 1, lbX = 0, lbY = 0;        // 縮放倍率與平移（像素，以圖片中心為原點）
+const lbPtrs = new Map();                  // 目前按住的觸點
+let lbPinch = null, lbDrag = null, lbMoved = false, lbLastTap = 0;
+
+// 比較表圖片載入失敗：改顯示「無圖片」方框
+function cmpImgFail(img) {
+    const box = document.createElement("div");
+    box.className = "cmp-noimg"; box.textContent = "無圖片";
+    img.replaceWith(box);
+    const hint = box.nextElementSibling;
+    if (hint && hint.classList.contains("cmp-zoomhint")) hint.remove();
+}
+
+// 從比較表開啟：清單＝目前勾選的各款
+function openCompareLightbox(key) {
+    const list = compareSelected.map(k => ({ key: k, g: compareRegistry[k] })).filter(x => x.g && x.g.img)
+        .map(x => ({ key: x.key, src: x.g.img, title: compareTitle(x.g).replace(/\n/g, "　") }));
+    const idx = Math.max(0, list.findIndex(x => x.key === key));
+    openLightbox(list, idx);
+}
+function openLightbox(list, index) {
+    if (!list || !list.length) return;
+    lbList = list; lbIndex = index || 0;
+    document.getElementById("lbBox").style.display = "block";
+    lbShow();
+}
+function closeLightbox() {
+    const box = document.getElementById("lbBox");
+    if (box) box.style.display = "none";
+    lbPtrs.clear(); lbPinch = lbDrag = null;
+}
+function lbShow() {
+    const it = lbList[lbIndex], img = document.getElementById("lbImg");
+    document.getElementById("lbFail").style.display = "none";
+    img.style.display = "block";
+    img.onerror = () => { img.style.display = "none"; document.getElementById("lbFail").style.display = "block"; };
+    img.src = it.src;
+    document.getElementById("lbTitle").textContent = it.title || "";
+    const multi = lbList.length > 1;
+    document.getElementById("lbPrev").style.visibility = multi ? "visible" : "hidden";
+    document.getElementById("lbNext").style.visibility = multi ? "visible" : "hidden";
+    lbReset();
+}
+function lbStep(d) {
+    if (lbList.length < 2) return;
+    lbIndex = (lbIndex + d + lbList.length) % lbList.length;
+    lbShow();
+}
+function lbApply() {
+    document.getElementById("lbImg").style.transform = `translate(${lbX}px, ${lbY}px) scale(${lbScale})`;
+}
+function lbReset() { lbScale = 1; lbX = 0; lbY = 0; lbApply(); }
+// 以畫面上某一點（相對於畫面中心）為中心縮放，圖片會停在手指/滑鼠下方
+function lbZoomAt(factor, px, py) {
+    const ns = Math.min(LB_MAX, Math.max(LB_MIN, lbScale * factor));
+    const k = ns / lbScale;
+    lbX = px - (px - lbX) * k; lbY = py - (py - lbY) * k;
+    lbScale = ns;
+    if (lbScale === 1) { lbX = 0; lbY = 0; }
+    lbApply();
+}
+function lbZoomBy(factor) { lbZoomAt(factor, 0, 0); }
+function lbCenterRel(x, y) {   // 滑鼠/觸點座標 → 相對於畫面中心
+    return [x - window.innerWidth / 2, y - window.innerHeight / 2];
+}
+
+function initLightbox() {
+    const box = document.getElementById("lbBox"), img = document.getElementById("lbImg");
+
+    // 滾輪縮放
+    box.addEventListener("wheel", e => {
+        e.preventDefault();
+        const [px, py] = lbCenterRel(e.clientX, e.clientY);
+        lbZoomAt(e.deltaY < 0 ? 1.15 : 1 / 1.15, px, py);
+    }, { passive: false });
+
+    // 指標事件：單指拖曳、雙指縮放（滑鼠也走同一套）
+    box.addEventListener("pointerdown", e => {
+        if (e.target.closest(".lb-btn")) return;
+        lbMoved = false;
+        lbPtrs.set(e.pointerId, { x: e.clientX, y: e.clientY });
+        if (lbPtrs.size === 2) {
+            const [a, b] = [...lbPtrs.values()];
+            lbPinch = { dist: Math.hypot(a.x - b.x, a.y - b.y) || 1 };
+            lbDrag = null;
+        } else if (lbPtrs.size === 1) {
+            lbDrag = { x: e.clientX, y: e.clientY, ox: lbX, oy: lbY };
+        }
+        if (e.target === img) img.classList.add("grabbing");
+    });
+    box.addEventListener("pointermove", e => {
+        if (!lbPtrs.has(e.pointerId)) return;
+        lbPtrs.set(e.pointerId, { x: e.clientX, y: e.clientY });
+        if (lbPtrs.size >= 2 && lbPinch) {
+            const [a, b] = [...lbPtrs.values()];
+            const dist = Math.hypot(a.x - b.x, a.y - b.y) || 1;
+            const [px, py] = lbCenterRel((a.x + b.x) / 2, (a.y + b.y) / 2);
+            lbZoomAt(dist / lbPinch.dist, px, py);
+            lbPinch.dist = dist; lbMoved = true;
+        } else if (lbDrag && lbScale > 1) {
+            const dx = e.clientX - lbDrag.x, dy = e.clientY - lbDrag.y;
+            if (Math.abs(dx) + Math.abs(dy) > 4) lbMoved = true;
+            lbX = lbDrag.ox + dx; lbY = lbDrag.oy + dy; lbApply();
+        } else if (lbDrag && Math.abs(e.clientX - lbDrag.x) + Math.abs(e.clientY - lbDrag.y) > 4) {
+            lbMoved = true;    // 1 倍時拖曳不平移，但也不算「點擊」
+        }
+    });
+    const end = e => {
+        lbPtrs.delete(e.pointerId);
+        img.classList.remove("grabbing");
+        if (lbPtrs.size < 2) lbPinch = null;
+        if (lbPtrs.size === 1) { const [p] = [...lbPtrs.values()]; lbDrag = { x: p.x, y: p.y, ox: lbX, oy: lbY }; }
+        if (lbPtrs.size === 0) lbDrag = null;
+    };
+    box.addEventListener("pointerup", end);
+    box.addEventListener("pointercancel", end);
+
+    // 點擊：點到圖片＝（雙擊）放大/還原；點到空白處＝關閉
+    box.addEventListener("click", e => {
+        if (e.target.closest(".lb-btn")) return;
+        if (lbMoved) { lbMoved = false; return; }          // 剛拖曳或縮放完，不算點擊
+        if (e.target === img) {
+            const now = Date.now();
+            if (now - lbLastTap < 320) {                   // 雙擊／雙點
+                const [px, py] = lbCenterRel(e.clientX, e.clientY);
+                if (lbScale > 1.05) lbReset(); else lbZoomAt(2.5, px, py);
+                lbLastTap = 0;
+            } else lbLastTap = now;
+            return;
+        }
+        closeLightbox();
+    });
+
+    // 鍵盤：Esc 關閉、左右切換、＋－縮放
+    document.addEventListener("keydown", e => {
+        if (box.style.display !== "block") return;
+        if (e.key === "Escape") { closeLightbox(); e.stopPropagation(); }
+        else if (e.key === "ArrowLeft") lbStep(-1);
+        else if (e.key === "ArrowRight") lbStep(1);
+        else if (e.key === "+" || e.key === "=") lbZoomBy(1.4);
+        else if (e.key === "-") lbZoomBy(1 / 1.4);
+    }, true);
 }
