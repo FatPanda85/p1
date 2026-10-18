@@ -285,15 +285,15 @@
          資料來源：smartRawData
          ====================================================================== -->
     <div id="tab3" class="tab-content">
-        <div class="header-container" style="background: #fff; padding: 20px; border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); margin-bottom: 20px;">
-            <h3 style="margin-top:0; color:#3b71db;">⚡ 家電型號搜尋</h3>
-            <div class="search-row" style="margin-bottom: 15px;">
+        <div class="header-container" style="background: #fff; padding: 14px 14px 12px; gap: 8px; border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); margin-bottom: 20px;">
+            <h3 style="margin: 0; color:#3b71db; font-size: 1.05rem;">⚡ 家電型號搜尋</h3>
+            <div class="search-row">
                 <input type="text" id="smartSearchInput" placeholder="🔍 輸入型號搜尋 (例:B496、V170)" onkeypress="handleSmartKeyPress(event)"
                        style="flex: 1; padding: 12px; border: 1px solid #ccc; border-radius: 12px; font-size: 1rem; box-sizing: border-box;">
                 <button onclick="searchSmartModel()"
                         style="padding: 12px 24px; background: #3b71db; color: white; border: none; border-radius: 12px; font-weight: bold; cursor: pointer;">搜尋</button>
             </div>
-            <div style="text-align: center; color: #aaa; margin: 10px 0; font-size: 0.9rem;">或使用下方條件逐層篩選</div>
+            <div style="text-align: center; color: #aaa; margin: 0; font-size: 0.78rem; line-height: 1;">或使用下方條件逐層篩選</div>
             <div class="selector-row">   <!-- 分類／品牌／規格 三個下拉排成一列（由左到右） -->
                 <select id="smartCatSelect" onchange="updateSmartTypes()">
                     <option value="">-- 1. 選擇分類 --</option>
@@ -412,8 +412,6 @@
 <script src="js/chimei.js"></script>
 <script src="js/SHARP.js"></script>
 <script src="js/lg.js"></script>
-<script src="js/hitachi-2026.js"></script>
-<script src="js/panasonic-2026.js"></script>
 <script src="js/stor.js"></script>
 
 <!-- 步驟 3：最後載入主程式（讀取上面的資料並處理畫面） -->
