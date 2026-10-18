@@ -155,6 +155,7 @@
         .selector-row { display: flex; gap: 8px; }
         select {
             flex: 1;
+            min-width: 0;                 /* 讓多個下拉在窄螢幕也能並排、不撐破版面 */
             padding: 12px;
             border-radius: 12px;
             border: 1px solid #ccc;
@@ -293,14 +294,14 @@
                         style="padding: 12px 24px; background: #3b71db; color: white; border: none; border-radius: 12px; font-weight: bold; cursor: pointer;">搜尋</button>
             </div>
             <div style="text-align: center; color: #aaa; margin: 10px 0; font-size: 0.9rem;">或使用下方條件逐層篩選</div>
-            <div class="selector-row" style="flex-direction: column;">
-                <select id="smartCatSelect" onchange="updateSmartTypes()" style="width: 100%;">
+            <div class="selector-row">   <!-- 分類／品牌／規格 三個下拉排成一列（由左到右） -->
+                <select id="smartCatSelect" onchange="updateSmartTypes()">
                     <option value="">-- 1. 選擇分類 --</option>
                 </select>
-                <select id="smartBrandSelectSub" onchange="updateSmartSpecs()" disabled style="width: 100%;">
+                <select id="smartBrandSelectSub" onchange="updateSmartSpecs()" disabled>
                     <option value="">-- 2. 選擇品牌 --</option>
                 </select>
-                <select id="smartSpecSelect" onchange="showSmartGiftsBySelect()" disabled style="width: 100%;">
+                <select id="smartSpecSelect" onchange="showSmartGiftsBySelect()" disabled>
                     <option value="">-- 3. 選擇規格 --</option>
                 </select>
             </div>
@@ -411,8 +412,6 @@
 <script src="js/chimei.js"></script>
 <script src="js/SHARP.js"></script>
 <script src="js/lg.js"></script>
-<script src="js/hitachi-2026.js"></script>
-<script src="js/panasonic-2026.js"></script>
 <script src="js/stor.js"></script>
 
 <!-- 步驟 3：最後載入主程式（讀取上面的資料並處理畫面） -->
