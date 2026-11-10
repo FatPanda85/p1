@@ -486,6 +486,17 @@ rawData.push(
                 taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
                 oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
             },
+{ 
+                cat: "冷氣", brand: "日國際", 
+                name: "原廠好禮", 
+                desc: "10/21 ~ 11/15<br>購買國際指定變頻冷氣<br><span class='text-red'>UJ28BHA2 1-1變頻冷暖<br>UJ36BHA2 1-1變頻冷暖<br>UJ40BHA2 1-1變頻冷暖<br>UJ50BHA2 1-1變頻冷暖</span><br>即享好禮二選一<br><span class='text-blue'>40-630996-001<br>(贈)2026國際露營摺疊車CW-SP2602*1<br>40-630999-001<br>(贈)2026國際製麵包機SD-PD100*1</span><br><span class='text-red'>停產機種不在此限<br>數量有限，送完為止</span>", 
+                barcode:  ["4715754026027","4717523730135"],
+                 customLabels: ["🎁 電鍋", "🎁 電子鍋", "🎁 "電茶壺"], // <--- 在這裡定義
+                img: "冷氣贈品/1115.jpg",
+                qrUrl: "", 
+                taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+                oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
+            },
 
                         { 
                 cat: "冷氣", brand: "國際", 
@@ -508,10 +519,10 @@ rawData.push(
 { 
                 cat: "冷氣", brand: "日立", 
                 name: "原廠好禮", 
-                desc: "10/1 ~ 10/31<br>購買日立指定系列變頻冷氣<br>頂級/豪華系列一對一變頻分離式<br>即享好禮二選一<br><span class='text-blue'>40-630084-001<br>(贈)2026日立微波爐HMRM2003*1<br>40-630921-001<br>(贈)2026日立哈根諾克HGN168DC電風扇*1</span><br><span class='text-red'>停產機種不在此限<br>數量有限，送完為止</span>", 
-                barcode:  ["8850207800062","4713780039202"],
-                 customLabels: ["🎁 微波爐", "🎁 電風扇"], // <--- 在這裡定義
-                img: "冷氣贈品/168DCC.jpg",
+                desc: "11/7 ~ 11/30<br>購買日立指定系列變頻冷氣<br>頂級/豪華系列一對一變頻分離式<br>即享好禮三選一<br><span class='text-blue'>40-630041-001<br>(贈)2026日立-日象ERTOP12電鍋*1<br>40-630060-001<br>(贈)2026日立虎牌JBXB10電子鍋*1</span><br>40-630038-001<br>(贈)2026伊萊克斯E7GK1-73BP電茶壺*1</span><br><span class='text-red'>停產機種不在此限<br>數量有限，送完為止</span>", 
+                barcode:  ["4717154111884","4904710425046","7332543752751"],
+                 customLabels: ["🎁 電鍋", "🎁 電子鍋", "🎁 "電茶壺"], // <--- 在這裡定義
+                img: "冷氣贈品/11151.jpg",
                 qrUrl: "", 
                 taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
                 oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx" 
