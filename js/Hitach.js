@@ -146,7 +146,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "日立", 
         spec: "變頻直立式", 
-        name: "<br>日立LTL10MV00GG變頻直立式洗衣機10kg<br><span class='text-red'>(原裝進口)、(靜岩灰)</span><br><span class='text-blue'>40-101995-001</span>", 
+        name: "<br>日立LTL10MV00GG變頻直立式洗衣機10kg<br><span class='text-red'>(中國製)、(靜岩灰)</span><br><span class='text-blue'>40-101995-001</span>", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "56.5公分" },
