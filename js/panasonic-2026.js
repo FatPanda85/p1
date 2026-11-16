@@ -1,5 +1,5 @@
 // ==========================================================================
-// ⚡ 國際 Panasonic 家電智慧查詢 資料庫 (完整新款 42 筆 最終完美修正版)
+// ⚡ 國際 Panasonic 家電智慧查詢 資料庫 (完整新款 57 筆 最終完美修正版)
 // ==========================================================================
 smartRawData.push(
     {
@@ -1749,6 +1749,696 @@ smartRawData.push(
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
         catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/six-door/nr-f523hx.html"
+    },
+    {
+        cat: "冰箱", 
+        brand: "國際", 
+        spec: "新日製五門", 
+        name: "<br>Panasonic NR-E419XT日製變頻五門鋼板冰箱-406L<br><span class='text-red'>(日本製)、(月霜白)、(無邊框鋼板)</span><br><span class='text-blue'>40-012069-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040001-001</span><br>(贈)SP-2701可微波不鏽鋼保鮮盒四入組*1<br>登錄送$2000元節能回饋金<br><span class='text-red'>※登陸最晚時間:2027.03.31前</span>", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "60公分" },
+        { label: "高", value: "181.8公分" },
+        { label: "深", value: "67.9公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "66.4公分" },
+        { label: "高", value: "192.9公分" },
+        { label: "深", value: "78.0公分" },
+        { label: "年耗電(度)", value: "<span class='text-red'>252</span>" },
+        { label: "容量規格", value: "" },
+        { label: "有效容積", value: "406<span style='color: #666;'>L</span>" },
+        { label: "冷凍室", value: "79<span style='color: #666;'>L</span>" },
+        { label: "冷藏室", value: "187<span style='color: #666;'>L</span>" },
+        { label: "製冰室", value: "16<span style='color: #666;'>L</span>" },
+        { label: "蔬果室", value: "89<span style='color: #666;'>L</span>" },
+        { label: "新鮮凍結", value: "23<span style='color: #666;'>L</span>" },
+        { label: "-3℃微凍結室", value: "12<span style='color: #666;'>L</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$500</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 有效容積406L</div>
+        <div style="color: red; margin: 0;">● 日本原裝進口，超越2027年新1級能效</div>
+        <div style="margin: 0; padding: 0;">
+            ● AI ECONAVI智慧節能，新鮮凍結<br>● -3°C微凍結，智慧保濕蔬果室<br>● Ag銀抑菌，自動製冰，100%全開抽屜
+        </div>
+    </div>
+`,
+        type: "gift",
+        model: "NR-E419XT",
+        barcode: ["4550719176535", "6909141613114", "2449400006027", "2449400002029"], 
+        customLabels: ["📦 商品", "🎁 保鮮盒", "🚚 免運$10", "💰 收費$10"], 
+        img: "國際冰箱/E419XTW.jpg", 
+        giftImg: "國際冰洗贈品/SP-2701$2000.jpg",
+        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
+        taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+        oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
+        productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/five-door/nr-e419xt.html"
+    },
+    {
+        cat: "冰箱", 
+        brand: "國際", 
+        spec: "新日製五門", 
+        name: "<br>Panasonic NR-E419XT日製變頻五門鋼板冰箱-406L<br><span class='text-red'>(日本製)、(星礦銀)、(無邊框鋼板)</span><br><span class='text-blue'>40-012069-002</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040001-001</span><br>(贈)SP-2701可微波不鏽鋼保鮮盒四入組*1<br>登錄送$2000元節能回饋金<br><span class='text-red'>※登陸最晚時間:2027.03.31前</span>", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "60公分" },
+        { label: "高", value: "181.8公分" },
+        { label: "深", value: "67.9公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "66.4公分" },
+        { label: "高", value: "192.9公分" },
+        { label: "深", value: "78.0公分" },
+        { label: "年耗電(度)", value: "<span class='text-red'>252</span>" },
+        { label: "容量規格", value: "" },
+        { label: "有效容積", value: "406<span style='color: #666;'>L</span>" },
+        { label: "冷凍室", value: "79<span style='color: #666;'>L</span>" },
+        { label: "冷藏室", value: "187<span style='color: #666;'>L</span>" },
+        { label: "製冰室", value: "16<span style='color: #666;'>L</span>" },
+        { label: "蔬果室", value: "89<span style='color: #666;'>L</span>" },
+        { label: "新鮮凍結", value: "23<span style='color: #666;'>L</span>" },
+        { label: "-3℃微凍結室", value: "12<span style='color: #666;'>L</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$500</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 有效容積406L</div>
+        <div style="color: red; margin: 0;">● 日本原裝進口，超越2027年新1級能效</div>
+        <div style="margin: 0; padding: 0;">
+            ● AI ECONAVI智慧節能，新鮮凍結<br>● -3°C微凍結，智慧保濕蔬果室<br>● Ag銀抑菌，自動製冰，100%全開抽屜
+        </div>
+    </div>
+`,
+        type: "gift",
+        model: "NR-E419XT",
+        barcode: ["4550719181850", "6909141613114", "2449400006027", "2449400002029"], 
+        customLabels: ["📦 商品", "🎁 保鮮盒", "🚚 免運$10", "💰 收費$10"], 
+        img: "國際冰箱/E419XTS.jpg", 
+        giftImg: "國際冰洗贈品/SP-2701$2000.jpg",
+        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
+        taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+        oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
+        productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/five-door/nr-e419xt.html"
+    },
+    {
+        cat: "冰箱", 
+        brand: "國際", 
+        spec: "新日製五門", 
+        name: "<br>Panasonic NR-E419XT日製變頻五門鋼板冰箱-406L<br><span class='text-red'>(日本製)、(淺灰米)、(無邊框鋼板)</span><br><span class='text-blue'>40-012069-003</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040001-001</span><br>(贈)SP-2701可微波不鏽鋼保鮮盒四入組*1<br>登錄送$2000元節能回饋金<br><span class='text-red'>※登陸最晚時間:2027.03.31前</span>", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "60公分" },
+        { label: "高", value: "181.8公分" },
+        { label: "深", value: "67.9公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "66.4公分" },
+        { label: "高", value: "192.9公分" },
+        { label: "深", value: "78.0公分" },
+        { label: "年耗電(度)", value: "<span class='text-red'>252</span>" },
+        { label: "容量規格", value: "" },
+        { label: "有效容積", value: "406<span style='color: #666;'>L</span>" },
+        { label: "冷凍室", value: "79<span style='color: #666;'>L</span>" },
+        { label: "冷藏室", value: "187<span style='color: #666;'>L</span>" },
+        { label: "製冰室", value: "16<span style='color: #666;'>L</span>" },
+        { label: "蔬果室", value: "89<span style='color: #666;'>L</span>" },
+        { label: "新鮮凍結", value: "23<span style='color: #666;'>L</span>" },
+        { label: "-3℃微凍結室", value: "12<span style='color: #666;'>L</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$500</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 有效容積406L</div>
+        <div style="color: red; margin: 0;">● 日本原裝進口，超越2027年新1級能效</div>
+        <div style="margin: 0; padding: 0;">
+            ● AI ECONAVI智慧節能，新鮮凍結<br>● -3°C微凍結，智慧保濕蔬果室<br>● Ag銀抑菌，自動製冰，100%全開抽屜
+        </div>
+    </div>
+`,
+        type: "gift",
+        model: "NR-E419XT",
+        barcode: ["4550719181843", "6909141613114", "2449400006027", "2449400002029"], 
+        customLabels: ["📦 商品", "🎁 保鮮盒", "🚚 免運$10", "💰 收費$10"], 
+        img: "國際冰箱/E419XTC.jpg", 
+        giftImg: "國際冰洗贈品/SP-2701$2000.jpg",
+        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
+        taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+        oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
+        productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/five-door/nr-e419xt.html"
+    },
+    {
+        cat: "冰箱", 
+        brand: "國際", 
+        spec: "新日製五門", 
+        name: "<br>Panasonic NR-E509XT日製變頻五門鋼板冰箱-502L<br><span class='text-red'>(日本製)、(月霜白)、(無邊框鋼板)</span><br><span class='text-blue'>40-013021-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040001-001</span><br>(贈)SP-2701可微波不鏽鋼保鮮盒四入組*1<br>登錄送$2000元節能回饋金<br><span class='text-red'>※登陸最晚時間:2027.03.31前</span>", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "65公分" },
+        { label: "高", value: "182.8公分" },
+        { label: "深", value: "69.9公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "71.2公分" },
+        { label: "高", value: "192.9公分" },
+        { label: "深", value: "79.6公分" },
+        { label: "年耗電(度)", value: "<span class='text-red'>276</span>" },
+        { label: "容量規格", value: "" },
+        { label: "有效容積", value: "502<span style='color: #666;'>L</span>" },
+        { label: "冷凍室", value: "92<span style='color: #666;'>L</span>" },
+        { label: "冷藏室", value: "245<span style='color: #666;'>L</span>" },
+        { label: "製冰室", value: "17<span style='color: #666;'>L</span>" },
+        { label: "蔬果室", value: "105<span style='color: #666;'>L</span>" },
+        { label: "新鮮凍結", value: "28<span style='color: #666;'>L</span>" },
+        { label: "-3℃微凍結室", value: "15<span style='color: #666;'>L</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$700</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 有效容積502L</div>
+        <div style="color: red; margin: 0;">● 日本原裝進口，超越2027年新1級能效</div>
+        <div style="margin: 0; padding: 0;">
+            ● AI ECONAVI智慧節能，新鮮凍結<br>● -3°C微凍結，智慧保濕蔬果室<br>● nanoe™ X 健康科技，自動製冰，100%全開抽屜
+        </div>
+    </div>
+`,
+        type: "gift",
+        model: "NR-E509XT",
+        barcode: ["4550719181881", "6909141613114", "2449400006027", "2449400002029"], 
+        customLabels: ["📦 商品", "🎁 保鮮盒", "🚚 免運$10", "💰 收費$10"], 
+        img: "國際冰箱/E509XTW.jpg", 
+        giftImg: "國際冰洗贈品/SP-2701$2000.jpg",
+        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
+        taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+        oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
+        productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/five-door/nr-e509xt.html"
+    },
+    {
+        cat: "冰箱", 
+        brand: "國際", 
+        spec: "新日製五門", 
+        name: "<br>Panasonic NR-E509XT日製變頻五門鋼板冰箱-502L<br><span class='text-red'>(日本製)、(星礦銀)、(無邊框鋼板)</span><br><span class='text-blue'>40-013021-002</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040001-001</span><br>(贈)SP-2701可微波不鏽鋼保鮮盒四入組*1<br>登錄送$2000元節能回饋金<br><span class='text-red'>※登陸最晚時間:2027.03.31前</span>", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "65公分" },
+        { label: "高", value: "182.8公分" },
+        { label: "深", value: "69.9公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "71.2公分" },
+        { label: "高", value: "192.9公分" },
+        { label: "深", value: "79.6公分" },
+        { label: "年耗電(度)", value: "<span class='text-red'>276</span>" },
+        { label: "容量規格", value: "" },
+        { label: "有效容積", value: "502<span style='color: #666;'>L</span>" },
+        { label: "冷凍室", value: "92<span style='color: #666;'>L</span>" },
+        { label: "冷藏室", value: "245<span style='color: #666;'>L</span>" },
+        { label: "製冰室", value: "17<span style='color: #666;'>L</span>" },
+        { label: "蔬果室", value: "105<span style='color: #666;'>L</span>" },
+        { label: "新鮮凍結", value: "28<span style='color: #666;'>L</span>" },
+        { label: "-3℃微凍結室", value: "15<span style='color: #666;'>L</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$700</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 有效容積502L</div>
+        <div style="color: red; margin: 0;">● 日本原裝進口，超越2027年新1級能效</div>
+        <div style="margin: 0; padding: 0;">
+            ● AI ECONAVI智慧節能，新鮮凍結<br>● -3°C微凍結，智慧保濕蔬果室<br>● nanoe™ X 健康科技，自動製冰，100%全開抽屜
+        </div>
+    </div>
+`,
+        type: "gift",
+        model: "NR-E509XT",
+        barcode: ["4550719181874", "6909141613114", "2449400006027", "2449400002029"], 
+        customLabels: ["📦 商品", "🎁 保鮮盒", "🚚 免運$10", "💰 收費$10"], 
+        img: "國際冰箱/E509XTS.jpg", 
+        giftImg: "國際冰洗贈品/SP-2701$2000.jpg",
+        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
+        taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+        oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
+        productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/five-door/nr-e509xt.html"
+    },
+    {
+        cat: "冰箱", 
+        brand: "國際", 
+        spec: "新日製五門", 
+        name: "<br>Panasonic NR-E509XT日製變頻五門鋼板冰箱-502L<br><span class='text-red'>(日本製)、(淺灰米)、(無邊框鋼板)</span><br><span class='text-blue'>40-013021-003</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040001-001</span><br>(贈)SP-2701可微波不鏽鋼保鮮盒四入組*1<br>登錄送$2000元節能回饋金<br><span class='text-red'>※登陸最晚時間:2027.03.31前</span>", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "65公分" },
+        { label: "高", value: "182.8公分" },
+        { label: "深", value: "69.9公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "71.2公分" },
+        { label: "高", value: "192.9公分" },
+        { label: "深", value: "79.6公分" },
+        { label: "年耗電(度)", value: "<span class='text-red'>276</span>" },
+        { label: "容量規格", value: "" },
+        { label: "有效容積", value: "502<span style='color: #666;'>L</span>" },
+        { label: "冷凍室", value: "92<span style='color: #666;'>L</span>" },
+        { label: "冷藏室", value: "245<span style='color: #666;'>L</span>" },
+        { label: "製冰室", value: "17<span style='color: #666;'>L</span>" },
+        { label: "蔬果室", value: "105<span style='color: #666;'>L</span>" },
+        { label: "新鮮凍結", value: "28<span style='color: #666;'>L</span>" },
+        { label: "-3℃微凍結室", value: "15<span style='color: #666;'>L</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$700</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 有效容積502L</div>
+        <div style="color: red; margin: 0;">● 日本原裝進口，超越2027年新1級能效</div>
+        <div style="margin: 0; padding: 0;">
+            ● AI ECONAVI智慧節能，新鮮凍結<br>● -3°C微凍結，智慧保濕蔬果室<br>● nanoe™ X 健康科技，自動製冰，100%全開抽屜
+        </div>
+    </div>
+`,
+        type: "gift",
+        model: "NR-E509XT",
+        barcode: ["4550719181867", "6909141613114", "2449400006027", "2449400002029"], 
+        customLabels: ["📦 商品", "🎁 保鮮盒", "🚚 免運$10", "💰 收費$10"], 
+        img: "國際冰箱/E509XTC.jpg", 
+        giftImg: "國際冰洗贈品/SP-2701$2000.jpg",
+        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
+        taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+        oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
+        productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/five-door/nr-e509xt.html"
+    },
+    {
+        cat: "冰箱", 
+        brand: "國際", 
+        spec: "新日製六門", 
+        name: "<br>Panasonic NR-F653WX日製變頻六門玻璃冰箱-650L<br><span class='text-red'>(日本製)、(霧晶白)、(無邊框玻璃)</span><br><span class='text-blue'>40-013015-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040001-001</span><br>(贈)SP-2701可微波不鏽鋼保鮮盒四入組*1<br>登錄送$5000元節能回饋金<br><span class='text-red'>※登陸最晚時間:2027.03.31前</span>", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "75公分" },
+        { label: "高", value: "182.8公分" },
+        { label: "深", value: "74.5公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "81.4公分" },
+        { label: "高", value: "192.9公分" },
+        { label: "深", value: "84.2公分" },
+        { label: "年耗電(度)", value: "<span class='text-red'>312</span>" },
+        { label: "容量規格", value: "" },
+        { label: "有效容積", value: "650<span style='color: #666;'>L</span>" },
+        { label: "冷凍室", value: "123<span style='color: #666;'>L</span>" },
+        { label: "冷藏室", value: "314<span style='color: #666;'>L</span>" },
+        { label: "製冰室", value: "24<span style='color: #666;'>L</span>" },
+        { label: "蔬果室", value: "135<span style='color: #666;'>L</span>" },
+        { label: "新鮮急凍結", value: "33<span style='color: #666;'>L</span>" },
+        { label: "-3℃微凍結室", value: "21<span style='color: #666;'>L</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$900</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 有效容積650L</div>
+        <div style="color: red; margin: 0;">● 日本原裝進口，超越2027年新1級能效</div>
+        <div style="margin: 0; padding: 0;">
+            ● AI ECONAVI智慧節能，全幅抑霜鮮凍<br>● 新鮮急凍結，-3°C微凍結，智慧保濕蔬果室<br>● nanoe™ X 健康科技，自動製冰<br>● IoT智慧健康家電，隱藏式觸控面板
+        </div>
+    </div>
+`,
+        type: "gift",
+        model: "NR-F653WX",
+        barcode: ["4550719181997", "6909141613114", "2449400006027", "2449400002029"], 
+        customLabels: ["📦 商品", "🎁 保鮮盒", "🚚 免運$10", "💰 收費$10"], 
+        img: "國際冰箱/F653WXW.jpg", 
+        giftImg: "國際冰洗贈品/SP-2701$5000.jpg",
+        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
+        taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+        oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
+        productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/six-door/nr-f653wx.html"
+    },
+    {
+        cat: "冰箱", 
+        brand: "國際", 
+        spec: "新日製六門", 
+        name: "<br>Panasonic NR-F653WX日製變頻六門玻璃冰箱-650L<br><span class='text-red'>(日本製)、(霧晶灰)、(無邊框玻璃)</span><br><span class='text-blue'>40-013015-002</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040001-001</span><br>(贈)SP-2701可微波不鏽鋼保鮮盒四入組*1<br>登錄送$5000元節能回饋金<br><span class='text-red'>※登陸最晚時間:2027.03.31前</span>", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "75公分" },
+        { label: "高", value: "182.8公分" },
+        { label: "深", value: "74.5公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "81.4公分" },
+        { label: "高", value: "192.9公分" },
+        { label: "深", value: "84.2公分" },
+        { label: "年耗電(度)", value: "<span class='text-red'>312</span>" },
+        { label: "容量規格", value: "" },
+        { label: "有效容積", value: "650<span style='color: #666;'>L</span>" },
+        { label: "冷凍室", value: "123<span style='color: #666;'>L</span>" },
+        { label: "冷藏室", value: "314<span style='color: #666;'>L</span>" },
+        { label: "製冰室", value: "24<span style='color: #666;'>L</span>" },
+        { label: "蔬果室", value: "135<span style='color: #666;'>L</span>" },
+        { label: "新鮮急凍結", value: "33<span style='color: #666;'>L</span>" },
+        { label: "-3℃微凍結室", value: "21<span style='color: #666;'>L</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$900</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 有效容積650L</div>
+        <div style="color: red; margin: 0;">● 日本原裝進口，超越2027年新1級能效</div>
+        <div style="margin: 0; padding: 0;">
+            ● AI ECONAVI智慧節能，全幅抑霜鮮凍<br>● 新鮮急凍結，-3°C微凍結，智慧保濕蔬果室<br>● nanoe™ X 健康科技，自動製冰<br>● IoT智慧健康家電，隱藏式觸控面板
+        </div>
+    </div>
+`,
+        type: "gift",
+        model: "NR-F653WX",
+        barcode: ["4550719181980", "6909141613114", "2449400006027", "2449400002029"], 
+        customLabels: ["📦 商品", "🎁 保鮮盒", "🚚 免運$10", "💰 收費$10"], 
+        img: "國際冰箱/F653WXH.jpg", 
+        giftImg: "國際冰洗贈品/SP-2701$5000.jpg",
+        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
+        taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+        oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
+        productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/six-door/nr-f653wx.html"
+    },
+    {
+        cat: "冰箱", 
+        brand: "國際", 
+        spec: "新日製六門", 
+        name: "<br>Panasonic NR-F653WX日製變頻六門玻璃冰箱-650L<br><span class='text-red'>(日本製)、(鑽石黑)、(無邊框玻璃)</span><br><span class='text-blue'>40-013015-003</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040001-001</span><br>(贈)SP-2701可微波不鏽鋼保鮮盒四入組*1<br>登錄送$5000元節能回饋金<br><span class='text-red'>※登陸最晚時間:2027.03.31前</span>", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "75公分" },
+        { label: "高", value: "182.8公分" },
+        { label: "深", value: "74.5公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "81.4公分" },
+        { label: "高", value: "192.9公分" },
+        { label: "深", value: "84.2公分" },
+        { label: "年耗電(度)", value: "<span class='text-red'>312</span>" },
+        { label: "容量規格", value: "" },
+        { label: "有效容積", value: "650<span style='color: #666;'>L</span>" },
+        { label: "冷凍室", value: "123<span style='color: #666;'>L</span>" },
+        { label: "冷藏室", value: "314<span style='color: #666;'>L</span>" },
+        { label: "製冰室", value: "24<span style='color: #666;'>L</span>" },
+        { label: "蔬果室", value: "135<span style='color: #666;'>L</span>" },
+        { label: "新鮮急凍結", value: "33<span style='color: #666;'>L</span>" },
+        { label: "-3℃微凍結室", value: "21<span style='color: #666;'>L</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$900</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 有效容積650L</div>
+        <div style="color: red; margin: 0;">● 日本原裝進口，超越2027年新1級能效</div>
+        <div style="margin: 0; padding: 0;">
+            ● AI ECONAVI智慧節能，全幅抑霜鮮凍<br>● 新鮮急凍結，-3°C微凍結，智慧保濕蔬果室<br>● nanoe™ X 健康科技，自動製冰<br>● IoT智慧健康家電，隱藏式觸控面板
+        </div>
+    </div>
+`,
+        type: "gift",
+        model: "NR-F653WX",
+        barcode: ["4550719182000", "6909141613114", "2449400006027", "2449400002029"], 
+        customLabels: ["📦 商品", "🎁 保鮮盒", "🚚 免運$10", "💰 收費$10"], 
+        img: "國際冰箱/F653WXX.jpg", 
+        giftImg: "國際冰洗贈品/SP-2701$5000.jpg",
+        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
+        taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+        oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
+        productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/six-door/nr-f653wx.html"
+    },
+    {
+        cat: "冰箱", 
+        brand: "國際", 
+        spec: "新日製六門", 
+        name: "<br>Panasonic NR-F603WX日製變頻六門玻璃冰箱-600L<br><span class='text-red'>(日本製)、(霧晶白)、(無邊框玻璃)</span><br><span class='text-blue'>40-013018-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040001-001</span><br>(贈)SP-2701可微波不鏽鋼保鮮盒四入組*1<br>登錄送$3000元節能回饋金<br><span class='text-red'>※登陸最晚時間:2027.03.31前</span>", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "68.5公分" },
+        { label: "高", value: "182.8公分" },
+        { label: "深", value: "74.5公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "74.7公分" },
+        { label: "高", value: "192.9公分" },
+        { label: "深", value: "84.2公分" },
+        { label: "年耗電(度)", value: "<span class='text-red'>276</span>" },
+        { label: "容量規格", value: "" },
+        { label: "有效容積", value: "600<span style='color: #666;'>L</span>" },
+        { label: "冷凍室", value: "113<span style='color: #666;'>L</span>" },
+        { label: "冷藏室", value: "293<span style='color: #666;'>L</span>" },
+        { label: "製冰室", value: "19<span style='color: #666;'>L</span>" },
+        { label: "蔬果室", value: "125<span style='color: #666;'>L</span>" },
+        { label: "新鮮急凍結", value: "31<span style='color: #666;'>L</span>" },
+        { label: "-3℃微凍結室", value: "19<span style='color: #666;'>L</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$900</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 有效容積600L</div>
+        <div style="color: red; margin: 0;">● 日本原裝進口，超越2027年新1級能效</div>
+        <div style="margin: 0; padding: 0;">
+            ● AI ECONAVI智慧節能，全幅抑霜鮮凍<br>● 新鮮急凍結，-3°C微凍結，智慧保濕蔬果室<br>● nanoe™ X 健康科技，自動製冰<br>● IoT智慧健康家電，隱藏式觸控面板
+        </div>
+    </div>
+`,
+        type: "gift",
+        model: "NR-F603WX",
+        barcode: ["4550719181966", "6909141613114", "2449400006027", "2449400002029"], 
+        customLabels: ["📦 商品", "🎁 保鮮盒", "🚚 免運$10", "💰 收費$10"], 
+        img: "國際冰箱/F603WXW.jpg", 
+        giftImg: "國際冰洗贈品/SP-2701$3000.jpg",
+        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
+        taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+        oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
+        productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/six-door/nr-f603wx.html"
+    },
+    {
+        cat: "冰箱", 
+        brand: "國際", 
+        spec: "新日製六門", 
+        name: "<br>Panasonic NR-F603WX日製變頻六門玻璃冰箱-600L<br><span class='text-red'>(日本製)、(霧晶灰)、(無邊框玻璃)</span><br><span class='text-blue'>40-013018-002</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040001-001</span><br>(贈)SP-2701可微波不鏽鋼保鮮盒四入組*1<br>登錄送$3000元節能回饋金<br><span class='text-red'>※登陸最晚時間:2027.03.31前</span>", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "68.5公分" },
+        { label: "高", value: "182.8公分" },
+        { label: "深", value: "74.5公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "74.7公分" },
+        { label: "高", value: "192.9公分" },
+        { label: "深", value: "84.2公分" },
+        { label: "年耗電(度)", value: "<span class='text-red'>276</span>" },
+        { label: "容量規格", value: "" },
+        { label: "有效容積", value: "600<span style='color: #666;'>L</span>" },
+        { label: "冷凍室", value: "113<span style='color: #666;'>L</span>" },
+        { label: "冷藏室", value: "293<span style='color: #666;'>L</span>" },
+        { label: "製冰室", value: "19<span style='color: #666;'>L</span>" },
+        { label: "蔬果室", value: "125<span style='color: #666;'>L</span>" },
+        { label: "新鮮急凍結", value: "31<span style='color: #666;'>L</span>" },
+        { label: "-3℃微凍結室", value: "19<span style='color: #666;'>L</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$900</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 有效容積600L</div>
+        <div style="color: red; margin: 0;">● 日本原裝進口，超越2027年新1級能效</div>
+        <div style="margin: 0; padding: 0;">
+            ● AI ECONAVI智慧節能，全幅抑霜鮮凍<br>● 新鮮急凍結，-3°C微凍結，智慧保濕蔬果室<br>● nanoe™ X 健康科技，自動製冰<br>● IoT智慧健康家電，隱藏式觸控面板
+        </div>
+    </div>
+`,
+        type: "gift",
+        model: "NR-F603WX",
+        barcode: ["4550719181959", "6909141613114", "2449400006027", "2449400002029"], 
+        customLabels: ["📦 商品", "🎁 保鮮盒", "🚚 免運$10", "💰 收費$10"], 
+        img: "國際冰箱/F603WXH.jpg", 
+        giftImg: "國際冰洗贈品/SP-2701$3000.jpg",
+        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
+        taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+        oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
+        productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/six-door/nr-f603wx.html"
+    },
+    {
+        cat: "冰箱", 
+        brand: "國際", 
+        spec: "新日製六門", 
+        name: "<br>Panasonic NR-F603WX日製變頻六門玻璃冰箱-600L<br><span class='text-red'>(日本製)、(鑽石黑)、(無邊框玻璃)</span><br><span class='text-blue'>40-013018-003</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040001-001</span><br>(贈)SP-2701可微波不鏽鋼保鮮盒四入組*1<br>登錄送$3000元節能回饋金<br><span class='text-red'>※登陸最晚時間:2027.03.31前</span>", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "68.5公分" },
+        { label: "高", value: "182.8公分" },
+        { label: "深", value: "74.5公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "74.7公分" },
+        { label: "高", value: "192.9公分" },
+        { label: "深", value: "84.2公分" },
+        { label: "年耗電(度)", value: "<span class='text-red'>276</span>" },
+        { label: "容量規格", value: "" },
+        { label: "有效容積", value: "600<span style='color: #666;'>L</span>" },
+        { label: "冷凍室", value: "113<span style='color: #666;'>L</span>" },
+        { label: "冷藏室", value: "293<span style='color: #666;'>L</span>" },
+        { label: "製冰室", value: "19<span style='color: #666;'>L</span>" },
+        { label: "蔬果室", value: "125<span style='color: #666;'>L</span>" },
+        { label: "新鮮急凍結", value: "31<span style='color: #666;'>L</span>" },
+        { label: "-3℃微凍結室", value: "19<span style='color: #666;'>L</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$900</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 有效容積600L</div>
+        <div style="color: red; margin: 0;">● 日本原裝進口，超越2027年新1級能效</div>
+        <div style="margin: 0; padding: 0;">
+            ● AI ECONAVI智慧節能，全幅抑霜鮮凍<br>● 新鮮急凍結，-3°C微凍結，智慧保濕蔬果室<br>● nanoe™ X 健康科技，自動製冰<br>● IoT智慧健康家電，隱藏式觸控面板
+        </div>
+    </div>
+`,
+        type: "gift",
+        model: "NR-F603WX",
+        barcode: ["4550719181973", "6909141613114", "2449400006027", "2449400002029"], 
+        customLabels: ["📦 商品", "🎁 保鮮盒", "🚚 免運$10", "💰 收費$10"], 
+        img: "國際冰箱/F603WXX.jpg", 
+        giftImg: "國際冰洗贈品/SP-2701$3000.jpg",
+        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
+        taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+        oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
+        productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/six-door/nr-f603wx.html"
+    },
+    {
+        cat: "冰箱", 
+        brand: "國際", 
+        spec: "新日製六門", 
+        name: "<br>Panasonic NR-F553WX日製變頻六門玻璃冰箱-550L<br><span class='text-red'>(日本製)、(霧晶白)、(無邊框玻璃)</span><br><span class='text-blue'>40-013019-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040001-001</span><br>(贈)SP-2701可微波不鏽鋼保鮮盒四入組*1<br>登錄送$3000元節能回饋金<br><span class='text-red'>※登陸最晚時間:2027.03.31前</span>", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "68.5公分" },
+        { label: "高", value: "182.8公分" },
+        { label: "深", value: "69.9公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "74.7公分" },
+        { label: "高", value: "192.9公分" },
+        { label: "深", value: "79.6公分" },
+        { label: "年耗電(度)", value: "<span class='text-red'>276</span>" },
+        { label: "容量規格", value: "" },
+        { label: "有效容積", value: "550<span style='color: #666;'>L</span>" },
+        { label: "冷凍室", value: "103<span style='color: #666;'>L</span>" },
+        { label: "冷藏室", value: "267<span style='color: #666;'>L</span>" },
+        { label: "製冰室", value: "18<span style='color: #666;'>L</span>" },
+        { label: "蔬果室", value: "115<span style='color: #666;'>L</span>" },
+        { label: "新鮮急凍結", value: "29<span style='color: #666;'>L</span>" },
+        { label: "-3℃微凍結室", value: "18<span style='color: #666;'>L</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$700</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 有效容積550L</div>
+        <div style="color: red; margin: 0;">● 日本原裝進口，超越2027年新1級能效</div>
+        <div style="margin: 0; padding: 0;">
+            ● AI ECONAVI智慧節能，全幅抑霜鮮凍<br>● 新鮮急凍結，-3°C微凍結，智慧保濕蔬果室<br>● nanoe™ X 健康科技，自動製冰<br>● IoT智慧健康家電，隱藏式觸控面板
+        </div>
+    </div>
+`,
+        type: "gift",
+        model: "NR-F553WX",
+        barcode: ["4550719181935", "6909141613114", "2449400006027", "2449400002029"], 
+        customLabels: ["📦 商品", "🎁 保鮮盒", "🚚 免運$10", "💰 收費$10"], 
+        img: "國際冰箱/F553WXW.jpg", 
+        giftImg: "國際冰洗贈品/SP-2701$3000.jpg",
+        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
+        taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+        oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
+        productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/six-door/nr-f553wx.html"
+    },
+    {
+        cat: "冰箱", 
+        brand: "國際", 
+        spec: "新日製六門", 
+        name: "<br>Panasonic NR-F553WX日製變頻六門玻璃冰箱-550L<br><span class='text-red'>(日本製)、(霧晶灰)、(無邊框玻璃)</span><br><span class='text-blue'>40-013019-002</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040001-001</span><br>(贈)SP-2701可微波不鏽鋼保鮮盒四入組*1<br>登錄送$3000元節能回饋金<br><span class='text-red'>※登陸最晚時間:2027.03.31前</span>", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "68.5公分" },
+        { label: "高", value: "182.8公分" },
+        { label: "深", value: "69.9公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "74.7公分" },
+        { label: "高", value: "192.9公分" },
+        { label: "深", value: "79.6公分" },
+        { label: "年耗電(度)", value: "<span class='text-red'>276</span>" },
+        { label: "容量規格", value: "" },
+        { label: "有效容積", value: "550<span style='color: #666;'>L</span>" },
+        { label: "冷凍室", value: "103<span style='color: #666;'>L</span>" },
+        { label: "冷藏室", value: "267<span style='color: #666;'>L</span>" },
+        { label: "製冰室", value: "18<span style='color: #666;'>L</span>" },
+        { label: "蔬果室", value: "115<span style='color: #666;'>L</span>" },
+        { label: "新鮮急凍結", value: "29<span style='color: #666;'>L</span>" },
+        { label: "-3℃微凍結室", value: "18<span style='color: #666;'>L</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$700</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 有效容積550L</div>
+        <div style="color: red; margin: 0;">● 日本原裝進口，超越2027年新1級能效</div>
+        <div style="margin: 0; padding: 0;">
+            ● AI ECONAVI智慧節能，全幅抑霜鮮凍<br>● 新鮮急凍結，-3°C微凍結，智慧保濕蔬果室<br>● nanoe™ X 健康科技，自動製冰<br>● IoT智慧健康家電，隱藏式觸控面板
+        </div>
+    </div>
+`,
+        type: "gift",
+        model: "NR-F553WX",
+        barcode: ["4550719181928", "6909141613114", "2449400006027", "2449400002029"], 
+        customLabels: ["📦 商品", "🎁 保鮮盒", "🚚 免運$10", "💰 收費$10"], 
+        img: "國際冰箱/F553WXH.jpg", 
+        giftImg: "國際冰洗贈品/SP-2701$3000.jpg",
+        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
+        taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+        oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
+        productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/six-door/nr-f553wx.html"
+    },
+    {
+        cat: "冰箱", 
+        brand: "國際", 
+        spec: "新日製六門", 
+        name: "<br>Panasonic NR-F553WX日製變頻六門玻璃冰箱-550L<br><span class='text-red'>(日本製)、(鑽石黑)、(無邊框玻璃)</span><br><span class='text-blue'>40-013019-003</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040001-001</span><br>(贈)SP-2701可微波不鏽鋼保鮮盒四入組*1<br>登錄送$3000元節能回饋金<br><span class='text-red'>※登陸最晚時間:2027.03.31前</span>", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "68.5公分" },
+        { label: "高", value: "182.8公分" },
+        { label: "深", value: "69.9公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "74.7公分" },
+        { label: "高", value: "192.9公分" },
+        { label: "深", value: "79.6公分" },
+        { label: "年耗電(度)", value: "<span class='text-red'>276</span>" },
+        { label: "容量規格", value: "" },
+        { label: "有效容積", value: "550<span style='color: #666;'>L</span>" },
+        { label: "冷凍室", value: "103<span style='color: #666;'>L</span>" },
+        { label: "冷藏室", value: "267<span style='color: #666;'>L</span>" },
+        { label: "製冰室", value: "18<span style='color: #666;'>L</span>" },
+        { label: "蔬果室", value: "115<span style='color: #666;'>L</span>" },
+        { label: "新鮮急凍結", value: "29<span style='color: #666;'>L</span>" },
+        { label: "-3℃微凍結室", value: "18<span style='color: #666;'>L</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$700</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 有效容積550L</div>
+        <div style="color: red; margin: 0;">● 日本原裝進口，超越2027年新1級能效</div>
+        <div style="margin: 0; padding: 0;">
+            ● AI ECONAVI智慧節能，全幅抑霜鮮凍<br>● 新鮮急凍結，-3°C微凍結，智慧保濕蔬果室<br>● nanoe™ X 健康科技，自動製冰<br>● IoT智慧健康家電，隱藏式觸控面板
+        </div>
+    </div>
+`,
+        type: "gift",
+        model: "NR-F553WX",
+        barcode: ["4550719181942", "6909141613114", "2449400006027", "2449400002029"], 
+        customLabels: ["📦 商品", "🎁 保鮮盒", "🚚 免運$10", "💰 收費$10"], 
+        img: "國際冰箱/F553WXX.jpg", 
+        giftImg: "國際冰洗贈品/SP-2701$3000.jpg",
+        qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
+        taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+        oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
+        productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/six-door/nr-f553wx.html"
     },
     {
         cat: "洗衣機", 
