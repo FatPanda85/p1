@@ -99,7 +99,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
-        catalogUrl: "https://www.hitachi-homeappliances.com.tw/upload/news/WMcatalog_2606.pdf", 
+        catalogUrl: "https://www.hitachi-homeappliances.com.tw/image/hsct/service/download/catalog/2026fullprodcutcatalog(AW).pdf", 
         productUrl: "https://hitachi-homeappliances.com.tw/products/products_03.php?pid=BWDV100EJ"
     },
         {
@@ -139,7 +139,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
-        catalogUrl: "https://www.hitachi-homeappliances.com.tw/image/hsct/service/download/catalog/full_catalog_2606.pdf", 
+        catalogUrl: "https://www.hitachi-homeappliances.com.tw/image/hsct/service/download/catalog/2026fullprodcutcatalog(AW).pdf", 
         productUrl: "https://hitachi-homeappliances.com.tw/products/products_03.php?pid=LTLH3MVW0T"
     },
     {
@@ -184,7 +184,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
-        catalogUrl: "https://www.hitachi-homeappliances.com.tw/upload/news/WMcatalog_2606.pdf", 
+        catalogUrl: "https://www.hitachi-homeappliances.com.tw/image/hsct/service/download/catalog/2026fullprodcutcatalog(AW).pdf", 
         productUrl: "https://hitachi-homeappliances.com.tw/products/products_03.php?pid=LTL10MV00"
     },
     {
@@ -230,7 +230,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
-        catalogUrl: "https://www.hitachi-homeappliances.com.tw/upload/news/WMcatalog_2606.pdf", 
+        catalogUrl: "https://www.hitachi-homeappliances.com.tw/image/hsct/service/download/catalog/2026fullprodcutcatalog(AW).pdf", 
         productUrl: "https://hitachi-homeappliances.com.tw/products/products_03.php?pid=LTL12MVW0T"
     },
     {
@@ -276,7 +276,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
-        catalogUrl: "https://www.hitachi-homeappliances.com.tw/upload/news/WMcatalog_2606.pdf", 
+        catalogUrl: "https://www.hitachi-homeappliances.com.tw/image/hsct/service/download/catalog/2026fullprodcutcatalog(AW).pdf", 
         productUrl: "https://hitachi-homeappliances.com.tw/products/products_03.php?pid=LTL15MVW0T"
     },
     {
@@ -323,7 +323,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
-        catalogUrl: "https://www.hitachi-homeappliances.com.tw/image/hsct/service/download/catalog/full_catalog_2606.pdf", 
+        catalogUrl: "https://www.hitachi-homeappliances.com.tw/image/hsct/service/download/catalog/2026fullprodcutcatalog(AW).pdf", 
         productUrl: "https://hitachi-homeappliances.com.tw/products/products_03.php?pid=SF170ZHV"
     },
  {
@@ -370,7 +370,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
-        catalogUrl: "https://www.hitachi-homeappliances.com.tw/image/hsct/service/download/catalog/full_catalog_2606.pdf", 
+        catalogUrl: "https://www.hitachi-homeappliances.com.tw/image/hsct/service/download/catalog/2026fullprodcutcatalog(AW).pdf", 
         productUrl: "https://hitachi-homeappliances.com.tw/products/products_03.php?pid=SF200ZHV"
     },
 
@@ -417,7 +417,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
-        catalogUrl: "https://www.hitachi-homeappliances.com.tw/image/hsct/service/download/catalog/full_catalog_2606.pdf", 
+        catalogUrl: "https://www.hitachi-homeappliances.com.tw/image/hsct/service/download/catalog/2026fullprodcutcatalog(AW).pdf", 
         productUrl: "https://hitachi-homeappliances.com.tw/products/products_03.php?pid=BDSG120JJ"
     },
     {
@@ -468,7 +468,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
-        catalogUrl: "https://www.hitachi-homeappliances.com.tw/image/hsct/service/download/catalog/full_catalog_2606.pdf", 
+        catalogUrl: "https://www.hitachi-homeappliances.com.tw/image/hsct/service/download/catalog/2026fullprodcutcatalog(AW).pdf", 
         productUrl: "https://hitachi-homeappliances.com.tw/products/products_03.php?pid=BDSX150JJ"
     },
 {
@@ -519,7 +519,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
-        catalogUrl: "https://www.hitachi-homeappliances.com.tw/image/hsct/service/download/catalog/full_catalog_2606.pdf", 
+        catalogUrl: "https://www.hitachi-homeappliances.com.tw/image/hsct/service/download/catalog/2026fullprodcutcatalog(AW).pdf", 
         productUrl: "https://hitachi-homeappliances.com.tw/products/products_03.php?pid=BDSX150JJ"
     },
     {
@@ -567,7 +567,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
-        catalogUrl: "https://www.hitachi-homeappliances.com.tw/upload/news/WMcatalog_2606.pdf", 
+        catalogUrl: "https://www.hitachi-homeappliances.com.tw/image/hsct/service/download/catalog/2026fullprodcutcatalog(AW).pdf", 
         productUrl: "https://hitachi-homeappliances.com.tw/products/products_03.php?pid=BDSV130JJ"
     },
     {
@@ -615,7 +615,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
-        catalogUrl: "https://www.hitachi-homeappliances.com.tw/upload/news/WMcatalog_2606.pdf", 
+        catalogUrl: "https://www.hitachi-homeappliances.com.tw/image/hsct/service/download/catalog/2026fullprodcutcatalog(AW).pdf", 
         productUrl: "https://hitachi-homeappliances.com.tw/products/products_03.php?pid=BDSV130JJ"
     },
     {
@@ -662,7 +662,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
-        catalogUrl: "https://www.hitachi-homeappliances.com.tw/upload/news/WMcatalog_2606.pdf", 
+        catalogUrl: "https://www.hitachi-homeappliances.com.tw/image/hsct/service/download/catalog/2026fullprodcutcatalog(AW).pdf", 
         productUrl: "https://hitachi-homeappliances.com.tw/products/products_03.php?pid=BDSZ150KJ"
     },
     {
@@ -709,7 +709,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
-        catalogUrl: "https://www.hitachi-homeappliances.com.tw/upload/news/WMcatalog_2606.pdf", 
+        catalogUrl: "https://www.hitachi-homeappliances.com.tw/image/hsct/service/download/catalog/2026fullprodcutcatalog(AW).pdf", 
         productUrl: "https://hitachi-homeappliances.com.tw/products/products_03.php?pid=BDSZ150KJ"
     }
     ); // 最後記得用括號封起來，並加上分號
