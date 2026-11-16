@@ -39,7 +39,7 @@ smartRawData.push(
 `,
         type: "gift",
         model: "NR-FZ175AV-S冷凍櫃",
-        barcode: ["4717523710700","4713968220170","2449400006027","2449400002029"], 
+        barcode: ["4717523710687","4713968220170","2449400006027","2449400002029"], 
         customLabels: ["📦 商品","🎁 不沾刀具","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/FZ175.jpg", 
         giftImg: "國際冰洗贈品/SP-2707.jpg",
@@ -828,7 +828,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "三門", 
-        name: "<br>NR-C454HG變頻三門冰箱450L-晶鑽白<span class='text-red'>(玻璃)</span><span class='text-blue'><br>40-010049-001</span>", 
+        name: "<br>NR-C454HG變頻三門冰箱450L-翡翠白<span class='text-red'>(玻璃)</span><span class='text-blue'><br>40-010049-001</span>", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "67.1公分" },
@@ -1332,7 +1332,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "四門", 
-        name: "<br>NR-D505XV變頻三門冰箱500L-雪霧白<span class='text-red'>(絲絨鋼板)</span><span class='text-blue'><br>40-013990-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040002-001</span><br>(贈)SP-2703可瀝水不鏽鋼湯鍋*1", 
+        name: "<br>NR-D505XV變頻四門冰箱500L-雪霧白<span class='text-red'>(絲絨鋼板)</span><span class='text-blue'><br>40-013990-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040002-001</span><br>(贈)SP-2703可瀝水不鏽鋼湯鍋*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "72.5公分" },
@@ -1382,7 +1382,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "四門", 
-        name: "<br>NR-D505XV變頻三門冰箱500L-星礦銀<span class='text-red'>(霧面鋼板)</span><span class='text-blue'><br>40-013990-003</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040002-001</span><br>(贈)SP-2703可瀝水不鏽鋼湯鍋*1", 
+        name: "<br>NR-D505XV變頻四門冰箱500L-星礦銀<span class='text-red'>(霧面鋼板)</span><span class='text-blue'><br>40-013990-003</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040002-001</span><br>(贈)SP-2703可瀝水不鏽鋼湯鍋*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "72.5公分" },
@@ -1432,7 +1432,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "四門", 
-        name: "<br>NR-D505XG變頻三門冰箱500L-雲岩白<span class='text-red'>(岩板玻璃)</span><span class='text-blue'><br>40-013989-001</span>", 
+        name: "<br>NR-D505XG變頻四門冰箱500L-雲岩白<span class='text-red'>(岩板玻璃)</span><span class='text-blue'><br>40-013989-001</span>", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "72.1公分" },
@@ -1484,7 +1484,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "四門", 
-        name: "<br>NR-D505XG變頻三門冰箱500L-墨岩黑<span class='text-red'>(岩板玻璃)</span><span class='text-blue'><br>40-013989-002</span>", 
+        name: "<br>NR-D505XG變頻四門冰箱500L-墨岩黑<span class='text-red'>(岩板玻璃)</span><span class='text-blue'><br>40-013989-002</span>", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "72.1公分" },
@@ -1536,7 +1536,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "四門", 
-        name: "<br>NR-D615XV變頻三門冰箱610L-雪霧白<span class='text-red'>(絲絨鋼板)</span><span class='text-blue'><br>40-013987-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040002-001</span><br>(贈)SP-2703可瀝水不鏽鋼湯鍋*1", 
+        name: "<br>NR-D615XV變頻四門冰箱610L-雪霧白<span class='text-red'>(絲絨鋼板)</span><span class='text-blue'><br>40-013987-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040002-001</span><br>(贈)SP-2703可瀝水不鏽鋼湯鍋*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "77.5公分" },
@@ -1586,7 +1586,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "四門", 
-        name: "<br>NR-D615XV變頻三門冰箱610L-星礦銀<span class='text-red'>(霧面鋼板)</span><span class='text-blue'><br>40-013987-003</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040002-001</span><br>(贈)SP-2703可瀝水不鏽鋼湯鍋*1", 
+        name: "<br>NR-D615XV變頻四門冰箱610L-星礦銀<span class='text-red'>(霧面鋼板)</span><span class='text-blue'><br>40-013987-003</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040002-001</span><br>(贈)SP-2703可瀝水不鏽鋼湯鍋*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "77.5公分" },
@@ -1636,7 +1636,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "四門", 
-        name: "<br>NR-D615XG變頻三門冰箱610L-雲岩白<span class='text-red'>(岩板玻璃)</span><span class='text-blue'><br>40-013988-001</span>", 
+        name: "<br>NR-D615XG變頻四門冰箱610L-雲岩白<span class='text-red'>(岩板玻璃)</span><span class='text-blue'><br>40-013988-001</span>", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "77.1公分" },
@@ -1688,7 +1688,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "四門", 
-        name: "<br>NR-D615XG變頻三門冰箱610L-墨岩黑<span class='text-red'>(岩板玻璃)</span><span class='text-blue'><br>40-013988-002</span>", 
+        name: "<br>NR-D615XG變頻四門冰箱610L-墨岩黑<span class='text-red'>(岩板玻璃)</span><span class='text-blue'><br>40-013988-002</span>", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "77.1公分" },
@@ -2355,7 +2355,7 @@ smartRawData.push(
         taxUrl: "", 
         oldUrl: "",
         catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/WM/WM.html", 
-        productUrl: "https://www.panasonic.com/tw/consumer/washing-machine/vertical-washing-machine/fixed-frequency/na-110eb.html"
+        productUrl: "https://www.panasonic.com/tw/consumer/washing-machine/vertical-washing-machine/fixed-frequency/na-120eb.html"
     },
     {
         cat: "洗衣機", 
@@ -3123,7 +3123,7 @@ smartRawData.push(
 `,  
         type: "",
         model: "NR-V1715SP乾衣機",
-        barcode: ["4717523354072","6909141613114","2449400007024","2449400002029"], 
+        barcode: ["4717523354089","6909141613114","2449400007024","2449400002029"], 
         customLabels: ["📦 商品","🎁 保鮮盒","🚚 免運$100", "💰 收費$100"], // <--- 在這裡定義
         img: "國際冰箱/V1715SP2.jpg", 
         giftImg: "國際冰洗贈品/SP-2701$3000.jpg",
