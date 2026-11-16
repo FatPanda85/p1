@@ -93,7 +93,7 @@ smartRawData.push(
         type: "",
         model: "BWDV100EJ直立式變頻洗脫烘",
         barcode: ["4549873111209","2449401006026","2449401002028"], 
-        customLabels: ["📦 商品", "🎁 贈品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
+        customLabels: ["📦 商品", "🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "日立冰洗/BWDV100.jpg", 
         giftImg: "",
         qrUrl: "",
@@ -113,7 +113,7 @@ smartRawData.push(
         { label: "高", value: "108.8公分" },
         { label: "深", value: "65.6公分" },
         { label: "包裝箱尺寸", value: "" },
-        { label: "寬", value: "77公分" },
+        { label: "寬", value: "63公分" },
         { label: "高", value: "114公分" },
         { label: "深", value: "69.5公分" },
         { label: "洗/烘重量", value: "" },
@@ -146,6 +146,143 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "日立", 
         spec: "變頻直立式", 
+        name: "<br>日立LTL10MV00GG變頻直立式洗衣機10kg<br><span class='text-red'>(原裝進口)、(靜岩灰)</span><br><span class='text-blue'>40-101995-001</span>", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "56.5公分" },
+        { label: "高", value: "96.2公分" },
+        { label: "深", value: "58.6公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "64公分" },
+        { label: "高", value: "98公分" },
+        { label: "深", value: "64公分" },
+        { label: "洗/烘重量", value: "" },
+        { label: "洗衣", value: "10<span style='color: #666;'>公斤</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$300</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 洗衣 10kg</div>
+        <div style="margin: 0; padding: 0;">
+           ● 潔淨水流<br>
+           ● 智能感測洗衣<br>
+           ● Air Jet 噴射風乾 減少晒衣時間<br>
+           ● 4段浸泡洗衣<br>
+           ● 毛毯大物行程<br>
+           ● 便利預約行程<br>
+           ● 兒童安全鎖<br>
+           ● 國家金級省水標章／節能標章
+        </div>
+    </div>
+`,
+        type: "",
+        model: "LTL10MV00GG",
+        barcode: ["8690842803345","2449401006026","2449401002028"], 
+        customLabels: ["📦 商品", "🚚 免運$10", "💰 收費$10"], 
+        img: "日立冰洗/LTL10.jpg", 
+        giftImg: "",
+        qrUrl: "",
+        taxUrl: "", 
+        oldUrl: "",
+        catalogUrl: "https://www.hitachi-homeappliances.com.tw/upload/news/WMcatalog_2606.pdf", 
+        productUrl: "https://hitachi-homeappliances.com.tw/products/products_03.php?pid=LTL10MV00"
+    },
+    {
+        cat: "洗衣機", 
+        brand: "日立", 
+        spec: "變頻直立式", 
+        name: "<br>日立LTL12MVW0TGG變頻直立式洗衣機12kg<br><span class='text-red'>(泰國製)、(靜墨灰)</span><br><span class='text-blue'>40-102043-001</span>", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "59公分" },
+        { label: "高", value: "108.8公分" },
+        { label: "深", value: "65.6公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "63公分" },
+        { label: "高", value: "114公分" },
+        { label: "深", value: "69.5公分" },
+        { label: "洗/烘重量", value: "" },
+        { label: "洗衣", value: "12<span style='color: #666;'>公斤</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$300</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 洗衣 12kg</div>
+        <div style="margin: 0; padding: 0;">
+           ● 雙層水瀑搭載迴旋洗衣盤<br>
+           ● 手洗水流滿足預洗需求<br>
+           ● Air Jet 噴射風乾 減少晒衣時間<br>
+           ● 拋鬆脫水 衣物蓬鬆不糾結<br>
+           ● 浸泡及柔軟芬芳功能<br>
+           ● 自動清潔內槽<br>
+           ● 巧變洗劑盒 洗劑輕鬆分配<br>
+           ● 智能感測洗衣<br>
+           ● 變頻馬達高效洗衣
+        </div>
+    </div>
+`,
+        type: "",
+        model: "LTL12MVW0TGG",
+        barcode: ["8850207919542","2449401006026","2449401002028"], 
+        customLabels: ["📦 商品", "🚚 免運$10", "💰 收費$10"], 
+        img: "日立冰洗/LTL12.jpg", 
+        giftImg: "",
+        qrUrl: "",
+        taxUrl: "", 
+        oldUrl: "",
+        catalogUrl: "https://www.hitachi-homeappliances.com.tw/upload/news/WMcatalog_2606.pdf", 
+        productUrl: "https://hitachi-homeappliances.com.tw/products/products_03.php?pid=LTL12MVW0T"
+    },
+    {
+        cat: "洗衣機", 
+        brand: "日立", 
+        spec: "變頻直立式", 
+        name: "<br>日立LTL15MVW0TGG變頻直立式洗衣機15kg<br><span class='text-red'>(泰國製)、(靜墨灰)</span><br><span class='text-blue'>40-103001-001</span>", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "59公分" },
+        { label: "高", value: "108.8公分" },
+        { label: "深", value: "65.6公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "63公分" },
+        { label: "高", value: "114公分" },
+        { label: "深", value: "69.5公分" },
+        { label: "洗/烘重量", value: "" },
+        { label: "洗衣", value: "15<span style='color: #666;'>公斤</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$400</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 洗衣 15kg</div>
+        <div style="margin: 0; padding: 0;">
+           ● 雙層水瀑搭載迴旋洗衣盤<br>
+           ● 手洗水流滿足預洗需求<br>
+           ● Air Jet 噴射風乾 減少晒衣時間<br>
+           ● 拋鬆脫水 衣物蓬鬆不糾結<br>
+           ● 浸泡及柔軟芬芳功能<br>
+           ● 自動清潔內槽<br>
+           ● 巧變洗劑盒 洗劑輕鬆分配<br>
+           ● 智能感測洗衣<br>
+           ● 變頻馬達高效洗衣
+        </div>
+    </div>
+`,
+        type: "",
+        model: "LTL15MVW0TGG",
+        barcode: ["8850207921590","2449401006026","2449401002028"], 
+        customLabels: ["📦 商品", "🚚 免運$10", "💰 收費$10"], 
+        img: "日立冰洗/LTL15.jpg", 
+        giftImg: "",
+        qrUrl: "",
+        taxUrl: "", 
+        oldUrl: "",
+        catalogUrl: "https://www.hitachi-homeappliances.com.tw/upload/news/WMcatalog_2606.pdf", 
+        productUrl: "https://hitachi-homeappliances.com.tw/products/products_03.php?pid=LTL15MVW0T"
+    },
+    {
+        cat: "洗衣機", 
+        brand: "日立", 
+        spec: "變頻直立式", 
         name: "<br>日立SF170ZHVGG變頻溫水直立式洗衣機17kg<br><span class='text-red'>(泰國製)、(靜墨灰)</span><br><span class='text-blue'>40-104984-001</span>", 
        specs: [
         { label: "機器尺寸", value: "" },
@@ -153,9 +290,9 @@ smartRawData.push(
         { label: "高", value: "108.7公分" },
         { label: "深", value: "68.4公分" },
         { label: "包裝箱尺寸", value: "" },
-        { label: "寬", value: "82公分" },
-        { label: "高", value: "158公分" },
-        { label: "深", value: "78.4公分" },
+        { label: "寬", value: "69.2公分" },
+        { label: "高", value: "115.6公分" },
+        { label: "深", value: "72.8公分" },
         { label: "洗/烘重量", value: "" },
         { label: "洗衣", value: "17<span style='color: #666;'>公斤</span>" },
         { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$400</span>" }
@@ -200,9 +337,9 @@ smartRawData.push(
         { label: "高", value: "108.7公分" },
         { label: "深", value: "68.4公分" },
         { label: "包裝箱尺寸", value: "" },
-        { label: "寬", value: "82公分" },
-        { label: "高", value: "158公分" },
-        { label: "深", value: "78.4公分" },
+        { label: "寬", value: "69.2公分" },
+        { label: "高", value: "115.6公分" },
+        { label: "深", value: "72.8公分" },
         { label: "洗/烘重量", value: "" },
         { label: "洗衣", value: "20<span style='color: #666;'>公斤</span>" },
         { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$500</span>" }
@@ -294,9 +431,9 @@ smartRawData.push(
         { label: "高", value: "106.5公分" },
         { label: "深", value: "72公分" },
         { label: "包裝箱尺寸", value: "" },
-        { label: "寬", value: "62公分" },
-        { label: "高", value: "136.5公分" },
-        { label: "深", value: "73公分" },
+        { label: "寬", value: "67公分" },
+        { label: "高", value: "111公分" },
+        { label: "深", value: "77公分" },
         { label: "洗/烘重量", value: "" },
         { label: "洗衣", value: "15<span style='color: #666;'>公斤</span>" },
         { label: "烘衣", value: "8<span style='color: #666;'>公斤</span>" },
@@ -345,9 +482,9 @@ smartRawData.push(
         { label: "高", value: "106.5公分" },
         { label: "深", value: "72公分" },
         { label: "包裝箱尺寸", value: "" },
-        { label: "寬", value: "62公分" },
-        { label: "高", value: "136.5公分" },
-        { label: "深", value: "73公分" },
+        { label: "寬", value: "67公分" },
+        { label: "高", value: "111公分" },
+        { label: "深", value: "77公分" },
         { label: "洗/烘重量", value: "" },
         { label: "洗衣", value: "15<span style='color: #666;'>公斤</span>" },
         { label: "烘衣", value: "8<span style='color: #666;'>公斤</span>" },
@@ -384,5 +521,195 @@ smartRawData.push(
         oldUrl: "",
         catalogUrl: "https://www.hitachi-homeappliances.com.tw/image/hsct/service/download/catalog/full_catalog_2606.pdf", 
         productUrl: "https://hitachi-homeappliances.com.tw/products/products_03.php?pid=BDSX150JJ"
+    },
+    {
+        cat: "洗衣機", 
+        brand: "日立", 
+        spec: "洗脫烘滾筒", 
+        name: "<br>日立BDSV130JJW變頻洗脫烘滾筒左開13kg<br><span class='text-red'>(日本製)、(雪霧白)</span><br><span class='text-blue'>40-110268-001</span>", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "62公分" },
+        { label: "高", value: "106.5公分" },
+        { label: "深", value: "71.6公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "66.5公分" },
+        { label: "高", value: "110公分" },
+        { label: "深", value: "76.5公分" },
+        { label: "洗/烘重量", value: "" },
+        { label: "洗衣", value: "13<span style='color: #666;'>公斤</span>" },
+        { label: "烘衣", value: "8<span style='color: #666;'>公斤</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$700</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 洗衣 13kg ● 乾衣 8kg</div>
+        <div style="margin: 0; padding: 0;">
+           ● 開門方向：左開（人在洗衣機正前方，門向左邊開啟，右手伸入拿取衣物）<br>
+           ● 洗劑及柔軟劑自動投入<br>
+           ● 尼加拉飛瀑洗淨<br>
+           ● 風速淨 除菌消臭<br>
+           ● 風熨斗烘衣 撫平衣物皺褶<br>
+           ● 65℃低溫烘乾 抑制衣物縮水變形<br>
+           ● 毛毯、被單大物行程<br>
+           ● 3D自動全槽清水洗淨 除菌防黴99%<br>
+           ● 烘衣管道、膠圈自動清潔 無烘乾濾盒設計<br>
+           ● 國家金級省水標章認證
+        </div>
+    </div>
+`,
+        type: "",
+        model: "BDSV130JJW",
+        barcode: ["4549873197234","2449401006026","2449401002028"], 
+        customLabels: ["📦 商品", "🚚 免運$10", "💰 收費$10"], 
+        img: "日立冰洗/BDSV130JJ.jpg", 
+        giftImg: "",
+        qrUrl: "",
+        taxUrl: "", 
+        oldUrl: "",
+        catalogUrl: "https://www.hitachi-homeappliances.com.tw/upload/news/WMcatalog_2606.pdf", 
+        productUrl: "https://hitachi-homeappliances.com.tw/products/products_03.php?pid=BDSV130JJ"
+    },
+    {
+        cat: "洗衣機", 
+        brand: "日立", 
+        spec: "洗脫烘滾筒", 
+        name: "<br>日立BDSV130JJRW變頻洗脫烘滾筒右開13kg<br><span class='text-red'>(日本製)、(雪霧白)</span><br><span class='text-blue'>40-110269-001</span>", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "62公分" },
+        { label: "高", value: "106.5公分" },
+        { label: "深", value: "71.6公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "66.5公分" },
+        { label: "高", value: "110公分" },
+        { label: "深", value: "76.5公分" },
+        { label: "洗/烘重量", value: "" },
+        { label: "洗衣", value: "13<span style='color: #666;'>公斤</span>" },
+        { label: "烘衣", value: "8<span style='color: #666;'>公斤</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$700</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 洗衣 13kg ● 乾衣 8kg</div>
+        <div style="margin: 0; padding: 0;">
+           ● 開門方向：右開（人在洗衣機正前方，門向右邊開啟，左手伸入拿取衣物）<br>
+           ● 洗劑及柔軟劑自動投入<br>
+           ● 尼加拉飛瀑洗淨<br>
+           ● 風速淨 除菌消臭<br>
+           ● 風熨斗烘衣 撫平衣物皺褶<br>
+           ● 65℃低溫烘乾 抑制衣物縮水變形<br>
+           ● 毛毯、被單大物行程<br>
+           ● 3D自動全槽清水洗淨 除菌防黴99%<br>
+           ● 烘衣管道、膠圈自動清潔 無烘乾濾盒設計<br>
+           ● 國家金級省水標章認證
+        </div>
+    </div>
+`,
+        type: "",
+        model: "BDSV130JJRW",
+        barcode: ["4549873197241","2449401006026","2449401002028"], 
+        customLabels: ["📦 商品", "🚚 免運$10", "💰 收費$10"], 
+        img: "日立冰洗/BDSV130JJ.jpg", 
+        giftImg: "",
+        qrUrl: "",
+        taxUrl: "", 
+        oldUrl: "",
+        catalogUrl: "https://www.hitachi-homeappliances.com.tw/upload/news/WMcatalog_2606.pdf", 
+        productUrl: "https://hitachi-homeappliances.com.tw/products/products_03.php?pid=BDSV130JJ"
+    },
+    {
+        cat: "洗衣機", 
+        brand: "日立", 
+        spec: "熱泵洗脫烘滾筒", 
+        name: "<br>日立BDSZ150KJH變頻熱泵洗脫烘滾筒左開15kg<br><span class='text-red'>(日本製)、(曜墨灰)</span><br><span class='text-blue'>40-110270-001</span>", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "63公分" },
+        { label: "高", value: "106.5公分" },
+        { label: "深", value: "72公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "67公分" },
+        { label: "高", value: "111公分" },
+        { label: "深", value: "77公分" },
+        { label: "洗/烘重量", value: "" },
+        { label: "洗衣", value: "15<span style='color: #666;'>公斤</span>" },
+        { label: "烘衣", value: "8<span style='color: #666;'>公斤</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$700</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 洗衣 15kg ● 乾衣 8kg</div>
+        <div style="margin: 0; padding: 0;">
+           ● 開門方向：左開（人在洗衣機正前方，門向左邊開啟，右手伸入拿取衣物）<br>
+           ● 日本製 大容量熱泵洗脫烘滾筒洗衣機<br>
+           ● AI 智能感測洗衣＋烘衣<br>
+           ● 尼加拉飛瀑洗淨2.0<br>
+           ● 風熨斗2.0 熱泵Heat Pump烘衣技術 烘衣材質智能感測<br>
+           ● 自主環淨科技2.0 熱交換器及烘衣管道自動清潔<br>
+           ● 洗衣膠囊行程（一鍵啟動）<br>
+           ● 洗劑自動投入<br>
+           ● 國家金級省水標章認證
+        </div>
+    </div>
+`,
+        type: "",
+        model: "BDSZ150KJH",
+        barcode: ["4549873215556","2449401006026","2449401002028"], 
+        customLabels: ["📦 商品", "🚚 免運$10", "💰 收費$10"], 
+        img: "日立冰洗/BDSZ150KJ.jpg", 
+        giftImg: "",
+        qrUrl: "",
+        taxUrl: "", 
+        oldUrl: "",
+        catalogUrl: "https://www.hitachi-homeappliances.com.tw/upload/news/WMcatalog_2606.pdf", 
+        productUrl: "https://hitachi-homeappliances.com.tw/products/products_03.php?pid=BDSZ150KJ"
+    },
+    {
+        cat: "洗衣機", 
+        brand: "日立", 
+        spec: "熱泵洗脫烘滾筒", 
+        name: "<br>日立BDSZ150KJRH變頻熱泵洗脫烘滾筒右開15kg<br><span class='text-red'>(日本製)、(曜墨灰)</span><br><span class='text-blue'>40-110271-001</span>", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "63公分" },
+        { label: "高", value: "106.5公分" },
+        { label: "深", value: "72公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "67公分" },
+        { label: "高", value: "111公分" },
+        { label: "深", value: "77公分" },
+        { label: "洗/烘重量", value: "" },
+        { label: "洗衣", value: "15<span style='color: #666;'>公斤</span>" },
+        { label: "烘衣", value: "8<span style='color: #666;'>公斤</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$700</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 洗衣 15kg ● 乾衣 8kg</div>
+        <div style="margin: 0; padding: 0;">
+           ● 開門方向：右開（人在洗衣機正前方，門向右邊開啟，左手伸入拿取衣物）<br>
+           ● 日本製 大容量熱泵洗脫烘滾筒洗衣機<br>
+           ● AI 智能感測洗衣＋烘衣<br>
+           ● 尼加拉飛瀑洗淨2.0<br>
+           ● 風熨斗2.0 熱泵Heat Pump烘衣技術 烘衣材質智能感測<br>
+           ● 自主環淨科技2.0 熱交換器及烘衣管道自動清潔<br>
+           ● 洗衣膠囊行程（一鍵啟動）<br>
+           ● 洗劑自動投入<br>
+           ● 國家金級省水標章認證
+        </div>
+    </div>
+`,
+        type: "",
+        model: "BDSZ150KJRH",
+        barcode: ["4549873215563","2449401006026","2449401002028"], 
+        customLabels: ["📦 商品", "🚚 免運$10", "💰 收費$10"], 
+        img: "日立冰洗/BDSZ150KJ.jpg", 
+        giftImg: "",
+        qrUrl: "",
+        taxUrl: "", 
+        oldUrl: "",
+        catalogUrl: "https://www.hitachi-homeappliances.com.tw/upload/news/WMcatalog_2606.pdf", 
+        productUrl: "https://hitachi-homeappliances.com.tw/products/products_03.php?pid=BDSZ150KJ"
     }
     ); // 最後記得用括號封起來，並加上分號
