@@ -41,7 +41,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/double-door/nr-b427tvs.html"
     },
     {
@@ -83,7 +83,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/double-door/nr-b427tvs.html"
     },
     {
@@ -125,7 +125,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/double-door/nr-b497tvs.html"
     },
     {
@@ -167,7 +167,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/double-door/nr-b497tvs.html"
     },
     {
@@ -209,7 +209,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/double-door/nr-b587tvs.html"
     },
     {
@@ -251,7 +251,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/double-door/nr-b587tvs.html"
     },
     {
@@ -293,7 +293,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/double-door/nr-b657tvs.html"
     },
     {
@@ -335,7 +335,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/double-door/nr-b657tvs.html"
     },
     {
@@ -378,7 +378,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/three-door/nr-c387hvs.html"
     },
     {
@@ -421,7 +421,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/three-door/nr-c387hvs.html"
     },
     {
@@ -465,7 +465,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/three-door/nr-c457hvs.html"
     },
     {
@@ -509,7 +509,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/three-door/nr-c457hvs.html"
     },
     {
@@ -553,7 +553,7 @@ smartRawData.push(
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/three-door/nr-c457hgs.html"
     },
     {
@@ -597,7 +597,7 @@ smartRawData.push(
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/three-door/nr-c457hgs.html"
     },
     {
@@ -643,7 +643,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/three-door/nr-c507xvs.html"
     },
     {
@@ -689,7 +689,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/three-door/nr-c507xvs.html"
     },
     {
@@ -735,7 +735,7 @@ smartRawData.push(
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/three-door/nr-c507xgs.html"
     },
     {
@@ -781,7 +781,7 @@ smartRawData.push(
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/three-door/nr-c507xgs.html"
     },
     {
@@ -827,7 +827,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/three-door/nr-c617xvs.html"
     },
     {
@@ -873,7 +873,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/three-door/nr-c617xvs.html"
     },
     {
@@ -919,7 +919,7 @@ smartRawData.push(
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/three-door/nr-c617xgs.html"
     },
     {
@@ -965,7 +965,7 @@ smartRawData.push(
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/three-door/nr-c617xgs.html"
     },
     {
@@ -1011,7 +1011,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/four-door/nr-d507xvs.html"
     },
     {
@@ -1057,7 +1057,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/four-door/nr-d507xvs.html"
     },
     {
@@ -1103,7 +1103,7 @@ smartRawData.push(
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/four-door/nr-d507xgs.html"
     },
     {
@@ -1149,7 +1149,7 @@ smartRawData.push(
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/four-door/nr-d507xgs.html"
     },
     {
@@ -1195,7 +1195,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/four-door/nr-d617xvs.html"
     },
     {
@@ -1241,7 +1241,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/four-door/nr-d617xvs.html"
     },
     {
@@ -1287,7 +1287,7 @@ smartRawData.push(
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/four-door/nr-d617xgs.html"
     },
     {
@@ -1333,7 +1333,7 @@ smartRawData.push(
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/four-door/nr-d617xgs.html"
     },
     {
@@ -1379,7 +1379,7 @@ smartRawData.push(
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/six-door/nr-f502yt.html"
     },
     {
@@ -1425,7 +1425,7 @@ smartRawData.push(
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/six-door/nr-f502yt.html"
     },
     {
@@ -1471,7 +1471,7 @@ smartRawData.push(
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/six-door/nr-f502yt.html"
     },
     {
@@ -1517,7 +1517,7 @@ smartRawData.push(
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/six-door/nr-f552yt.html"
     },
     {
@@ -1563,7 +1563,7 @@ smartRawData.push(
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/six-door/nr-f552yt.html"
     },
     {
@@ -1609,7 +1609,7 @@ smartRawData.push(
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/six-door/nr-f552yt.html"
     },
     {
@@ -1655,7 +1655,7 @@ smartRawData.push(
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/six-door/nr-f523hx.html"
     },
     {
@@ -1701,7 +1701,7 @@ smartRawData.push(
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/six-door/nr-f523hx.html"
     },
     {
@@ -1747,7 +1747,7 @@ smartRawData.push(
         qrUrl: "https://pstw.panasonic.com.tw/SalesEvent/Activity/Add?EventID=6026CE7A-5DEA-4892-89D2-CF467205562B",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REF.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/six-door/nr-f523hx.html"
     },
     {
