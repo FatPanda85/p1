@@ -195,7 +195,19 @@ function showGiftsBySelect() {
 function searchModel() {
     const term = document.getElementById("searchInput").value.trim().toUpperCase();
     if (term === "") { alert("請輸入型號關鍵字"); return; }
-    renderGiftCards(rawData.filter(d => matchTerm(d, term)), document.getElementById("giftContainer"));
+    const box = document.getElementById("giftContainer");
+    const giftHits  = rawData.filter(d => matchTerm(d, term));
+    // 第一頁搜尋也一併找第二頁「家電商品」的型號，懶人一個框就能查
+    const smartHits = (typeof smartRawData !== "undefined") ? smartRawData.filter(d => matchTerm(d, term)) : [];
+
+    if (giftHits.length === 0 && smartHits.length === 0) { renderGiftCards([], box); return; }
+
+    const head = (txt, n) => `<div style="margin:14px 4px 8px; font-weight:bold; color:#3b71db; font-size:1rem;">${txt}（${n} 筆）</div>`;
+    box.innerHTML =
+        (giftHits.length  ? head("🎁 贈品活動", giftHits.length)  + '<div id="giftHitsBox"></div>'  : "") +
+        (smartHits.length ? head("⚡ 家電商品", smartHits.length) + '<div id="smartHitsBox"></div>' : "");
+    if (giftHits.length)  renderGiftCards(giftHits,  document.getElementById("giftHitsBox"));
+    if (smartHits.length) renderGiftCards(smartHits, document.getElementById("smartHitsBox"));
 }
 function handleKeyPress(event) { if (event.key === "Enter") searchModel(); }
 
