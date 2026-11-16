@@ -1,5 +1,5 @@
 // ==========================================================================
-// ⚡ 國際 Panasonic 家電智慧查詢 資料庫 (完整新款 39 筆 最終完美修正版)
+// ⚡ 國際 Panasonic 家電智慧查詢 資料庫 (完整新款 42 筆 最終完美修正版)
 // ==========================================================================
 smartRawData.push(
     {
@@ -1611,6 +1611,144 @@ smartRawData.push(
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
         catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
         productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/six-door/nr-f552yt.html"
+    },
+    {
+        cat: "冰箱", 
+        brand: "國際", 
+        spec: "新日製六門", 
+        name: "<br>Panasonic NR-F523HX日製變頻六門玻璃冰箱-520L<br><span class='text-red'>(日本製)、(霧晶白)、(無邊框玻璃)</span><br><span class='text-blue'>40-013020-001</span>", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "65公分" },
+        { label: "高", value: "182.8公分" },
+        { label: "深", value: "69.9公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "71.2公分" },
+        { label: "高", value: "192.9公分" },
+        { label: "深", value: "79.6公分" },
+        { label: "年耗電(度)", value: "<span class='text-red'>276</span>" },
+        { label: "容量規格", value: "" },
+        { label: "有效容積", value: "520<span style='color: #666;'>L</span>" },
+        { label: "冷凍室", value: "98<span style='color: #666;'>L</span>" },
+        { label: "冷藏室", value: "253<span style='color: #666;'>L</span>" },
+        { label: "製冰室", value: "17<span style='color: #666;'>L</span>" },
+        { label: "蔬果室", value: "110<span style='color: #666;'>L</span>" },
+        { label: "新鮮急凍結", value: "27<span style='color: #666;'>L</span>" },
+        { label: "-3℃微凍結室", value: "15<span style='color: #666;'>L</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$700</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 有效容積520L</div>
+        <div style="color: red; margin: 0;">● 日本原裝進口，超越2027年新1級能效</div>
+        <div style="margin: 0; padding: 0;">
+            ● AI ECONAVI智慧節能，全幅抑霜鮮凍<br>● 新鮮急凍結，-3°C微凍結，智慧保濕蔬果室<br>● nanoe™ X 健康科技，自動製冰<br>● IoT智慧健康家電，隱藏式觸控面板
+        </div>
+    </div>
+`,
+        type: "",
+        model: "NR-F523HX",
+        barcode: ["4550719181904", "2449400006027", "2449400002029"], 
+        customLabels: ["📦 商品", "🚚 免運$10", "💰 收費$10"], 
+        img: "國際冰箱/F523HXW.jpg", 
+        giftImg: "",
+        qrUrl: "",
+        taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+        oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
+        productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/six-door/nr-f523hx.html"
+    },
+    {
+        cat: "冰箱", 
+        brand: "國際", 
+        spec: "新日製六門", 
+        name: "<br>Panasonic NR-F523HX日製變頻六門玻璃冰箱-520L<br><span class='text-red'>(日本製)、(霧晶灰)、(無邊框玻璃)</span><br><span class='text-blue'>40-013020-002</span>", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "65公分" },
+        { label: "高", value: "182.8公分" },
+        { label: "深", value: "69.9公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "71.2公分" },
+        { label: "高", value: "192.9公分" },
+        { label: "深", value: "79.6公分" },
+        { label: "年耗電(度)", value: "<span class='text-red'>276</span>" },
+        { label: "容量規格", value: "" },
+        { label: "有效容積", value: "520<span style='color: #666;'>L</span>" },
+        { label: "冷凍室", value: "98<span style='color: #666;'>L</span>" },
+        { label: "冷藏室", value: "253<span style='color: #666;'>L</span>" },
+        { label: "製冰室", value: "17<span style='color: #666;'>L</span>" },
+        { label: "蔬果室", value: "110<span style='color: #666;'>L</span>" },
+        { label: "新鮮急凍結", value: "27<span style='color: #666;'>L</span>" },
+        { label: "-3℃微凍結室", value: "15<span style='color: #666;'>L</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$700</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 有效容積520L</div>
+        <div style="color: red; margin: 0;">● 日本原裝進口，超越2027年新1級能效</div>
+        <div style="margin: 0; padding: 0;">
+            ● AI ECONAVI智慧節能，全幅抑霜鮮凍<br>● 新鮮急凍結，-3°C微凍結，智慧保濕蔬果室<br>● nanoe™ X 健康科技，自動製冰<br>● IoT智慧健康家電，隱藏式觸控面板
+        </div>
+    </div>
+`,
+        type: "",
+        model: "NR-F523HX",
+        barcode: ["4550719181898", "2449400006027", "2449400002029"], 
+        customLabels: ["📦 商品", "🚚 免運$10", "💰 收費$10"], 
+        img: "國際冰箱/F523HXH.jpg", 
+        giftImg: "",
+        qrUrl: "",
+        taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+        oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
+        productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/six-door/nr-f523hx.html"
+    },
+    {
+        cat: "冰箱", 
+        brand: "國際", 
+        spec: "新日製六門", 
+        name: "<br>Panasonic NR-F523HX日製變頻六門玻璃冰箱-520L<br><span class='text-red'>(日本製)、(鑽石黑)、(無邊框玻璃)</span><br><span class='text-blue'>40-013020-003</span>", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "65公分" },
+        { label: "高", value: "182.8公分" },
+        { label: "深", value: "69.9公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "71.2公分" },
+        { label: "高", value: "192.9公分" },
+        { label: "深", value: "79.6公分" },
+        { label: "年耗電(度)", value: "<span class='text-red'>276</span>" },
+        { label: "容量規格", value: "" },
+        { label: "有效容積", value: "520<span style='color: #666;'>L</span>" },
+        { label: "冷凍室", value: "98<span style='color: #666;'>L</span>" },
+        { label: "冷藏室", value: "253<span style='color: #666;'>L</span>" },
+        { label: "製冰室", value: "17<span style='color: #666;'>L</span>" },
+        { label: "蔬果室", value: "110<span style='color: #666;'>L</span>" },
+        { label: "新鮮急凍結", value: "27<span style='color: #666;'>L</span>" },
+        { label: "-3℃微凍結室", value: "15<span style='color: #666;'>L</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$700</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 有效容積520L</div>
+        <div style="color: red; margin: 0;">● 日本原裝進口，超越2027年新1級能效</div>
+        <div style="margin: 0; padding: 0;">
+            ● AI ECONAVI智慧節能，全幅抑霜鮮凍<br>● 新鮮急凍結，-3°C微凍結，智慧保濕蔬果室<br>● nanoe™ X 健康科技，自動製冰<br>● IoT智慧健康家電，隱藏式觸控面板
+        </div>
+    </div>
+`,
+        type: "",
+        model: "NR-F523HX",
+        barcode: ["4550719181911", "2449400006027", "2449400002029"], 
+        customLabels: ["📦 商品", "🚚 免運$10", "💰 收費$10"], 
+        img: "國際冰箱/F523HXX.jpg", 
+        giftImg: "",
+        qrUrl: "",
+        taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
+        oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/ref/REFNEW.html", 
+        productUrl: "https://www.panasonic.com/tw/consumer/refrigerator/six-door/nr-f523hx.html"
     },
     {
         cat: "洗衣機", 
