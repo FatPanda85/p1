@@ -1,5 +1,5 @@
 // ==========================================================================
-// ⚡ 聲寶 SAMPO 冰箱／冷凍櫃 智慧查詢 資料庫（共 23 筆，規格依聲寶官網）
+// ⚡ 聲寶 SAMPO 冰箱／冷凍櫃／洗衣機／乾衣機 智慧查詢 資料庫（共 39 筆，規格依聲寶官網）
 // ==========================================================================
 smartRawData.push(
     {
@@ -984,5 +984,689 @@ smartRawData.push(
         oldUrl: "",
         catalogUrl: "https://www.sampo-edm.com.tw/index/2", 
         productUrl: "https://www.sampo.com.tw/pdetail.aspx?pd=1644"
+    },
+    {
+        cat: "洗衣機", 
+        brand: "聲寶", 
+        spec: "變頻直立式", 
+        name: "<br>聲寶ES-K10DF DD直驅變頻洗衣機-10kg<br><span class='text-blue'>40-101012-001</span>", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "54公分" },
+        { label: "高", value: "94公分" },
+        { label: "深", value: "56.3公分" },
+        { label: "洗/烘重量", value: "" },
+        { label: "洗衣", value: "10<span style='color: #666;'>公斤</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$300</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 洗衣10kg</div>
+        <div style="margin: 0; padding: 0;">
+            ● DD直驅變頻微電腦控制<br>
+            ● 六種洗衣行程、四段水位<br>
+            ● 槽洗淨、獨立脫水功能<br>
+            ● 玻璃緩降上蓋<br>
+            ● 預約功能、兒童安全鎖<br>
+            ● 節能標章、金級省水
+        </div>
+    </div>
+`,
+        type: "",
+        model: "ES-K10DF",
+        barcode: ["4718060323088","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🚚 免運$10","💰 收費$10"], 
+        img: "聲寶冰洗/K10DF.jpg", 
+        giftImg: "",
+        qrUrl: "",
+        taxUrl: "", 
+        oldUrl: "",
+        catalogUrl: "https://www.sampo-edm.com.tw/index/3", 
+        productUrl: "https://www.sampo.com.tw/pdetail.aspx?pd=1088"
+    },
+    {
+        cat: "洗衣機", 
+        brand: "聲寶", 
+        spec: "定頻直立式", 
+        name: "<br>聲寶ES-B10F單槽定頻洗衣機-10kg<br><span class='text-red'>(珍珠白)</span><br><span class='text-blue'>40-101991-001</span>", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "55公分" },
+        { label: "高", value: "96.5公分" },
+        { label: "深", value: "56.5公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "63.9公分" },
+        { label: "高", value: "106公分" },
+        { label: "深", value: "64.4公分" },
+        { label: "洗/烘重量", value: "" },
+        { label: "洗衣", value: "10<span style='color: #666;'>公斤</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$300</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 洗衣10kg</div>
+        <div style="margin: 0; padding: 0;">
+            ● 不鏽鋼抗菌內槽<br>
+            ● 獨立槽洗淨功能<br>
+            ● 0-24小時預約<br>
+            ● 八大洗衣行程<br>
+            ● 緩降玻璃上蓋、IMD面板<br>
+            ● 隱藏式濾網、兒童安全鎖
+        </div>
+    </div>
+`,
+        type: "",
+        model: "ES-B10F",
+        barcode: ["4718060322883","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🚚 免運$10","💰 收費$10"], 
+        img: "聲寶冰洗/B10F.jpg", 
+        giftImg: "",
+        qrUrl: "",
+        taxUrl: "", 
+        oldUrl: "",
+        catalogUrl: "https://www.sampo-edm.com.tw/index/3", 
+        productUrl: "https://www.sampo.com.tw/pdetail.aspx?pd=880"
+    },
+    {
+        cat: "洗衣機", 
+        brand: "聲寶", 
+        spec: "定頻直立式", 
+        name: "<br>聲寶ES-H11F(G5)單槽定頻洗衣機-11kg<br><span class='text-red'>(台灣製)</span><br><span class='text-blue'>40-102036-001</span>", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "60.6公分" },
+        { label: "高", value: "96.5公分" },
+        { label: "深", value: "62公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "69公分" },
+        { label: "高", value: "104.5公分" },
+        { label: "深", value: "67.6公分" },
+        { label: "洗/烘重量", value: "" },
+        { label: "洗衣", value: "11<span style='color: #666;'>公斤</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$300</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 洗衣11kg</div>
+        <div style="margin: 0; padding: 0;">
+            ● 標準槽洗淨功能<br>
+            ● 不銹鋼內槽<br>
+            ● 炫勁循環水流<br>
+            ● 待機零耗電<br>
+            ● 冷風風乾設計<br>
+            ● 玻璃緩降上蓋、兒童安全鎖
+        </div>
+    </div>
+`,
+        type: "",
+        model: "ES-H11F(G5)",
+        barcode: ["4718060324771","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🚚 免運$10","💰 收費$10"], 
+        img: "聲寶冰洗/H11F.jpg", 
+        giftImg: "",
+        qrUrl: "",
+        taxUrl: "", 
+        oldUrl: "",
+        catalogUrl: "https://www.sampo-edm.com.tw/index/3", 
+        productUrl: "https://www.sampo.com.tw/pdetail.aspx?pd=772"
+    },
+    {
+        cat: "洗衣機", 
+        brand: "聲寶", 
+        spec: "定頻直立式", 
+        name: "<br>聲寶ES-B13F單槽定頻洗衣機-12.5kg<br><span class='text-blue'>40-103922-001</span>", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "60.1公分" },
+        { label: "高", value: "99公分" },
+        { label: "深", value: "61.1公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "66公分" },
+        { label: "高", value: "106.5公分" },
+        { label: "深", value: "68.5公分" },
+        { label: "洗/烘重量", value: "" },
+        { label: "洗衣", value: "12.5<span style='color: #666;'>公斤</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$400</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 洗衣12.5kg</div>
+        <div style="margin: 0; padding: 0;">
+            ● 不鏽鋼抗菌內槽<br>
+            ● 獨立槽洗淨功能<br>
+            ● 0-24小時預約<br>
+            ● 八大洗衣行程<br>
+            ● 緩降玻璃上蓋、IMD面板<br>
+            ● 隱藏式濾網、兒童安全鎖
+        </div>
+    </div>
+`,
+        type: "",
+        model: "ES-B13F",
+        barcode: ["4718060322890","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🚚 免運$10","💰 收費$10"], 
+        img: "聲寶冰洗/B13F.jpg", 
+        giftImg: "",
+        qrUrl: "",
+        taxUrl: "", 
+        oldUrl: "",
+        catalogUrl: "https://www.sampo-edm.com.tw/index/3", 
+        productUrl: "https://www.sampo.com.tw/pdetail.aspx?pd=879"
+    },
+    {
+        cat: "洗衣機", 
+        brand: "聲寶", 
+        spec: "定頻直立式", 
+        name: "<br>聲寶ES-L14V(G5)好取式定頻洗衣機-14kg<br><span class='text-red'>(台灣製)、(典雅灰)</span><br><span class='text-blue'>40-103948-001</span><br>聲寶好禮暖星送<br><span class='text-red'>2026/11/07 ~ 2027/02/21</span><br>贈品:<br><span class='text-blue'>40-040007-001</span><br>(贈)kangol鈦鑽杯保溫瓶(W6NC1)*1", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "64公分" },
+        { label: "高", value: "102.3公分" },
+        { label: "深", value: "65.7公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "69.8公分" },
+        { label: "高", value: "109.7公分" },
+        { label: "深", value: "71.7公分" },
+        { label: "洗/烘重量", value: "" },
+        { label: "洗衣", value: "14<span style='color: #666;'>公斤</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$400</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 洗衣14kg</div>
+        <div style="margin: 0; padding: 0;">
+            ● 好取式便利設計<br>
+            ● 超震波洗淨+漩勁立體水流<br>
+            ● 隱藏式絲絮過濾盒<br>
+            ● 不銹鋼抗菌內槽、標準槽洗淨<br>
+            ● 折疊式玻璃上蓋、IMD覆膜面板<br>
+            ● 冷風風乾、便利照明燈、兒童安全鎖<br>
+            ● 金級省水、MIT標章
+        </div>
+    </div>
+`,
+        type: "gift",
+        model: "ES-L14V(G5)",
+        barcode: ["4718060323224","4711720930039","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 保溫瓶","🚚 免運$10","💰 收費$10"], 
+        img: "聲寶冰洗/L14V.jpg", 
+        giftImg: "聲寶冰洗贈品/W6NC1.jpg",
+        qrUrl: "",
+        taxUrl: "", 
+        oldUrl: "",
+        catalogUrl: "https://www.sampo-edm.com.tw/index/3", 
+        productUrl: "https://www.sampo.com.tw/pdetail.aspx?pd=1103"
+    },
+    {
+        cat: "洗衣機", 
+        brand: "聲寶", 
+        spec: "雙槽", 
+        name: "<br>聲寶ES-1300T雙槽定頻洗衣機-13kg<br><span class='text-red'>(典雅白)</span><br><span class='text-blue'>40-103969-001</span>", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "92.3公分" },
+        { label: "高", value: "106.4公分" },
+        { label: "深", value: "55公分" },
+        { label: "洗/烘重量", value: "" },
+        { label: "洗衣", value: "13<span style='color: #666;'>公斤</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$400</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 洗衣13kg／脫水5kg</div>
+        <div style="margin: 0; padding: 0;">
+            ● 標準、柔洗洗滌選擇<br>
+            ● 手動切換進水孔<br>
+            ● 洗衣定時15分鐘、脫水定時5分鐘<br>
+            ● 排水設定<br>
+            ● 無段水位
+        </div>
+    </div>
+`,
+        type: "",
+        model: "ES-1300T",
+        barcode: ["4718060323705","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🚚 免運$10","💰 收費$10"], 
+        img: "聲寶冰洗/1300T.jpg", 
+        giftImg: "",
+        qrUrl: "",
+        taxUrl: "", 
+        oldUrl: "",
+        catalogUrl: "https://www.sampo-edm.com.tw/index/3", 
+        productUrl: "https://www.sampo.com.tw/pdetail.aspx?pd=1343"
+    },
+    {
+        cat: "洗衣機", 
+        brand: "聲寶", 
+        spec: "變頻直立式", 
+        name: "<br>聲寶ES-B15D單槽變頻洗衣機-15kg<br><span class='text-red'>(典雅白)</span><br><span class='text-blue'>40-103985-001</span><br>聲寶好禮暖星送<br><span class='text-red'>2026/11/07 ~ 2027/02/21</span><br>贈品:<br><span class='text-blue'>40-040007-001</span><br>(贈)kangol鈦鑽杯保溫瓶(W6NC1)*1", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "60.1公分" },
+        { label: "高", value: "101公分" },
+        { label: "深", value: "61.1公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "65.5公分" },
+        { label: "高", value: "111.5公分" },
+        { label: "深", value: "68公分" },
+        { label: "洗/烘重量", value: "" },
+        { label: "洗衣", value: "15<span style='color: #666;'>公斤</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$400</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 洗衣15kg</div>
+        <div style="margin: 0; padding: 0;">
+            ● 觸控式操作面板<br>
+            ● Soft+漂浮洗、極淨洗功能<br>
+            ● 全開式平面緩降玻璃上蓋<br>
+            ● 槽洗淨自動提醒、循環進氣孔<br>
+            ● 1-24小時預約、15分鐘快洗<br>
+            ● 標準槽洗淨、漩勁立體水流<br>
+            ● 8段水位、8種洗衣行程、兒童安全鎖
+        </div>
+    </div>
+`,
+        type: "gift",
+        model: "ES-B15D",
+        barcode: ["4718060324344","4711720930039","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 保溫瓶","🚚 免運$10","💰 收費$10"], 
+        img: "聲寶冰洗/B15D.jpg", 
+        giftImg: "聲寶冰洗贈品/W6NC1.jpg",
+        qrUrl: "",
+        taxUrl: "", 
+        oldUrl: "",
+        catalogUrl: "https://www.sampo-edm.com.tw/index/3", 
+        productUrl: "https://www.sampo.com.tw/pdetail.aspx?pd=1487"
+    },
+    {
+        cat: "洗衣機", 
+        brand: "聲寶", 
+        spec: "定頻直立式", 
+        name: "<br>聲寶ES-L16V(G5)好取式定頻洗衣機-16kg<br><span class='text-red'>(台灣製)、(典雅灰)</span><br><span class='text-blue'>40-104940-001</span><br>聲寶好禮暖星送<br><span class='text-red'>2026/11/07 ~ 2027/02/21</span><br>贈品:<br><span class='text-blue'>40-040007-001</span><br>(贈)kangol鈦鑽杯保溫瓶(W6NC1)*1", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "64公分" },
+        { label: "高", value: "102.3公分" },
+        { label: "深", value: "65.7公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "69.8公分" },
+        { label: "高", value: "109.7公分" },
+        { label: "深", value: "71.7公分" },
+        { label: "洗/烘重量", value: "" },
+        { label: "洗衣", value: "16<span style='color: #666;'>公斤</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$400</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 洗衣16kg</div>
+        <div style="margin: 0; padding: 0;">
+            ● 好取式便利設計<br>
+            ● 超震波洗淨+漩勁立體水流<br>
+            ● 隱藏式絲絮過濾盒<br>
+            ● 不銹鋼抗菌內槽、標準槽洗淨<br>
+            ● 折疊式玻璃上蓋、IMD覆膜面板<br>
+            ● 冷風風乾、便利照明燈、兒童安全鎖<br>
+            ● 金級省水、MIT標章
+        </div>
+    </div>
+`,
+        type: "gift",
+        model: "ES-L16V(G5)",
+        barcode: ["4718060323217","4711720930039","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 保溫瓶","🚚 免運$10","💰 收費$10"], 
+        img: "聲寶冰洗/L16V.jpg", 
+        giftImg: "聲寶冰洗贈品/W6NC1.jpg",
+        qrUrl: "",
+        taxUrl: "", 
+        oldUrl: "",
+        catalogUrl: "https://www.sampo-edm.com.tw/index/3", 
+        productUrl: "https://www.sampo.com.tw/pdetail.aspx?pd=1102"
+    },
+    {
+        cat: "洗衣機", 
+        brand: "聲寶", 
+        spec: "變頻直立式", 
+        name: "<br>聲寶ES-B17D單槽變頻洗衣機-17kg<br><span class='text-red'>(典雅白)</span><br><span class='text-blue'>40-104953-001</span><br>聲寶好禮暖星送<br><span class='text-red'>2026/11/07 ~ 2027/02/21</span><br>贈品:<br><span class='text-blue'>40-040007-001</span><br>(贈)kangol鈦鑽杯保溫瓶(W6NC1)*1", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "64公分" },
+        { label: "高", value: "102.4公分" },
+        { label: "深", value: "68.4公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "70.3公分" },
+        { label: "高", value: "109.5公分" },
+        { label: "深", value: "73.3公分" },
+        { label: "洗/烘重量", value: "" },
+        { label: "洗衣", value: "17<span style='color: #666;'>公斤</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$400</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 洗衣17kg</div>
+        <div style="margin: 0; padding: 0;">
+            ● 不鏽鋼抗菌晶鑽內槽<br>
+            ● 全平面緩降玻璃上蓋<br>
+            ● IMD覆膜操作面板<br>
+            ● 漩勁立體水流、標準槽洗淨<br>
+            ● 八段水位、兒童安全鎖<br>
+            ● 金級省水、節能標章
+        </div>
+    </div>
+`,
+        type: "gift",
+        model: "ES-B17D",
+        barcode: ["4718060323248","4711720930039","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 保溫瓶","🚚 免運$10","💰 收費$10"], 
+        img: "聲寶冰洗/B17D.jpg", 
+        giftImg: "聲寶冰洗贈品/W6NC1.jpg",
+        qrUrl: "",
+        taxUrl: "", 
+        oldUrl: "",
+        catalogUrl: "https://www.sampo-edm.com.tw/index/3", 
+        productUrl: "https://www.sampo.com.tw/pdetail.aspx?pd=1226"
+    },
+    {
+        cat: "洗衣機", 
+        brand: "聲寶", 
+        spec: "變頻直立式", 
+        name: "<br>聲寶ES-P17DPS(S1) PICO PURE變頻洗衣機-17kg<br><span class='text-red'>(台灣製)、(不銹鋼色)</span><br><span class='text-blue'>40-104971-001</span><br>聲寶好禮暖星送<br><span class='text-red'>2026/11/07 ~ 2027/02/21</span><br>贈品:<br><span class='text-blue'>40-130032-001</span><br>(贈)聲寶療癒系小夜燈(W6NC2)*1", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "64公分" },
+        { label: "高", value: "111.1公分" },
+        { label: "深", value: "72公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "69.3公分" },
+        { label: "高", value: "121公分" },
+        { label: "深", value: "75.5公分" },
+        { label: "洗/烘重量", value: "" },
+        { label: "洗衣", value: "17<span style='color: #666;'>公斤</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$400</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 洗衣17kg</div>
+        <div style="margin: 0; padding: 0;">
+            ● 不鏽鋼外箱<br>
+            ● PICO PURE+除菌、防霉、脫臭<br>
+            ● 超震波洗淨、SPA噴淋洗清<br>
+            ● 自動槽洗淨、三種槽洗淨方式<br>
+            ● AIE智慧洗淨、漩勁軸心水流<br>
+            ● 晶鑽抗菌不鏽鋼內槽、雙隱藏式棉絮過濾盒<br>
+            ● 玻璃上蓋觸控面板、便利照明燈<br>
+            ● 4-24小時預約、六段水位、兒童安全鎖
+        </div>
+    </div>
+`,
+        type: "gift",
+        model: "ES-P17DPS(S1)",
+        barcode: ["4718060324450","4711630872849","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 小夜燈","🚚 免運$10","💰 收費$10"], 
+        img: "聲寶冰洗/P17DPS.jpg", 
+        giftImg: "聲寶冰洗贈品/W6NC2.jpg",
+        qrUrl: "",
+        taxUrl: "", 
+        oldUrl: "",
+        catalogUrl: "https://www.sampo-edm.com.tw/index/3", 
+        productUrl: "https://www.sampo.com.tw/pdetail.aspx?pd=1515"
+    },
+    {
+        cat: "洗衣機", 
+        brand: "聲寶", 
+        spec: "變頻直立式", 
+        name: "<br>聲寶ES-P16DV(P1)單槽變頻洗衣機-16kg<br><span class='text-red'>(台灣製)、(典雅粉)</span><br><span class='text-blue'>40-104977-001</span><br>聲寶好禮暖星送<br><span class='text-red'>2026/11/07 ~ 2027/02/21</span><br>贈品:<br><span class='text-blue'>40-040007-001</span><br>(贈)kangol鈦鑽杯保溫瓶(W6NC1)*1", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "60.4公分" },
+        { label: "高", value: "106.4公分" },
+        { label: "深", value: "66.9公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "69.4公分" },
+        { label: "高", value: "114.5公分" },
+        { label: "深", value: "73.5公分" },
+        { label: "洗/烘重量", value: "" },
+        { label: "洗衣", value: "16<span style='color: #666;'>公斤</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$400</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 洗衣16kg</div>
+        <div style="margin: 0; padding: 0;">
+            ● 超震波洗淨、漩勁軸心水流<br>
+            ● 全平面緩降玻璃上蓋、觸控式面板<br>
+            ● 抗菌不鏽鋼內槽<br>
+            ● 隱藏式棉絮過濾網、標準槽洗淨<br>
+            ● 5種洗衣行程、六段水位<br>
+            ● 冷風風乾、4-24小時預約、兒童安全鎖<br>
+            ● 金級省水、節能標章、MIT台灣製造
+        </div>
+    </div>
+`,
+        type: "gift",
+        model: "ES-P16DV(P1)",
+        barcode: ["4718060324726","4711720930039","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 保溫瓶","🚚 免運$10","💰 收費$10"], 
+        img: "聲寶冰洗/P16DV.jpg", 
+        giftImg: "聲寶冰洗贈品/W6NC1.jpg",
+        qrUrl: "",
+        taxUrl: "", 
+        oldUrl: "",
+        catalogUrl: "https://www.sampo-edm.com.tw/index/3", 
+        productUrl: "https://www.sampo.com.tw/pdetail.aspx?pd=1629"
+    },
+    {
+        cat: "洗衣機", 
+        brand: "聲寶", 
+        spec: "變頻直立式", 
+        name: "<br>聲寶ES-P19DPS(S1) PICO PURE變頻洗衣機-19kg<br><span class='text-red'>(台灣製)、(不銹鋼色)</span><br><span class='text-blue'>40-105941-001</span><br>聲寶好禮暖星送<br><span class='text-red'>2026/11/07 ~ 2027/02/21</span><br>贈品:<br><span class='text-blue'>40-130032-001</span><br>(贈)聲寶療癒系小夜燈(W6NC2)*1", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "64公分" },
+        { label: "高", value: "111.1公分" },
+        { label: "深", value: "72公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "69.3公分" },
+        { label: "高", value: "121公分" },
+        { label: "深", value: "75.5公分" },
+        { label: "洗/烘重量", value: "" },
+        { label: "洗衣", value: "19<span style='color: #666;'>公斤</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$400</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 洗衣19kg</div>
+        <div style="margin: 0; padding: 0;">
+            ● 不鏽鋼外箱<br>
+            ● PICO PURE+除菌、防霉、脫臭<br>
+            ● 超震波洗淨、SPA噴淋洗清<br>
+            ● 自動槽洗淨、三種槽洗淨方式<br>
+            ● AIE智慧洗淨、漩勁軸心水流<br>
+            ● 晶鑽抗菌不鏽鋼內槽、雙隱藏式棉絮過濾盒<br>
+            ● 玻璃上蓋觸控面板、便利照明燈<br>
+            ● 4-24小時預約、六段水位、兒童安全鎖
+        </div>
+    </div>
+`,
+        type: "gift",
+        model: "ES-P19DPS(S1)",
+        barcode: ["4718060324559","4711630872849","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 小夜燈","🚚 免運$10","💰 收費$10"], 
+        img: "聲寶冰洗/P19DPS.jpg", 
+        giftImg: "聲寶冰洗贈品/W6NC2.jpg",
+        qrUrl: "",
+        taxUrl: "", 
+        oldUrl: "",
+        catalogUrl: "https://www.sampo-edm.com.tw/index/3", 
+        productUrl: "https://www.sampo.com.tw/pdetail.aspx?pd=1514"
+    },
+    {
+        cat: "洗衣機", 
+        brand: "聲寶", 
+        spec: "變頻直立式", 
+        name: "<br>聲寶ES-P19DAS(S1)洗劑智慧投入變頻洗衣機-19kg<br><span class='text-red'>(台灣製)、(不銹鋼色)</span><br><span class='text-blue'>40-105942-001</span><br>聲寶好禮暖星送<br><span class='text-red'>2026/11/07 ~ 2027/02/21</span><br>贈品:<br><span class='text-blue'>40-130031-001</span><br>(贈)Balzano不鏽鋼磨豆機(W6ND1)*1", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "64公分" },
+        { label: "高", value: "112公分" },
+        { label: "深", value: "72公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "69.3公分" },
+        { label: "高", value: "121公分" },
+        { label: "深", value: "75.5公分" },
+        { label: "洗/烘重量", value: "" },
+        { label: "洗衣", value: "19<span style='color: #666;'>公斤</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$400</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 洗衣19kg</div>
+        <div style="margin: 0; padding: 0;">
+            ● ADD SMART洗劑智慧投入<br>
+            ● Carefresh抑菌迴轉盤、不鏽鋼外箱<br>
+            ● 超震波洗淨、SPA噴淋洗清<br>
+            ● 自動槽洗淨、三種槽洗淨方式<br>
+            ● AIE智慧洗淨、漩勁軸心水流<br>
+            ● 全平面緩降玻璃上蓋、觸控面板<br>
+            ● 晶鑽抗菌不鏽鋼內槽、雙隱藏式棉絮過濾盒<br>
+            ● 4-24小時預約、六段水位、照明燈、兒童安全鎖
+        </div>
+    </div>
+`,
+        type: "gift",
+        model: "ES-P19DAS(S1)",
+        barcode: ["4718060324504","4711041660387","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 磨豆機","🚚 免運$10","💰 收費$10"], 
+        img: "聲寶冰洗/P19DAS.jpg", 
+        giftImg: "聲寶冰洗贈品/W6ND1.jpg",
+        qrUrl: "",
+        taxUrl: "", 
+        oldUrl: "",
+        catalogUrl: "https://www.sampo-edm.com.tw/index/3", 
+        productUrl: "https://www.sampo.com.tw/pdetail.aspx?pd=1520"
+    },
+    {
+        cat: "洗衣機", 
+        brand: "聲寶", 
+        spec: "洗脫烘滾筒", 
+        name: "<br>聲寶ES-ND12DH抑菌蒸能洗脫烘滾筒洗衣機-12kg<br><span class='text-red'>(鈦金灰)</span><br><span class='text-blue'>40-110203-001</span><br>聲寶好禮暖星送<br><span class='text-red'>2026/11/07 ~ 2027/02/21</span><br>贈品:<br><span class='text-blue'>40-130032-001</span><br>(贈)聲寶療癒系小夜燈(W6NC2)*1", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "59.5公分" },
+        { label: "高", value: "84.5公分" },
+        { label: "深", value: "66公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "67公分" },
+        { label: "高", value: "89公分" },
+        { label: "深", value: "74公分" },
+        { label: "洗/烘重量", value: "" },
+        { label: "洗衣", value: "12<span style='color: #666;'>公斤</span>" },
+        { label: "烘衣", value: "7<span style='color: #666;'>公斤</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$600</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 洗衣12kg／烘衣7kg</div>
+        <div style="margin: 0; padding: 0;">
+            ● 蒸氣除臭、抗敏、柔洗<br>
+            ● 六段水溫(常溫~60℃)、60℃高溫槽洗淨<br>
+            ● 15分鐘快洗、60分鐘快速洗+烘<br>
+            ● 智能標準／尼龍烘衣(依濕度自動調整)<br>
+            ● 行程中暫停添衣<br>
+            ● 面板15°人性化傾斜設計<br>
+            ● 1-24小時預約、16項行程、兒童安全鎖
+        </div>
+    </div>
+`,
+        type: "gift",
+        model: "ES-ND12DH",
+        barcode: ["4718060323958","4711630872849","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 小夜燈","🚚 免運$10","💰 收費$10"], 
+        img: "聲寶冰洗/ND12DH.jpg", 
+        giftImg: "聲寶冰洗贈品/W6NC2.jpg",
+        qrUrl: "",
+        taxUrl: "", 
+        oldUrl: "",
+        catalogUrl: "https://www.sampo-edm.com.tw/index/3", 
+        productUrl: "https://www.sampo.com.tw/pdetail.aspx?pd=1381"
+    },
+    {
+        cat: "洗衣機", 
+        brand: "聲寶", 
+        spec: "乾衣機", 
+        name: "<br>聲寶SD-7B乾衣機-7kg<br><span class='text-red'>(中國製)、(典雅白)</span><br><span class='text-blue'>40-122030-001</span>", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "60公分" },
+        { label: "高", value: "82公分" },
+        { label: "深", value: "54.5公分" },
+        { label: "洗/烘重量", value: "" },
+        { label: "烘衣", value: "7<span style='color: #666;'>公斤</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$250</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 乾衣7kg</div>
+        <div style="margin: 0; padding: 0;">
+            ● Re-start啟動機能(符合新安規)<br>
+            ● PTC陶瓷電熱器、強弱兩段溫度<br>
+            ● 超溫斷路、馬達過負荷保護<br>
+            ● 門安全開關、電流保險絲<br>
+            ● SUS不鏽鋼內桶<br>
+            ● 防塵防汙濾網、小物乾燥棚架
+        </div>
+    </div>
+`,
+        type: "",
+        model: "SD-7B",
+        barcode: ["4718060324559","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🚚 免運$10","💰 收費$10"], 
+        img: "聲寶冰洗/SD7B.jpg", 
+        giftImg: "",
+        qrUrl: "",
+        taxUrl: "", 
+        oldUrl: "",
+        catalogUrl: "https://www.sampo-edm.com.tw/index/3", 
+        productUrl: "https://www.sampo.com.tw/pdetail.aspx?pd=1112"
+    },
+    {
+        cat: "洗衣機", 
+        brand: "聲寶", 
+        spec: "熱泵乾衣機", 
+        name: "<br>聲寶SD-10DH熱泵除濕式乾衣機-10kg<br><span class='text-blue'>40-122058-001</span><br>聲寶好禮暖星送<br><span class='text-red'>2026/11/07 ~ 2027/02/21</span><br>贈品:<br><span class='text-blue'>40-130032-001</span><br>(贈)聲寶療癒系小夜燈(W6NC2)*1", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "59.8公分" },
+        { label: "高", value: "84.5公分" },
+        { label: "深", value: "65.2公分" },
+        { label: "洗/烘重量", value: "" },
+        { label: "烘衣", value: "10<span style='color: #666;'>公斤</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$400</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 乾衣10kg</div>
+        <div style="margin: 0; padding: 0;">
+            ● 熱泵除濕式烘乾 衣物不縮水<br>
+            ● 乾衣省電更節能、變頻馬達<br>
+            ● 平面觸控式操作面板<br>
+            ● 衣物清新、防皺、除螨功能<br>
+            ● 水箱滿水／濾網清潔自動提醒<br>
+            ● 烘乾度選擇、內桶LED照明燈<br>
+            ● 9項一般行程、6項護理行程
+        </div>
+    </div>
+`,
+        type: "gift",
+        model: "SD-10DH",
+        barcode: ["47180603713800","4711630872849","2449400006027","2449400002029"], 
+        customLabels: ["📦 商品","🎁 小夜燈","🚚 免運$10","💰 收費$10"], 
+        img: "聲寶冰洗/SD10DH.jpg", 
+        giftImg: "聲寶冰洗贈品/W6NC2.jpg",
+        qrUrl: "",
+        taxUrl: "", 
+        oldUrl: "",
+        catalogUrl: "https://www.sampo-edm.com.tw/index/3", 
+        productUrl: "https://www.sampo.com.tw/pdetail.aspx?pd=1706"
     }
 ); // 最後記得用括號封起來，並加上分號
