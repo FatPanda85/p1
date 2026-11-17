@@ -37,7 +37,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "", 
+        catalogUrl: "https://www.sampo-edm.com.tw/index/2", 
         productUrl: "https://www.sampo.com.tw/pdetail.aspx?pd=1092"
     },
     {
@@ -75,7 +75,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "", 
+        catalogUrl: "https://www.sampo-edm.com.tw/index/2", 
         productUrl: "https://www.sampo.com.tw/pdetail.aspx?pd=1093"
     },
     {
@@ -88,6 +88,10 @@ smartRawData.push(
         { label: "寬", value: "44.5公分" },
         { label: "高", value: "63公分" },
         { label: "深", value: "51公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "46.5公分" },
+        { label: "高", value: "66.5公分" },
+        { label: "深", value: "54.2公分" },
         { label: "容量規格", value: "" },
         { label: "有效容積", value: "71<span style='color: #666;'>L</span>" },
         { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$200</span>" }
@@ -113,7 +117,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "", 
+        catalogUrl: "https://www.sampo-edm.com.tw/index/2", 
         productUrl: "https://www.sampo.com.tw/pdetail.aspx?pd=1522"
     },
     {
@@ -126,6 +130,10 @@ smartRawData.push(
         { label: "寬", value: "47公分" },
         { label: "高", value: "104.5公分" },
         { label: "深", value: "49.8公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "52公分" },
+        { label: "高", value: "107.8公分" },
+        { label: "深", value: "55公分" },
         { label: "容量規格", value: "" },
         { label: "有效容積", value: "118<span style='color: #666;'>L</span>" },
         { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$250</span>" }
@@ -151,7 +159,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "", 
+        catalogUrl: "https://www.sampo-edm.com.tw/index/2", 
         productUrl: "https://www.sampo.com.tw/pdetail.aspx?pd=1493"
     },
     {
@@ -164,6 +172,10 @@ smartRawData.push(
         { label: "寬", value: "54.5公分" },
         { label: "高", value: "152.9公分" },
         { label: "深", value: "68.3公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "58公分" },
+        { label: "高", value: "158公分" },
+        { label: "深", value: "70.6公分" },
         { label: "容量規格", value: "" },
         { label: "有效容積", value: "210<span style='color: #666;'>L</span>" },
         { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$300</span>" }
@@ -190,7 +202,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "", 
+        catalogUrl: "https://www.sampo-edm.com.tw/index/2", 
         productUrl: "https://www.sampo.com.tw/pdetail.aspx?pd=1110"
     },
     {
@@ -203,6 +215,10 @@ smartRawData.push(
         { label: "寬", value: "54.5公分" },
         { label: "高", value: "167公分" },
         { label: "深", value: "56公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "57.5公分" },
+        { label: "高", value: "171.2公分" },
+        { label: "深", value: "59公分" },
         { label: "容量規格", value: "" },
         { label: "有效容積", value: "250<span style='color: #666;'>L</span>" },
         { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$300</span>" }
@@ -228,7 +244,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "", 
+        catalogUrl: "https://www.sampo-edm.com.tw/index/2", 
         productUrl: "https://www.sampo.com.tw/pdetail.aspx?pd=1540"
     },
     {
@@ -273,7 +289,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "", 
+        catalogUrl: "https://www.sampo-edm.com.tw/index/2", 
         productUrl: "https://www.sampo.com.tw/pdetail.aspx?pd=1394"
     },
     {
@@ -286,6 +302,10 @@ smartRawData.push(
         { label: "寬", value: "59.5公分" },
         { label: "高", value: "185公分" },
         { label: "深", value: "66公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "66.4公分" },
+        { label: "高", value: "189公分" },
+        { label: "深", value: "73公分" },
         { label: "容量規格", value: "" },
         { label: "有效容積", value: "350<span style='color: #666;'>L</span>" },
         { label: "冷凍室", value: "128<span style='color: #666;'>L</span>" },
@@ -313,7 +333,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "", 
+        catalogUrl: "https://www.sampo-edm.com.tw/index/2", 
         productUrl: "https://www.sampo.com.tw/pdetail.aspx?pd=1602"
     },
     {
@@ -358,7 +378,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "", 
+        catalogUrl: "https://www.sampo-edm.com.tw/index/2", 
         productUrl: "https://www.sampo.com.tw/pdetail.aspx?pd=1124"
     },
     {
@@ -404,7 +424,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "", 
+        catalogUrl: "https://www.sampo-edm.com.tw/index/2", 
         productUrl: "https://www.sampo.com.tw/pdetail.aspx?pd=1241"
     },
     {
@@ -449,7 +469,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "", 
+        catalogUrl: "https://www.sampo-edm.com.tw/index/2", 
         productUrl: "https://www.sampo.com.tw/pdetail.aspx?pd=1801"
     },
     {
@@ -462,6 +482,10 @@ smartRawData.push(
         { label: "寬", value: "75.4公分" },
         { label: "高", value: "185.5公分" },
         { label: "深", value: "76.8公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "82.4公分" },
+        { label: "高", value: "190公分" },
+        { label: "深", value: "85.6公分" },
         { label: "容量規格", value: "" },
         { label: "有效容積", value: "610<span style='color: #666;'>L</span>" },
         { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$900</span>" }
@@ -487,7 +511,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "", 
+        catalogUrl: "https://www.sampo-edm.com.tw/index/2", 
         productUrl: "https://www.sampo.com.tw/pdetail.aspx?pd=1624"
     },
     {
@@ -533,7 +557,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "", 
+        catalogUrl: "https://www.sampo-edm.com.tw/index/2", 
         productUrl: "https://www.sampo.com.tw/pdetail.aspx?pd=1125"
     },
     {
@@ -579,7 +603,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "", 
+        catalogUrl: "https://www.sampo-edm.com.tw/index/2", 
         productUrl: "https://www.sampo.com.tw/pdetail.aspx?pd=888"
     },
     {
@@ -592,6 +616,10 @@ smartRawData.push(
         { label: "寬", value: "75.4公分" },
         { label: "高", value: "185.5公分" },
         { label: "深", value: "76.8公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "82.4公分" },
+        { label: "高", value: "190公分" },
+        { label: "深", value: "85.6公分" },
         { label: "容量規格", value: "" },
         { label: "有效容積", value: "605<span style='color: #666;'>L</span>" },
         { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$900</span>" }
@@ -617,7 +645,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "", 
+        catalogUrl: "https://www.sampo-edm.com.tw/index/2", 
         productUrl: "https://www.sampo.com.tw/pdetail.aspx?pd=1623"
     },
     {
@@ -630,6 +658,10 @@ smartRawData.push(
         { label: "寬", value: "75.3公分" },
         { label: "高", value: "191公分" },
         { label: "深", value: "60公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "82公分" },
+        { label: "高", value: "202.5公分" },
+        { label: "深", value: "67.2公分" },
         { label: "容量規格", value: "" },
         { label: "有效容積", value: "457<span style='color: #666;'>L</span>" },
         { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$1200</span>" }
@@ -656,7 +688,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "https://www.etax.nat.gov.tw/etwmain/etw210w/cases/services/OLFCDT01/0", 
         oldUrl: "https://save3000.moeaea.gov.tw/subsidy02/index/index.aspx",
-        catalogUrl: "", 
+        catalogUrl: "https://www.sampo-edm.com.tw/index/2", 
         productUrl: "https://www.sampo.com.tw/pdetail.aspx?pd=1784"
     },
     {
@@ -669,6 +701,10 @@ smartRawData.push(
         { label: "寬", value: "60公分" },
         { label: "高", value: "185公分" },
         { label: "深", value: "71公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "64公分" },
+        { label: "高", value: "193.1公分" },
+        { label: "深", value: "69公分" },
         { label: "容量規格", value: "" },
         { label: "有效容積", value: "285<span style='color: #666;'>L</span>" },
         { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$300</span>" }
@@ -694,7 +730,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
-        catalogUrl: "", 
+        catalogUrl: "https://www.sampo-edm.com.tw/index/2", 
         productUrl: "https://www.sampo.com.tw/pdetail.aspx?pd=1374"
     },
     {
@@ -707,6 +743,10 @@ smartRawData.push(
         { label: "寬", value: "71.7公分" },
         { label: "高", value: "157公分" },
         { label: "深", value: "77公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "75公分" },
+        { label: "高", value: "163.5公分" },
+        { label: "深", value: "75.6公分" },
         { label: "容量規格", value: "" },
         { label: "有效容積", value: "325<span style='color: #666;'>L</span>" },
         { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$450</span>" }
@@ -732,7 +772,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
-        catalogUrl: "", 
+        catalogUrl: "https://www.sampo-edm.com.tw/index/2", 
         productUrl: "https://www.sampo.com.tw/pdetail.aspx?pd=1375"
     },
     {
@@ -745,6 +785,10 @@ smartRawData.push(
         { label: "寬", value: "54.4公分" },
         { label: "高", value: "145公分" },
         { label: "深", value: "64.1公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "58公分" },
+        { label: "高", value: "149公分" },
+        { label: "深", value: "63公分" },
         { label: "容量規格", value: "" },
         { label: "有效容積", value: "170<span style='color: #666;'>L</span>" },
         { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$250</span>" }
@@ -770,7 +814,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
-        catalogUrl: "", 
+        catalogUrl: "https://www.sampo-edm.com.tw/index/2", 
         productUrl: "https://www.sampo.com.tw/pdetail.aspx?pd=1477"
     },
     {
@@ -783,6 +827,10 @@ smartRawData.push(
         { label: "寬", value: "54.4公分" },
         { label: "高", value: "170公分" },
         { label: "深", value: "64.1公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "58公分" },
+        { label: "高", value: "175公分" },
+        { label: "深", value: "63公分" },
         { label: "容量規格", value: "" },
         { label: "有效容積", value: "216<span style='color: #666;'>L</span>" },
         { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$300</span>" }
@@ -808,7 +856,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
-        catalogUrl: "", 
+        catalogUrl: "https://www.sampo-edm.com.tw/index/2", 
         productUrl: "https://www.sampo.com.tw/pdetail.aspx?pd=1634"
     },
     {
@@ -821,6 +869,10 @@ smartRawData.push(
         { label: "寬", value: "63.2公分" },
         { label: "高", value: "85公分" },
         { label: "深", value: "59.3公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "65.5公分" },
+        { label: "高", value: "87公分" },
+        { label: "深", value: "57.8公分" },
         { label: "容量規格", value: "" },
         { label: "有效容積", value: "150<span style='color: #666;'>L</span>" },
         { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$250</span>" }
@@ -846,7 +898,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
-        catalogUrl: "", 
+        catalogUrl: "https://www.sampo-edm.com.tw/index/2", 
         productUrl: "https://www.sampo.com.tw/pdetail.aspx?pd=1376"
     },
     {
@@ -859,6 +911,10 @@ smartRawData.push(
         { label: "寬", value: "81.6公分" },
         { label: "高", value: "85公分" },
         { label: "深", value: "59.3公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "85.3公分" },
+        { label: "高", value: "87公分" },
+        { label: "深", value: "57.8公分" },
         { label: "容量規格", value: "" },
         { label: "有效容積", value: "200<span style='color: #666;'>L</span>" },
         { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$250</span>" }
@@ -884,7 +940,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
-        catalogUrl: "", 
+        catalogUrl: "https://www.sampo-edm.com.tw/index/2", 
         productUrl: "https://www.sampo.com.tw/pdetail.aspx?pd=1378"
     },
     {
@@ -897,6 +953,10 @@ smartRawData.push(
         { label: "寬", value: "109公分" },
         { label: "高", value: "85公分" },
         { label: "深", value: "70公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "113公分" },
+        { label: "高", value: "88.6公分" },
+        { label: "深", value: "64公分" },
         { label: "容量規格", value: "" },
         { label: "有效容積", value: "300<span style='color: #666;'>L</span>" },
         { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$450</span>" }
@@ -922,7 +982,7 @@ smartRawData.push(
         qrUrl: "",
         taxUrl: "", 
         oldUrl: "",
-        catalogUrl: "", 
+        catalogUrl: "https://www.sampo-edm.com.tw/index/2", 
         productUrl: "https://www.sampo.com.tw/pdetail.aspx?pd=1644"
     }
 ); // 最後記得用括號封起來，並加上分號
