@@ -1479,7 +1479,7 @@ smartRawData.push(
         { label: "深", value: "75.5公分" },
         { label: "洗/烘重量", value: "" },
         { label: "洗衣", value: "19<span style='color: #666;'>公斤</span>" },
-        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$400</span>" }
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$500</span>" }
         ],
        desc: `
         <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
@@ -1524,7 +1524,7 @@ smartRawData.push(
         { label: "深", value: "75.5公分" },
         { label: "洗/烘重量", value: "" },
         { label: "洗衣", value: "19<span style='color: #666;'>公斤</span>" },
-        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$400</span>" }
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$500</span>" }
         ],
        desc: `
         <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
@@ -1653,7 +1653,7 @@ smartRawData.push(
         { label: "深", value: "73公分" },
         { label: "洗/烘重量", value: "" },
         { label: "烘衣", value: "10<span style='color: #666;'>公斤</span>" },
-        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$400</span>" }
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$250</span>" }
         ],
        desc: `
         <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
