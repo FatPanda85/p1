@@ -1466,6 +1466,40 @@ smartRawData.push(
         productUrl: "https://www.lg.com/tw/washer-dryers/dryers/wr-20dw/"
     },
     {
+        cat: "洗衣機", 
+        brand: "LG", 
+        spec: "乾衣機", 
+        name: "<br>LG WR-10XW熱泵除濕免曬衣乾衣機-10kg<br><span class='text-red'>(雲朵白)</span><br><span class='text-blue'>40-122060-001</span>", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "60公分" },
+        { label: "高", value: "85公分" },
+        { label: "深", value: "66公分" },
+        { label: "開門後深", value: "114公分" },
+        { label: "洗/烘重量", value: "" },
+        { label: "烘衣", value: "10kg" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$500</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">● 更智慧: AI Dry™ 智慧乾衣 聰明偵測最佳行程</div>
+        <div style="color: red; margin: 0;">● 更快速: TurboDry™ 勁速乾衣 最快81分鐘完成</div>
+        <div style="margin: 0; padding: 0;">
+            ● DUAL Inverter 雙迴轉變頻壓縮機熱泵除濕 (壓縮機/馬達10年保固)<br>● LCD智慧液晶旋鈕+觸控面板 | 13種預設行程、3-19小時預約<br>● Allergy Care 過敏防護 | 雙層極細密濾網 | 自動清潔冷凝器<br>● 110V隨插即用 免接瓦斯、排風管 | 不鏽鋼筒槽、強化玻璃門<br>● 內建WIFI: LG ThinQ™ 智慧行程配對
+        </div>
+    </div>
+`,
+        type: "",
+        model: "LG WR-10XW熱泵除濕免曬衣乾衣機-10kg",
+        barcode: ["8806096809501", "2449401006026", "2449401002028"], 
+        customLabels: ["📦 商品", "🚚 免運$10", "💰 收費$10"], 
+        img: "LG冰洗/WR-10XW.jpg", 
+        giftImg: "",
+        qrUrl: "",
+        catalogUrl: "https://drive.google.com/file/d/1NnTkwB7w8tBW3--8wmB5vJAMTjwPmSws/view?usp=drive_link", 
+        productUrl: "https://www.lg.com/tw/washer-dryers/dryers/wr-10xw/"
+    },
+    {
         cat: "電子衣櫥", 
         brand: "LG", 
         spec: "蒸氣電子衣櫥", 
