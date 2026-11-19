@@ -4469,7 +4469,7 @@ smartRawData.push(
         cat: "冰箱", 
         brand: "國際", 
         spec: "日製六門", 
-        name: "<br>NR-F601XT日製變頻六門冰箱601L-瓷釉灰<span class='text-red'>(鋼板)</span><span class='text-blue'><br>40-013994-002</span><span class='text-red'><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040001-001</span><br>(贈)SP-2701可微波不鏽鋼保鮮盒四入組*1<br>登錄送$2000元節能回饋金<br><span class='text-red'>※登陸最晚時間:2027.03.31前</span>", 
+        name: "<br>NR-F601XT日製變頻六門冰箱601L-瓷釉灰<span class='text-red'>(鋼板)</span><span class='text-blue'><br>40-013994-002</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040001-001</span><br>(贈)SP-2701可微波不鏽鋼保鮮盒四入組*1<br>登錄送$2000元節能回饋金<br><span class='text-red'>※登陸最晚時間:2027.03.31前</span>", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "68.5公分" },

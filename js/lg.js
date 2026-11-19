@@ -367,6 +367,7 @@ smartRawData.push(
         <div style="color: red; margin: 0;">● 變頻壓縮機精準溫控，延長7天保鮮</div>
         <div style="margin: 0; padding: 0;">
             ● 四方吹冷流+，邊門冷流零死角，維持雞蛋牛奶新鮮<br>● 鮮淨過濾系統，INTERTEK認證殺菌99.9%，有效去味除菌 | 0度低溫保鮮室，快速料理免解凍<br>● 可拆式移動旋轉製冰盒，空間靈活運用
+        </div>
     </div>
 `,
         type: "",
@@ -408,6 +409,7 @@ smartRawData.push(
         <div style="color: red; margin: 0;">● 變頻壓縮機，更安靜更省電，享10年保固</div>
         <div style="margin: 0; padding: 0;">
             ● 四方吹冷流+，邊門冷流零死角，維持雞蛋牛奶新鮮<br>● 0度低溫保鮮室，快速料理免解凍<br>● 鮮淨過濾系統，INTERTEK認證殺菌99.9%，有效去味除菌 | 多重冷流更均冷，維持食材新鮮
+        </div>
     </div>
 `,
         type: "",
@@ -449,6 +451,7 @@ smartRawData.push(
         <div style="color: red; margin: 0;">● DoorCooling+™四方吹冷流⁺™，邊門冷流零死角，維持雞蛋牛奶新鮮</div>
         <div style="margin: 0; padding: 0;">
             ● FRESHConverter™隨選變溫保鮮室，食材保鮮最佳化<br>● 自動製冰器，24HR取用冰塊
+        </div>
     </div>
 `,
         type: "",
@@ -490,6 +493,7 @@ smartRawData.push(
         <div style="color: red; margin: 0;">● DoorCooling+™四方吹冷流⁺™，邊門冷流零死角，維持雞蛋牛奶新鮮</div>
         <div style="margin: 0; padding: 0;">
             ● FRESHConverter™隨選變溫保鮮室，食材保鮮最佳化<br>● 自動製冰器，24HR取用冰塊
+        </div>
     </div>
 `,
         type: "",
@@ -531,6 +535,7 @@ smartRawData.push(
         <div style="color: red; margin: 0;">● 全球首創冰球製冰器，減緩融化速度延長飲品風味</div>
         <div style="margin: 0; padding: 0;">
             ● 四方吹冷流+，邊門冷流零死角，維持雞蛋牛奶新鮮<br>● Uvnano 安心飲用<br>● Smart鮮淨過濾系統 去味除菌
+        </div>
     </div>
 `,
         type: "",
@@ -569,6 +574,7 @@ smartRawData.push(
         <div style="color: red; margin: 0;">● 便利的儲物空間 洗衣空間更寬敞</div>
         <div style="margin: 0; padding: 0;">
             ● 符合人體工學 操作更容易<br>● 原廠配件 穩固更安心
+        </div>
     </div>
 `,
         type: "",
