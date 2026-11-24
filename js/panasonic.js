@@ -4986,6 +4986,500 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "變頻直立式", 
+        name: "<br>Panasonic NA-V150TM-DC變頻直立式洗衣機-15kg<span class='text-red'>(台灣製)、(霧灰藍)</span><br><span class='text-blue'>40-103012-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1<br>贈品:<br><span class='text-blue'>40-110176-001</span><br>(贈)南僑水晶洗劑SP-NA02*1", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "60公分" },
+        { label: "高", value: "108.5公分" },
+        { label: "深", value: "68.1公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "68.5公分" },
+        { label: "高", value: "118.5公分" },
+        { label: "深", value: "80.5公分" },
+        { label: "洗/烘重量", value: "" },
+        { label: "洗衣", value: "15<span style='color: #666;'>公斤</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$400</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">洗衣/脫水15kg</div>
+        <div style="margin: 0; padding: 0;">
+            ● 洗劑量自動精準投入，溫水泡洗淨<br>● 雙渦輪強淨水流，立體極淨不鏽鋼鋼槽<br>● nanoAg抗菌銀離子，雙效自動槽洗淨<br>● 抗汙疏水材質，雙絲屑過濾系統<br>● ECONAVI智慧護衣科技，IoT智慧家電
+        </div>
+    </div>
+`,
+        type: "gift",
+        model: "NA-V150TM-DC",
+        barcode: ["4717523354270", "6940284010118", "4710060009153", "2449401006026", "2449401002028"], 
+        customLabels: ["📦 商品", "🎁 雙耳瀝水套裝", "🎁 南僑水晶洗劑", "🚚 免運$10", "💰 收費$10"], 
+        img: "國際冰箱/V150TM-H.jpg", 
+        giftImg: "國際冰洗贈品/SP-2705NA02.jpg",
+        qrUrl: "",
+        taxUrl: "", 
+        oldUrl: "",
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/WM/WM.html", 
+        productUrl: "https://www.panasonic.com/tw/consumer/washing-machine/vertical-washing-machine/inverter/na-v150tms.html"
+    },
+    {
+        cat: "洗衣機", 
+        brand: "國際", 
+        spec: "變頻直立式", 
+        name: "<br>Panasonic NA-V150TM-LW變頻直立式洗衣機-15kg<span class='text-red'>(台灣製)、(暖霧米)</span><br><span class='text-blue'>40-103012-002</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1<br>贈品:<br><span class='text-blue'>40-110176-001</span><br>(贈)南僑水晶洗劑SP-NA02*1", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "60公分" },
+        { label: "高", value: "108.5公分" },
+        { label: "深", value: "68.1公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "68.5公分" },
+        { label: "高", value: "118.5公分" },
+        { label: "深", value: "80.5公分" },
+        { label: "洗/烘重量", value: "" },
+        { label: "洗衣", value: "15<span style='color: #666;'>公斤</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$400</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">洗衣/脫水15kg</div>
+        <div style="margin: 0; padding: 0;">
+            ● 洗劑量自動精準投入，溫水泡洗淨<br>● 雙渦輪強淨水流，立體極淨不鏽鋼鋼槽<br>● nanoAg抗菌銀離子，雙效自動槽洗淨<br>● 抗汙疏水材質，雙絲屑過濾系統<br>● ECONAVI智慧護衣科技，IoT智慧家電
+        </div>
+    </div>
+`,
+        type: "gift",
+        model: "NA-V150TM-LW",
+        barcode: ["4717523354287", "6940284010118", "4710060009153", "2449401006026", "2449401002028"], 
+        customLabels: ["📦 商品", "🎁 雙耳瀝水套裝", "🎁 南僑水晶洗劑", "🚚 免運$10", "💰 收費$10"], 
+        img: "國際冰箱/V150TM-C.jpg", 
+        giftImg: "國際冰洗贈品/SP-2705NA02.jpg",
+        qrUrl: "",
+        taxUrl: "", 
+        oldUrl: "",
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/WM/WM.html", 
+        productUrl: "https://www.panasonic.com/tw/consumer/washing-machine/vertical-washing-machine/inverter/na-v150tms.html"
+    },
+    {
+        cat: "洗衣機", 
+        brand: "國際", 
+        spec: "變頻直立式", 
+        name: "<br>Panasonic NA-V150TMS變頻直立式洗衣機-15kg<span class='text-red'>(台灣製)、(不鏽鋼)</span><br><span class='text-blue'>40-103011-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1<br>贈品:<br><span class='text-blue'>40-110176-001</span><br>(贈)南僑水晶洗劑SP-NA02*1", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "60公分" },
+        { label: "高", value: "108.5公分" },
+        { label: "深", value: "68.1公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "68.5公分" },
+        { label: "高", value: "118.5公分" },
+        { label: "深", value: "80.5公分" },
+        { label: "洗/烘重量", value: "" },
+        { label: "洗衣", value: "15<span style='color: #666;'>公斤</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$400</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">洗衣/脫水15kg</div>
+        <div style="margin: 0; padding: 0;">
+            ● 洗劑量自動精準投入，溫水泡洗淨<br>● 雙渦輪強淨水流，立體極淨不鏽鋼鋼槽<br>● nanoAg抗菌銀離子，雙效自動槽洗淨<br>● 抗汙疏水材質，雙絲屑過濾系統<br>● ECONAVI智慧護衣科技，IoT智慧家電
+        </div>
+    </div>
+`,
+        type: "gift",
+        model: "NA-V150TMS",
+        barcode: ["4717523354263", "6940284010118", "4710060009153", "2449401006026", "2449401002028"], 
+        customLabels: ["📦 商品", "🎁 雙耳瀝水套裝", "🎁 南僑水晶洗劑", "🚚 免運$10", "💰 收費$10"], 
+        img: "國際冰箱/V150TMS.jpg", 
+        giftImg: "國際冰洗贈品/SP-2705NA02.jpg",
+        qrUrl: "",
+        taxUrl: "", 
+        oldUrl: "",
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/WM/WM.html", 
+        productUrl: "https://www.panasonic.com/tw/consumer/washing-machine/vertical-washing-machine/inverter/na-v150tms.html"
+    },
+    {
+        cat: "洗衣機", 
+        brand: "國際", 
+        spec: "變頻直立式", 
+        name: "<br>Panasonic NA-V150TTS變頻直立式洗衣機-15kg<span class='text-red'>(台灣製)、(不鏽鋼)</span><br><span class='text-blue'>40-103013-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "60公分" },
+        { label: "高", value: "108.5公分" },
+        { label: "深", value: "68.1公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "68.5公分" },
+        { label: "高", value: "118.5公分" },
+        { label: "深", value: "80.5公分" },
+        { label: "洗/烘重量", value: "" },
+        { label: "洗衣", value: "15<span style='color: #666;'>公斤</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$400</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">洗衣/脫水15kg</div>
+        <div style="margin: 0; padding: 0;">
+            ● 雙渦輪強淨水流，泡洗淨<br>● 立體極淨不鏽鋼鋼槽<br>● nanoAg抗菌銀離子，雙效自動槽洗淨<br>● 雙絲屑過濾系統，筒槽夜視燈<br>● ECONAVI智慧護衣科技
+        </div>
+    </div>
+`,
+        type: "gift",
+        model: "NA-V150TTS",
+        barcode: ["4717523354324", "6940284010118", "2449401006026", "2449401002028"], 
+        customLabels: ["📦 商品", "🎁 雙耳瀝水套裝", "🚚 免運$10", "💰 收費$10"], 
+        img: "國際冰箱/V150TTS.jpg", 
+        giftImg: "國際冰洗贈品/SP-2705.jpg",
+        qrUrl: "",
+        taxUrl: "", 
+        oldUrl: "",
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/WM/WM.html", 
+        productUrl: "https://www.panasonic.com/tw/consumer/washing-machine/vertical-washing-machine/inverter/na-v150tts.html"
+    },
+    {
+        cat: "洗衣機", 
+        brand: "國際", 
+        spec: "變頻直立式", 
+        name: "<br>Panasonic NA-V190TMS變頻直立式洗衣機-19kg<span class='text-red'>(台灣製)、(不鏽鋼)</span><br><span class='text-blue'>40-105966-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1<br>贈品:<br><span class='text-blue'>40-110176-001</span><br>(贈)南僑水晶洗劑SP-NA02*1", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "64公分" },
+        { label: "高", value: "107.5公分" },
+        { label: "深", value: "71公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "72.5公分" },
+        { label: "高", value: "116公分" },
+        { label: "深", value: "83.9公分" },
+        { label: "洗/烘重量", value: "" },
+        { label: "洗衣", value: "19<span style='color: #666;'>公斤</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$500</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">洗衣/脫水19kg</div>
+        <div style="margin: 0; padding: 0;">
+            ● 洗劑量自動精準投入，溫水泡洗淨<br>● 雙渦輪強淨水流，鑽石不鏽鋼鋼槽<br>● nanoAg抗菌銀離子，雙效自動槽洗淨<br>● 抗汙疏水材質，雙絲屑過濾系統<br>● 一鍵喚醒觸控面板，超大投入口<br>● ECONAVI智慧護衣科技，IoT智慧家電
+        </div>
+    </div>
+`,
+        type: "gift",
+        model: "NA-V190TMS",
+        barcode: ["4717523354201", "6940284010118", "4710060009153", "2449401006026", "2449401002028"], 
+        customLabels: ["📦 商品", "🎁 雙耳瀝水套裝", "🎁 南僑水晶洗劑", "🚚 免運$10", "💰 收費$10"], 
+        img: "國際冰箱/V190TMS.jpg", 
+        giftImg: "國際冰洗贈品/SP-2705NA02.jpg",
+        qrUrl: "",
+        taxUrl: "", 
+        oldUrl: "",
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/WM/WM.html", 
+        productUrl: "https://www.panasonic.com/tw/consumer/washing-machine/vertical-washing-machine/inverter/na-v190tms.html"
+    },
+    {
+        cat: "洗衣機", 
+        brand: "國際", 
+        spec: "變頻直立式", 
+        name: "<br>Panasonic NA-V190TM-DC變頻直立式洗衣機-19kg<span class='text-red'>(台灣製)、(霧灰藍)</span><br><span class='text-blue'>40-105967-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1<br>贈品:<br><span class='text-blue'>40-110176-001</span><br>(贈)南僑水晶洗劑SP-NA02*1", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "64公分" },
+        { label: "高", value: "107.5公分" },
+        { label: "深", value: "71公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "72.5公分" },
+        { label: "高", value: "116公分" },
+        { label: "深", value: "83.9公分" },
+        { label: "洗/烘重量", value: "" },
+        { label: "洗衣", value: "19<span style='color: #666;'>公斤</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$500</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">洗衣/脫水19kg</div>
+        <div style="margin: 0; padding: 0;">
+            ● 洗劑量自動精準投入，溫水泡洗淨<br>● 雙渦輪強淨水流，鑽石不鏽鋼鋼槽<br>● nanoAg抗菌銀離子，雙效自動槽洗淨<br>● 抗汙疏水材質，雙絲屑過濾系統<br>● 一鍵喚醒觸控面板，超大投入口<br>● ECONAVI智慧護衣科技，IoT智慧家電
+        </div>
+    </div>
+`,
+        type: "gift",
+        model: "NA-V190TM-DC",
+        barcode: ["4717523354218", "6940284010118", "4710060009153", "2449401006026", "2449401002028"], 
+        customLabels: ["📦 商品", "🎁 雙耳瀝水套裝", "🎁 南僑水晶洗劑", "🚚 免運$10", "💰 收費$10"], 
+        img: "國際冰箱/V190TM-H.jpg", 
+        giftImg: "國際冰洗贈品/SP-2705NA02.jpg",
+        qrUrl: "",
+        taxUrl: "", 
+        oldUrl: "",
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/WM/WM.html", 
+        productUrl: "https://www.panasonic.com/tw/consumer/washing-machine/vertical-washing-machine/inverter/na-v190tms.html"
+    },
+    {
+        cat: "洗衣機", 
+        brand: "國際", 
+        spec: "變頻直立式", 
+        name: "<br>Panasonic NA-V190TM-LW變頻直立式洗衣機-19kg<span class='text-red'>(台灣製)、(暖霧米)</span><br><span class='text-blue'>40-105967-002</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1<br>贈品:<br><span class='text-blue'>40-110176-001</span><br>(贈)南僑水晶洗劑SP-NA02*1", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "64公分" },
+        { label: "高", value: "107.5公分" },
+        { label: "深", value: "71公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "72.5公分" },
+        { label: "高", value: "116公分" },
+        { label: "深", value: "83.9公分" },
+        { label: "洗/烘重量", value: "" },
+        { label: "洗衣", value: "19<span style='color: #666;'>公斤</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$500</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">洗衣/脫水19kg</div>
+        <div style="margin: 0; padding: 0;">
+            ● 洗劑量自動精準投入，溫水泡洗淨<br>● 雙渦輪強淨水流，鑽石不鏽鋼鋼槽<br>● nanoAg抗菌銀離子，雙效自動槽洗淨<br>● 抗汙疏水材質，雙絲屑過濾系統<br>● 一鍵喚醒觸控面板，超大投入口<br>● ECONAVI智慧護衣科技，IoT智慧家電
+        </div>
+    </div>
+`,
+        type: "gift",
+        model: "NA-V190TM-LW",
+        barcode: ["4717523354225", "6940284010118", "4710060009153", "2449401006026", "2449401002028"], 
+        customLabels: ["📦 商品", "🎁 雙耳瀝水套裝", "🎁 南僑水晶洗劑", "🚚 免運$10", "💰 收費$10"], 
+        img: "國際冰箱/V190TM-C.jpg", 
+        giftImg: "國際冰洗贈品/SP-2705NA02.jpg",
+        qrUrl: "",
+        taxUrl: "", 
+        oldUrl: "",
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/WM/WM.html", 
+        productUrl: "https://www.panasonic.com/tw/consumer/washing-machine/vertical-washing-machine/inverter/na-v190tms.html"
+    },
+    {
+        cat: "洗衣機", 
+        brand: "國際", 
+        spec: "變頻直立式", 
+        name: "<br>Panasonic NA-V200TMS變頻直立式洗衣機-20kg<span class='text-red'>(台灣製)、(不鏽鋼)</span><br><span class='text-blue'>40-105963-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1<br>贈品:<br><span class='text-blue'>40-110176-001</span><br>(贈)南僑水晶洗劑SP-NA02*1", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "64公分" },
+        { label: "高", value: "107.5公分" },
+        { label: "深", value: "71公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "72.5公分" },
+        { label: "高", value: "116公分" },
+        { label: "深", value: "83.9公分" },
+        { label: "洗/烘重量", value: "" },
+        { label: "洗衣", value: "20<span style='color: #666;'>公斤</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$500</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">洗衣/脫水20kg</div>
+        <div style="margin: 0; padding: 0;">
+            ● 洗劑量自動精準投入，溫水泡洗淨<br>● 雙渦輪強淨水流，鑽石不鏽鋼鋼槽<br>● nanoAg抗菌銀離子，雙效自動槽洗淨<br>● 抗汙疏水材質，雙絲屑過濾系統<br>● 一鍵喚醒觸控面板，超大投入口<br>● ECONAVI智慧護衣科技，IoT智慧家電
+        </div>
+    </div>
+`,
+        type: "gift",
+        model: "NA-V200TMS",
+        barcode: ["4717523354171", "6940284010118", "4710060009153", "2449401006026", "2449401002028"], 
+        customLabels: ["📦 商品", "🎁 雙耳瀝水套裝", "🎁 南僑水晶洗劑", "🚚 免運$10", "💰 收費$10"], 
+        img: "國際冰箱/V200TMS.jpg", 
+        giftImg: "國際冰洗贈品/SP-2705NA02.jpg",
+        qrUrl: "",
+        taxUrl: "", 
+        oldUrl: "",
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/WM/WM.html", 
+        productUrl: "https://www.panasonic.com/tw/consumer/washing-machine/vertical-washing-machine/inverter/na-v200tms.html"
+    },
+    {
+        cat: "洗衣機", 
+        brand: "國際", 
+        spec: "變頻直立式", 
+        name: "<br>Panasonic NA-V200TM-DC變頻直立式洗衣機-20kg<span class='text-red'>(台灣製)、(霧灰藍)</span><br><span class='text-blue'>40-105964-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1<br>贈品:<br><span class='text-blue'>40-110176-001</span><br>(贈)南僑水晶洗劑SP-NA02*1", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "64公分" },
+        { label: "高", value: "107.5公分" },
+        { label: "深", value: "71公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "72.5公分" },
+        { label: "高", value: "116公分" },
+        { label: "深", value: "83.9公分" },
+        { label: "洗/烘重量", value: "" },
+        { label: "洗衣", value: "20<span style='color: #666;'>公斤</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$500</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">洗衣/脫水20kg</div>
+        <div style="margin: 0; padding: 0;">
+            ● 洗劑量自動精準投入，溫水泡洗淨<br>● 雙渦輪強淨水流，鑽石不鏽鋼鋼槽<br>● nanoAg抗菌銀離子，雙效自動槽洗淨<br>● 抗汙疏水材質，雙絲屑過濾系統<br>● 一鍵喚醒觸控面板，超大投入口<br>● ECONAVI智慧護衣科技，IoT智慧家電
+        </div>
+    </div>
+`,
+        type: "gift",
+        model: "NA-V200TM-DC",
+        barcode: ["4717523354188", "6940284010118", "4710060009153", "2449401006026", "2449401002028"], 
+        customLabels: ["📦 商品", "🎁 雙耳瀝水套裝", "🎁 南僑水晶洗劑", "🚚 免運$10", "💰 收費$10"], 
+        img: "國際冰箱/V200TM-H.jpg", 
+        giftImg: "國際冰洗贈品/SP-2705NA02.jpg",
+        qrUrl: "",
+        taxUrl: "", 
+        oldUrl: "",
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/WM/WM.html", 
+        productUrl: "https://www.panasonic.com/tw/consumer/washing-machine/vertical-washing-machine/inverter/na-v200tms.html"
+    },
+    {
+        cat: "洗衣機", 
+        brand: "國際", 
+        spec: "變頻直立式", 
+        name: "<br>Panasonic NA-V200TM-LW變頻直立式洗衣機-20kg<span class='text-red'>(台灣製)、(暖霧米)</span><br><span class='text-blue'>40-105964-002</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1<br>贈品:<br><span class='text-blue'>40-110176-001</span><br>(贈)南僑水晶洗劑SP-NA02*1", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "64公分" },
+        { label: "高", value: "107.5公分" },
+        { label: "深", value: "71公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "72.5公分" },
+        { label: "高", value: "116公分" },
+        { label: "深", value: "83.9公分" },
+        { label: "洗/烘重量", value: "" },
+        { label: "洗衣", value: "20<span style='color: #666;'>公斤</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$500</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">洗衣/脫水20kg</div>
+        <div style="margin: 0; padding: 0;">
+            ● 洗劑量自動精準投入，溫水泡洗淨<br>● 雙渦輪強淨水流，鑽石不鏽鋼鋼槽<br>● nanoAg抗菌銀離子，雙效自動槽洗淨<br>● 抗汙疏水材質，雙絲屑過濾系統<br>● 一鍵喚醒觸控面板，超大投入口<br>● ECONAVI智慧護衣科技，IoT智慧家電
+        </div>
+    </div>
+`,
+        type: "gift",
+        model: "NA-V200TM-LW",
+        barcode: ["4717523354195", "6940284010118", "4710060009153", "2449401006026", "2449401002028"], 
+        customLabels: ["📦 商品", "🎁 雙耳瀝水套裝", "🎁 南僑水晶洗劑", "🚚 免運$10", "💰 收費$10"], 
+        img: "國際冰箱/V200TM-C.jpg", 
+        giftImg: "國際冰洗贈品/SP-2705NA02.jpg",
+        qrUrl: "",
+        taxUrl: "", 
+        oldUrl: "",
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/WM/WM.html", 
+        productUrl: "https://www.panasonic.com/tw/consumer/washing-machine/vertical-washing-machine/inverter/na-v200tms.html"
+    },
+    {
+        cat: "洗衣機", 
+        brand: "國際", 
+        spec: "變頻直立式", 
+        name: "<br>Panasonic NA-V220TMS變頻直立式洗衣機-22kg<span class='text-red'>(不鏽鋼)</span><br><span class='text-blue'>40-105965-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1<br>贈品:<br><span class='text-blue'>40-110176-001</span><br>(贈)南僑水晶洗劑SP-NA02*1", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "67.9公分" },
+        { label: "高", value: "108.1公分" },
+        { label: "深", value: "75.2公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "78公分" },
+        { label: "高", value: "117.5公分" },
+        { label: "深", value: "88.5公分" },
+        { label: "洗/烘重量", value: "" },
+        { label: "洗衣", value: "22<span style='color: #666;'>公斤</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$500</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">洗衣/脫水22kg</div>
+        <div style="margin: 0; padding: 0;">
+            ● 洗劑量自動精準投入，溫水泡洗淨<br>● 雙渦輪強淨水流，鑽石不鏽鋼鋼槽<br>● nanoAg抗菌銀離子，雙效自動槽洗淨<br>● 抗汙疏水材質，雙絲屑過濾系統<br>● 一鍵喚醒觸控面板，超大投入口<br>● ECONAVI智慧護衣科技，IoT智慧家電
+        </div>
+    </div>
+`,
+        type: "gift",
+        model: "NA-V220TMS",
+        barcode: ["4717523354164", "6940284010118", "4710060009153", "2449401006026", "2449401002028"], 
+        customLabels: ["📦 商品", "🎁 雙耳瀝水套裝", "🎁 南僑水晶洗劑", "🚚 免運$10", "💰 收費$10"], 
+        img: "國際冰箱/V220TMS.jpg", 
+        giftImg: "國際冰洗贈品/SP-2705NA02.jpg",
+        qrUrl: "",
+        taxUrl: "", 
+        oldUrl: "",
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/WM/WM.html", 
+        productUrl: "https://www.panasonic.com/tw/consumer/washing-machine/vertical-washing-machine/inverter/na-v220tms.html"
+    },
+    {
+        cat: "洗衣機", 
+        brand: "國際", 
+        spec: "定頻直立式", 
+        name: "<br>Panasonic NA-130TU定頻直立式洗衣機-13kg<span class='text-red'>(霧灰藍)</span><br><span class='text-blue'>40-103009-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040009-001</span><br>(贈)SP-2706廚房剪/小餐叉*1", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "60公分" },
+        { label: "高", value: "107.8公分" },
+        { label: "深", value: "65公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "68.5公分" },
+        { label: "高", value: "118.5公分" },
+        { label: "深", value: "80.5公分" },
+        { label: "洗/烘重量", value: "" },
+        { label: "洗衣", value: "13<span style='color: #666;'>公斤</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$400</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">洗衣/脫水13kg</div>
+        <div style="margin: 0; padding: 0;">
+            ● 雙渦輪強淨水流，泡洗淨<br>● 新舞動洗淨水流，立體極淨不鏽鋼鋼槽<br>● 槽洗淨，雙絲屑過濾系統<br>● 強化玻璃大視窗，上蓋緩降設計<br>● 預約洗衣，金級省水標章
+        </div>
+    </div>
+`,
+        type: "gift",
+        model: "NA-130TU",
+        barcode: ["4717523354362", "4712755795952", "2449401006026", "2449401002028"], 
+        customLabels: ["📦 商品", "🎁 廚房剪", "🚚 免運$10", "💰 收費$10"], 
+        img: "國際冰箱/NA-130TU.jpg", 
+        giftImg: "國際冰洗贈品/SP-2706.jpg",
+        qrUrl: "",
+        taxUrl: "", 
+        oldUrl: "",
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/WM/WM.html", 
+        productUrl: "https://www.panasonic.com/tw/consumer/washing-machine/vertical-washing-machine/fixed-frequency/na-130tu.html"
+    },
+    {
+        cat: "洗衣機", 
+        brand: "國際", 
+        spec: "定頻直立式", 
+        name: "<br>Panasonic NA-150TU定頻直立式洗衣機-15kg<span class='text-red'>(霧灰藍)</span><br><span class='text-blue'>40-103010-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040009-001</span><br>(贈)SP-2706廚房剪/小餐叉*1", 
+       specs: [
+        { label: "機器尺寸", value: "" },
+        { label: "寬", value: "60公分" },
+        { label: "高", value: "107.8公分" },
+        { label: "深", value: "65公分" },
+        { label: "包裝箱尺寸", value: "" },
+        { label: "寬", value: "68.5公分" },
+        { label: "高", value: "118.5公分" },
+        { label: "深", value: "80.5公分" },
+        { label: "洗/烘重量", value: "" },
+        { label: "洗衣", value: "15<span style='color: #666;'>公斤</span>" },
+        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$400</span>" }
+        ],
+       desc: `
+        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
+        <div style="margin: 0; font-weight: bold;">洗衣/脫水15kg</div>
+        <div style="margin: 0; padding: 0;">
+            ● 雙渦輪強淨水流，泡洗淨<br>● 新舞動洗淨水流，立體極淨不鏽鋼鋼槽<br>● 槽洗淨，雙絲屑過濾系統<br>● 強化玻璃大視窗，上蓋緩降設計<br>● 預約洗衣，金級省水標章
+        </div>
+    </div>
+`,
+        type: "gift",
+        model: "NA-150TU",
+        barcode: ["4717523354355", "4712755795952", "2449401006026", "2449401002028"], 
+        customLabels: ["📦 商品", "🎁 廚房剪", "🚚 免運$10", "💰 收費$10"], 
+        img: "國際冰箱/NA-150TU.jpg", 
+        giftImg: "國際冰洗贈品/SP-2706.jpg",
+        qrUrl: "",
+        taxUrl: "", 
+        oldUrl: "",
+        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/WM/WM.html", 
+        productUrl: "https://www.panasonic.com/tw/consumer/washing-machine/vertical-washing-machine/fixed-frequency/na-150tu.html"
+    },
+    {
+        cat: "洗衣機", 
+        brand: "國際", 
+        spec: "變頻直立式", 
         name: "<br>NA-V110LBS-S變頻直立式洗衣機11KG<span class='text-red'>(不鏽鋼)</span><br><span class='text-blue'>40-102028-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1", 
        specs: [
         { label: "機器尺寸", value: "" },
