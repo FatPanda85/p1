@@ -4796,7 +4796,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "變頻直立式", 
-        name: "<br>Panasonic NA-V170TM變頻直立式洗衣機-17kg<span class='text-red'>(台灣製)、(霧灰藍)</span><br><span class='text-blue'>40-104992-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1<br>贈品:<br><span class='text-blue'>40-110176-001</span><br>(贈)南僑水晶洗劑SP-NA02*1", 
+        name: "<br>Panasonic NA-V170TM-DC變頻直立式洗衣機-17kg<span class='text-red'>(台灣製)、(霧灰藍)</span><br><span class='text-blue'>40-104992-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1<br>贈品:<br><span class='text-blue'>40-110176-001</span><br>(贈)南僑水晶洗劑SP-NA02*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "60公分" },
@@ -4819,7 +4819,7 @@ smartRawData.push(
     </div>
 `,
         type: "gift",
-        model: "NA-V170TM",
+        model: "NA-V170TM-DC",
         barcode: ["4717523354249", "6940284010118", "4710060009153", "2449401006026", "2449401002028"], 
         customLabels: ["📦 商品", "🎁 雙耳瀝水套裝", "🎁 南僑水晶洗劑", "🚚 免運$10", "💰 收費$10"], 
         img: "國際冰箱/V170TM-H.jpg", 
@@ -4834,7 +4834,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "變頻直立式", 
-        name: "<br>Panasonic NA-V170TM變頻直立式洗衣機-17kg<span class='text-red'>(台灣製)、(暖霧米)</span><br><span class='text-blue'>40-104992-002</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1<br>贈品:<br><span class='text-blue'>40-110176-001</span><br>(贈)南僑水晶洗劑SP-NA02*1", 
+        name: "<br>Panasonic NA-V170TM-LW變頻直立式洗衣機-17kg<span class='text-red'>(台灣製)、(暖霧米)</span><br><span class='text-blue'>40-104992-002</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1<br>贈品:<br><span class='text-blue'>40-110176-001</span><br>(贈)南僑水晶洗劑SP-NA02*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "60公分" },
@@ -4857,7 +4857,7 @@ smartRawData.push(
     </div>
 `,
         type: "gift",
-        model: "NA-V170TM",
+        model: "NA-V170TM-LW",
         barcode: ["4717523354256", "6940284010118", "4710060009153", "2449401006026", "2449401002028"], 
         customLabels: ["📦 商品", "🎁 雙耳瀝水套裝", "🎁 南僑水晶洗劑", "🚚 免運$10", "💰 收費$10"], 
         img: "國際冰箱/V170TM-C.jpg", 
@@ -4910,7 +4910,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "變頻直立式", 
-        name: "<br>Panasonic NA-V170TT變頻直立式洗衣機-17kg<span class='text-red'>(台灣製)、(霧灰藍)</span><br><span class='text-blue'>40-104993-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1", 
+        name: "<br>Panasonic NA-V170TT-DC變頻直立式洗衣機-17kg<span class='text-red'>(台灣製)、(霧灰藍)</span><br><span class='text-blue'>40-104993-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "60公分" },
@@ -4933,7 +4933,7 @@ smartRawData.push(
     </div>
 `,
         type: "gift",
-        model: "NA-V170TT",
+        model: "NA-V170TT-DC",
         barcode: ["4717523354300", "6940284010118", "2449401006026", "2449401002028"], 
         customLabels: ["📦 商品", "🎁 雙耳瀝水套裝", "🚚 免運$10", "💰 收費$10"], 
         img: "國際冰箱/V170TT-H.jpg", 
@@ -4948,7 +4948,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "變頻直立式", 
-        name: "<br>Panasonic NA-V170TT變頻直立式洗衣機-17kg<span class='text-red'>(台灣製)、(暖霧米)</span><br><span class='text-blue'>40-104993-002</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1", 
+        name: "<br>Panasonic NA-V170TT-LW變頻直立式洗衣機-17kg<span class='text-red'>(台灣製)、(暖霧米)</span><br><span class='text-blue'>40-104993-002</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "60公分" },
@@ -4971,7 +4971,7 @@ smartRawData.push(
     </div>
 `,
         type: "gift",
-        model: "NA-V170TT",
+        model: "NA-V170TT-LW",
         barcode: ["4717523354317", "6940284010118", "2449401006026", "2449401002028"], 
         customLabels: ["📦 商品", "🎁 雙耳瀝水套裝", "🚚 免運$10", "💰 收費$10"], 
         img: "國際冰箱/V170TT-C.jpg", 
