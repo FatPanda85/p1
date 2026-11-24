@@ -39,7 +39,7 @@ smartRawData.push(
 `,
         type: "gift",
         model: "NR-FZ175AV-S冷凍櫃",
-        barcode: ["4717523710687","4713968220170","2449400006027","2449400002029"], 
+        barcode: ["4717523710687","4712755795952","2449400006027","2449400002029"], 
         customLabels: ["📦 商品","🎁 不沾刀具","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/FZ175.jpg", 
         giftImg: "國際冰洗贈品/SP-2707.jpg",
@@ -86,7 +86,7 @@ smartRawData.push(
 `,
         type: "gift",
         model: "NR-FZ255AV-S冷凍櫃",
-        barcode: ["4717523710700","4713968220170","2449400006027","2449400002029"], 
+        barcode: ["4717523710700","4712755795952","2449400006027","2449400002029"], 
         customLabels: ["📦 商品","🎁 不沾刀具","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/FZ255.jpg", 
         giftImg: "國際冰洗贈品/SP-2707.jpg",
@@ -133,7 +133,7 @@ smartRawData.push(
 `,
         type: "gift",
         model: "NR-FZ383AV-S冷凍櫃",
-        barcode: ["4717523306200","4713968220170","2449400006027","2449400002029"], 
+        barcode: ["4717523306200","4712755795952","2449400006027","2449400002029"], 
         customLabels: ["📦 商品","🎁 不沾刀具","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/FZ383.jpg", 
         giftImg: "國際冰洗贈品/SP-2707.jpg",
@@ -5366,7 +5366,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "變頻直立式", 
-        name: "<br>Panasonic NA-V220TMS變頻直立式洗衣機-22kg<span class='text-red'>(不鏽鋼)</span><br><span class='text-blue'>40-105965-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1<br>贈品:<br><span class='text-blue'>40-110176-001</span><br>(贈)南僑水晶洗劑SP-NA02*1", 
+        name: "<br>Panasonic NA-V220TMS變頻直立式洗衣機-22kg<span class='text-red'>(台灣製)、(不鏽鋼)</span><br><span class='text-blue'>40-105965-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1<br>贈品:<br><span class='text-blue'>40-110176-001</span><br>(贈)南僑水晶洗劑SP-NA02*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "67.9公分" },
@@ -5404,7 +5404,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "定頻直立式", 
-        name: "<br>Panasonic NA-130TU定頻直立式洗衣機-13kg<span class='text-red'>(霧灰藍)</span><br><span class='text-blue'>40-103009-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040009-001</span><br>(贈)SP-2706廚房剪/小餐叉*1", 
+        name: "<br>Panasonic NA-130TU定頻直立式洗衣機-13kg<span class='text-red'>(台灣製)、(霧灰藍)</span><br><span class='text-blue'>40-103009-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040009-001</span><br>(贈)SP-2706廚房剪/小餐叉*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "60公分" },
@@ -5442,7 +5442,7 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "定頻直立式", 
-        name: "<br>Panasonic NA-150TU定頻直立式洗衣機-15kg<span class='text-red'>(霧灰藍)</span><br><span class='text-blue'>40-103010-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040009-001</span><br>(贈)SP-2706廚房剪/小餐叉*1", 
+        name: "<br>Panasonic NA-150TU定頻直立式洗衣機-15kg<span class='text-red'>(台灣製)、(霧灰藍)</span><br><span class='text-blue'>40-103010-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-040009-001</span><br>(贈)SP-2706廚房剪/小餐叉*1", 
        specs: [
         { label: "機器尺寸", value: "" },
         { label: "寬", value: "60公分" },
@@ -5906,7 +5906,7 @@ smartRawData.push(
 `, 
         type: "",
         model: "NR-VS100HP乾衣機",
-        barcode: ["6924898158763","4713968220170","2449401006026","2449401002028"], 
+        barcode: ["6924898158763","4712755795952","2449401006026","2449401002028"], 
         customLabels: ["📦 商品","🎁 不沾刀具","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/VS100H.jpg", 
         giftImg: "國際冰洗贈品/SP-2707.jpg",
@@ -5944,7 +5944,7 @@ smartRawData.push(
 `, 
         type: "",
         model: "NH-70G-L乾衣機",
-        barcode: ["4717523360400","4713968220170","2449401006026","2449401002028"], 
+        barcode: ["4717523360400","4712755795952","2449401006026","2449401002028"], 
         customLabels: ["📦 商品","🎁 不沾刀具","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/NH70G.jpg", 
         giftImg: "國際冰洗贈品/SP-2707.jpg",
@@ -5982,7 +5982,7 @@ smartRawData.push(
 `, 
         type: "",
         model: "NH-80RZ-W乾衣機",
-        barcode: ["4717523360431","4713968220170","2449401006026","2449401002028"], 
+        barcode: ["4717523360431","4712755795952","2449401006026","2449401002028"], 
         customLabels: ["📦 商品","🎁 不沾刀具","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
         img: "國際冰箱/NH80RZ.jpg", 
         giftImg: "國際冰洗贈品/SP-2707.jpg",
