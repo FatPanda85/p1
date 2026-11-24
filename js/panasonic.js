@@ -5186,46 +5186,6 @@ smartRawData.push(
         cat: "洗衣機", 
         brand: "國際", 
         spec: "變頻直立式", 
-        name: "<br>NA-V170MT-PN變頻直立式洗衣機17KG<span class='text-red'>(玫瑰金)</span><br><span class='text-blue'>40-104959-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1", 
-       specs: [
-        { label: "機器尺寸", value: "" },
-        { label: "寬", value: "64公分" },
-        { label: "高", value: "107.5公分" },
-        { label: "深", value: "71公分" },
-        { label: "包裝箱尺寸", value: "" },
-        { label: "寬", value: "72.5公分" },
-        { label: "高", value: "116公分" },
-        { label: "深", value: "83.9公分" },
-        { label: "洗/烘重量", value: "" },
-        { label: "洗衣", value: "17<span style='color: #666;'>公斤</span>" },
-        { label: "運費資訊", value: "<span style='color: red; font-weight: bold;'>$400</span>" }
-        ],
-       desc: `
-        <div style="color: #666; font-size: 0.9rem; line-height: 1.2; padding: 5px; margin: 0;">
-        <div style="margin: 0; font-weight: bold;">洗衣/脫水17kg</div>
-        <div style="margin: 0; padding: 0;">
-           ● nanoAg抗菌銀離子<br>● 雙渦輪強淨水流<br>
-           ● ECONAVI智慧節能科技<br>●雙效自動槽洗淨<br>● 泡洗淨
-           
-        </div>
-    </div>
-`, 
-        type: "",
-        model: "NR-V170MT",
-        barcode: ["4717523353686","6940284010118","2449401006026","2449401002028"], 
-        customLabels: ["📦 商品","🎁 雙耳瀝水套裝","🚚 免運$10", "💰 收費$10"], // <--- 在這裡定義
-        img: "國際冰箱/V170MT.jpg", 
-        giftImg: "國際冰洗贈品/SP-2705.jpg",
-        qrUrl: "",
-        taxUrl: "", 
-        oldUrl: "",
-        catalogUrl: "https://pstw.panasonic.com.tw/catalog/files/1_consumer/WM/WM.html", 
-        productUrl: "https://www.panasonic.com/tw/consumer/washing-machine/vertical-washing-machine/inverter/na-v170mt-na-v170mts.html"
-    },
-    {
-        cat: "洗衣機", 
-        brand: "國際", 
-        spec: "變頻直立式", 
         name: "<br>NA-V170NM-S變頻直立式洗衣機17KG<span class='text-red'>(不鏽鋼)</span><br><span class='text-blue'>40-104970-001</span><br>感恩有禮賞活動<br><span class='text-red'>2026/10/10 ~ 2027/02/26</span><br>贈品:<br><span class='text-blue'>40-130029-001</span><br>(贈)SP-2705雙耳瀝水套裝二入組*1<br>贈品:<br><span class='text-blue'>40-110176-001</span><br>(贈)南僑水晶洗劑SP-NA02*1", 
        specs: [
         { label: "機器尺寸", value: "" },
