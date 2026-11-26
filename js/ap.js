@@ -696,9 +696,9 @@ function initCompareUI() {
     const css = document.createElement("style");
     css.textContent = `
         .gift-card { position: relative; }
-        .fold-card { background:#fff; border-radius:16px; box-shadow:0 4px 12px rgba(0,0,0,.08); overflow:hidden; }
+        .fold-card { background:#fff; border-radius:16px; border:1px solid #cfe0fb; box-shadow:0 4px 12px rgba(0,0,0,.08); overflow:hidden; }
         .fold-card > .gift-card { box-shadow:none; margin:0; border-radius:0; border-top:1px solid #eee; }
-        .fold-head { display:flex; align-items:center; gap:10px; padding:12px 14px; cursor:pointer; list-style:none; user-select:none; -webkit-user-select:none; }
+        .fold-head { display:flex; align-items:center; gap:10px; padding:12px 14px; background:#e8f1ff; cursor:pointer; list-style:none; user-select:none; -webkit-user-select:none; }
         .fold-head::-webkit-details-marker { display:none; }
         .fold-head::marker { content:""; }
         .fold-thumb { width:44px; height:44px; object-fit:contain; border-radius:8px; border:1px solid #eee; background:#fff; flex-shrink:0; }
@@ -706,7 +706,7 @@ function initCompareUI() {
         .fold-tag { display:block; font-size:.78rem; color:var(--model-blue); font-weight:600; }
         .fold-arrow { flex-shrink:0; color:#888; font-size:.85rem; transition:transform .2s; }
         .fold-card[open] .fold-arrow { transform:rotate(180deg); }
-        .fold-card[open] > .fold-head { background:#f5f8ff; }
+        .fold-card[open] > .fold-head { background:#d6e6ff; }
         .fold-tools { display:flex; align-items:center; gap:8px; flex-wrap:wrap; font-size:.85rem; color:#666; }
         .fold-tools span { flex:1; }
         .fold-tools button { padding:6px 12px; border:1px solid #b3d7ff; background:#eef4ff; color:#0056b3; border-radius:8px; font-weight:600; cursor:pointer; }
