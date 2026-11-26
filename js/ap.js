@@ -378,6 +378,21 @@ function buildLinkButtons(g) {
     return html;
 }
 
+// 收合卡片的標題文字：商品用名稱第一行（含顏色），常用條碼 / 活動用前兩行
+function foldTitle(g) {
+    const lines = plainText(g.name).split("\n").map(s => s.trim()).filter(Boolean);
+    if (!lines.length) return g.model || "";
+    const isProduct = Array.isArray(g.specs) && g.specs.length > 0;
+    if (!isProduct) return lines.slice(0, 2).join(" ");
+    const color = compareColor(g);   // 名稱第一行沒顏色時補上，同款不同色才分得出來
+    return color && !lines[0].includes(color) ? `${lines[0]} (${color})` : lines[0];
+}
+// 全部展開 / 全部收合（只動同一個結果區塊裡的卡片）
+function foldAll(btn, open) {
+    const box = btn.closest(".fold-tools").parentElement;
+    box.querySelectorAll(":scope > details.fold-card").forEach(d => d.open = open);
+}
+
 // 主函式：把符合的資料畫成卡片，放進指定容器
 //   matches   ：符合條件的資料陣列
 //   container ：要放卡片的元素（不傳則用第一頁的 giftContainer）
@@ -390,13 +405,32 @@ function renderGiftCards(matches, container) {
         return;
     }
 
+    // 多筆時先收合，只顯示標題列；點標題列可展開 / 收合（只有 1 筆就直接展開）
+    const startOpen = matches.length === 1;
     let html = "";
+    if (matches.length > 1) {
+        html += `
+        <div class="fold-tools">
+            <span>共 ${matches.length} 筆，點標題可展開</span>
+            <button type="button" onclick="foldAll(this, true)">全部展開</button>
+            <button type="button" onclick="foldAll(this, false)">全部收合</button>
+        </div>`;
+    }
     matches.forEach(g => {
         const name = highlightPrice(g.name);
         const desc = highlightPrice(g.desc);
         const imgStyle = 'width:60%; border:1px solid #eee; border-radius:8px; padding:5px;';
 
         html += `
+        <details class="fold-card"${startOpen ? " open" : ""}>
+            <summary class="fold-head">
+                ${g.img ? `<img src="${g.img}" class="fold-thumb" onerror="this.style.display='none'">` : ""}
+                <span class="fold-title">
+                    <span class="fold-tag">[${g.brand}-${g.cat}]</span>
+                    ${escHtml(foldTitle(g))}
+                </span>
+                <span class="fold-arrow">▼</span>
+            </summary>
         <div class="gift-card">
             ${buildCompareBox(g)}
             <div class="product-images" style="display:flex; flex-direction:column; gap:10px; align-items:center;">
@@ -413,7 +447,8 @@ function renderGiftCards(matches, container) {
                     ${buildLinkButtons(g)}
                 </div>
             </div>
-        </div>`;
+        </div>
+        </details>`;
     });
 
     target.innerHTML = html;   // 一次寫入，比逐筆 += 更快
@@ -661,6 +696,20 @@ function initCompareUI() {
     const css = document.createElement("style");
     css.textContent = `
         .gift-card { position: relative; }
+        .fold-card { background:#fff; border-radius:16px; box-shadow:0 4px 12px rgba(0,0,0,.08); overflow:hidden; }
+        .fold-card > .gift-card { box-shadow:none; margin:0; border-radius:0; border-top:1px solid #eee; }
+        .fold-head { display:flex; align-items:center; gap:10px; padding:12px 14px; cursor:pointer; list-style:none; user-select:none; -webkit-user-select:none; }
+        .fold-head::-webkit-details-marker { display:none; }
+        .fold-head::marker { content:""; }
+        .fold-thumb { width:44px; height:44px; object-fit:contain; border-radius:8px; border:1px solid #eee; background:#fff; flex-shrink:0; }
+        .fold-title { flex:1; min-width:0; font-weight:700; font-size:.98rem; color:#1d1d1f; line-height:1.35; }
+        .fold-tag { display:block; font-size:.78rem; color:var(--model-blue); font-weight:600; }
+        .fold-arrow { flex-shrink:0; color:#888; font-size:.85rem; transition:transform .2s; }
+        .fold-card[open] .fold-arrow { transform:rotate(180deg); }
+        .fold-card[open] > .fold-head { background:#f5f8ff; }
+        .fold-tools { display:flex; align-items:center; gap:8px; flex-wrap:wrap; font-size:.85rem; color:#666; }
+        .fold-tools span { flex:1; }
+        .fold-tools button { padding:6px 12px; border:1px solid #b3d7ff; background:#eef4ff; color:#0056b3; border-radius:8px; font-weight:600; cursor:pointer; }
         .gift-info h4 { padding-right: 84px; }
         .cmp-box { position:absolute; top:10px; right:12px; display:flex; align-items:center; gap:4px; padding:4px 8px; background:#eef4ff; border:1px solid #b3d7ff; border-radius:8px; font-size:.8rem; font-weight:600; color:#0056b3; cursor:pointer; }
         .cmp-box input { width:18px; height:18px; margin:0; }
