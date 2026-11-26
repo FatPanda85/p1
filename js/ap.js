@@ -1026,6 +1026,7 @@ function renderCart() {
                 <div class="cart-detail">
                     <div class="cart-name">${highlightPrice(g.name)}</div>
                     ${g.desc ? `<div class="cart-desc">${highlightPrice(g.desc)}</div>` : ""}
+                    ${buildSpecsHtml(g.specs)}
                     <div class="action-btns">${buildLinkButtons(g)}</div>
                 </div>
             </details>
