@@ -959,6 +959,7 @@ const buyRegistry = {};   // key → 資料
 let buySelected = [];     // 勾選順序
 let buyOff = {};          // 「key|條碼序號」→ true 代表這張條碼不掃（例如免運/收費二選一）
 let seqList = [], seqIdx = 0;
+const cartOpen = {};   // 購買清單裡哪幾項是展開的（重畫時保持）
 
 function buyKey(g) { return ("B_" + (g.cat || "") + (g.brand || "") + "_" + compareKey(g)).replace(/[^\w一-龥-]/g, "_"); }
 function buildBuyBox(g) {
@@ -1010,12 +1011,24 @@ function renderCart() {
                 <label><input type="checkbox" ${on ? "checked" : ""} onchange="toggleBuyCode('${id}')"> ${getBarcodeLabel(g, i)}</label>
                 <button onclick="zoomBarcode('${code}')">條碼</button></span>`;
         });
-        html += `<div class="cart-item">
-            <div class="cart-item-head">
-                ${g.img ? `<img src="${g.img}" onerror="this.style.display='none'">` : ""}
-                <b>${n + 1}. ${escHtml(buyTitle(g))}</b>
-                <button class="cmp-remove" onclick="removeBuy('${key}')">移除</button>
-            </div>
+        // 標題列（淡藍色）點一下展開：看活動 / 註冊說明，並可按活動、退稅等 QR 給客人掃
+        html += `<div class="cart-item fold-card">
+            <details ${cartOpen[key] ? "open" : ""} ontoggle="cartOpen['${key}'] = this.open">
+                <summary class="fold-head">
+                    ${g.img ? `<img src="${g.img}" class="fold-thumb" onerror="this.style.display='none'">` : ""}
+                    <span class="fold-title">
+                        <span class="fold-tag">${n + 1}. [${g.brand}-${g.cat}]</span>
+                        ${escHtml(foldTitle(g))}
+                    </span>
+                    <button class="cmp-remove" onclick="event.preventDefault(); removeBuy('${key}')">移除</button>
+                    <span class="fold-arrow">▼</span>
+                </summary>
+                <div class="cart-detail">
+                    <div class="cart-name">${highlightPrice(g.name)}</div>
+                    ${g.desc ? `<div class="cart-desc">${highlightPrice(g.desc)}</div>` : ""}
+                    <div class="action-btns">${buildLinkButtons(g)}</div>
+                </div>
+            </details>
             <div class="cart-codes">${chips}</div>
         </div>`;
     });
@@ -1061,12 +1074,18 @@ function showSeq() {
 function initCartUI() {
     const css = document.createElement("style");
     css.textContent = `
-        #barcodeModal { z-index:2100; }
+        #barcodeModal, #qrCodeOverlay { z-index:2100; }
         #cartBtn { display:none; position:fixed; right:14px; bottom:18px; z-index:950; align-items:center; gap:6px; padding:12px 16px; border:none; border-radius:30px; background:#ff8a00; color:#fff; font-weight:bold; font-size:1rem; box-shadow:0 4px 14px rgba(0,0,0,.25); cursor:pointer; }
         #cartCount { background:#fff; color:#ff8a00; border-radius:12px; padding:0 8px; }
         .cart-panel { background:#fff; width:96%; max-width:600px; max-height:92vh; border-radius:16px; display:flex; flex-direction:column; overflow:hidden; }
         #cartBody { overflow:auto; padding:10px 12px; }
-        .cart-item { border:1px solid #eee; border-radius:12px; padding:10px; margin-bottom:10px; }
+        .cart-item { margin-bottom:10px; }
+        .cart-item details[open] .fold-arrow { transform:rotate(180deg); }
+        .cart-item details[open] > .fold-head { background:#d6e6ff; }
+        .cart-detail { padding:10px 12px; border-top:1px solid #e3ecfb; font-size:.9rem; line-height:1.5; }
+        .cart-detail .action-btns:empty { display:none; }
+        .cart-desc { margin-top:6px; color:#333; }
+        .cart-codes { padding:8px 10px 10px; margin-top:0 !important; }
         .cart-item-head { display:flex; align-items:center; gap:8px; }
         .cart-item-head img { width:40px; height:40px; object-fit:contain; border:1px solid #eee; border-radius:6px; flex-shrink:0; }
         .cart-item-head b { flex:1; font-size:.9rem; line-height:1.35; }
