@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     initCategoryDropdown();   // 第一頁分類
     initSmartCats();          // 第二頁分類
     initCompareUI();          // 比較功能（底部比較列與視窗）
+    initCartUI();             // 購買清單（勾選多樣商品，一次依序掃條碼）
 });
 
 // 切換分頁：隱藏全部內容 → 取消所有按鈕高亮 → 顯示目標頁並高亮按下的按鈕
@@ -432,7 +433,7 @@ function renderGiftCards(matches, container) {
                 <span class="fold-arrow">▼</span>
             </summary>
         <div class="gift-card">
-            ${buildCompareBox(g)}
+            <div class="card-checks">${buildBuyBox(g)}${buildCompareBox(g)}</div>
             <div class="product-images" style="display:flex; flex-direction:column; gap:10px; align-items:center;">
                 ${g.img ? `<img src="${g.img}" class="gift-img" onclick="zoomImg('${g.img}')" onerror="this.src='https://via.placeholder.com/90?text=無圖片'">` : ""}
                 ${g.giftImg ? `<img src="${g.giftImg}" class="gift-img" style="${imgStyle}" onclick="zoomImg('${g.giftImg}')">` : ""}
@@ -453,6 +454,7 @@ function renderGiftCards(matches, container) {
 
     target.innerHTML = html;   // 一次寫入，比逐筆 += 更快
     syncCompareBoxes();        // 讓已勾選的商品在重新搜尋後仍保持勾選
+    syncBuyBoxes();
 }
 
 
@@ -585,6 +587,7 @@ function updateCompareBar() {
     document.getElementById("cmpGo").disabled = n < 2;
     document.getElementById("cmpGo").innerText = n < 2 ? "再選 1 款即可比較" : "開始比較";
     bar.style.display = n > 0 ? "flex" : "none";
+    if (typeof updateCartBtn === "function") updateCartBtn();
     document.body.style.paddingBottom = n > 0 ? "70px" : "";   // 避免底部列蓋住最後一張卡片
 }
 // 從比較表移除單一款
@@ -711,7 +714,10 @@ function initCompareUI() {
         .fold-tools span { flex:1; }
         .fold-tools button { padding:6px 12px; border:1px solid #b3d7ff; background:#eef4ff; color:#0056b3; border-radius:8px; font-weight:600; cursor:pointer; }
         .gift-info h4 { padding-right: 84px; }
-        .cmp-box { position:absolute; top:10px; right:12px; display:flex; align-items:center; gap:4px; padding:4px 8px; background:#eef4ff; border:1px solid #b3d7ff; border-radius:8px; font-size:.8rem; font-weight:600; color:#0056b3; cursor:pointer; }
+        .card-checks { position:absolute; top:10px; right:12px; display:flex; flex-direction:column; gap:6px; align-items:stretch; z-index:1; }
+        .buy-box { display:flex; align-items:center; gap:4px; padding:4px 8px; background:#fff4e5; border:1px solid #ffc680; border-radius:8px; font-size:.8rem; font-weight:600; color:#b35c00; cursor:pointer; }
+        .buy-box input { width:18px; height:18px; margin:0; }
+        .cmp-box { display:flex; align-items:center; gap:4px; padding:4px 8px; background:#eef4ff; border:1px solid #b3d7ff; border-radius:8px; font-size:.8rem; font-weight:600; color:#0056b3; cursor:pointer; }
         .cmp-box input { width:18px; height:18px; margin:0; }
         #cmpBar { display:none; position:fixed; left:0; right:0; bottom:0; z-index:900; gap:8px; align-items:center; justify-content:center; padding:10px 12px; background:#fff; border-top:1px solid #ddd; box-shadow:0 -2px 10px rgba(0,0,0,.08); }
         #cmpBar button { padding:10px 14px; border:none; border-radius:10px; font-weight:bold; cursor:pointer; }
@@ -942,4 +948,174 @@ function initLightbox() {
         else if (e.key === "+" || e.key === "=") lbZoomBy(1.4);
         else if (e.key === "-") lbZoomBy(1 / 1.4);
     }, true);
+}
+
+
+// ==========================================================================
+// 🛒 購買清單：客人一次買多樣商品 / 服務時，勾選後集中顯示所有條碼，
+//    可「依序掃描」一張張顯示，不用在頁面間跳來跳去
+// ==========================================================================
+const buyRegistry = {};   // key → 資料
+let buySelected = [];     // 勾選順序
+let buyOff = {};          // 「key|條碼序號」→ true 代表這張條碼不掃（例如免運/收費二選一）
+let seqList = [], seqIdx = 0;
+
+function buyKey(g) { return ("B_" + (g.cat || "") + (g.brand || "") + "_" + compareKey(g)).replace(/[^\w一-龥-]/g, "_"); }
+function buildBuyBox(g) {
+    if (!Array.isArray(g.barcode) || !g.barcode.some(Boolean)) return "";
+    const key = buyKey(g);
+    buyRegistry[key] = g;
+    return `<label class="buy-box"><input type="checkbox" data-buykey="${key}" onchange="toggleBuy(this)"> 🛒 購買</label>`;
+}
+function syncBuyBoxes() {
+    document.querySelectorAll("input[data-buykey]").forEach(el => { el.checked = buySelected.includes(el.dataset.buykey); });
+}
+function toggleBuy(el) {
+    const key = el.dataset.buykey;
+    if (el.checked) {
+        if (!buySelected.includes(key)) {
+            buySelected.push(key);
+            // 運費條碼（免運 / 收費）預設不勾，避免兩個都掃到；要用哪個再自己點
+            const g = buyRegistry[key];
+            g.barcode.forEach((c, i) => { if (/運|收費/.test(getBarcodeLabel(g, i))) buyOff[key + "|" + i] = true; });
+        }
+    } else {
+        buySelected = buySelected.filter(k => k !== key);
+    }
+    syncBuyBoxes();
+    updateCartBtn();
+}
+function updateCartBtn() {
+    const btn = document.getElementById("cartBtn");
+    if (!btn) return;
+    document.getElementById("cartCount").innerText = buySelected.length;
+    btn.style.display = buySelected.length ? "flex" : "none";
+    const cmpShown = document.getElementById("cmpBar") && document.getElementById("cmpBar").style.display === "flex";
+    btn.style.bottom = cmpShown ? "80px" : "18px";
+}
+function buyTitle(g) { return `[${g.brand}-${g.cat}] ${foldTitle(g)}`; }
+function openCart() { renderCart(); document.getElementById("cartModal").style.display = "flex"; }
+function removeBuy(key) { buySelected = buySelected.filter(k => k !== key); syncBuyBoxes(); updateCartBtn(); buySelected.length ? renderCart() : closeModal("cartModal"); }
+function clearBuy() { buySelected = []; buyOff = {}; syncBuyBoxes(); updateCartBtn(); closeModal("cartModal"); }
+function toggleBuyCode(id) { buyOff[id] = !buyOff[id]; renderCart(); }
+function renderCart() {
+    let html = "";
+    buySelected.forEach((key, n) => {
+        const g = buyRegistry[key]; if (!g) return;
+        let chips = "";
+        g.barcode.forEach((code, i) => {
+            if (!code) return;
+            const id = key + "|" + i, on = !buyOff[id];
+            chips += `<span class="cart-code ${on ? "on" : ""}">
+                <label><input type="checkbox" ${on ? "checked" : ""} onchange="toggleBuyCode('${id}')"> ${getBarcodeLabel(g, i)}</label>
+                <button onclick="zoomBarcode('${code}')">條碼</button></span>`;
+        });
+        html += `<div class="cart-item">
+            <div class="cart-item-head">
+                ${g.img ? `<img src="${g.img}" onerror="this.style.display='none'">` : ""}
+                <b>${n + 1}. ${escHtml(buyTitle(g))}</b>
+                <button class="cmp-remove" onclick="removeBuy('${key}')">移除</button>
+            </div>
+            <div class="cart-codes">${chips}</div>
+        </div>`;
+    });
+    const total = buildSeqList().length;
+    document.getElementById("cartBody").innerHTML = html;
+    document.getElementById("cartSeqBtn").innerText = `▶ 依序掃描（${total} 張條碼）`;
+    document.getElementById("cartSeqBtn").disabled = total === 0;
+}
+function buildSeqList() {
+    const list = [];
+    buySelected.forEach(key => {
+        const g = buyRegistry[key]; if (!g) return;
+        g.barcode.forEach((code, i) => {
+            if (code && !buyOff[key + "|" + i]) list.push({ code, label: getBarcodeLabel(g, i), title: buyTitle(g) });
+        });
+    });
+    return list;
+}
+function startSeq() {
+    seqList = buildSeqList(); seqIdx = 0;
+    if (!seqList.length) return;
+    document.getElementById("seqModal").style.display = "flex";
+    showSeq();
+}
+function seqStep(d) {
+    const n = seqIdx + d;
+    if (n < 0) return;
+    if (n >= seqList.length) { closeModal("seqModal"); return; }   // 最後一張按「下一張」= 完成
+    seqIdx = n; showSeq();
+}
+function showSeq() {
+    const it = seqList[seqIdx];
+    document.getElementById("seqCounter").innerText = `${seqIdx + 1} / ${seqList.length}`;
+    document.getElementById("seqTitle").innerText = it.title;
+    document.getElementById("seqLabel").innerText = it.label;
+    document.getElementById("seqNum").innerText = it.code;
+    const opts = { width: 3, height: 100, displayValue: true, fontSize: 24, textMargin: 0, margin: 0 };
+    try { JsBarcode("#seqCanvas", it.code, { ...opts, format: "EAN13" }); }
+    catch (e) { JsBarcode("#seqCanvas", it.code, { ...opts, format: "CODE128" }); }
+    document.getElementById("seqPrev").disabled = seqIdx === 0;
+    document.getElementById("seqNext").innerText = seqIdx === seqList.length - 1 ? "✅ 完成" : "下一張 ▶";
+}
+function initCartUI() {
+    const css = document.createElement("style");
+    css.textContent = `
+        #barcodeModal { z-index:2100; }
+        #cartBtn { display:none; position:fixed; right:14px; bottom:18px; z-index:950; align-items:center; gap:6px; padding:12px 16px; border:none; border-radius:30px; background:#ff8a00; color:#fff; font-weight:bold; font-size:1rem; box-shadow:0 4px 14px rgba(0,0,0,.25); cursor:pointer; }
+        #cartCount { background:#fff; color:#ff8a00; border-radius:12px; padding:0 8px; }
+        .cart-panel { background:#fff; width:96%; max-width:600px; max-height:92vh; border-radius:16px; display:flex; flex-direction:column; overflow:hidden; }
+        #cartBody { overflow:auto; padding:10px 12px; }
+        .cart-item { border:1px solid #eee; border-radius:12px; padding:10px; margin-bottom:10px; }
+        .cart-item-head { display:flex; align-items:center; gap:8px; }
+        .cart-item-head img { width:40px; height:40px; object-fit:contain; border:1px solid #eee; border-radius:6px; flex-shrink:0; }
+        .cart-item-head b { flex:1; font-size:.9rem; line-height:1.35; }
+        .cart-codes { display:flex; flex-wrap:wrap; gap:6px; margin-top:8px; }
+        .cart-code { display:flex; align-items:center; gap:6px; padding:4px 6px 4px 8px; border:1px solid #ddd; border-radius:8px; background:#f5f5f5; color:#999; font-size:.82rem; }
+        .cart-code.on { background:#eef4ff; border-color:#b3d7ff; color:#1d1d1f; }
+        .cart-code input { width:16px; height:16px; margin:0; }
+        .cart-code button { padding:4px 8px; border:none; border-radius:6px; background:#374151; color:#fff; font-weight:bold; font-size:.75rem; cursor:pointer; }
+        .cart-foot { display:flex; gap:8px; padding:10px 12px; border-top:1px solid #eee; }
+        .cart-foot button { flex:1; padding:12px; border:none; border-radius:10px; font-weight:bold; cursor:pointer; }
+        #cartSeqBtn { background:#007AFF; color:#fff; flex:2; }
+        #cartSeqBtn:disabled { background:#b8c4d6; }
+        #seqModal { z-index:2000; }
+        .seq-panel { background:#fff; width:92%; max-width:420px; padding:18px; border-radius:16px; text-align:center; }
+        #seqCanvas { max-width:100%; height:auto; }
+        .seq-nav { display:flex; gap:8px; margin-top:12px; }
+        .seq-nav button { flex:1; padding:14px; border:none; border-radius:10px; font-weight:bold; font-size:1rem; cursor:pointer; }
+    `;
+    document.head.appendChild(css);
+    document.body.insertAdjacentHTML("beforeend", `
+        <button id="cartBtn" onclick="openCart()">🛒 購買清單 <span id="cartCount">0</span></button>
+        <div id="cartModal" class="modal" onclick="if(event.target===this) closeModal('cartModal')">
+            <div class="cart-panel">
+                <div class="cmp-head">
+                    <b>🛒 購買清單</b>
+                    <span style="font-size:.78rem; color:#888;">勾掉的條碼不會出現在依序掃描；運費條碼預設不勾</span>
+                </div>
+                <div id="cartBody"></div>
+                <div class="cart-foot">
+                    <button style="background:#ffebe9; color:#ff3b30;" onclick="if(confirm('確定清空購買清單？')) clearBuy()">清空</button>
+                    <button style="background:#333; color:#fff;" onclick="closeModal('cartModal')">關閉</button>
+                    <button id="cartSeqBtn" onclick="startSeq()">▶ 依序掃描</button>
+                </div>
+            </div>
+        </div>
+        <div id="seqModal" class="modal">
+            <div class="seq-panel">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+                    <b id="seqCounter" style="color:#007AFF;"></b>
+                    <button onclick="closeModal('seqModal')" style="border:none; background:none; font-size:1.6rem; color:#888; cursor:pointer;">×</button>
+                </div>
+                <div id="seqTitle" style="font-weight:bold; font-size:.95rem; line-height:1.4;"></div>
+                <div id="seqLabel" style="margin:8px 0; font-weight:bold; color:#b35c00; font-size:1.05rem;"></div>
+                <svg id="seqCanvas"></svg>
+                <p id="seqNum" style="margin:6px 0 0;"></p>
+                <div class="seq-nav">
+                    <button id="seqPrev" style="background:#eee; color:#333;" onclick="seqStep(-1)">◀ 上一張</button>
+                    <button id="seqNext" style="background:#007AFF; color:#fff;" onclick="seqStep(1)">下一張 ▶</button>
+                </div>
+            </div>
+        </div>`);
 }
